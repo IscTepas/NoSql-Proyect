@@ -1,9 +1,9 @@
+require("dotenv").config();
 const dns = require("node:dns");
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 const mongoose = require("mongoose");
-
-const URI = "mongodb+srv://rolopezag_db_user:abc123ABC@cluster0.r79byhz.mongodb.net/?appName=Cluster0";
+const URI = process.env.MONGO_URI;
 
 mongoose.connect(URI)
   .then(() => {
