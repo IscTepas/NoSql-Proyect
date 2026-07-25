@@ -1,52 +1,32 @@
 const express = require("express");
+const cors = require("cors");
+const path = require("path");
 require("./conexion");
 
+const app = express();
 
+// Middlewares
+app.use(cors());
+app.use(express.json());
 
+// Importar los archivos de rutas
 const equiposRoutes = require("./rutas/equipos");
 const estadiosRoutes = require("./rutas/estadios");
 const gruposRoutes = require("./rutas/grupos");
 const partidosRoutes = require("./rutas/partidos");
 
 
-
-
-const app = express();
-
-
-
-
-
-app.use(express.json());
-
-
-
-
+// 1. Ruta principal por defecto (GET /)
 app.get("/", (req, res) => {
-    res.status(200).json({
-        ok: true,
-        mensaje: "Servidor funcionando correctamente",
-        endpoints: {
-            equipos: "/api/equipos",
-            estadios: "/api/estadios",
-            grupos: "/api/grupos",
-            partidos: "/api/partidos"
-        }
-    });
+    res.sendFile(path.join(__dirname, "Prototito html api.html"));
 });
 
 
-
-
+// 2. Montar las rutas principales
 app.use("/api/equipos", equiposRoutes);
-
 app.use("/api/estadios", estadiosRoutes);
-
 app.use("/api/grupos", gruposRoutes);
-
 app.use("/api/partidos", partidosRoutes);
-
-
 
 
 const PORT = 3000;
