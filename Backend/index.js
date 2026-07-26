@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 require("./conexion");
 
 const app = express();
@@ -7,6 +8,9 @@ const app = express();
 // Middlewares
 app.use(cors());
 app.use(express.json());
+
+// Archivos estáticos
+app.use(express.static(path.join(__dirname, "public")));
 
 // Importar los archivos de rutas
 const equiposRoutes = require("./rutas/equipos");
@@ -19,6 +23,11 @@ app.use("/api/equipos", equiposRoutes);
 app.use("/api/estadios", estadiosRoutes);
 app.use("/api/grupos", gruposRoutes);
 app.use("/api/partidos", partidosRoutes);
+
+// Ruta raíz → documentación HTML
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 // Ruta de prueba
 app.get("/api", (req, res) => {
