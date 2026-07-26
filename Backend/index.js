@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const path = require("path");
 require("./conexion");
 
 const app = express();
@@ -15,23 +14,20 @@ const estadiosRoutes = require("./rutas/estadios");
 const gruposRoutes = require("./rutas/grupos");
 const partidosRoutes = require("./rutas/partidos");
 
+// Montar las rutas
+app.use("/equipos", equiposRoutes);
+app.use("/estadios", estadiosRoutes);
+app.use("/grupos", gruposRoutes);
+app.use("/partidos", partidosRoutes);
 
-// 1. Ruta principal por defecto (GET /)
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "Prototito html api.html"));
+// Ruta de prueba
+app.get("/api", (req, res) => {
+    res.json({
+        ok: true,
+        mensaje: "API del Mundial 2026",
+        rutas: ["/equipos", "/estadios", "/grupos", "/partidos"]
+    });
 });
 
-
-// 2. Montar las rutas principales
-app.use("/api/equipos", equiposRoutes);
-app.use("/api/estadios", estadiosRoutes);
-app.use("/api/grupos", gruposRoutes);
-app.use("/api/partidos", partidosRoutes);
-
-
-const PORT = 3000;
-
-app.listen(PORT, () => {
-    console.log(`Servidor iniciado en el puerto ${PORT}`);
-    console.log("Modelos y rutas cargados correctamente");
-});
+// Exportar para Vercel (serverless)
+module.exports = app;

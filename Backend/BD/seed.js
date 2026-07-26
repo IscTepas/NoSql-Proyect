@@ -1,12 +1,12 @@
-require("dotenv").config();
+require("dotenv").config({ quiet: true });
 const mongoose = require("mongoose");
 
 // Importar los 5 modelos de Mongoose
-const Estadio = require("./Modelos/estadio");
-const Equipo = require("./Modelos/equipo");
-const Grupo = require("./Modelos/grupo");
-const Partido = require("./Modelos/juegos");
-const TablaPosiciones = require("./Modelos/tabla");
+const Estadio = require("../Modelos/estadio");
+const Equipo = require("../Modelos/equipo");
+const Grupo = require("../Modelos/grupo");
+const Partido = require("../Modelos/juegos");
+const TablaPosiciones = require("../Modelos/tabla");
 
 const URI = process.env.MONGO_URI;
 
