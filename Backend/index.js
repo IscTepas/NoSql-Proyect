@@ -14,18 +14,18 @@ const estadiosRoutes = require("./rutas/estadios");
 const gruposRoutes = require("./rutas/grupos");
 const partidosRoutes = require("./rutas/partidos");
 
-// Montar las rutas
-app.use("/equipos", equiposRoutes);
-app.use("/estadios", estadiosRoutes);
-app.use("/grupos", gruposRoutes);
-app.use("/partidos", partidosRoutes);
+// Montar las rutas bajo /api
+app.use("/api/equipos", equiposRoutes);
+app.use("/api/estadios", estadiosRoutes);
+app.use("/api/grupos", gruposRoutes);
+app.use("/api/partidos", partidosRoutes);
 
 // Ruta de prueba
 app.get("/api", (req, res) => {
     res.json({
         ok: true,
         mensaje: "API del Mundial 2026",
-        rutas: ["/equipos", "/estadios", "/grupos", "/partidos"]
+        rutas: ["/api/equipos", "/api/estadios", "/api/grupos", "/api/partidos"]
     });
 });
 
