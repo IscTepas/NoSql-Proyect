@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Partido = require("../Modelos/juegos");
+const Partido = require("../Modelos/Partido");
 
 
 // GET - consultar todos los partidos
