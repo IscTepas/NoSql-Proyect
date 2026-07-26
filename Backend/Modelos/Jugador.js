@@ -54,6 +54,6 @@ const JugadorSchema = new mongoose.Schema(
   }
 );
 
-const Jugador = mongoose.model("Jugador", JugadorSchema);
+const Jugador = mongoose.model("Jugador", JugadorSchema, 'jugadores');
 
 module.exports = Jugador;

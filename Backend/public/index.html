@@ -74,7 +74,7 @@
   .resource { margin-bottom: 48px; }
   .resource-title {
     font-size: 16px; font-weight: 700; color: #0f1629;
-    margin-bottom: 4px; display: flex; align-items: center; gap-10px;
+    margin-bottom: 4px; display: flex; align-items: center; gap: 10px;
   }
   .resource-title::after {
     content: ''; flex: 1; height: 1px; background: #e0e4ed; margin-left: 12px;
@@ -210,6 +210,13 @@
   <a href="#put-equipo">    <span class="pill put">PUT</span>    /api/equipos/:id</a>
   <a href="#delete-equipo"> <span class="pill delete">DEL</span> /api/equipos/:id</a>
 
+  <div class="sidebar-section">Jugadores</div>
+  <a href="#get-jugadores">   <span class="pill get">GET</span>    /api/jugadores</a>
+  <a href="#get-jugador-id"> <span class="pill get">GET</span>    /api/jugadores/:id</a>
+  <a href="#post-jugador">   <span class="pill post">POST</span>  /api/jugadores</a>
+  <a href="#put-jugador">    <span class="pill put">PUT</span>    /api/jugadores/:id</a>
+  <a href="#delete-jugador"> <span class="pill delete">DEL</span> /api/jugadores/:id</a>
+
   <div class="sidebar-section">Partidos</div>
   <a href="#get-partidos">   <span class="pill get">GET</span>    /api/partidos</a>
   <a href="#get-partido-id"> <span class="pill get">GET</span>    /api/partidos/:id</a>
@@ -228,7 +235,6 @@
   <a href="#post-grupo">    <span class="pill post">POST</span>  /api/grupos</a>
   <a href="#put-grupo">     <span class="pill put">PUT</span>    /api/grupos/:id</a>
   <a href="#delete-grupo">  <span class="pill delete">DEL</span> /api/grupos/:id</a>
-  <a href="#get-tabla">     <span class="pill get">GET</span>    /api/grupos/:id/tabla</a>
 </aside>
 
 <!-- ── Main ── -->
@@ -236,7 +242,7 @@
 
   <div class="page-header">
     <h1>FIFA World Cup 2026 — Documentación API</h1>
-    <p>API REST para la gestión completa del Mundial FIFA 2026. Recursos: equipos, partidos, estadios y grupos.</p>
+    <p>API REST para la gestión completa del Mundial FIFA 2026. Recursos: equipos, jugadores, partidos, estadios y grupos.</p>
     <div class="base-url">
       <span>Base URL</span>
       http://localhost:3000
@@ -246,7 +252,7 @@
   <!-- ════════════════════════════════════ EQUIPOS ════════════════════════════════════ -->
   <div class="resource">
     <h2 class="resource-title">Equipos</h2>
-    <p class="resource-desc">Gestión de los 48 equipos participantes del Mundial. Referenciados por partidos y grupos.</p>
+    <p class="resource-desc">Gestión de los 48 equipos participantes del Mundial. Referenciados por partidos, grupos y jugadores.</p>
 
     <!-- GET /api/equipos -->
     <div class="endpoint" id="get-equipos">
@@ -254,26 +260,15 @@
         <span class="method-badge method-GET">GET</span>
         <div class="endpoint-info">
           <div class="path">/api/equipos</div>
-          <div class="desc">Obtener todos los equipos. Filtrable por grupo.</div>
+          <div class="desc">Obtener todos los equipos.</div>
         </div>
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">Parámetros de consulta (Query)</div>
-        <table class="params-table">
-          <tr><th>Parámetro</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr>
-            <td class="mono">grupo</td>
-            <td class="type">string</td>
-            <td><span class="opt-badge">opcional</span></td>
-            <td>Filtrar por letra de grupo. Ej: <code>?grupo=A</code></td>
-          </tr>
-        </table>
-
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"total"</span>: <span class="num">3</span>,
+  <span class="key">"total"</span>: <span class="num">48</span>,
   <span class="key">"data"</span>: [
     {
       <span class="key">"_id"</span>: <span class="str">"664a1b..."</span>,
@@ -345,16 +340,6 @@
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">JSON enviado</div>
-        <table class="params-table">
-          <tr><th>Campo</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr><td class="mono">nombre<span class="req">*</span></td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>Nombre del país</td></tr>
-          <tr><td class="mono">fifaCode<span class="req">*</span></td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>Código FIFA de 3 letras. Ej: MEX</td></tr>
-          <tr><td class="mono">iso2<span class="req">*</span></td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>Código ISO de 2 letras. Ej: MX</td></tr>
-          <tr><td class="mono">grupo<span class="req">*</span></td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>Letra del grupo. Ej: A</td></tr>
-          <tr><td class="mono">bandera</td><td class="type">string</td><td><span class="opt-badge">opcional</span></td><td>Emoji de bandera. Ej: 🇲🇽</td></tr>
-        </table>
-
         <div class="block-label">Ejemplo de JSON enviado</div>
         <pre>{
   <span class="key">"nombre"</span>: <span class="str">"México"</span>,
@@ -367,7 +352,7 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Equipo creado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Equipo creado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... equipo insertado ...</span> }
 }</pre>
 
@@ -388,12 +373,6 @@
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">Parámetros de ruta</div>
-        <table class="params-table">
-          <tr><th>Parámetro</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr><td class="mono">id</td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>ID de MongoDB del equipo a actualizar</td></tr>
-        </table>
-
         <div class="block-label">Ejemplo de JSON enviado</div>
         <pre>{
   <span class="key">"grupo"</span>: <span class="str">"B"</span>,
@@ -403,14 +382,13 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Equipo actualizado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Equipo actualizado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... equipo actualizado ...</span> }
 }</pre>
 
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Equipo actualizado correctamente</div>
         <div class="response-row"><span class="status-code s4xx">404</span> Equipo no encontrado</div>
-        <div class="response-row"><span class="status-code s4xx">400</span> Datos inválidos</div>
       </div>
     </div>
 
@@ -425,39 +403,32 @@
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">Parámetros de ruta</div>
-        <table class="params-table">
-          <tr><th>Parámetro</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr><td class="mono">id</td><td class="type">string</td><td><span class="req-badge">requerido</span></td><td>ID de MongoDB del equipo a eliminar</td></tr>
-        </table>
-
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Equipo eliminado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Equipo eliminado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... equipo eliminado ...</span> }
 }</pre>
 
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Equipo eliminado correctamente</div>
         <div class="response-row"><span class="status-code s4xx">404</span> Equipo no encontrado</div>
-        <div class="response-row"><span class="status-code s5xx">500</span> Error interno del servidor</div>
       </div>
     </div>
   </div>
 
-  <!-- ════════════════════════════════════ PARTIDOS ════════════════════════════════════ -->
+  <!-- ════════════════════════════════════ JUGADORES ════════════════════════════════════ -->
   <div class="resource">
-    <h2 class="resource-title">Partidos</h2>
-    <p class="resource-desc">Gestión de todos los partidos del torneo. Soporta fases de grupos y eliminatoria. Los campos de equipo regresan el documento completo (populate).</p>
+    <h2 class="resource-title">Jugadores</h2>
+    <p class="resource-desc">Gestión de las plantillas oficiales de futbolistas convocados por cada equipo.</p>
 
-    <!-- GET /api/partidos -->
-    <div class="endpoint" id="get-partidos">
+    <!-- GET /api/jugadores -->
+    <div class="endpoint" id="get-jugadores">
       <div class="endpoint-header" onclick="toggle(this)">
         <span class="method-badge method-GET">GET</span>
         <div class="endpoint-info">
-          <div class="path">/api/partidos</div>
-          <div class="desc">Obtener todos los partidos. Filtrable por fase y estado.</div>
+          <div class="path">/api/jugadores</div>
+          <div class="desc">Obtener todos los jugadores. Filtrable por equipo.</div>
         </div>
         <span class="chevron">▼</span>
       </div>
@@ -465,8 +436,12 @@
         <div class="block-label">Parámetros de consulta (Query)</div>
         <table class="params-table">
           <tr><th>Parámetro</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr><td class="mono">fase</td><td class="type">string</td><td><span class="opt-badge">opcional</span></td><td>grupos · dieciseisavos · octavos · cuartos · semifinal · tercer_lugar · final</td></tr>
-          <tr><td class="mono">estado</td><td class="type">string</td><td><span class="opt-badge">opcional</span></td><td>programado · en_curso · finalizado · suspendido</td></tr>
+          <tr>
+            <td class="mono">equipo</td>
+            <td class="type">string</td>
+            <td><span class="opt-badge">opcional</span></td>
+            <td>ID de MongoDB del equipo para filtrar su plantilla. Ej: <code>?equipo=664a1b...</code></td>
+          </tr>
         </table>
 
         <div class="block-label">JSON recibido</div>
@@ -475,22 +450,164 @@
   <span class="key">"total"</span>: <span class="num">1</span>,
   <span class="key">"data"</span>: [
     {
+      <span class="key">"_id"</span>: <span class="str">"664e5f..."</span>,
+      <span class="key">"nombre"</span>: <span class="str">"Edson Álvarez"</span>,
+      <span class="key">"numero"</span>: <span class="num">4</span>,
+      <span class="key">"posicion"</span>: <span class="str">"MF"</span>,
+      <span class="key">"fechaNacimiento"</span>: <span class="str">"1997-10-24"</span>,
+      <span class="key">"club"</span>: { <span class="key">"nombre"</span>: <span class="str">"West Ham"</span>, <span class="key">"pais"</span>: <span class="str">"ENG"</span> },
+      <span class="key">"fifaCodeEquipo"</span>: <span class="str">"MEX"</span>,
+      <span class="key">"equipo"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"fifaCode"</span>: <span class="str">"MEX"</span> }
+    }
+  ]
+}</pre>
+
+        <div class="block-label">Respuestas</div>
+        <div class="response-row"><span class="status-code s2xx">200</span> Lista de jugadores obtenida correctamente</div>
+      </div>
+    </div>
+
+    <!-- GET /api/jugadores/:id -->
+    <div class="endpoint" id="get-jugador-id">
+      <div class="endpoint-header" onclick="toggle(this)">
+        <span class="method-badge method-GET">GET</span>
+        <div class="endpoint-info">
+          <div class="path">/api/jugadores/:id</div>
+          <div class="desc">Obtener un jugador por su ID de MongoDB.</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="endpoint-body">
+        <div class="block-label">JSON recibido</div>
+        <pre>{
+  <span class="key">"ok"</span>: <span class="bool">true</span>,
+  <span class="key">"data"</span>: {
+    <span class="key">"_id"</span>: <span class="str">"664e5f..."</span>,
+    <span class="key">"nombre"</span>: <span class="str">"Edson Álvarez"</span>,
+    <span class="key">"numero"</span>: <span class="num">4</span>,
+    <span class="key">"posicion"</span>: <span class="str">"MF"</span>,
+    <span class="key">"equipo"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span> }
+  }
+}</pre>
+        <div class="block-label">Respuestas</div>
+        <div class="response-row"><span class="status-code s2xx">200</span> Jugador encontrado</div>
+        <div class="response-row"><span class="status-code s4xx">404</span> Jugador no encontrado</div>
+      </div>
+    </div>
+
+    <!-- POST /api/jugadores -->
+    <div class="endpoint" id="post-jugador">
+      <div class="endpoint-header" onclick="toggle(this)">
+        <span class="method-badge method-POST">POST</span>
+        <div class="endpoint-info">
+          <div class="path">/api/jugadores</div>
+          <div class="desc">Registrar un nuevo jugador vinculado a un equipo.</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="endpoint-body">
+        <div class="block-label">Ejemplo de JSON enviado</div>
+        <pre>{
+  <span class="key">"nombre"</span>: <span class="str">"Santiago Giménez"</span>,
+  <span class="key">"numero"</span>: <span class="num">11</span>,
+  <span class="key">"posicion"</span>: <span class="str">"FW"</span>,
+  <span class="key">"equipo"</span>: <span class="str">"664a1b..."</span>
+}</pre>
+        <div class="block-label">JSON recibido</div>
+        <pre>{
+  <span class="key">"ok"</span>: <span class="bool">true</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Jugador creado correctamente"</span>,
+  <span class="key">"data"</span>: { <span class="str">... jugador insertado ...</span> }
+}</pre>
+        <div class="block-label">Respuestas</div>
+        <div class="response-row"><span class="status-code s2xx">201</span> Jugador creado correctamente</div>
+        <div class="response-row"><span class="status-code s4xx">400</span> Error de validación</div>
+      </div>
+    </div>
+
+    <!-- PUT /api/jugadores/:id -->
+    <div class="endpoint" id="put-jugador">
+      <div class="endpoint-header" onclick="toggle(this)">
+        <span class="method-badge method-PUT">PUT</span>
+        <div class="endpoint-info">
+          <div class="path">/api/jugadores/:id</div>
+          <div class="desc">Actualizar información de un jugador.</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="endpoint-body">
+        <div class="block-label">Ejemplo de JSON enviado</div>
+        <pre>{ <span class="key">"numero"</span>: <span class="num">9</span> }</pre>
+        <div class="block-label">JSON recibido</div>
+        <pre>{
+  <span class="key">"ok"</span>: <span class="bool">true</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Jugador actualizado correctamente"</span>,
+  <span class="key">"data"</span>: { <span class="str">... jugador actualizado ...</span> }
+}</pre>
+        <div class="block-label">Respuestas</div>
+        <div class="response-row"><span class="status-code s2xx">200</span> Jugador actualizado</div>
+        <div class="response-row"><span class="status-code s4xx">404</span> Jugador no encontrado</div>
+      </div>
+    </div>
+
+    <!-- DELETE /api/jugadores/:id -->
+    <div class="endpoint" id="delete-jugador">
+      <div class="endpoint-header" onclick="toggle(this)">
+        <span class="method-badge method-DELETE">DELETE</span>
+        <div class="endpoint-info">
+          <div class="path">/api/jugadores/:id</div>
+          <div class="desc">Eliminar un jugador de la base de datos.</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="endpoint-body">
+        <div class="block-label">JSON recibido</div>
+        <pre>{
+  <span class="key">"ok"</span>: <span class="bool">true</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Jugador eliminado correctamente"</span>
+}</pre>
+        <div class="block-label">Respuestas</div>
+        <div class="response-row"><span class="status-code s2xx">200</span> Jugador eliminado</div>
+        <div class="response-row"><span class="status-code s4xx">404</span> Jugador no encontrado</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════ PARTIDOS ════════════════════════════════════ -->
+  <div class="resource">
+    <h2 class="resource-title">Partidos</h2>
+    <p class="resource-desc">Gestión de todos los partidos del torneo. Soporta fases de grupos y eliminatoria.</p>
+
+    <!-- GET /api/partidos -->
+    <div class="endpoint" id="get-partidos">
+      <div class="endpoint-header" onclick="toggle(this)">
+        <span class="method-badge method-GET">GET</span>
+        <div class="endpoint-info">
+          <div class="path">/api/partidos</div>
+          <div class="desc">Obtener todos los partidos.</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="endpoint-body">
+        <div class="block-label">JSON recibido</div>
+        <pre>{
+  <span class="key">"ok"</span>: <span class="bool">true</span>,
+  <span class="key">"total"</span>: <span class="num">1</span>,
+  <span class="key">"data"</span>: [
+    {
       <span class="key">"_id"</span>: <span class="str">"664b2c..."</span>,
-      <span class="key">"equipoLocal"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"bandera"</span>: <span class="str">"🇲🇽"</span>, <span class="key">"fifaCode"</span>: <span class="str">"MEX"</span> },
-      <span class="key">"equipoVisitante"</span>: { <span class="key">"nombre"</span>: <span class="str">"Canadá"</span>, <span class="key">"bandera"</span>: <span class="str">"🇨🇦"</span>, <span class="key">"fifaCode"</span>: <span class="str">"CAN"</span> },
-      <span class="key">"marcadorLocal"</span>: <span class="num">2</span>,
-      <span class="key">"marcadorVisitante"</span>: <span class="num">0</span>,
+      <span class="key">"equipoLocal"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"bandera"</span>: <span class="str">"🇲🇽"</span> },
+      <span class="key">"equipoVisitante"</span>: { <span class="key">"nombre"</span>: <span class="str">"Canadá"</span>, <span class="key">"bandera"</span>: <span class="str">"🇨🇦"</span> },
       <span class="key">"fase"</span>: <span class="str">"grupos"</span>,
-      <span class="key">"estado"</span>: <span class="str">"finalizado"</span>,
+      <span class="key">"estado"</span>: <span class="str">"programado"</span>,
       <span class="key">"fecha"</span>: <span class="str">"2026-06-11T20:00:00.000Z"</span>,
-      <span class="key">"estadio"</span>: { <span class="key">"nombre"</span>: <span class="str">"Estadio Azteca"</span>, <span class="key">"ciudad"</span>: <span class="str">"Ciudad de México"</span> }
+      <span class="key">"estadio"</span>: { <span class="key">"nombre"</span>: <span class="str">"Estadio Azteca"</span> }
     }
   ]
 }</pre>
 
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Lista de partidos obtenida correctamente</div>
-        <div class="response-row"><span class="status-code s5xx">500</span> Error interno del servidor</div>
       </div>
     </div>
 
@@ -500,43 +617,30 @@
         <span class="method-badge method-POST">POST</span>
         <div class="endpoint-info">
           <div class="path">/api/partidos</div>
-          <div class="desc">Crear un nuevo partido. Los equipos se asignan por ID de MongoDB.</div>
+          <div class="desc">Crear un nuevo partido.</div>
         </div>
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">Campos del JSON enviado</div>
-        <table class="params-table">
-          <tr><th>Campo</th><th>Tipo</th><th>Requerido</th><th>Descripción</th></tr>
-          <tr><td class="mono">fecha</td><td class="type">Date</td><td><span class="req-badge">requerido</span></td><td>Fecha y hora del partido en formato ISO 8601</td></tr>
-          <tr><td class="mono">estadio</td><td class="type">ObjectId</td><td><span class="req-badge">requerido</span></td><td>ID del estadio donde se jugará</td></tr>
-          <tr><td class="mono">equipoLocal</td><td class="type">ObjectId</td><td><span class="opt-badge">opcional</span></td><td>ID del equipo local</td></tr>
-          <tr><td class="mono">equipoVisitante</td><td class="type">ObjectId</td><td><span class="opt-badge">opcional</span></td><td>ID del equipo visitante</td></tr>
-          <tr><td class="mono">fase</td><td class="type">string</td><td><span class="opt-badge">opcional</span></td><td>grupos · octavos · cuartos · semifinal · final (default: grupos)</td></tr>
-          <tr><td class="mono">etiquetaLocal</td><td class="type">string</td><td><span class="opt-badge">opcional</span></td><td>Etiqueta cuando el equipo aún no está definido. Ej: "1A"</td></tr>
-          <tr><td class="mono">jornada</td><td class="type">number</td><td><span class="opt-badge">opcional</span></td><td>Número de jornada en fase de grupos</td></tr>
-        </table>
-
         <div class="block-label">Ejemplo de JSON enviado</div>
         <pre>{
   <span class="key">"equipoLocal"</span>: <span class="str">"664a1b..."</span>,
   <span class="key">"equipoVisitante"</span>: <span class="str">"664a2c..."</span>,
   <span class="key">"fecha"</span>: <span class="str">"2026-06-11T20:00:00.000Z"</span>,
   <span class="key">"estadio"</span>: <span class="str">"664c3d..."</span>,
-  <span class="key">"fase"</span>: <span class="str">"grupos"</span>,
-  <span class="key">"jornada"</span>: <span class="num">1</span>
+  <span class="key">"fase"</span>: <span class="str">"grupos"</span>
 }</pre>
 
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Partido creado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Partido creado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... partido insertado ...</span> }
 }</pre>
 
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">201</span> Partido creado correctamente</div>
-        <div class="response-row"><span class="status-code s4xx">400</span> Datos inválidos o faltantes</div>
+        <div class="response-row"><span class="status-code s4xx">400</span> Datos inválidos</div>
       </div>
     </div>
 
@@ -546,25 +650,22 @@
         <span class="method-badge method-PUT">PUT</span>
         <div class="endpoint-info">
           <div class="path">/api/partidos/:id</div>
-          <div class="desc">Actualizar un partido. Usado principalmente para registrar marcador y cambiar estado.</div>
+          <div class="desc">Actualizar un partido.</div>
         </div>
         <span class="chevron">▼</span>
       </div>
       <div class="endpoint-body">
-        <div class="block-label">Ejemplo de JSON enviado — actualizar marcador</div>
+        <div class="block-label">Ejemplo de JSON enviado</div>
         <pre>{
-  <span class="key">"marcadorLocal"</span>: <span class="num">2</span>,
-  <span class="key">"marcadorVisitante"</span>: <span class="num">1</span>,
-  <span class="key">"estado"</span>: <span class="str">"finalizado"</span>,
-  <span class="key">"equipoGanador"</span>: <span class="str">"664a1b..."</span>,
-  <span class="key">"goleadoresLocal"</span>: [<span class="str">"H. Lozano"</span>, <span class="str">"R. Jiménez"</span>],
-  <span class="key">"goleadoresVisitante"</span>: [<span class="str">"A. Davies"</span>]
+  <span class="key">"golesLocal"</span>: <span class="num">2</span>,
+  <span class="key">"golesVisitante"</span>: <span class="num">1</span>,
+  <span class="key">"estado"</span>: <span class="str">"finalizado"</span>
 }</pre>
 
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Partido actualizado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Partido actualizado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... partido actualizado ...</span> }
 }</pre>
 
@@ -588,8 +689,7 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Partido eliminado"</span>,
-  <span class="key">"data"</span>: { <span class="str">... partido eliminado ...</span> }
+  <span class="key">"mensaje"</span>: <span class="str">"Partido eliminado correctamente"</span>
 }</pre>
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Partido eliminado correctamente</div>
@@ -623,8 +723,7 @@
       <span class="key">"nombre"</span>: <span class="str">"Estadio Azteca"</span>,
       <span class="key">"ciudad"</span>: <span class="str">"Ciudad de México"</span>,
       <span class="key">"pais"</span>: <span class="str">"México"</span>,
-      <span class="key">"capacidad"</span>: <span class="num">87523</span>,
-      <span class="key">"region"</span>: <span class="str">"Centro"</span>
+      <span class="key">"capacidad"</span>: <span class="num">83264</span>
     }
   ]
 }</pre>
@@ -646,16 +745,14 @@
         <div class="block-label">Ejemplo de JSON enviado</div>
         <pre>{
   <span class="key">"nombre"</span>: <span class="str">"Estadio Azteca"</span>,
-  <span class="key">"fifaName"</span>: <span class="str">"Azteca Stadium"</span>,
   <span class="key">"ciudad"</span>: <span class="str">"Ciudad de México"</span>,
   <span class="key">"pais"</span>: <span class="str">"México"</span>,
-  <span class="key">"capacidad"</span>: <span class="num">87523</span>,
-  <span class="key">"region"</span>: <span class="str">"Centro"</span>
+  <span class="key">"capacidad"</span>: <span class="num">83264</span>
 }</pre>
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Estadio creado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Estadio creado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... estadio insertado ...</span> }
 }</pre>
         <div class="block-label">Respuestas</div>
@@ -679,7 +776,7 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Estadio actualizado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Estadio actualizado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... estadio actualizado ...</span> }
 }</pre>
         <div class="block-label">Respuestas</div>
@@ -701,8 +798,7 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Estadio eliminado"</span>,
-  <span class="key">"data"</span>: { <span class="str">... estadio eliminado ...</span> }
+  <span class="key">"mensaje"</span>: <span class="str">"Estadio eliminado correctamente"</span>
 }</pre>
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Estadio eliminado</div>
@@ -714,7 +810,7 @@
   <!-- ════════════════════════════════════ GRUPOS ════════════════════════════════════ -->
   <div class="resource">
     <h2 class="resource-title">Grupos</h2>
-    <p class="resource-desc">Los 12 grupos del torneo (A–L) con sus equipos y tabla de posiciones asociada.</p>
+    <p class="resource-desc">Los 12 grupos del torneo (A–L) con sus equipos correspondientes.</p>
 
     <div class="endpoint" id="get-grupos">
       <div class="endpoint-header" onclick="toggle(this)">
@@ -735,12 +831,7 @@
       <span class="key">"_id"</span>: <span class="str">"664d4e..."</span>,
       <span class="key">"nombre"</span>: <span class="str">"A"</span>,
       <span class="key">"equipos"</span>: [
-        {
-          <span class="key">"equipo"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"bandera"</span>: <span class="str">"🇲🇽"</span> },
-          <span class="key">"puntos"</span>: <span class="num">6</span>,
-          <span class="key">"golesFavor"</span>: <span class="num">4</span>,
-          <span class="key">"golesContra"</span>: <span class="num">1</span>
-        }
+        { <span class="key">"equipo"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"bandera"</span>: <span class="str">"🇲🇽"</span> } }
       ]
     }
   ]
@@ -764,16 +855,13 @@
         <pre>{
   <span class="key">"nombre"</span>: <span class="str">"A"</span>,
   <span class="key">"equipos"</span>: [
-    { <span class="key">"equipo"</span>: <span class="str">"664a1b..."</span> },
-    { <span class="key">"equipo"</span>: <span class="str">"664a2c..."</span> },
-    { <span class="key">"equipo"</span>: <span class="str">"664a3d..."</span> },
-    { <span class="key">"equipo"</span>: <span class="str">"664a4e..."</span> }
+    { <span class="key">"equipo"</span>: <span class="str">"664a1b..."</span> }
   ]
 }</pre>
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Grupo creado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Grupo creado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... grupo insertado ...</span> }
 }</pre>
         <div class="block-label">Respuestas</div>
@@ -787,7 +875,7 @@
         <span class="method-badge method-PUT">PUT</span>
         <div class="endpoint-info">
           <div class="path">/api/grupos/:id</div>
-          <div class="desc">Actualizar un grupo (agregar/quitar equipos, actualizar estadísticas).</div>
+          <div class="desc">Actualizar un grupo.</div>
         </div>
         <span class="chevron">▼</span>
       </div>
@@ -795,7 +883,7 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Grupo actualizado"</span>,
+  <span class="key">"mensaje"</span>: <span class="str">"Grupo actualizado correctamente"</span>,
   <span class="key">"data"</span>: { <span class="str">... grupo actualizado ...</span> }
 }</pre>
         <div class="block-label">Respuestas</div>
@@ -817,49 +905,11 @@
         <div class="block-label">JSON recibido</div>
         <pre>{
   <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"mensaje"</span>: <span class="str">"Grupo eliminado"</span>,
-  <span class="key">"data"</span>: { <span class="str">... grupo eliminado ...</span> }
+  <span class="key">"mensaje"</span>: <span class="str">"Grupo eliminado correctamente"</span>
 }</pre>
         <div class="block-label">Respuestas</div>
         <div class="response-row"><span class="status-code s2xx">200</span> Grupo eliminado</div>
         <div class="response-row"><span class="status-code s4xx">404</span> Grupo no encontrado</div>
-      </div>
-    </div>
-
-    <!-- GET tabla -->
-    <div class="endpoint" id="get-tabla">
-      <div class="endpoint-header" onclick="toggle(this)">
-        <span class="method-badge method-GET">GET</span>
-        <div class="endpoint-info">
-          <div class="path">/api/grupos/:id/tabla</div>
-          <div class="desc">Obtener la tabla de posiciones de un grupo, ordenada por puntos.</div>
-        </div>
-        <span class="chevron">▼</span>
-      </div>
-      <div class="endpoint-body">
-        <div class="block-label">JSON recibido</div>
-        <pre>{
-  <span class="key">"ok"</span>: <span class="bool">true</span>,
-  <span class="key">"data"</span>: {
-    <span class="key">"grupo"</span>: { <span class="key">"nombre"</span>: <span class="str">"A"</span> },
-    <span class="key">"equipos"</span>: [
-      {
-        <span class="key">"equipo"</span>: { <span class="key">"nombre"</span>: <span class="str">"México"</span>, <span class="key">"bandera"</span>: <span class="str">"🇲🇽"</span> },
-        <span class="key">"partidosJugados"</span>: <span class="num">3</span>,
-        <span class="key">"victorias"</span>: <span class="num">2</span>,
-        <span class="key">"empates"</span>: <span class="num">0</span>,
-        <span class="key">"derrotas"</span>: <span class="num">1</span>,
-        <span class="key">"puntos"</span>: <span class="num">6</span>,
-        <span class="key">"golesFavor"</span>: <span class="num">5</span>,
-        <span class="key">"golesContra"</span>: <span class="num">3</span>,
-        <span class="key">"diferenciaGoles"</span>: <span class="num">2</span>
-      }
-    ]
-  }
-}</pre>
-        <div class="block-label">Respuestas</div>
-        <div class="response-row"><span class="status-code s2xx">200</span> Tabla de posiciones obtenida</div>
-        <div class="response-row"><span class="status-code s4xx">404</span> No existe tabla para este grupo</div>
       </div>
     </div>
   </div>

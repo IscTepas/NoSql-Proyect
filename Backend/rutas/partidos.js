@@ -3,9 +3,7 @@ const router = express.Router();
 
 const Partido = require("../Modelos/Partido");
 
-
 // GET - consultar todos los partidos
-
 router.get("/", async (req, res) => {
     try {
         const partidos = await Partido.find()
@@ -20,7 +18,6 @@ router.get("/", async (req, res) => {
             data: partidos,
             total: partidos.length
         });
-
     } catch (error) {
         res.status(500).json({
             ok: false,
@@ -30,10 +27,7 @@ router.get("/", async (req, res) => {
     }
 });
 
-
-
 // GET - consultar partido por ID
-
 router.get("/:id", async (req, res) => {
     try {
         const partido = await Partido.findById(req.params.id)
@@ -54,7 +48,6 @@ router.get("/:id", async (req, res) => {
             ok: true,
             data: partido
         });
-
     } catch (error) {
         res.status(500).json({
             ok: false,
@@ -64,19 +57,13 @@ router.get("/:id", async (req, res) => {
     }
 });
 
-
-
 // POST - Crear partido
-
 router.post("/", async (req, res) => {
     try {
         const nuevoPartido = new Partido(req.body);
-
         const partidoGuardado = await nuevoPartido.save();
 
-        const partidoCompleto = await Partido.findById(
-            partidoGuardado._id
-        )
+        const partidoCompleto = await Partido.findById(partidoGuardado._id)
             .populate("equipoLocal")
             .populate("equipoVisitante")
             .populate("equipoGanador")
@@ -88,7 +75,6 @@ router.post("/", async (req, res) => {
             mensaje: "Partido creado correctamente",
             data: partidoCompleto
         });
-
     } catch (error) {
         res.status(400).json({
             ok: false,
@@ -98,19 +84,13 @@ router.post("/", async (req, res) => {
     }
 });
 
-
-
 // PUT - Actualizar partido
-
 router.put("/:id", async (req, res) => {
     try {
         const partidoActualizado = await Partido.findByIdAndUpdate(
             req.params.id,
             req.body,
-            {
-                new: true,
-                runValidators: true
-            }
+            { new: true, runValidators: true }
         )
             .populate("equipoLocal")
             .populate("equipoVisitante")
@@ -130,7 +110,6 @@ router.put("/:id", async (req, res) => {
             mensaje: "Partido actualizado correctamente",
             data: partidoActualizado
         });
-
     } catch (error) {
         res.status(400).json({
             ok: false,
@@ -140,14 +119,10 @@ router.put("/:id", async (req, res) => {
     }
 });
 
-
 // DELETE - Eliminar partido
-
 router.delete("/:id", async (req, res) => {
     try {
-        const partidoEliminado = await Partido.findByIdAndDelete(
-            req.params.id
-        );
+        const partidoEliminado = await Partido.findByIdAndDelete(req.params.id);
 
         if (!partidoEliminado) {
             return res.status(404).json({
@@ -161,7 +136,6 @@ router.delete("/:id", async (req, res) => {
             mensaje: "Partido eliminado correctamente",
             data: partidoEliminado
         });
-
     } catch (error) {
         res.status(500).json({
             ok: false,
@@ -170,6 +144,5 @@ router.delete("/:id", async (req, res) => {
         });
     }
 });
-
 
 module.exports = router;
