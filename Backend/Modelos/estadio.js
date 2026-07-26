@@ -7,31 +7,24 @@ const EstadioSchema = new mongoose.Schema(
       required: true,
       trim: true
     },
-
-    fifaName: {
-      type: String,
-      trim: true
-    },
-
     ciudad: {
       type: String,
       required: true,
       trim: true
     },
-
-    pais: {
+    capacidad: {
+      type: Number
+    },
+    zonaHoraria: {
       type: String,
-      required: true,
       trim: true
     },
-
-    capacidad: {
-      type: Number,
-      required: true,
-      min: 0
+    codigoPais: {
+      type: String,
+      lowercase: true,
+      trim: true
     },
-
-    region: {
+    coordenadas: {
       type: String,
       trim: true
     }

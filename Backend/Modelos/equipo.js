@@ -7,12 +7,18 @@ const EquipoSchema = new mongoose.Schema(
       required: true,
       trim: true
     },
-
-    bandera: {
+    nombreNormalizado: {
+      type: String,
+      trim: true
+    },
+    continente: {
+      type: String,
+      trim: true
+    },
+    banderaIcono: {
       type: String,
       default: ""
     },
-
     fifaCode: {
       type: String,
       required: true,
@@ -20,20 +26,17 @@ const EquipoSchema = new mongoose.Schema(
       uppercase: true,
       trim: true
     },
-
-    iso2: {
-      type: String,
-      required: true,
-      uppercase: true,
-      trim: true
-    },
-
     grupo: {
       type: String,
       required: true,
       uppercase: true,
       trim: true,
       index: true
+    },
+    confederacion: {
+      type: String,
+      trim: true,
+      uppercase: true
     }
   },
   {
