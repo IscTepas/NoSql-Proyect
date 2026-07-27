@@ -1,124 +1,84 @@
 {
-  "name": "World Cup 2026",
+  "name": "World Cup 2018",
   "grupos": [
     {
       "nombre": "Group A",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2018",
       "equiposNombres": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czech Republic"
-      ]
-    },
-    {
-      "nombre": "Group B",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Canada",
-        "Bosnia & Herzegovina",
-        "Qatar",
-        "Switzerland"
-      ]
-    },
-    {
-      "nombre": "Group C",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "nombre": "Group D",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "USA",
-        "Paraguay",
-        "Australia",
-        "Turkey"
-      ]
-    },
-    {
-      "nombre": "Group E",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Germany",
-        "Curaçao",
-        "Ivory Coast",
-        "Ecuador"
-      ]
-    },
-    {
-      "nombre": "Group F",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Netherlands",
-        "Japan",
-        "Sweden",
-        "Tunisia"
-      ]
-    },
-    {
-      "nombre": "Group G",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Belgium",
         "Egypt",
-        "Iran",
-        "New Zealand"
-      ]
-    },
-    {
-      "nombre": "Group H",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Spain",
-        "Cape Verde",
+        "Russia",
         "Saudi Arabia",
         "Uruguay"
       ]
     },
     {
-      "nombre": "Group I",
-      "torneo": "World Cup 2026",
+      "nombre": "Group B",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Morocco",
+        "Spain",
+        "Portugal",
+        "Iran"
+      ]
+    },
+    {
+      "nombre": "Group C",
+      "torneo": "World Cup 2018",
       "equiposNombres": [
         "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
+        "Denmark",
+        "Australia",
+        "Peru"
       ]
     },
     {
-      "nombre": "Group J",
-      "torneo": "World Cup 2026",
+      "nombre": "Group D",
+      "torneo": "World Cup 2018",
       "equiposNombres": [
-        "Argentina",
-        "Algeria",
-        "Austria",
-        "Jordan"
-      ]
-    },
-    {
-      "nombre": "Group K",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Portugal",
-        "DR Congo",
-        "Uzbekistan",
-        "Colombia"
-      ]
-    },
-    {
-      "nombre": "Group L",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "England",
+        "Nigeria",
         "Croatia",
-        "Ghana",
-        "Panama"
+        "Iceland",
+        "Argentina"
+      ]
+    },
+    {
+      "nombre": "Group E",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Costa Rica",
+        "Switzerland",
+        "Serbia",
+        "Brazil"
+      ]
+    },
+    {
+      "nombre": "Group F",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "South Korea",
+        "Germany",
+        "Sweden",
+        "Mexico"
+      ]
+    },
+    {
+      "nombre": "Group G",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Tunisia",
+        "Panama",
+        "Belgium",
+        "England"
+      ]
+    },
+    {
+      "nombre": "Group H",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Senegal",
+        "Japan",
+        "Poland",
+        "Colombia"
       ]
     }
   ]
