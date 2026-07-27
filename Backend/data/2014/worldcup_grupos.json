@@ -9,7 +9,8 @@
         "Croatia",
         "Mexico",
         "Brazil"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group B",
@@ -19,7 +20,8 @@
         "Netherlands",
         "Australia",
         "Chile"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group C",
@@ -29,7 +31,8 @@
         "Japan",
         "Greece",
         "Colombia"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group D",
@@ -39,7 +42,8 @@
         "Italy",
         "England",
         "Uruguay"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group E",
@@ -49,7 +53,8 @@
         "France",
         "Switzerland",
         "Ecuador"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group F",
@@ -59,7 +64,8 @@
         "Bosnia-Herzegovina",
         "Iran",
         "Argentina"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group G",
@@ -69,7 +75,8 @@
         "Germany",
         "Portugal",
         "United States"
-      ]
+      ],
+      "año": 2014
     },
     {
       "nombre": "Group H",
@@ -79,7 +86,8 @@
         "South Korea",
         "Belgium",
         "Russia"
-      ]
+      ],
+      "año": 2014
     }
   ]
 }

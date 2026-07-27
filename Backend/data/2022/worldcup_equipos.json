@@ -6,7 +6,8 @@
     "banderaIcono": "🇶🇦",
     "fifaCode": "QAT",
     "grupo": "A",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   },
   {
     "nombre": "Ecuador",
@@ -15,7 +16,8 @@
     "banderaIcono": "🇪🇨",
     "fifaCode": "ECU",
     "grupo": "A",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2022
   },
   {
     "nombre": "Senegal",
@@ -24,7 +26,8 @@
     "banderaIcono": "🇸🇳",
     "fifaCode": "SEN",
     "grupo": "A",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2022
   },
   {
     "nombre": "Netherlands",
@@ -33,7 +36,8 @@
     "banderaIcono": "🇳🇱",
     "fifaCode": "NED",
     "grupo": "A",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "England",
@@ -42,7 +46,8 @@
     "banderaIcono": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "fifaCode": "ENG",
     "grupo": "B",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Iran",
@@ -51,7 +56,8 @@
     "banderaIcono": "🇮🇷",
     "fifaCode": "IRN",
     "grupo": "B",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   },
   {
     "nombre": "United States",
@@ -60,7 +66,8 @@
     "banderaIcono": "🇺🇸",
     "fifaCode": "USA",
     "grupo": "B",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2022
   },
   {
     "nombre": "Wales",
@@ -69,7 +76,8 @@
     "banderaIcono": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "fifaCode": "WAL",
     "grupo": "B",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Argentina",
@@ -78,7 +86,8 @@
     "banderaIcono": "🇦🇷",
     "fifaCode": "ARG",
     "grupo": "C",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2022
   },
   {
     "nombre": "Saudi Arabia",
@@ -87,7 +96,8 @@
     "banderaIcono": "🇸🇦",
     "fifaCode": "KSA",
     "grupo": "C",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   },
   {
     "nombre": "Mexico",
@@ -96,7 +106,8 @@
     "banderaIcono": "🇲🇽",
     "fifaCode": "MEX",
     "grupo": "C",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2022
   },
   {
     "nombre": "Poland",
@@ -105,7 +116,8 @@
     "banderaIcono": "🇵🇱",
     "fifaCode": "POL",
     "grupo": "C",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "France",
@@ -114,7 +126,8 @@
     "banderaIcono": "🇫🇷",
     "fifaCode": "FRA",
     "grupo": "D",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Australia",
@@ -123,7 +136,8 @@
     "banderaIcono": "🇦🇺",
     "fifaCode": "AUS",
     "grupo": "D",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   },
   {
     "nombre": "Denmark",
@@ -132,7 +146,8 @@
     "banderaIcono": "🇩🇰",
     "fifaCode": "DEN",
     "grupo": "D",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Tunisia",
@@ -141,7 +156,8 @@
     "banderaIcono": "🇹🇳",
     "fifaCode": "TUN",
     "grupo": "D",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2022
   },
   {
     "nombre": "Spain",
@@ -150,7 +166,8 @@
     "banderaIcono": "🇪🇸",
     "fifaCode": "ESP",
     "grupo": "E",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Costa Rica",
@@ -159,7 +176,8 @@
     "banderaIcono": "🇨🇷",
     "fifaCode": "CRC",
     "grupo": "E",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2022
   },
   {
     "nombre": "Germany",
@@ -168,7 +186,8 @@
     "banderaIcono": "🇩🇪",
     "fifaCode": "GER",
     "grupo": "E",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Japan",
@@ -177,7 +196,8 @@
     "banderaIcono": "🇯🇵",
     "fifaCode": "JPN",
     "grupo": "E",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   },
   {
     "nombre": "Belgium",
@@ -186,7 +206,8 @@
     "banderaIcono": "🇧🇪",
     "fifaCode": "BEL",
     "grupo": "F",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Canada",
@@ -195,7 +216,8 @@
     "banderaIcono": "🇨🇦",
     "fifaCode": "CAN",
     "grupo": "F",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2022
   },
   {
     "nombre": "Morocco",
@@ -204,7 +226,8 @@
     "banderaIcono": "🇲🇦",
     "fifaCode": "MAR",
     "grupo": "F",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2022
   },
   {
     "nombre": "Croatia",
@@ -213,7 +236,8 @@
     "banderaIcono": "🇭🇷",
     "fifaCode": "CRO",
     "grupo": "F",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Brazil",
@@ -222,7 +246,8 @@
     "banderaIcono": "🇧🇷",
     "fifaCode": "BRA",
     "grupo": "G",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2022
   },
   {
     "nombre": "Serbia",
@@ -231,7 +256,8 @@
     "banderaIcono": "🇷🇸",
     "fifaCode": "SRB",
     "grupo": "G",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Switzerland",
@@ -240,7 +266,8 @@
     "banderaIcono": "🇨🇭",
     "fifaCode": "SUI",
     "grupo": "G",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Cameroon",
@@ -249,7 +276,8 @@
     "banderaIcono": "🇨🇲",
     "fifaCode": "CMR",
     "grupo": "G",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2022
   },
   {
     "nombre": "Portugal",
@@ -258,7 +286,8 @@
     "banderaIcono": "🇵🇹",
     "fifaCode": "POR",
     "grupo": "H",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2022
   },
   {
     "nombre": "Ghana",
@@ -267,7 +296,8 @@
     "banderaIcono": "🇬🇭",
     "fifaCode": "GHA",
     "grupo": "H",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2022
   },
   {
     "nombre": "Uruguay",
@@ -276,7 +306,8 @@
     "banderaIcono": "🇺🇾",
     "fifaCode": "URU",
     "grupo": "H",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2022
   },
   {
     "nombre": "South Korea",
@@ -285,6 +316,7 @@
     "banderaIcono": "🇰🇷",
     "fifaCode": "KOR",
     "grupo": "H",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2022
   }
 ]

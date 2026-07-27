@@ -54,7 +54,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 2,
@@ -85,7 +86,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Ekaterinburg Arena, Ekaterinburg"
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
     },
     {
       "numeroPartido": 3,
@@ -135,7 +137,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Saint Petersburg Stadium, Saint Petersburg"
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 4,
@@ -166,7 +169,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Rostov Arena, Rostov-on-Don"
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
     },
     {
       "numeroPartido": 5,
@@ -209,7 +213,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 6,
@@ -253,7 +258,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Volgograd Arena, Volgograd"
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
     },
     {
       "numeroPartido": 7,
@@ -284,7 +290,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Saint Petersburg Stadium, Saint Petersburg"
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 8,
@@ -346,7 +353,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 9,
@@ -377,7 +385,8 @@
       ],
       "goles2": [],
       "grupo": "Group B",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 10,
@@ -408,7 +417,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 11,
@@ -446,7 +456,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Mordovia Arena, Saransk"
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
     },
     {
       "numeroPartido": 12,
@@ -496,7 +507,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Kaliningrad Stadium, Kaliningrad"
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
     },
     {
       "numeroPartido": 13,
@@ -540,7 +552,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 14,
@@ -571,7 +584,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Mordovia Arena, Saransk"
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
     },
     {
       "numeroPartido": 15,
@@ -609,7 +623,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 16,
@@ -640,7 +655,8 @@
       ],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Ekaterinburg Arena, Ekaterinburg"
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
     },
     {
       "numeroPartido": 17,
@@ -664,7 +680,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 18,
@@ -701,7 +718,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 19,
@@ -739,7 +757,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Spartak Stadium, Moscow"
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 20,
@@ -776,7 +795,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Kaliningrad Stadium, Kaliningrad"
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
     },
     {
       "numeroPartido": 21,
@@ -819,7 +839,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 22,
@@ -856,7 +877,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Volgograd Arena, Volgograd"
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
     },
     {
       "numeroPartido": 23,
@@ -900,7 +922,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Saint Petersburg Stadium, Saint Petersburg"
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 24,
@@ -944,7 +967,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Rostov Arena, Rostov-on-Don"
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
     },
     {
       "numeroPartido": 25,
@@ -975,7 +999,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 26,
@@ -1013,7 +1038,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Rostov Arena, Rostov-on-Don"
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
     },
     {
       "numeroPartido": 27,
@@ -1050,7 +1076,8 @@
       ],
       "goles2": [],
       "grupo": "Group E",
-      "estadio": "Saint Petersburg Stadium, Saint Petersburg"
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 28,
@@ -1094,7 +1121,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Kaliningrad Stadium, Kaliningrad"
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
     },
     {
       "numeroPartido": 29,
@@ -1131,7 +1159,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Spartak Stadium, Moscow"
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 30,
@@ -1181,7 +1210,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 31,
@@ -1212,7 +1242,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 32,
@@ -1243,7 +1274,8 @@
       ],
       "goles2": [],
       "grupo": "Group F",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 33,
@@ -1287,7 +1319,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Rostov Arena, Rostov-on-Don"
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
     },
     {
       "numeroPartido": 34,
@@ -1331,7 +1364,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 35,
@@ -1368,7 +1402,8 @@
       ],
       "goles2": [],
       "grupo": "Group F",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 36,
@@ -1411,7 +1446,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Ekaterinburg Arena, Ekaterinburg"
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
     },
     {
       "numeroPartido": 37,
@@ -1454,7 +1490,8 @@
       ],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 38,
@@ -1498,7 +1535,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Volgograd Arena, Volgograd"
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
     },
     {
       "numeroPartido": 39,
@@ -1566,7 +1604,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Spartak Stadium, Moscow"
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 40,
@@ -1634,7 +1673,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 41,
@@ -1665,7 +1705,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Kaliningrad Stadium, Kaliningrad"
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
     },
     {
       "numeroPartido": 42,
@@ -1709,7 +1750,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Mordovia Arena, Saransk"
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
     },
     {
       "numeroPartido": 43,
@@ -1753,7 +1795,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Mordovia Arena, Saransk"
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
     },
     {
       "numeroPartido": 44,
@@ -1797,7 +1840,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Spartak Stadium, Moscow"
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 45,
@@ -1847,7 +1891,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Ekaterinburg Arena, Ekaterinburg"
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
     },
     {
       "numeroPartido": 46,
@@ -1890,7 +1935,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 47,
@@ -1921,7 +1967,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Volgograd Arena, Volgograd"
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
     },
     {
       "numeroPartido": 48,
@@ -1952,7 +1999,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 49,
@@ -2020,7 +2068,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 50,
@@ -2064,7 +2113,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 51,
@@ -2108,7 +2158,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 52,
@@ -2152,7 +2203,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 53,
@@ -2189,7 +2241,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 54,
@@ -2245,7 +2298,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Rostov Arena, Rostov-on-Don"
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
     },
     {
       "numeroPartido": 55,
@@ -2276,7 +2330,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Saint Petersburg Stadium, Saint Petersburg"
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 56,
@@ -2320,7 +2375,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Spartak Stadium, Moscow"
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 57,
@@ -2357,7 +2413,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
     },
     {
       "numeroPartido": 58,
@@ -2401,7 +2458,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Kazan Arena, Kazan"
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
     },
     {
       "numeroPartido": 59,
@@ -2438,7 +2496,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Samara Arena, Samara"
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
     },
     {
       "numeroPartido": 60,
@@ -2494,7 +2553,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Fisht Stadium, Sochi"
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
     },
     {
       "numeroPartido": 61,
@@ -2525,7 +2585,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Saint Petersburg Stadium, St. Petersburg"
+      "estadio": "Saint Petersburg Stadium, St. Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 62,
@@ -2572,7 +2633,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     },
     {
       "numeroPartido": 63,
@@ -2609,7 +2671,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Saint Petersburg Stadium, St. Petersburg"
+      "estadio": "Saint Petersburg Stadium, St. Petersburg",
+      "año": 2018
     },
     {
       "numeroPartido": 64,
@@ -2671,7 +2734,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Luzhniki Stadium, Moscow"
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
     }
   ]
 }

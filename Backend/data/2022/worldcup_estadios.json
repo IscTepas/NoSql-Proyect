@@ -7,7 +7,8 @@
       "capacidad": 68895,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°39'08\"N 51°29'16\"E"
+      "coordenadas": "25°39'08\"N 51°29'16\"E",
+      "año": 2022
     },
     {
       "nombre": "Lusail Stadium",
@@ -15,7 +16,8 @@
       "capacidad": 88966,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°25'15.1\"N 51°29'25.4\"E"
+      "coordenadas": "25°25'15.1\"N 51°29'25.4\"E",
+      "año": 2022
     },
     {
       "nombre": "Ahmad bin Ali Stadium",
@@ -23,7 +25,8 @@
       "capacidad": 45032,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°19'47\"N 51°20'32\"E"
+      "coordenadas": "25°19'47\"N 51°20'32\"E",
+      "año": 2022
     },
     {
       "nombre": "Education City Stadium",
@@ -31,7 +34,8 @@
       "capacidad": 44667,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°18'39\"N 51°25'28\"E"
+      "coordenadas": "25°18'39\"N 51°25'28\"E",
+      "año": 2022
     },
     {
       "nombre": "Khalifa International Stadium",
@@ -39,7 +43,8 @@
       "capacidad": 45857,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°15'49\"N 51°26'53\"E"
+      "coordenadas": "25°15'49\"N 51°26'53\"E",
+      "año": 2022
     },
     {
       "nombre": "Al Thumama Stadium",
@@ -47,7 +52,8 @@
       "capacidad": 44400,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°14'07\"N 51°31'56\"E"
+      "coordenadas": "25°14'07\"N 51°31'56\"E",
+      "año": 2022
     },
     {
       "nombre": "Stadium 974",
@@ -55,7 +61,8 @@
       "capacidad": 44089,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°17'24\"N 51°33'54\"E"
+      "coordenadas": "25°17'24\"N 51°33'54\"E",
+      "año": 2022
     },
     {
       "nombre": "Al Janoub Stadium",
@@ -63,7 +70,8 @@
       "capacidad": 44325,
       "zonaHoraria": "UTC+3",
       "codigoPais": "qa",
-      "coordenadas": "25°09'35.2\"N 51°34'26.7\"E"
+      "coordenadas": "25°09'35.2\"N 51°34'26.7\"E",
+      "año": 2022
     }
   ]
 }

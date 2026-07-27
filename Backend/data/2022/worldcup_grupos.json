@@ -9,7 +9,8 @@
         "Ecuador",
         "Senegal",
         "Netherlands"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group B",
@@ -19,7 +20,8 @@
         "Iran",
         "United States",
         "Wales"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group C",
@@ -29,7 +31,8 @@
         "Saudi Arabia",
         "Mexico",
         "Poland"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group D",
@@ -39,7 +42,8 @@
         "Tunisia",
         "France",
         "Australia"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group E",
@@ -49,7 +53,8 @@
         "Japan",
         "Spain",
         "Costa Rica"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group F",
@@ -59,7 +64,8 @@
         "Croatia",
         "Belgium",
         "Canada"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group G",
@@ -69,7 +75,8 @@
         "Cameroon",
         "Brazil",
         "Serbia"
-      ]
+      ],
+      "año": 2022
     },
     {
       "nombre": "Group H",
@@ -79,7 +86,8 @@
         "South Korea",
         "Portugal",
         "Ghana"
-      ]
+      ],
+      "año": 2022
     }
   ]
 }

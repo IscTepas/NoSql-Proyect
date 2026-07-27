@@ -9,7 +9,8 @@
         "Russia",
         "Saudi Arabia",
         "Uruguay"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group B",
@@ -19,7 +20,8 @@
         "Spain",
         "Portugal",
         "Iran"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group C",
@@ -29,7 +31,8 @@
         "Denmark",
         "Australia",
         "Peru"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group D",
@@ -39,7 +42,8 @@
         "Croatia",
         "Iceland",
         "Argentina"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group E",
@@ -49,7 +53,8 @@
         "Switzerland",
         "Serbia",
         "Brazil"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group F",
@@ -59,7 +64,8 @@
         "Germany",
         "Sweden",
         "Mexico"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group G",
@@ -69,7 +75,8 @@
         "Panama",
         "Belgium",
         "England"
-      ]
+      ],
+      "año": 2018
     },
     {
       "nombre": "Group H",
@@ -79,7 +86,8 @@
         "Japan",
         "Poland",
         "Colombia"
-      ]
+      ],
+      "año": 2018
     }
   ]
 }

@@ -36,7 +36,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 2,
@@ -73,7 +74,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 3,
@@ -123,7 +125,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 4,
@@ -161,7 +164,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 5,
@@ -205,7 +209,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 6,
@@ -242,7 +247,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 7,
@@ -316,7 +322,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 8,
@@ -354,7 +361,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 9,
@@ -391,7 +399,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 10,
@@ -412,7 +421,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group B",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 11,
@@ -455,7 +465,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 12,
@@ -486,7 +497,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 13,
@@ -530,7 +542,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 14,
@@ -551,7 +564,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 15,
@@ -588,7 +602,8 @@
       ],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 16,
@@ -625,7 +640,8 @@
       ],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 17,
@@ -662,7 +678,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 18,
@@ -706,7 +723,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 19,
@@ -727,7 +745,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 20,
@@ -783,7 +802,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 21,
@@ -814,7 +834,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 22,
@@ -858,7 +879,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 23,
@@ -889,7 +911,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 24,
@@ -920,7 +943,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 25,
@@ -964,7 +988,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 26,
@@ -1031,7 +1056,8 @@
       ],
       "goles2": [],
       "grupo": "Group E",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 27,
@@ -1062,7 +1088,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 28,
@@ -1100,7 +1127,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 29,
@@ -1144,7 +1172,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 30,
@@ -1206,7 +1235,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 31,
@@ -1227,7 +1257,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group F",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 32,
@@ -1258,7 +1289,8 @@
       ],
       "goles2": [],
       "grupo": "Group F",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 33,
@@ -1295,7 +1327,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 34,
@@ -1351,7 +1384,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 35,
@@ -1372,7 +1406,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group F",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 36,
@@ -1416,7 +1451,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 37,
@@ -1447,7 +1483,8 @@
       ],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 38,
@@ -1484,7 +1521,8 @@
       ],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 39,
@@ -1546,7 +1584,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 40,
@@ -1577,7 +1616,8 @@
       ],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 41,
@@ -1633,7 +1673,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 42,
@@ -1664,7 +1705,8 @@
       ],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 43,
@@ -1685,7 +1727,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group H",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 44,
@@ -1741,7 +1784,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 45,
@@ -1797,7 +1841,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 46,
@@ -1834,7 +1879,8 @@
       ],
       "goles2": [],
       "grupo": "Group H",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 47,
@@ -1868,7 +1914,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 48,
@@ -1912,7 +1959,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 49,
@@ -1962,7 +2010,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 50,
@@ -2006,7 +2055,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Ahmad bin Ali Stadium"
+      "estadio": "Ahmad bin Ali Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 51,
@@ -2056,7 +2106,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 52,
@@ -2099,7 +2150,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 53,
@@ -2143,7 +2195,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Al Janoub Stadium"
+      "estadio": "Al Janoub Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 54,
@@ -2199,7 +2252,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Stadium 974"
+      "estadio": "Stadium 974",
+      "año": 2022
     },
     {
       "numeroPartido": 55,
@@ -2229,7 +2283,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 56,
@@ -2297,7 +2352,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 57,
@@ -2341,7 +2397,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Education City Stadium"
+      "estadio": "Education City Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 58,
@@ -2397,7 +2454,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 59,
@@ -2428,7 +2486,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Al Thumama Stadium"
+      "estadio": "Al Thumama Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 60,
@@ -2472,7 +2531,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 61,
@@ -2515,7 +2575,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 62,
@@ -2552,7 +2613,8 @@
       ],
       "goles2": [],
       "grupo": "",
-      "estadio": "Al Bayt Stadium"
+      "estadio": "Al Bayt Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 63,
@@ -2596,7 +2658,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Khalifa International Stadium"
+      "estadio": "Khalifa International Stadium",
+      "año": 2022
     },
     {
       "numeroPartido": 64,
@@ -2664,7 +2727,8 @@
         }
       ],
       "grupo": "",
-      "estadio": "Lusail Iconic Stadium"
+      "estadio": "Lusail Iconic Stadium",
+      "año": 2022
     }
   ]
 }

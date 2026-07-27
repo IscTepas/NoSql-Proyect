@@ -6,8 +6,6 @@
       "ronda": "Matchday 1",
       "fecha": "2014-06-12",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Croatia",
       "marcador": {
         "ft": [
           3,
@@ -18,7 +16,11 @@
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group A",
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "Brazil",
+      "equipo2": "Croatia",
+      "goles1": [
         {
           "nombre": "Neymar",
           "minuto": 29
@@ -34,23 +36,20 @@
           "descuento": 1
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Marcelo",
           "minuto": 11,
           "autogol": true
         }
       ],
-      "grupo": "Group A",
-      "estadio": "Arena de São Paulo, São Paulo"
+      "numeroPartido": 1
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 2",
       "fecha": "2014-06-13",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Mexico",
-      "equipoVisitante": "Cameroon",
       "marcador": {
         "ft": [
           1,
@@ -61,89 +60,96 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group A",
+      "estadio": "Est├ídio das Dunas, Natal",
+      "equipo1": "Mexico",
+      "equipo2": "Cameroon",
+      "goles1": [
         {
           "nombre": "Oribe Peralta",
           "minuto": 61
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group A",
-      "estadio": "Estádio das Dunas, Natal"
+      "goles2": [],
+      "numeroPartido": 2
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 6",
       "fecha": "2014-06-17",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Mexico",
       "marcador": {
         "ft": [
           0,
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": "Group A",
-      "estadio": "Estádio Castelão, Fortaleza"
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Brazil",
+      "equipo2": "Mexico",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 3
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 7",
       "fecha": "2014-06-18",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "Cameroon",
-      "equipoVisitante": "Croatia",
       "marcador": {
         "ft": [
           0,
           4
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group A",
+      "estadio": "Arena Amaz├┤nia, Manaus",
+      "equipo1": "Cameroon",
+      "equipo2": "Croatia",
+      "goles1": [],
+      "goles2": [
         {
-          "nombre": "Ivica Olić",
+          "nombre": "Ivica Oli─ç",
           "minuto": 11
         },
         {
-          "nombre": "Ivan Perišić",
+          "nombre": "Ivan Peri┼íi─ç",
           "minuto": 48
         },
         {
-          "nombre": "Mario Mandžukić",
+          "nombre": "Mario Mand┼¥uki─ç",
           "minuto": 61
         },
         {
-          "nombre": "Mario Mandžukić",
+          "nombre": "Mario Mand┼¥uki─ç",
           "minuto": 73
         }
       ],
-      "grupo": "Group A",
-      "estadio": "Arena Amazônia, Manaus"
+      "numeroPartido": 4
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 12",
       "fecha": "2014-06-23",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Cameroon",
-      "equipoVisitante": "Brazil",
       "marcador": {
         "ft": [
           1,
           4
         ]
       },
-      "golesLocal": [
+      "grupo": "Group A",
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Cameroon",
+      "equipo2": "Brazil",
+      "goles1": [
         {
           "nombre": "Joel Matip",
           "minuto": 26
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Neymar",
           "minuto": 17
@@ -161,31 +167,32 @@
           "minuto": 84
         }
       ],
-      "grupo": "Group A",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "numeroPartido": 5
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 12",
       "fecha": "2014-06-23",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Croatia",
-      "equipoVisitante": "Mexico",
       "marcador": {
         "ft": [
           1,
           3
         ]
       },
-      "golesLocal": [
+      "grupo": "Group A",
+      "estadio": "Arena Pernambuco, Recife",
+      "equipo1": "Croatia",
+      "equipo2": "Mexico",
+      "goles1": [
         {
-          "nombre": "Ivan Perišić",
+          "nombre": "Ivan Peri┼íi─ç",
           "minuto": 87
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "Rafael Márquez",
+          "nombre": "Rafael M├írquez",
           "minuto": 72
         },
         {
@@ -193,20 +200,17 @@
           "minuto": 75
         },
         {
-          "nombre": "Javier Hernández",
+          "nombre": "Javier Hern├índez",
           "minuto": 82
         }
       ],
-      "grupo": "Group A",
-      "estadio": "Arena Pernambuco, Recife"
+      "numeroPartido": 6
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 2",
       "fecha": "2014-06-13",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Spain",
-      "equipoVisitante": "Netherlands",
       "marcador": {
         "ft": [
           1,
@@ -217,14 +221,18 @@
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group B",
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Spain",
+      "equipo2": "Netherlands",
+      "goles1": [
         {
           "nombre": "Xabi Alonso",
           "minuto": 27,
           "penal": true
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Robin Van Persie",
           "minuto": 44
@@ -246,16 +254,13 @@
           "minuto": 65
         }
       ],
-      "grupo": "Group B",
-      "estadio": "Arena Fonte Nova, Salvador"
+      "numeroPartido": 7
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 2",
       "fecha": "2014-06-13",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "Chile",
-      "equipoVisitante": "Australia",
       "marcador": {
         "ft": [
           3,
@@ -266,13 +271,17 @@
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group B",
+      "estadio": "Arena Pantanal, Cuiab├í",
+      "equipo1": "Chile",
+      "equipo2": "Australia",
+      "goles1": [
         {
-          "nombre": "Alexis Sánchez",
+          "nombre": "Alexis S├ínchez",
           "minuto": 12
         },
         {
-          "nombre": "Jorge Valdívia",
+          "nombre": "Jorge Vald├¡via",
           "minuto": 14
         },
         {
@@ -281,29 +290,30 @@
           "descuento": 2
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Cahill",
           "minuto": 35
         }
       ],
-      "grupo": "Group B",
-      "estadio": "Arena Pantanal, Cuiabá"
+      "numeroPartido": 8
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 7",
       "fecha": "2014-06-18",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Australia",
-      "equipoVisitante": "Netherlands",
       "marcador": {
         "ft": [
           2,
           3
         ]
       },
-      "golesLocal": [
+      "grupo": "Group B",
+      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "equipo1": "Australia",
+      "equipo2": "Netherlands",
+      "goles1": [
         {
           "nombre": "Tim Cahill",
           "minuto": 21
@@ -314,7 +324,7 @@
           "penal": true
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Arjen Robben",
           "minuto": 20
@@ -328,51 +338,53 @@
           "minuto": 68
         }
       ],
-      "grupo": "Group B",
-      "estadio": "Estádio Beira-Rio, Porto Alegre"
+      "numeroPartido": 9
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 7",
       "fecha": "2014-06-18",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Spain",
-      "equipoVisitante": "Chile",
       "marcador": {
         "ft": [
           0,
           2
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group B",
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Spain",
+      "equipo2": "Chile",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Eduardo Vargas",
           "minuto": 20
         },
         {
-          "nombre": "Charles Aránguiz",
+          "nombre": "Charles Ar├ínguiz",
           "minuto": 43
         }
       ],
-      "grupo": "Group B",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "numeroPartido": 10
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 12",
       "fecha": "2014-06-23",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Australia",
-      "equipoVisitante": "Spain",
       "marcador": {
         "ft": [
           0,
           3
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group B",
+      "estadio": "Arena da Baixada, Curitiba",
+      "equipo1": "Australia",
+      "equipo2": "Spain",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "David Villa",
           "minuto": 36
@@ -386,23 +398,24 @@
           "minuto": 82
         }
       ],
-      "grupo": "Group B",
-      "estadio": "Arena da Baixada, Curitiba"
+      "numeroPartido": 11
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 12",
       "fecha": "2014-06-23",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Netherlands",
-      "equipoVisitante": "Chile",
       "marcador": {
         "ft": [
           2,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group B",
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "Netherlands",
+      "equipo2": "Chile",
+      "goles1": [
         {
           "nombre": "Leroy Fer",
           "minuto": 77
@@ -413,56 +426,58 @@
           "descuento": 2
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group B",
-      "estadio": "Arena de São Paulo, São Paulo"
+      "goles2": [],
+      "numeroPartido": 12
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 3",
       "fecha": "2014-06-14",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Colombia",
-      "equipoVisitante": "Greece",
       "marcador": {
         "ft": [
           3,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group C",
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Colombia",
+      "equipo2": "Greece",
+      "goles1": [
         {
           "nombre": "Pablo Armero",
           "minuto": 5
         },
         {
-          "nombre": "Teofilo Gutiérrez",
+          "nombre": "Teofilo Guti├®rrez",
           "minuto": 58
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James Rodr├¡guez",
           "minuto": 90,
           "descuento": 3
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group C",
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "goles2": [],
+      "numeroPartido": 13
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 3",
       "fecha": "2014-06-14",
       "hora": "22:00 UTC-3",
-      "equipoLocal": "Côte d'Ivoire",
-      "equipoVisitante": "Japan",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group C",
+      "estadio": "Arena Pernambuco, Recife",
+      "equipo1": "C├┤te d'Ivoire",
+      "equipo2": "Japan",
+      "goles1": [
         {
           "nombre": "Wilfried Bony",
           "minuto": 64
@@ -472,31 +487,32 @@
           "minuto": 66
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Keisuke Honda",
           "minuto": 16
         }
       ],
-      "grupo": "Group C",
-      "estadio": "Arena Pernambuco, Recife"
+      "numeroPartido": 14
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 8",
       "fecha": "2014-06-19",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Colombia",
-      "equipoVisitante": "Côte d'Ivoire",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group C",
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Colombia",
+      "equipo2": "C├┤te d'Ivoire",
+      "goles1": [
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James Rodr├¡guez",
           "minuto": 64
         },
         {
@@ -504,89 +520,92 @@
           "minuto": 70
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Gervinho",
           "minuto": 73
         }
       ],
-      "grupo": "Group C",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "numeroPartido": 15
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 8",
       "fecha": "2014-06-19",
       "hora": "19:00 UTC-3",
-      "equipoLocal": "Japan",
-      "equipoVisitante": "Greece",
       "marcador": {
         "ft": [
           0,
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": "Group C",
-      "estadio": "Estádio das Dunas, Natal"
+      "estadio": "Est├ídio das Dunas, Natal",
+      "equipo1": "Japan",
+      "equipo2": "Greece",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 16
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 13",
       "fecha": "2014-06-24",
       "hora": "16:00 UTC-4",
-      "equipoLocal": "Japan",
-      "equipoVisitante": "Colombia",
       "marcador": {
         "ft": [
           1,
           4
         ]
       },
-      "golesLocal": [
+      "grupo": "Group C",
+      "estadio": "Arena Pantanal, Cuiab├í",
+      "equipo1": "Japan",
+      "equipo2": "Colombia",
+      "goles1": [
         {
           "nombre": "Shinji Okazaki",
           "minuto": 45,
           "descuento": 1
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Juan Cuadrado",
           "minuto": 17,
           "penal": true
         },
         {
-          "nombre": "Jackson Martínez",
+          "nombre": "Jackson Mart├¡nez",
           "minuto": 55
         },
         {
-          "nombre": "Jackson Martínez",
+          "nombre": "Jackson Mart├¡nez",
           "minuto": 82
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James Rodr├¡guez",
           "minuto": 90
         }
       ],
-      "grupo": "Group C",
-      "estadio": "Arena Pantanal, Cuiabá"
+      "numeroPartido": 17
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 13",
       "fecha": "2014-06-24",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Greece",
-      "equipoVisitante": "Côte d'Ivoire",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group C",
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Greece",
+      "equipo2": "C├┤te d'Ivoire",
+      "goles1": [
         {
           "nombre": "Andreas Samaris",
           "minuto": 42
@@ -598,36 +617,37 @@
           "descuento": 3
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Wilfried Bony",
           "minuto": 74
         }
       ],
-      "grupo": "Group C",
-      "estadio": "Estádio Castelão, Fortaleza"
+      "numeroPartido": 18
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 3",
       "fecha": "2014-06-14",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Uruguay",
-      "equipoVisitante": "Costa Rica",
       "marcador": {
         "ft": [
           1,
           3
         ]
       },
-      "golesLocal": [
+      "grupo": "Group D",
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Uruguay",
+      "equipo2": "Costa Rica",
+      "goles1": [
         {
           "nombre": "Edinson Cavani",
           "minuto": 24,
           "penal": true
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Joel Campbell",
           "minuto": 54
@@ -637,33 +657,34 @@
           "minuto": 57
         },
         {
-          "nombre": "Marcos Ureña",
+          "nombre": "Marcos Ure├▒a",
           "minuto": 84
         }
       ],
-      "grupo": "Group D",
-      "estadio": "Estádio Castelão, Fortaleza"
+      "numeroPartido": 19
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 3",
       "fecha": "2014-06-14",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "England",
-      "equipoVisitante": "Italy",
       "marcador": {
         "ft": [
           1,
           2
         ]
       },
-      "golesLocal": [
+      "grupo": "Group D",
+      "estadio": "Arena Amaz├┤nia, Manaus",
+      "equipo1": "England",
+      "equipo2": "Italy",
+      "goles1": [
         {
           "nombre": "Daniel Sturridge",
           "minuto": 37
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Claudio Marchisio",
           "minuto": 35
@@ -673,152 +694,158 @@
           "minuto": 50
         }
       ],
-      "grupo": "Group D",
-      "estadio": "Arena Amazônia, Manaus"
+      "numeroPartido": 20
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 8",
       "fecha": "2014-06-19",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Uruguay",
-      "equipoVisitante": "England",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group D",
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "Uruguay",
+      "equipo2": "England",
+      "goles1": [
         {
-          "nombre": "Luis Suárez",
+          "nombre": "Luis Su├írez",
           "minuto": 39
         },
         {
-          "nombre": "Luis Suárez",
+          "nombre": "Luis Su├írez",
           "minuto": 85
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Wayne Rooney",
           "minuto": 75
         }
       ],
-      "grupo": "Group D",
-      "estadio": "Arena de São Paulo, São Paulo"
+      "numeroPartido": 21
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 9",
       "fecha": "2014-06-20",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Italy",
-      "equipoVisitante": "Costa Rica",
       "marcador": {
         "ft": [
           0,
           1
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group D",
+      "estadio": "Arena Pernambuco, Recife",
+      "equipo1": "Italy",
+      "equipo2": "Costa Rica",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Bryan Ruiz",
           "minuto": 44
         }
       ],
-      "grupo": "Group D",
-      "estadio": "Arena Pernambuco, Recife"
+      "numeroPartido": 22
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 13",
       "fecha": "2014-06-24",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Italy",
-      "equipoVisitante": "Uruguay",
       "marcador": {
         "ft": [
           0,
           1
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group D",
+      "estadio": "Est├ídio das Dunas, Natal",
+      "equipo1": "Italy",
+      "equipo2": "Uruguay",
+      "goles1": [],
+      "goles2": [
         {
-          "nombre": "Diego Godín",
+          "nombre": "Diego God├¡n",
           "minuto": 81
         }
       ],
-      "grupo": "Group D",
-      "estadio": "Estádio das Dunas, Natal"
+      "numeroPartido": 23
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 13",
       "fecha": "2014-06-24",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Costa Rica",
-      "equipoVisitante": "England",
       "marcador": {
         "ft": [
           0,
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": "Group D",
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Costa Rica",
+      "equipo2": "England",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 24
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 4",
       "fecha": "2014-06-15",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Switzerland",
-      "equipoVisitante": "Ecuador",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group E",
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Switzerland",
+      "equipo2": "Ecuador",
+      "goles1": [
         {
           "nombre": "Admir Mehmedi",
           "minuto": 48
         },
         {
-          "nombre": "Haris Seferović",
+          "nombre": "Haris Seferovi─ç",
           "minuto": 90,
           "descuento": 3
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Enner Valencia",
           "minuto": 22
         }
       ],
-      "grupo": "Group E",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "numeroPartido": 25
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 4",
       "fecha": "2014-06-15",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "France",
-      "equipoVisitante": "Honduras",
       "marcador": {
         "ft": [
           3,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group E",
+      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "equipo1": "France",
+      "equipo2": "Honduras",
+      "goles1": [
         {
           "nombre": "Noel Valladares",
           "minuto": 48,
@@ -834,26 +861,27 @@
           "minuto": 72
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group E",
-      "estadio": "Estádio Beira-Rio, Porto Alegre"
+      "goles2": [],
+      "numeroPartido": 26
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 9",
       "fecha": "2014-06-20",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Switzerland",
-      "equipoVisitante": "France",
       "marcador": {
         "ft": [
           2,
           5
         ]
       },
-      "golesLocal": [
+      "grupo": "Group E",
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Switzerland",
+      "equipo2": "France",
+      "goles1": [
         {
-          "nombre": "Blerim Džemaili",
+          "nombre": "Blerim D┼¥emaili",
           "minuto": 81
         },
         {
@@ -861,7 +889,7 @@
           "minuto": 87
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Olivier Giroud",
           "minuto": 17
@@ -883,29 +911,30 @@
           "minuto": 73
         }
       ],
-      "grupo": "Group E",
-      "estadio": "Arena Fonte Nova, Salvador"
+      "numeroPartido": 27
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 9",
       "fecha": "2014-06-20",
       "hora": "19:00 UTC-3",
-      "equipoLocal": "Honduras",
-      "equipoVisitante": "Ecuador",
       "marcador": {
         "ft": [
           1,
           2
         ]
       },
-      "golesLocal": [
+      "grupo": "Group E",
+      "estadio": "Arena da Baixada, Curitiba",
+      "equipo1": "Honduras",
+      "equipo2": "Ecuador",
+      "goles1": [
         {
           "nombre": "Carlo Costly",
           "minuto": 31
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Enner Valencia",
           "minuto": 34
@@ -915,24 +944,25 @@
           "minuto": 65
         }
       ],
-      "grupo": "Group E",
-      "estadio": "Arena da Baixada, Curitiba"
+      "numeroPartido": 28
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 14",
       "fecha": "2014-06-25",
       "hora": "16:00 UTC-4",
-      "equipoLocal": "Honduras",
-      "equipoVisitante": "Switzerland",
       "marcador": {
         "ft": [
           0,
           3
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group E",
+      "estadio": "Arena Amaz├┤nia, Manaus",
+      "equipo1": "Honduras",
+      "equipo2": "Switzerland",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Xherdan Shaqiri",
           "minuto": 6
@@ -946,43 +976,45 @@
           "minuto": 71
         }
       ],
-      "grupo": "Group E",
-      "estadio": "Arena Amazônia, Manaus"
+      "numeroPartido": 29
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 14",
       "fecha": "2014-06-25",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Ecuador",
-      "equipoVisitante": "France",
       "marcador": {
         "ft": [
           0,
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": "Group E",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Ecuador",
+      "equipo2": "France",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 30
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 4",
       "fecha": "2014-06-15",
       "hora": "19:00 UTC-3",
-      "equipoLocal": "Argentina",
-      "equipoVisitante": "Bosnia-Herzegovina",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group F",
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Argentina",
+      "equipo2": "Bosnia-Herzegovina",
+      "goles1": [
         {
-          "nombre": "Sead Kolašinac",
+          "nombre": "Sead Kola┼íinac",
           "minuto": 3,
           "autogol": true
         },
@@ -991,93 +1023,97 @@
           "minuto": 65
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "Vedad Ibišević",
+          "nombre": "Vedad Ibi┼íevi─ç",
           "minuto": 85
         }
       ],
-      "grupo": "Group F",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "numeroPartido": 31
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 5",
       "fecha": "2014-06-16",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Iran",
-      "equipoVisitante": "Nigeria",
       "marcador": {
         "ft": [
           0,
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": "Group F",
-      "estadio": "Arena da Baixada, Curitiba"
+      "estadio": "Arena da Baixada, Curitiba",
+      "equipo1": "Iran",
+      "equipo2": "Nigeria",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 32
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 10",
       "fecha": "2014-06-21",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Argentina",
-      "equipoVisitante": "Iran",
       "marcador": {
         "ft": [
           1,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group F",
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Argentina",
+      "equipo2": "Iran",
+      "goles1": [
         {
           "nombre": "Lionel Messi",
           "minuto": 90
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group F",
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "goles2": [],
+      "numeroPartido": 33
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 10",
       "fecha": "2014-06-21",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "Nigeria",
-      "equipoVisitante": "Bosnia-Herzegovina",
       "marcador": {
         "ft": [
           1,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group F",
+      "estadio": "Arena Pantanal, Cuiab├í",
+      "equipo1": "Nigeria",
+      "equipo2": "Bosnia-Herzegovina",
+      "goles1": [
         {
           "nombre": "Peter Odemwingie",
           "minuto": 29
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group F",
-      "estadio": "Arena Pantanal, Cuiabá"
+      "goles2": [],
+      "numeroPartido": 34
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 14",
       "fecha": "2014-06-25",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Nigeria",
-      "equipoVisitante": "Argentina",
       "marcador": {
         "ft": [
           2,
           3
         ]
       },
-      "golesLocal": [
+      "grupo": "Group F",
+      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "equipo1": "Nigeria",
+      "equipo2": "Argentina",
+      "goles1": [
         {
           "nombre": "Ahmed Musa",
           "minuto": 4
@@ -1087,7 +1123,7 @@
           "minuto": 47
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Lionel Messi",
           "minuto": 3
@@ -1102,71 +1138,73 @@
           "minuto": 50
         }
       ],
-      "grupo": "Group F",
-      "estadio": "Estádio Beira-Rio, Porto Alegre"
+      "numeroPartido": 35
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 14",
       "fecha": "2014-06-25",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Bosnia-Herzegovina",
-      "equipoVisitante": "Iran",
       "marcador": {
         "ft": [
           3,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group F",
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Bosnia-Herzegovina",
+      "equipo2": "Iran",
+      "goles1": [
         {
-          "nombre": "Edin Džeko",
+          "nombre": "Edin D┼¥eko",
           "minuto": 23
         },
         {
-          "nombre": "Miralem Pjanić",
+          "nombre": "Miralem Pjani─ç",
           "minuto": 59
         },
         {
-          "nombre": "Avdija Vršajević",
+          "nombre": "Avdija Vr┼íajevi─ç",
           "minuto": 83
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Reza Ghoochannejhad",
           "minuto": 82
         }
       ],
-      "grupo": "Group F",
-      "estadio": "Arena Fonte Nova, Salvador"
+      "numeroPartido": 36
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 5",
       "fecha": "2014-06-16",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Germany",
-      "equipoVisitante": "Portugal",
       "marcador": {
         "ft": [
           4,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group G",
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Germany",
+      "equipo2": "Portugal",
+      "goles1": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas M├╝ller",
           "minuto": 12,
           "penal": true
         },
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas M├╝ller",
           "minuto": 45,
           "descuento": 1
         },
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas M├╝ller",
           "minuto": 78
         },
         {
@@ -1174,30 +1212,31 @@
           "minuto": 32
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group G",
-      "estadio": "Arena Fonte Nova, Salvador"
+      "goles2": [],
+      "numeroPartido": 37
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 5",
       "fecha": "2014-06-16",
       "hora": "19:00 UTC-3",
-      "equipoLocal": "Ghana",
-      "equipoVisitante": "USA",
       "marcador": {
         "ft": [
           1,
           2
         ]
       },
-      "golesLocal": [
+      "grupo": "Group G",
+      "estadio": "Est├ídio das Dunas, Natal",
+      "equipo1": "Ghana",
+      "equipo2": "USA",
+      "goles1": [
         {
-          "nombre": "André Ayew",
+          "nombre": "Andr├® Ayew",
           "minuto": 82
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Clint Dempsey",
           "minuto": 1
@@ -1207,25 +1246,26 @@
           "minuto": 86
         }
       ],
-      "grupo": "Group G",
-      "estadio": "Estádio das Dunas, Natal"
+      "numeroPartido": 38
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 10",
       "fecha": "2014-06-21",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Germany",
-      "equipoVisitante": "Ghana",
       "marcador": {
         "ft": [
           2,
           2
         ]
       },
-      "golesLocal": [
+      "grupo": "Group G",
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Germany",
+      "equipo2": "Ghana",
+      "goles1": [
         {
-          "nombre": "Mario Götze",
+          "nombre": "Mario G├Âtze",
           "minuto": 51
         },
         {
@@ -1233,9 +1273,9 @@
           "minuto": 71
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "André Ayew",
+          "nombre": "Andr├® Ayew",
           "minuto": 54
         },
         {
@@ -1243,23 +1283,24 @@
           "minuto": 63
         }
       ],
-      "grupo": "Group G",
-      "estadio": "Estádio Castelão, Fortaleza"
+      "numeroPartido": 39
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 11",
       "fecha": "2014-06-22",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "USA",
-      "equipoVisitante": "Portugal",
       "marcador": {
         "ft": [
           2,
           2
         ]
       },
-      "golesLocal": [
+      "grupo": "Group G",
+      "estadio": "Arena Amaz├┤nia, Manaus",
+      "equipo1": "USA",
+      "equipo2": "Portugal",
+      "goles1": [
         {
           "nombre": "Jermaine Jones",
           "minuto": 64
@@ -1269,7 +1310,7 @@
           "minuto": 81
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Nani",
           "minuto": 5
@@ -1280,46 +1321,48 @@
           "descuento": 5
         }
       ],
-      "grupo": "Group G",
-      "estadio": "Arena Amazônia, Manaus"
+      "numeroPartido": 40
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 15",
       "fecha": "2014-06-26",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "USA",
-      "equipoVisitante": "Germany",
       "marcador": {
         "ft": [
           0,
           1
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group G",
+      "estadio": "Arena Pernambuco, Recife",
+      "equipo1": "USA",
+      "equipo2": "Germany",
+      "goles1": [],
+      "goles2": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas M├╝ller",
           "minuto": 55
         }
       ],
-      "grupo": "Group G",
-      "estadio": "Arena Pernambuco, Recife"
+      "numeroPartido": 41
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 15",
       "fecha": "2014-06-26",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Portugal",
-      "equipoVisitante": "Ghana",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group G",
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Portugal",
+      "equipo2": "Ghana",
+      "goles1": [
         {
           "nombre": "John Boye",
           "minuto": 31,
@@ -1330,29 +1373,30 @@
           "minuto": 80
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Asamoah Gyan",
           "minuto": 57
         }
       ],
-      "grupo": "Group G",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "numeroPartido": 42
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 6",
       "fecha": "2014-06-17",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Belgium",
-      "equipoVisitante": "Algeria",
       "marcador": {
         "ft": [
           2,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group H",
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Belgium",
+      "equipo2": "Algeria",
+      "goles1": [
         {
           "nombre": "Marouane Fellaini",
           "minuto": 70
@@ -1362,81 +1406,84 @@
           "minuto": 80
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Sofiane Feghouli",
           "minuto": 25,
           "penal": true
         }
       ],
-      "grupo": "Group H",
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "numeroPartido": 43
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 6",
       "fecha": "2014-06-17",
       "hora": "18:00 UTC-4",
-      "equipoLocal": "Russia",
-      "equipoVisitante": "South Korea",
       "marcador": {
         "ft": [
           1,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group H",
+      "estadio": "Arena Pantanal, Cuiab├í",
+      "equipo1": "Russia",
+      "equipo2": "South Korea",
+      "goles1": [
         {
           "nombre": "Alexander Kerzhakov",
           "minuto": 74
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Lee Keunho",
           "minuto": 68
         }
       ],
-      "grupo": "Group H",
-      "estadio": "Arena Pantanal, Cuiabá"
+      "numeroPartido": 44
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 11",
       "fecha": "2014-06-22",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Belgium",
-      "equipoVisitante": "Russia",
       "marcador": {
         "ft": [
           1,
           0
         ]
       },
-      "golesLocal": [
+      "grupo": "Group H",
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Belgium",
+      "equipo2": "Russia",
+      "goles1": [
         {
           "nombre": "Divock Origi",
           "minuto": 88
         }
       ],
-      "golesVisitante": [],
-      "grupo": "Group H",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "goles2": [],
+      "numeroPartido": 45
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 11",
       "fecha": "2014-06-22",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "South Korea",
-      "equipoVisitante": "Algeria",
       "marcador": {
         "ft": [
           2,
           4
         ]
       },
-      "golesLocal": [
+      "grupo": "Group H",
+      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "equipo1": "South Korea",
+      "equipo2": "Algeria",
+      "goles1": [
         {
           "nombre": "Son Heung Min",
           "minuto": 50
@@ -1446,7 +1493,7 @@
           "minuto": 72
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Islam Slimani",
           "minuto": 26
@@ -1464,67 +1511,66 @@
           "minuto": 62
         }
       ],
-      "grupo": "Group H",
-      "estadio": "Estádio Beira-Rio, Porto Alegre"
+      "numeroPartido": 46
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 15",
       "fecha": "2014-06-26",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "South Korea",
-      "equipoVisitante": "Belgium",
       "marcador": {
         "ft": [
           0,
           1
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": "Group H",
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "South Korea",
+      "equipo2": "Belgium",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Jan Vertonghen",
           "minuto": 78
         }
       ],
-      "grupo": "Group H",
-      "estadio": "Arena de São Paulo, São Paulo"
+      "numeroPartido": 47
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Matchday 15",
       "fecha": "2014-06-26",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Algeria",
-      "equipoVisitante": "Russia",
       "marcador": {
         "ft": [
           1,
           1
         ]
       },
-      "golesLocal": [
+      "grupo": "Group H",
+      "estadio": "Arena da Baixada, Curitiba",
+      "equipo1": "Algeria",
+      "equipo2": "Russia",
+      "goles1": [
         {
           "nombre": "Islam Slimani",
           "minuto": 60
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Alexander Kokorin",
           "minuto": 6
         }
       ],
-      "grupo": "Group H",
-      "estadio": "Arena da Baixada, Curitiba"
+      "numeroPartido": 48
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-28",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Chile",
       "marcador": {
         "p": [
           3,
@@ -1543,28 +1589,29 @@
           1
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Brazil",
+      "equipo2": "Chile",
+      "goles1": [
         {
           "nombre": "David Luiz",
           "minuto": 18
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "Alexis Sánchez",
+          "nombre": "Alexis S├ínchez",
           "minuto": 32
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "numeroPartido": 49
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-28",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Colombia",
-      "equipoVisitante": "Uruguay",
       "marcador": {
         "ft": [
           2,
@@ -1575,27 +1622,28 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Colombia",
+      "equipo2": "Uruguay",
+      "goles1": [
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James Rodr├¡guez",
           "minuto": 28
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James Rodr├¡guez",
           "minuto": 50
         }
       ],
-      "golesVisitante": [],
-      "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "goles2": [],
+      "numeroPartido": 50
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-29",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Netherlands",
-      "equipoVisitante": "Mexico",
       "marcador": {
         "ft": [
           2,
@@ -1606,7 +1654,11 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Netherlands",
+      "equipo2": "Mexico",
+      "goles1": [
         {
           "nombre": "Wesley Sneijder",
           "minuto": 88
@@ -1617,22 +1669,19 @@
           "penal": true
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Giovani dos Santos",
           "minuto": 48
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Castelão, Fortaleza"
+      "numeroPartido": 51
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-29",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Costa Rica",
-      "equipoVisitante": "Greece",
       "marcador": {
         "p": [
           5,
@@ -1651,28 +1700,29 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Arena Pernambuco, Recife",
+      "equipo1": "Costa Rica",
+      "equipo2": "Greece",
+      "goles1": [
         {
           "nombre": "Bryan Ruiz",
           "minuto": 52
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Socratis Papastathopoulos",
           "minuto": 90
         }
       ],
-      "grupo": null,
-      "estadio": "Arena Pernambuco, Recife"
+      "numeroPartido": 52
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-30",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "France",
-      "equipoVisitante": "Nigeria",
       "marcador": {
         "ft": [
           2,
@@ -1683,7 +1733,11 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "France",
+      "equipo2": "Nigeria",
+      "goles1": [
         {
           "nombre": "Paul Pogba",
           "minuto": 79
@@ -1695,17 +1749,14 @@
           "descuento": 2
         }
       ],
-      "golesVisitante": [],
-      "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "goles2": [],
+      "numeroPartido": 53
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-06-30",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Germany",
-      "equipoVisitante": "Algeria",
       "marcador": {
         "et": [
           2,
@@ -1720,32 +1771,33 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "equipo1": "Germany",
+      "equipo2": "Algeria",
+      "goles1": [
         {
-          "nombre": "André Schürrle",
+          "nombre": "Andr├® Sch├╝rrle",
           "minuto": 92
         },
         {
-          "nombre": "Mesut Özil",
+          "nombre": "Mesut ├ûzil",
           "minuto": 120
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Abdelmoumene Djabou",
           "minuto": 121
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Beira-Rio, Porto Alegre"
+      "numeroPartido": 54
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-07-01",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Argentina",
-      "equipoVisitante": "Switzerland",
       "marcador": {
         "et": [
           1,
@@ -1760,23 +1812,24 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "Argentina",
+      "equipo2": "Switzerland",
+      "goles1": [
         {
-          "nombre": "Ángel di María",
+          "nombre": "├üngel di Mar├¡a",
           "minuto": 118
         }
       ],
-      "golesVisitante": [],
-      "grupo": null,
-      "estadio": "Arena de São Paulo, São Paulo"
+      "goles2": [],
+      "numeroPartido": 55
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Round of 16",
       "fecha": "2014-07-01",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Belgium",
-      "equipoVisitante": "USA",
       "marcador": {
         "et": [
           2,
@@ -1791,7 +1844,11 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Belgium",
+      "equipo2": "USA",
+      "goles1": [
         {
           "nombre": "Kevin De Bruyne",
           "minuto": 93
@@ -1801,22 +1858,19 @@
           "minuto": 105
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
           "nombre": "Julian Green",
           "minuto": 107
         }
       ],
-      "grupo": null,
-      "estadio": "Arena Fonte Nova, Salvador"
+      "numeroPartido": 56
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Quarter-finals",
       "fecha": "2014-07-04",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "France",
-      "equipoVisitante": "Germany",
       "marcador": {
         "ft": [
           0,
@@ -1827,23 +1881,24 @@
           1
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": null,
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "France",
+      "equipo2": "Germany",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Mats Hummels",
           "minuto": 13
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "numeroPartido": 57
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Quarter-finals",
       "fecha": "2014-07-04",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Colombia",
       "marcador": {
         "ft": [
           2,
@@ -1854,7 +1909,11 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "equipo1": "Brazil",
+      "equipo2": "Colombia",
+      "goles1": [
         {
           "nombre": "Thiago Silva",
           "minuto": 7
@@ -1864,23 +1923,20 @@
           "minuto": 69
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "Rodríguez",
+          "nombre": "Rodr├¡guez",
           "minuto": 80,
           "penal": true
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Castelão, Fortaleza"
+      "numeroPartido": 58
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Quarter-finals",
       "fecha": "2014-07-05",
       "hora": "13:00 UTC-3",
-      "equipoLocal": "Argentina",
-      "equipoVisitante": "Belgium",
       "marcador": {
         "ft": [
           1,
@@ -1891,23 +1947,24 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Argentina",
+      "equipo2": "Belgium",
+      "goles1": [
         {
-          "nombre": "Gonzalo Higuaín",
+          "nombre": "Gonzalo Higua├¡n",
           "minuto": 8
         }
       ],
-      "golesVisitante": [],
-      "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "goles2": [],
+      "numeroPartido": 59
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Quarter-finals",
       "fecha": "2014-07-05",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Netherlands",
-      "equipoVisitante": "Costa Rica",
       "marcador": {
         "p": [
           4,
@@ -1926,18 +1983,19 @@
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": null,
-      "estadio": "Arena Fonte Nova, Salvador"
+      "estadio": "Arena Fonte Nova, Salvador",
+      "equipo1": "Netherlands",
+      "equipo2": "Costa Rica",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 60
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Semi-finals",
       "fecha": "2014-07-08",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Germany",
       "marcador": {
         "ft": [
           1,
@@ -1948,15 +2006,19 @@
           5
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "equipo1": "Brazil",
+      "equipo2": "Germany",
+      "goles1": [
         {
           "nombre": "Oscar",
           "minuto": 90
         }
       ],
-      "golesVisitante": [
+      "goles2": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas M├╝ller",
           "minuto": 11
         },
         {
@@ -1976,24 +2038,21 @@
           "minuto": 29
         },
         {
-          "nombre": "Andre Schürrle",
+          "nombre": "Andre Sch├╝rrle",
           "minuto": 69
         },
         {
-          "nombre": "Andre Schürrle",
+          "nombre": "Andre Sch├╝rrle",
           "minuto": 79
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Mineirão, Belo Horizonte"
+      "numeroPartido": 61
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Semi-finals",
       "fecha": "2014-07-09",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Netherlands",
-      "equipoVisitante": "Argentina",
       "marcador": {
         "p": [
           2,
@@ -2012,18 +2071,19 @@
           0
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [],
       "grupo": null,
-      "estadio": "Arena de São Paulo, São Paulo"
+      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "equipo1": "Netherlands",
+      "equipo2": "Argentina",
+      "goles1": [],
+      "goles2": [],
+      "numeroPartido": 62
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Match for third place",
       "fecha": "2014-07-12",
       "hora": "17:00 UTC-3",
-      "equipoLocal": "Brazil",
-      "equipoVisitante": "Netherlands",
       "marcador": {
         "ft": [
           0,
@@ -2034,8 +2094,12 @@
           2
         ]
       },
-      "golesLocal": [],
-      "golesVisitante": [
+      "grupo": null,
+      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "equipo1": "Brazil",
+      "equipo2": "Netherlands",
+      "goles1": [],
+      "goles2": [
         {
           "nombre": "Robin Van Persie",
           "minuto": 3,
@@ -2051,16 +2115,13 @@
           "descuento": 1
         }
       ],
-      "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília"
+      "numeroPartido": 63
     },
     {
       "torneo": "World Cup 2014",
       "ronda": "Final",
       "fecha": "2014-07-13",
       "hora": "16:00 UTC-3",
-      "equipoLocal": "Germany",
-      "equipoVisitante": "Argentina",
       "marcador": {
         "et": [
           1,
@@ -2075,15 +2136,18 @@
           0
         ]
       },
-      "golesLocal": [
+      "grupo": null,
+      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "equipo1": "Germany",
+      "equipo2": "Argentina",
+      "goles1": [
         {
-          "nombre": "Mario Götze",
+          "nombre": "Mario G├Âtze",
           "minuto": 113
         }
       ],
-      "golesVisitante": [],
-      "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro"
+      "goles2": [],
+      "numeroPartido": 64
     }
   ]
 }

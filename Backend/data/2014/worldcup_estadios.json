@@ -7,7 +7,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 74738,
       "coordenadas": "22°54'44\"S 43°13'49\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Estádio Nacional (Mané Garrincha)",
@@ -15,7 +16,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 69432,
       "coordenadas": "15°47'0.60\"S 47°53'56.99\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena Corinthians",
@@ -23,7 +25,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 63321,
       "coordenadas": "23°32'42.9\"S 46°28'27.4\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Estádio Castelão",
@@ -31,7 +34,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 60348,
       "coordenadas": "3°48'26\"S 38°31'21\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Estádio Mineirão",
@@ -39,7 +43,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 58259,
       "coordenadas": "19°51'57\"S 43°58'15\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena Fonte Nova",
@@ -47,7 +52,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 51708,
       "coordenadas": "12°58'43\"S 38°30'15\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Estádio Beira-Rio",
@@ -55,7 +61,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 43394,
       "coordenadas": "30°3'56.21\"S 51°14'9.91\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena Pernambuco",
@@ -63,7 +70,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 42583,
       "coordenadas": "08°02'26\"S 35°00'30\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena das Dunas",
@@ -71,7 +79,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 39971,
       "coordenadas": "5.826936°S 35.212371°W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena da Baixada",
@@ -79,7 +88,8 @@
       "zonaHoraria": "UTC-3",
       "capacidad": 39631,
       "coordenadas": "25°26'54\"S 49°16'37\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena Pantanal",
@@ -87,7 +97,8 @@
       "zonaHoraria": "UTC-4",
       "capacidad": 41112,
       "coordenadas": "",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     },
     {
       "nombre": "Arena da Amazônia",
@@ -95,7 +106,8 @@
       "zonaHoraria": "UTC-4",
       "capacidad": 40549,
       "coordenadas": "3°4'59\"S 60°1'41\"W",
-      "torneo": "World Cup 2014"
+      "torneo": "World Cup 2014",
+      "año": 2014
     }
   ]
 }
