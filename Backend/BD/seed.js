@@ -31,6 +31,17 @@ const poblarBaseDeDatos = async () => {
 
     // Limpiar colecciones del año anterior
     console.log(`Limpiando colecciones del año ${ANIO}...`);
+
+    // Sincronizar índices: elimina los viejos unique y crea los nuevos compuestos
+    await Promise.all([
+      Estadio.syncIndexes(),
+      Equipo.syncIndexes(),
+      Jugador.syncIndexes(),
+      Grupo.syncIndexes(),
+      Partido.syncIndexes()
+    ]);
+    console.log("Índices sincronizados.");
+
     await Promise.all([
       Estadio.deleteMany({ año: ANIO }),
       Equipo.deleteMany({ año: ANIO }),

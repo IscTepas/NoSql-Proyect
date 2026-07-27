@@ -5,9 +5,8 @@ const GrupoSchema = new mongoose.Schema(
     nombre: {
       type: String,
       required: true,
-      unique: true,
       trim: true,
-      index: true // ej: "Group A"
+      index: true
     },
     torneo: {
       type: String,
@@ -37,6 +36,8 @@ const GrupoSchema = new mongoose.Schema(
     timestamps: true
   }
 );
+
+GrupoSchema.index({ nombre: 1, año: 1 });
 
 const Grupo = mongoose.model("Grupo", GrupoSchema);
 

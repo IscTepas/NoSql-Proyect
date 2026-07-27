@@ -22,7 +22,6 @@ const EquipoSchema = new mongoose.Schema(
     fifaCode: {
       type: String,
       required: true,
-      unique: true,
       uppercase: true,
       trim: true
     },
@@ -48,6 +47,8 @@ const EquipoSchema = new mongoose.Schema(
     timestamps: true
   }
 );
+
+EquipoSchema.index({ fifaCode: 1, año: 1 });
 
 const Equipo = mongoose.model("Equipo", EquipoSchema);
 

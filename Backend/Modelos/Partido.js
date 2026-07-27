@@ -15,8 +15,7 @@ const PartidoSchema = new mongoose.Schema(
   {
     numeroPartido: {
       type: Number,
-      required: true,
-      unique: true
+      required: true
     },
     ronda: {
       type: String,
@@ -78,6 +77,8 @@ const PartidoSchema = new mongoose.Schema(
     timestamps: true
   }
 );
+
+PartidoSchema.index({ numeroPartido: 1, año: 1 });
 
 const Partido = mongoose.model("Partido", PartidoSchema);
 
