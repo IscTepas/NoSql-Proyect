@@ -53,11 +53,13 @@ const poblarBaseDeDatos = async () => {
     const equiposRaw = Array.isArray(teamsData) ? teamsData : (teamsData.teams || teamsData.equipos || []);
 
     const equiposFormateados = equiposRaw.map(team => ({
-      nombre: team.name || team.nombre,
-      bandera: team.flag_icon || team.bandera || "",
-      fifaCode: team.fifa_code || team.fifaCode,
-      iso2: team.iso2 || (team.fifa_code ? team.fifa_code.substring(0, 2) : "XX"),
-      grupo: team.group || team.grupo
+      nombre: team.nombre || team.name,
+      nombreNormalizado: team.nombreNormalizado || "",
+      continente: team.continente || "",
+      banderaIcono: team.banderaIcono || team.flag_icon || "",
+      fifaCode: team.fifaCode || team.fifa_code,
+      grupo: team.grupo || team.group,
+      confederacion: team.confederacion || ""
     }));
 
     const equiposDB = await Equipo.insertMany(equiposFormateados);

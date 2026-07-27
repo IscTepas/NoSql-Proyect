@@ -7,7 +7,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Users, MapPin, Calendar, Trophy, TrendingUp } from "lucide-react";
+import { Users, MapPin, Calendar, Trophy, TrendingUp, Target } from "lucide-react";
+import Flag from "@/components/Flag";
 import Link from "next/link";
 import { useMemo } from "react";
 
@@ -85,7 +86,7 @@ function MiniGroupTable({ grupo, partidos }: { grupo: Grupo; partidos: Partido[]
             <tr key={s.code} className={`border-b last:border-0 ${i < 2 ? "" : "text-muted-foreground"}`}>
               <td className="py-1 flex items-center gap-1.5">
                 <span className={`inline-block h-1.5 w-1.5 rounded-full ${i < 2 ? "bg-green-500" : i < 3 ? "bg-yellow-500" : "bg-red-400"}`} />
-                {s.equipo?.banderaIcono} {s.code}
+                <Flag code={s.code} size={20} /> {s.code}
               </td>
               <td className="text-center py-1">{s.pj}</td>
               <td className="text-center py-1 font-bold">{s.pts}</td>
@@ -102,23 +103,23 @@ function MatchCardSmall({ partido }: { partido: Partido }) {
   const played = partido.marcador.ft && partido.marcador.ft.length === 2;
   return (
     <Link href={`/partidos#${partido.numeroPartido}`}>
-      <div className="flex items-center justify-between rounded-lg border p-3 hover:bg-accent/50 transition-colors cursor-pointer">
-        <div className="flex items-center gap-2 min-w-0 flex-1">
-          <span className="text-lg">{partido.equipo1?.banderaIcono}</span>
-          <span className="text-sm font-medium truncate">{partido.equipo1?.fifaCode}</span>
+      <div className="flex items-center justify-between rounded-xl border border-border/60 p-3.5 hover:bg-accent/50 hover:shadow-md hover:shadow-black/[0.03] transition-all duration-200 cursor-pointer group">
+        <div className="flex items-center gap-2.5 min-w-0 flex-1">
+          <Flag code={partido.equipo1?.fifaCode} size={24} />
+          <span className="text-sm font-semibold truncate group-hover:text-primary transition-colors">{partido.equipo1?.fifaCode}</span>
         </div>
         <div className="flex flex-col items-center mx-3 shrink-0">
           {played ? (
-            <span className="text-sm font-bold">
+            <span className="text-sm font-bold bg-muted/80 px-2.5 py-0.5 rounded-md">
               {partido.marcador.ft[0]} - {partido.marcador.ft[1]}
             </span>
           ) : (
-            <span className="text-xs text-muted-foreground">{partido.hora?.split(" ")[0]}</span>
+            <span className="text-xs text-muted-foreground font-mono">{partido.hora?.split(" ")[0]}</span>
           )}
         </div>
         <div className="flex items-center gap-2 min-w-0 flex-1 justify-end">
-          <span className="text-sm font-medium truncate">{partido.equipo2?.fifaCode}</span>
-          <span className="text-lg">{partido.equipo2?.banderaIcono}</span>
+          <span className="text-sm font-semibold truncate group-hover:text-primary transition-colors">{partido.equipo2?.fifaCode}</span>
+          <Flag code={partido.equipo2?.fifaCode} size={24} />
         </div>
       </div>
       <p className="text-[10px] text-muted-foreground text-center mt-0.5">
@@ -154,7 +155,7 @@ export default function Home() {
 
   const topScorers = useMemo(() => {
     if (!partidos) return [];
-    const counts: Record<string, { nombre: string; equipo: string; bandera: string; goles: number }> = {};
+    const counts: Record<string, { nombre: string; equipo: string; goles: number }> = {};
 
     partidos.forEach((p) => {
       const addGoals = (gols: Partido["goles1"], team: Equipo | undefined) => {
@@ -165,7 +166,6 @@ export default function Home() {
             counts[g.nombre] = {
               nombre: g.nombre,
               equipo: team?.fifaCode || "",
-              bandera: team?.banderaIcono || "",
               goles: 0,
             };
           }
@@ -204,11 +204,12 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
-      <div className="text-center space-y-2">
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-          <span className="text-primary">FIFA</span> World Cup 2026
+      <div className="text-center space-y-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight">
+          <span className="bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent">FIFA</span>{" "}
+          <span className="text-foreground">World Cup 2026</span>
         </h1>
-        <p className="text-muted-foreground max-w-xl mx-auto">
+        <p className="text-muted-foreground max-w-xl mx-auto text-sm leading-relaxed">
           Estados Unidos &middot; Mexico &middot; Canada &mdash; 48 selecciones, 16 estadios, 104 partidos
         </p>
       </div>
@@ -223,7 +224,7 @@ export default function Home() {
       <Separator />
 
       <div className="grid md:grid-cols-2 gap-6">
-        <Card>
+        <Card className="border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300">
           <CardHeader className="pb-3">
             <CardTitle className="text-base flex items-center gap-2">
               <TrendingUp className="h-4 w-4 text-primary" />
@@ -238,7 +239,7 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300">
           <CardHeader className="pb-3">
             <CardTitle className="text-base flex items-center gap-2">
               <Calendar className="h-4 w-4 text-[var(--wc-gold)]" />
@@ -253,10 +254,10 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300">
           <CardHeader className="pb-3">
             <CardTitle className="text-base flex items-center gap-2">
-              <Trophy className="h-4 w-4 text-[var(--wc-gold)]" />
+              <Target className="h-4 w-4 text-[var(--wc-gold)]" />
               Goleadores Top
             </CardTitle>
           </CardHeader>
@@ -265,18 +266,18 @@ export default function Home() {
             {topScorers.map((s, i) => (
               <div key={s.nombre} className="flex items-center gap-3 py-1.5">
                 <span className="text-sm font-bold text-muted-foreground w-5 text-right">{i + 1}</span>
-                <span className="text-lg">{s.bandera}</span>
+                <Flag code={s.equipo} size={24} />
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium truncate">{s.nombre}</p>
                   <p className="text-xs text-muted-foreground">{s.equipo}</p>
                 </div>
-                <Badge variant="secondary" className="font-bold">{s.goles} ⚽</Badge>
+                <Badge variant="secondary" className="font-bold">{s.goles}</Badge>
               </div>
             ))}
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="border-border/60 shadow-sm hover:shadow-md transition-shadow duration-300">
           <CardHeader className="pb-3">
             <CardTitle className="text-base flex items-center gap-2">
               <Trophy className="h-4 w-4 text-[var(--wc-green)]" />

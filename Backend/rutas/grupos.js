@@ -6,7 +6,8 @@ const Grupo = require("../Modelos/Grupo");
 // GET - consultar todos los grupos
 router.get("/", async (req, res) => {
     try {
-        const grupos = await Grupo.find().populate("equipos.equipo");
+        // CAMBIO AQUÍ: .populate("equipos")
+        const grupos = await Grupo.find().populate("equipos");
         res.json({
             ok: true,
             data: grupos,
@@ -24,7 +25,8 @@ router.get("/", async (req, res) => {
 // GET - consultar grupo por ID
 router.get("/:id", async (req, res) => {
     try {
-        const grupo = await Grupo.findById(req.params.id).populate("equipos.equipo");
+        // CAMBIO AQUÍ: .populate("equipos")
+        const grupo = await Grupo.findById(req.params.id).populate("equipos");
         if (!grupo) {
             return res.status(404).json({
                 ok: false,
@@ -49,7 +51,8 @@ router.post("/", async (req, res) => {
     try {
         const nuevoGrupo = new Grupo(req.body);
         const grupoGuardado = await nuevoGrupo.save();
-        const grupoCompleto = await Grupo.findById(grupoGuardado._id).populate("equipos.equipo");
+        // CAMBIO AQUÍ: .populate("equipos")
+        const grupoCompleto = await Grupo.findById(grupoGuardado._id).populate("equipos");
 
         res.status(201).json({
             ok: true,
@@ -68,11 +71,12 @@ router.post("/", async (req, res) => {
 // PUT - Actualizar grupo
 router.put("/:id", async (req, res) => {
     try {
+        // CAMBIO AQUÍ: .populate("equipos")
         const grupoActualizado = await Grupo.findByIdAndUpdate(
             req.params.id,
             req.body,
             { new: true, runValidators: true }
-        ).populate("equipos.equipo");
+        ).populate("equipos");
 
         if (!grupoActualizado) {
             return res.status(404).json({
