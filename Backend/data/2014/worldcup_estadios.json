@@ -1,133 +1,101 @@
 {
-  "name": "World Cup 2026",
+  "name": "World Cup 2014",
   "estadios": [
     {
-      "nombre": "BC Place",
-      "ciudad": "Vancouver",
-      "capacidad": 54000,
-      "zonaHoraria": "UTC-7",
-      "codigoPais": "ca",
-      "coordenadas": "49°16'36\"N 123°6'43\"W"
+      "nombre": "Estádio do Maracanã",
+      "ciudad": "Rio de Janeiro",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 74738,
+      "coordenadas": "22°54'44\"S 43°13'49\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Lumen Field",
-      "ciudad": "Seattle",
-      "capacidad": 69000,
-      "zonaHoraria": "UTC-7",
-      "codigoPais": "us",
-      "coordenadas": "47°35'43\"N 122°19'54\"W"
+      "nombre": "Estádio Nacional (Mané Garrincha)",
+      "ciudad": "Brasília",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 69432,
+      "coordenadas": "15°47'0.60\"S 47°53'56.99\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Levi's Stadium",
-      "ciudad": "San Francisco Bay Area (Santa Clara)",
-      "capacidad": 71000,
-      "zonaHoraria": "UTC-7",
-      "codigoPais": "us",
-      "coordenadas": "37.403°N 121.970°W"
+      "nombre": "Arena Corinthians",
+      "ciudad": "São Paulo",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 63321,
+      "coordenadas": "23°32'42.9\"S 46°28'27.4\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "SoFi Stadium",
-      "ciudad": "Los Angeles (Inglewood)",
-      "capacidad": 70000,
-      "zonaHoraria": "UTC-7",
-      "codigoPais": "us",
-      "coordenadas": "33.953°N 118.339°W"
+      "nombre": "Estádio Castelão",
+      "ciudad": "Fortaleza",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 60348,
+      "coordenadas": "3°48'26\"S 38°31'21\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Estadio Akron",
-      "ciudad": "Guadalajara (Zapopan)",
-      "capacidad": 48000,
-      "zonaHoraria": "UTC-6",
-      "codigoPais": "mx",
-      "coordenadas": "20°40'54\"N 103°27'46\"W"
+      "nombre": "Estádio Mineirão",
+      "ciudad": "Belo Horizonte",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 58259,
+      "coordenadas": "19°51'57\"S 43°58'15\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Estadio Azteca",
-      "ciudad": "Mexico City",
-      "capacidad": 83000,
-      "zonaHoraria": "UTC-6",
-      "codigoPais": "mx",
-      "coordenadas": "19°18'11\"N 99°09'02\"W"
+      "nombre": "Arena Fonte Nova",
+      "ciudad": "Salvador",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 51708,
+      "coordenadas": "12°58'43\"S 38°30'15\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Estadio BBVA",
-      "ciudad": "Monterrey (Guadalupe)",
-      "capacidad": 53500,
-      "zonaHoraria": "UTC-6",
-      "codigoPais": "mx",
-      "coordenadas": "25°40'9\"N 100°14'40\"W"
+      "nombre": "Estádio Beira-Rio",
+      "ciudad": "Porto Alegre",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 43394,
+      "coordenadas": "30°3'56.21\"S 51°14'9.91\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "NRG Stadium",
-      "ciudad": "Houston",
-      "capacidad": 72000,
-      "zonaHoraria": "UTC-5",
-      "codigoPais": "us",
-      "coordenadas": "29°41'5\"N 95°24'39\"W"
+      "nombre": "Arena Pernambuco",
+      "ciudad": "Recife",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 42583,
+      "coordenadas": "08°02'26\"S 35°00'30\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "AT&T Stadium",
-      "ciudad": "Dallas (Arlington)",
-      "capacidad": 94000,
-      "zonaHoraria": "UTC-5",
-      "codigoPais": "us",
-      "coordenadas": "32°44'52\"N 97°5'34\"W"
+      "nombre": "Arena das Dunas",
+      "ciudad": "Natal",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 39971,
+      "coordenadas": "5.826936°S 35.212371°W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Arrowhead Stadium",
-      "ciudad": "Kansas City",
-      "capacidad": 73000,
-      "zonaHoraria": "UTC-5",
-      "codigoPais": "us",
-      "coordenadas": "39°2'56\"N 94°29'2\"W"
+      "nombre": "Arena da Baixada",
+      "ciudad": "Curitiba",
+      "zonaHoraria": "UTC-3",
+      "capacidad": 39631,
+      "coordenadas": "25°26'54\"S 49°16'37\"W",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Mercedes-Benz Stadium",
-      "ciudad": "Atlanta",
-      "capacidad": 75000,
+      "nombre": "Arena Pantanal",
+      "ciudad": "Cuiabá",
       "zonaHoraria": "UTC-4",
-      "codigoPais": "us",
-      "coordenadas": "33°45'20\"N 84°24'00\"W"
+      "capacidad": 41112,
+      "coordenadas": "",
+      "torneo": "World Cup 2014"
     },
     {
-      "nombre": "Hard Rock Stadium",
-      "ciudad": "Miami (Miami Gardens)",
-      "capacidad": 65000,
+      "nombre": "Arena da Amazônia",
+      "ciudad": "Manaus",
       "zonaHoraria": "UTC-4",
-      "codigoPais": "us",
-      "coordenadas": "25°57'29\"N 80°14'20\"W"
-    },
-    {
-      "nombre": "BMO Field",
-      "ciudad": "Toronto",
-      "capacidad": 45000,
-      "zonaHoraria": "UTC-4",
-      "codigoPais": "ca",
-      "coordenadas": "43°38'0\"N 79°25'07\"W"
-    },
-    {
-      "nombre": "Gillette Stadium",
-      "ciudad": "Boston (Foxborough)",
-      "capacidad": 65000,
-      "zonaHoraria": "UTC-4",
-      "codigoPais": "us",
-      "coordenadas": "42.091°N 71.264°W"
-    },
-    {
-      "nombre": "Lincoln Financial Field",
-      "ciudad": "Philadelphia",
-      "capacidad": 69000,
-      "zonaHoraria": "UTC-4",
-      "codigoPais": "us",
-      "coordenadas": "39°54'3\"N 75°10'3\"W"
-    },
-    {
-      "nombre": "MetLife Stadium",
-      "ciudad": "New York/New Jersey (East Rutherford)",
-      "capacidad": 82500,
-      "zonaHoraria": "UTC-4",
-      "codigoPais": "us",
-      "coordenadas": "40°48'48.7\"N 74°4'27.7\"W"
+      "capacidad": 40549,
+      "coordenadas": "3°4'59\"S 60°1'41\"W",
+      "torneo": "World Cup 2014"
     }
   ]
 }

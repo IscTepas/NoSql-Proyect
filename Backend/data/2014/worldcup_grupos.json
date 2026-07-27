@@ -1,124 +1,84 @@
 {
-  "name": "World Cup 2026",
+  "name": "World Cup 2014",
   "grupos": [
     {
       "nombre": "Group A",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
+        "Cameroon",
+        "Croatia",
         "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czech Republic"
+        "Brazil"
       ]
     },
     {
       "nombre": "Group B",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Canada",
-        "Bosnia & Herzegovina",
-        "Qatar",
-        "Switzerland"
+        "Spain",
+        "Netherlands",
+        "Australia",
+        "Chile"
       ]
     },
     {
       "nombre": "Group C",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
+        "Côte d'Ivoire",
+        "Japan",
+        "Greece",
+        "Colombia"
       ]
     },
     {
       "nombre": "Group D",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "USA",
-        "Paraguay",
-        "Australia",
-        "Turkey"
+        "Costa Rica",
+        "Italy",
+        "England",
+        "Uruguay"
       ]
     },
     {
       "nombre": "Group E",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Germany",
-        "Curaçao",
-        "Ivory Coast",
+        "Honduras",
+        "France",
+        "Switzerland",
         "Ecuador"
       ]
     },
     {
       "nombre": "Group F",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Netherlands",
-        "Japan",
-        "Sweden",
-        "Tunisia"
+        "Nigeria",
+        "Bosnia-Herzegovina",
+        "Iran",
+        "Argentina"
       ]
     },
     {
       "nombre": "Group G",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Belgium",
-        "Egypt",
-        "Iran",
-        "New Zealand"
+        "Ghana",
+        "Germany",
+        "Portugal",
+        "United States"
       ]
     },
     {
       "nombre": "Group H",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2014",
       "equiposNombres": [
-        "Spain",
-        "Cape Verde",
-        "Saudi Arabia",
-        "Uruguay"
-      ]
-    },
-    {
-      "nombre": "Group I",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
-      "nombre": "Group J",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Argentina",
         "Algeria",
-        "Austria",
-        "Jordan"
-      ]
-    },
-    {
-      "nombre": "Group K",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Portugal",
-        "DR Congo",
-        "Uzbekistan",
-        "Colombia"
-      ]
-    },
-    {
-      "nombre": "Group L",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
+        "South Korea",
+        "Belgium",
+        "Russia"
       ]
     }
   ]
