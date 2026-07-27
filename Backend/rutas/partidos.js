@@ -7,8 +7,8 @@ const Partido = require("../Modelos/Partido");
 router.get("/", async (req, res) => {
     try {
         const partidos = await Partido.find()
-            .populate("equipoLocal")
-            .populate("equipoVisitante")
+            .populate("equipo1")
+            .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
             .populate("estadio");
@@ -31,8 +31,8 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
     try {
         const partido = await Partido.findById(req.params.id)
-            .populate("equipoLocal")
-            .populate("equipoVisitante")
+            .populate("equipo1")
+            .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
             .populate("estadio");
@@ -64,8 +64,8 @@ router.post("/", async (req, res) => {
         const partidoGuardado = await nuevoPartido.save();
 
         const partidoCompleto = await Partido.findById(partidoGuardado._id)
-            .populate("equipoLocal")
-            .populate("equipoVisitante")
+            .populate("equipo1")
+            .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
             .populate("estadio");
@@ -92,8 +92,8 @@ router.put("/:id", async (req, res) => {
             req.body,
             { new: true, runValidators: true }
         )
-            .populate("equipoLocal")
-            .populate("equipoVisitante")
+            .populate("equipo1")
+            .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
             .populate("estadio");

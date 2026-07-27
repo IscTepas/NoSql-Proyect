@@ -1,5 +1,6 @@
 const mongoose = require("../conexion");
 
+// Schema para los goles anotados
 const GolSchema = new mongoose.Schema(
   {
     nombre: { type: String, trim: true },
@@ -13,7 +14,9 @@ const GolSchema = new mongoose.Schema(
 const PartidoSchema = new mongoose.Schema(
   {
     numeroPartido: {
-      type: Number
+      type: Number,
+      required: true,
+      unique: true
     },
     ronda: {
       type: String,
@@ -28,31 +31,42 @@ const PartidoSchema = new mongoose.Schema(
       type: String,
       trim: true
     },
+    // Referencias a los Equipos
     equipo1: {
-      type: String,
-      required: true,
-      trim: true
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Equipo",
+      required: true
     },
     equipo2: {
-      type: String,
-      required: true,
-      trim: true
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Equipo",
+      required: true
     },
+    equipoGanador: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Equipo",
+      default: null
+    },
+    // Estructura completa del marcador por tiempos
     marcador: {
-      ft: [{ type: Number }], // [goles_eq1, goles_eq2] Final Time
+      ft: [{ type: Number }], // Final Time [goles_eq1, goles_eq2]
       ht: [{ type: Number }], // Half Time
       et: [{ type: Number }], // Extra Time
       p: [{ type: Number }]   // Penaltis
     },
     goles1: [GolSchema],
     goles2: [GolSchema],
+    // Referencia al Grupo (puede ser null en fases eliminatorias)
     grupo: {
-      type: String,
-      trim: true
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Grupo",
+      default: null
     },
+    // Referencia al Estadio
     estadio: {
-      type: String,
-      trim: true
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Estadio",
+      default: null
     }
   },
   {

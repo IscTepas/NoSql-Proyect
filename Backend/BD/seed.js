@@ -12,9 +12,9 @@ const Partido = require("../Modelos/Partido");
 const teamsData = require("../data/worldcup_equipos.json");
 const squadsData = require("../data/worldcup_jugador.json");
 const stadiumsData = require("../data/worldcup_estadios.json");
+const matchesData = require("../data/worldcup.json"); // Tu archivo JSON completo
 
 const URI = process.env.MONGO_URI;
-const letrasGrupos = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"];
 
 const poblarBaseDeDatos = async () => {
   try {
@@ -22,7 +22,7 @@ const poblarBaseDeDatos = async () => {
     await mongoose.connect(URI);
     console.log("Conectado con éxito.");
 
-    // Limpiar colecciones
+    // Limpiar colecciones anteriores
     console.log("Limpiando colecciones...");
     await Promise.all([
       Estadio.deleteMany({}),
@@ -63,38 +63,54 @@ const poblarBaseDeDatos = async () => {
     const equiposDB = await Equipo.insertMany(equiposFormateados);
     console.log(`✅ ${equiposDB.length} equipos creados.`);
 
-// 3. Insertar Jugadores desde JSON plano
+// 3. Insertar Jugadores cumpliendo las validaciones del Schema
     console.log("Insertando Jugadores...");
-    const listaJugadores = [];
-    const jugadoresRaw = Array.isArray(squadsData) ? squadsData : [];
+    
+    const jugadoresRaw = Array.isArray(squadsData) 
+      ? squadsData 
+      : (squadsData.jugadores || squadsData.players || []);
 
-    // Mapear cada jugador y asignarle el _id de su equipo en la base de datos
+    // Función auxiliar para mapear cualquier formato de posición al ENUM ["GK", "DF", "MF", "FW"]
+    const normalizarPosicion = (pos) => {
+      if (!pos) return "DF";
+      const p = pos.toString().toUpperCase().trim();
+      if (["GK", "POR", "GOALKEEPER", "PORTERO", "ARQUERO"].includes(p)) return "GK";
+      if (["DF", "DEF", "DEFENDER", "DEFENSA"].includes(p)) return "DF";
+      if (["MF", "MED", "MIDFIELDER", "MEDIOCAMPISTA", "VOLANTE"].includes(p)) return "MF";
+      if (["FW", "DEL", "FORWARD", "DELANTERO", "ATACANTE"].includes(p)) return "FW";
+      return "DF"; // Valor por defecto válido
+    };
+
+    const listaJugadores = [];
+
     jugadoresRaw.forEach(p => {
-      // Buscar el _id de MongoDB del equipo correspondiente según el fifaCode
+      // Buscar equipo por fifaCode o por nombre
+      const code = (p.fifaCodeEquipo || p.fifaCode || "").toString().trim().toUpperCase();
       const equipoCorrespondiente = equiposDB.find(
-        e => e.fifaCode === p.fifaCodeEquipo
+        e => e.fifaCode.toUpperCase() === code || e.nombre.toLowerCase() === (p.equipo || "").toLowerCase()
       );
 
       listaJugadores.push({
         nombre: p.nombre || p.name || "Jugador Sin Nombre",
-        numero: p.numero || p.number || 0,
-        posicion: p.posicion || p.pos || "DF",
-        fechaNacimiento: p.fechaNacimiento || p.date_of_birth || "2000-01-01",
+        numero: Number(p.numero || p.number || p.shirtNumber || 0),
+        posicion: normalizarPosicion(p.posicion || p.pos || p.position),
+        fechaNacimiento: p.fechaNacimiento || p.date_of_birth ? new Date(p.fechaNacimiento || p.date_of_birth) : null,
         club: {
-          nombre: p.club ? (p.club.nombre || p.club.name || "") : "",
+          nombre: p.club ? (p.club.nombre || p.club.name || p.club) : "",
           pais: p.club ? (p.club.pais || p.club.country || "") : ""
         },
-        fifaCodeEquipo: p.fifaCodeEquipo,
+        fifaCodeEquipo: code || (equipoCorrespondiente ? equipoCorrespondiente.fifaCode : "XXX"),
         equipo: equipoCorrespondiente ? equipoCorrespondiente._id : null
       });
     });
 
     const jugadoresDB = await Jugador.insertMany(listaJugadores);
-    console.log(`✅ ${jugadoresDB.length} jugadores creados.`);
+    console.log(`✅ ${jugadoresDB.length} jugadores creados con éxito.`);
 
-    // 4. Crear Grupos y Partidos de Fase de Grupos
-    console.log("Creando Grupos y Partidos de Fase de Grupos...");
-    const partidosFaseGrupos = [];
+    // 4. Crear Grupos
+    console.log("Creando Grupos...");
+    const letrasGrupos = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"];
+    const gruposDB = [];
 
     for (const letra of letrasGrupos) {
       const equiposDelGrupo = equiposDB.filter(e => e.grupo === letra);
@@ -104,50 +120,84 @@ const poblarBaseDeDatos = async () => {
         nombre: letra,
         equipos: equiposIDs
       });
-
-      const combinaciones = [[0, 1], [2, 3], [0, 2], [1, 3], [0, 3], [1, 2]];
-      combinaciones.forEach((comb, idx) => {
-        if (equiposDelGrupo[comb[0]] && equiposDelGrupo[comb[1]]) {
-          const estadioAzar = estadiosDB.length > 0 
-            ? estadiosDB[Math.floor(Math.random() * estadiosDB.length)]._id 
-            : null;
-
-          partidosFaseGrupos.push({
-            fecha: new Date(2026, 5, 11 + idx * 3),
-            estadio: estadioAzar,
-            equipo1: equiposDelGrupo[comb[0]]._id,
-            equipo2: equiposDelGrupo[comb[1]]._id,
-            equipoLocal: equiposDelGrupo[comb[0]]._id,
-            equipoVisitante: equiposDelGrupo[comb[1]]._id,
-            ronda: "Fase de Grupos",
-            fase: "grupos",
-            jornada: Math.floor(idx / 2) + 1,
-            grupo: nuevoGrupo._id,
-            estado: "programado"
-          });
-        }
-      });
+      gruposDB.push(nuevoGrupo);
     }
+    console.log(`✅ ${gruposDB.length} grupos creados.`);
 
-    await Partido.insertMany(partidosFaseGrupos);
+// 5. Insertar Partidos desde worldcup.json
+    console.log("Insertando Partidos desde JSON...");
+    const partidosRaw = Array.isArray(matchesData) 
+      ? matchesData 
+      : (matchesData.partidos || []);
 
-    // 5. Partidos de Eliminatoria Directa
-    console.log("Insertando Partidos Eliminatorios...");
-    const estadioSede = estadiosDB.length > 0 ? estadiosDB[0]._id : null;
-    const equipoAuxiliar = equiposDB.length > 0 ? equiposDB[0]._id : null;
+    const partidosFormateados = partidosRaw.map(p => {
+      // Buscar ObjectId para Equipo 1 (por nombre o fifaCode)
+      const eq1 = equiposDB.find(e => 
+        e.nombre.toLowerCase() === (p.equipo1 || "").toLowerCase() || 
+        e.fifaCode === p.equipo1
+      );
 
-    const partidosEliminatoria = [
-      { ronda: "Dieciseisavos", fase: "dieciseisavos", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "1A", etiquetaVisitante: "2B", estadio: estadioSede, fecha: new Date(2026, 5, 28) },
-      { ronda: "Dieciseisavos", fase: "dieciseisavos", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "1C", etiquetaVisitante: "2D", estadio: estadioSede, fecha: new Date(2026, 5, 28) },
-      { ronda: "Octavos de Final", fase: "octavos", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "Ganador M73", etiquetaVisitante: "Ganador M74", estadio: estadioSede, fecha: new Date(2026, 6, 4) },
-      { ronda: "Cuartos de Final", fase: "cuartos", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "Ganador Octavos 1", etiquetaVisitante: "Ganador Octavos 2", estadio: estadioSede, fecha: new Date(2026, 6, 9) },
-      { ronda: "Semifinal", fase: "semifinal", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "Ganador Cuartos 1", etiquetaVisitante: "Ganador Cuartos 2", estadio: estadioSede, fecha: new Date(2026, 6, 14) },
-      { ronda: "Gran Final", fase: "final", equipo1: equipoAuxiliar, equipo2: equipoAuxiliar, etiquetaLocal: "Ganador Semifinal 1", etiquetaVisitante: "Ganador Semifinal 2", estadio: estadioSede, fecha: new Date(2026, 6, 19) }
-    ];
+      // Buscar ObjectId para Equipo 2 (por nombre o fifaCode)
+      const eq2 = equiposDB.find(e => 
+        e.nombre.toLowerCase() === (p.equipo2 || "").toLowerCase() || 
+        e.fifaCode === p.equipo2
+      );
 
-    await Partido.insertMany(partidosEliminatoria);
+      // Buscar ObjectId para Estadio
+      const estadioDB = estadiosDB.find(est => 
+        (p.estadio || "").toLowerCase().includes(est.ciudad.toLowerCase()) ||
+        est.nombre.toLowerCase().includes((p.estadio || "").toLowerCase())
+      );
 
-    console.log("\n🚀 ¡BASE DE DATOS POBLADA AL 100% DE FORMA AUTOMÁTICA!");
+      // Buscar ObjectId para Grupo (Ej. "Group A" -> "A")
+      const letraGrupo = p.grupo ? p.grupo.replace(/[^A-L]/g, "") : null;
+      const grupoDB = letraGrupo ? gruposDB.find(g => g.nombre === letraGrupo) : null;
+
+      // LÓGICA DE GANADOR: Revisa FT, ET y Penaltis
+      let ganadorId = null;
+      if (eq1 && eq2 && p.marcador) {
+        let g1 = p.marcador.ft ? p.marcador.ft[0] : 0;
+        let g2 = p.marcador.ft ? p.marcador.ft[1] : 0;
+
+        // Si hubo tiempo extra y no hubo penaltis, usar marcador de ET
+        if (p.marcador.et && p.marcador.et.length === 2) {
+          g1 = p.marcador.et[0];
+          g2 = p.marcador.et[1];
+        }
+
+        // Si hubo definición por penaltis
+        if (p.marcador.p && p.marcador.p.length === 2) {
+          g1 = p.marcador.p[0];
+          g2 = p.marcador.p[1];
+        }
+
+        if (g1 > g2) {
+          ganadorId = eq1._id;
+        } else if (g2 > g1) {
+          ganadorId = eq2._id;
+        }
+      }
+
+      return {
+        numeroPartido: p.numeroPartido,
+        ronda: p.ronda,
+        fecha: p.fecha,
+        hora: p.hora,
+        equipo1: eq1 ? eq1._id : null,
+        equipo2: eq2 ? eq2._id : null,
+        equipoGanador: ganadorId,
+        marcador: p.marcador || { ft: [], ht: [], et: [], p: [] },
+        goles1: p.goles1 || [],
+        goles2: p.goles2 || [],
+        grupo: grupoDB ? grupoDB._id : null,
+        estadio: estadioDB ? estadioDB._id : null
+      };
+    });
+
+    const partidosDB = await Partido.insertMany(partidosFormateados);
+    console.log(`✅ ${partidosDB.length} partidos guardados con éxito.`);
+
+    console.log("\n🚀 ¡BASE DE DATOS POBLADA AL 100% CON LA INFORMACIÓN COMPLETA!");
     process.exit(0);
   } catch (error) {
     console.error("❌ Error al poblar:", error);
