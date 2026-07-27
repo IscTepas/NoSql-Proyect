@@ -1,6 +1,13 @@
 require("dotenv").config({ quiet: true });
 const mongoose = require("mongoose");
 
+const anio = process.argv[2];
+if (!anio || isNaN(anio)) {
+  console.error("❌ Uso: node seed.js <año>  (ej: node seed.js 2026)");
+  process.exit(1);
+}
+const ANIO = Number(anio);
+
 // 1. Modelos
 const Estadio = require("../Modelos/Estadio");
 const Equipo = require("../Modelos/Equipo");
@@ -8,11 +15,11 @@ const Jugador = require("../Modelos/Jugador");
 const Grupo = require("../Modelos/Grupo");
 const Partido = require("../Modelos/Partido");
 
-// 2. Archivos JSON
-const teamsData = require("../data/worldcup_equipos.json");
-const squadsData = require("../data/worldcup_jugador.json");
-const stadiumsData = require("../data/worldcup_estadios.json");
-const matchesData = require("../data/worldcup.json"); // Tu archivo JSON completo
+// 2. Archivos JSON (desde carpeta del año)
+const teamsData = require(`../data/${ANIO}/worldcup_equipos.json`);
+const squadsData = require(`../data/${ANIO}/worldcup_jugador.json`);
+const stadiumsData = require(`../data/${ANIO}/worldcup_estadios.json`);
+const matchesData = require(`../data/${ANIO}/worldcup.json`);
 
 const URI = process.env.MONGO_URI;
 
@@ -22,14 +29,14 @@ const poblarBaseDeDatos = async () => {
     await mongoose.connect(URI);
     console.log("Conectado con éxito.");
 
-    // Limpiar colecciones anteriores
-    console.log("Limpiando colecciones...");
+    // Limpiar colecciones del año anterior
+    console.log(`Limpiando colecciones del año ${ANIO}...`);
     await Promise.all([
-      Estadio.deleteMany({}),
-      Equipo.deleteMany({}),
-      Jugador.deleteMany({}),
-      Grupo.deleteMany({}),
-      Partido.deleteMany({})
+      Estadio.deleteMany({ año: ANIO }),
+      Equipo.deleteMany({ año: ANIO }),
+      Jugador.deleteMany({ año: ANIO }),
+      Grupo.deleteMany({ año: ANIO }),
+      Partido.deleteMany({ año: ANIO })
     ]);
 
     // 1. Insertar Estadios
@@ -42,7 +49,8 @@ const poblarBaseDeDatos = async () => {
       nombre: stadium.name || stadium.nombre || "Estadio Sede",
       ciudad: stadium.city || stadium.ciudad || "Sede",
       pais: (stadium.cc === "mx" || stadium.pais === "México") ? "México" : (stadium.cc === "ca" || stadium.pais === "Canadá") ? "Canadá" : "Estados Unidos",
-      capacidad: stadium.capacity || stadium.capacidad || 50000
+      capacidad: stadium.capacity || stadium.capacidad || 50000,
+      año: ANIO
     }));
 
     const estadiosDB = await Estadio.insertMany(estadiosFormateados);
@@ -59,7 +67,8 @@ const poblarBaseDeDatos = async () => {
       banderaIcono: team.banderaIcono || team.flag_icon || "",
       fifaCode: team.fifaCode || team.fifa_code,
       grupo: team.grupo || team.group,
-      confederacion: team.confederacion || ""
+      confederacion: team.confederacion || "",
+      año: ANIO
     }));
 
     const equiposDB = await Equipo.insertMany(equiposFormateados);
@@ -102,7 +111,8 @@ const poblarBaseDeDatos = async () => {
           pais: p.club ? (p.club.pais || p.club.country || "") : ""
         },
         fifaCodeEquipo: code || (equipoCorrespondiente ? equipoCorrespondiente.fifaCode : "XXX"),
-        equipo: equipoCorrespondiente ? equipoCorrespondiente._id : null
+        equipo: equipoCorrespondiente ? equipoCorrespondiente._id : null,
+        año: ANIO
       });
     });
 
@@ -120,7 +130,9 @@ const poblarBaseDeDatos = async () => {
 
       const nuevoGrupo = await Grupo.create({
         nombre: letra,
-        equipos: equiposIDs
+        torneo: `World Cup ${ANIO}`,
+        equipos: equiposIDs,
+        año: ANIO
       });
       gruposDB.push(nuevoGrupo);
     }
@@ -192,7 +204,8 @@ const poblarBaseDeDatos = async () => {
         goles1: p.goles1 || [],
         goles2: p.goles2 || [],
         grupo: grupoDB ? grupoDB._id : null,
-        estadio: estadioDB ? estadioDB._id : null
+        estadio: estadioDB ? estadioDB._id : null,
+        año: ANIO
       };
     });
 

@@ -11,8 +11,12 @@ const GrupoSchema = new mongoose.Schema(
     },
     torneo: {
       type: String,
-      default: "World Cup 2026",
-      trim: true // Para identificar a qué mundial pertenece
+      trim: true
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     },
     // Guarda los nombres tal cual vienen en el JSON original: ["Mexico", "South Africa", ...]
     equiposNombres: [

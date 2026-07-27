@@ -27,6 +27,11 @@ const EstadioSchema = new mongoose.Schema(
     coordenadas: {
       type: String,
       trim: true
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     }
   },
   {

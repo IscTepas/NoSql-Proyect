@@ -47,6 +47,11 @@ const JugadorSchema = new mongoose.Schema(
     equipo: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Equipo"
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     }
   },
   {

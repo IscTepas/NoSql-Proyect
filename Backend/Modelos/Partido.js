@@ -67,6 +67,11 @@ const PartidoSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Estadio",
       default: null
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     }
   },
   {

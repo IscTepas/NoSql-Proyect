@@ -9,7 +9,8 @@
         "South Africa",
         "South Korea",
         "Czech Republic"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group B",
@@ -19,7 +20,8 @@
         "Bosnia & Herzegovina",
         "Qatar",
         "Switzerland"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group C",
@@ -29,7 +31,8 @@
         "Morocco",
         "Haiti",
         "Scotland"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group D",
@@ -39,7 +42,8 @@
         "Paraguay",
         "Australia",
         "Turkey"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group E",
@@ -49,7 +53,8 @@
         "Curaçao",
         "Ivory Coast",
         "Ecuador"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group F",
@@ -59,7 +64,8 @@
         "Japan",
         "Sweden",
         "Tunisia"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group G",
@@ -69,7 +75,8 @@
         "Egypt",
         "Iran",
         "New Zealand"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group H",
@@ -79,7 +86,8 @@
         "Cape Verde",
         "Saudi Arabia",
         "Uruguay"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group I",
@@ -89,7 +97,8 @@
         "Senegal",
         "Iraq",
         "Norway"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group J",
@@ -99,7 +108,8 @@
         "Algeria",
         "Austria",
         "Jordan"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group K",
@@ -109,7 +119,8 @@
         "DR Congo",
         "Uzbekistan",
         "Colombia"
-      ]
+      ],
+      "año": 2026
     },
     {
       "nombre": "Group L",
@@ -119,7 +130,8 @@
         "Croatia",
         "Ghana",
         "Panama"
-      ]
+      ],
+      "año": 2026
     }
   ]
 }

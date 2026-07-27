@@ -6,7 +6,8 @@
     "banderaIcono": "🇲🇽",
     "fifaCode": "MEX",
     "grupo": "A",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   },
   {
     "nombre": "South Africa",
@@ -15,7 +16,8 @@
     "banderaIcono": "🇿🇦",
     "fifaCode": "RSA",
     "grupo": "A",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "South Korea",
@@ -24,7 +26,8 @@
     "banderaIcono": "🇰🇷",
     "fifaCode": "KOR",
     "grupo": "A",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Czech Republic",
@@ -33,7 +36,8 @@
     "banderaIcono": "🇨🇿",
     "fifaCode": "CZE",
     "grupo": "A",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Canada",
@@ -42,7 +46,8 @@
     "banderaIcono": "🇨🇦",
     "fifaCode": "CAN",
     "grupo": "B",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   },
   {
     "nombre": "Bosnia & Herzegovina",
@@ -51,7 +56,8 @@
     "banderaIcono": "🇧🇦",
     "fifaCode": "BIH",
     "grupo": "B",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Qatar",
@@ -60,7 +66,8 @@
     "banderaIcono": "🇶🇦",
     "fifaCode": "QAT",
     "grupo": "B",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Switzerland",
@@ -69,7 +76,8 @@
     "banderaIcono": "🇨🇭",
     "fifaCode": "SUI",
     "grupo": "B",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Brazil",
@@ -78,7 +86,8 @@
     "banderaIcono": "🇧🇷",
     "fifaCode": "BRA",
     "grupo": "C",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "Morocco",
@@ -87,7 +96,8 @@
     "banderaIcono": "🇲🇦",
     "fifaCode": "MAR",
     "grupo": "C",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Haiti",
@@ -96,7 +106,8 @@
     "banderaIcono": "🇭🇹",
     "fifaCode": "HAI",
     "grupo": "C",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   },
   {
     "nombre": "Scotland",
@@ -105,7 +116,8 @@
     "banderaIcono": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "fifaCode": "SCO",
     "grupo": "C",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "USA",
@@ -114,7 +126,8 @@
     "banderaIcono": "🇺🇸",
     "fifaCode": "USA",
     "grupo": "D",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   },
   {
     "nombre": "Paraguay",
@@ -123,7 +136,8 @@
     "banderaIcono": "🇵🇾",
     "fifaCode": "PAR",
     "grupo": "D",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "Australia",
@@ -132,7 +146,8 @@
     "banderaIcono": "🇦🇺",
     "fifaCode": "AUS",
     "grupo": "D",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Turkey",
@@ -141,7 +156,8 @@
     "banderaIcono": "🇹🇷",
     "fifaCode": "TUR",
     "grupo": "D",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Germany",
@@ -150,7 +166,8 @@
     "banderaIcono": "🇩🇪",
     "fifaCode": "GER",
     "grupo": "E",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Curaçao",
@@ -159,7 +176,8 @@
     "banderaIcono": "🇨🇼",
     "fifaCode": "CUW",
     "grupo": "E",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   },
   {
     "nombre": "Ivory Coast",
@@ -168,7 +186,8 @@
     "banderaIcono": "🇨🇮",
     "fifaCode": "CIV",
     "grupo": "E",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Ecuador",
@@ -177,7 +196,8 @@
     "banderaIcono": "🇪🇨",
     "fifaCode": "ECU",
     "grupo": "E",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "Netherlands",
@@ -186,7 +206,8 @@
     "banderaIcono": "🇳🇱",
     "fifaCode": "NED",
     "grupo": "F",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Japan",
@@ -195,7 +216,8 @@
     "banderaIcono": "🇯🇵",
     "fifaCode": "JPN",
     "grupo": "F",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Sweden",
@@ -204,7 +226,8 @@
     "banderaIcono": "🇸🇪",
     "fifaCode": "SWE",
     "grupo": "F",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Tunisia",
@@ -213,7 +236,8 @@
     "banderaIcono": "🇹🇳",
     "fifaCode": "TUN",
     "grupo": "F",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Belgium",
@@ -222,7 +246,8 @@
     "banderaIcono": "🇧🇪",
     "fifaCode": "BEL",
     "grupo": "G",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Egypt",
@@ -231,7 +256,8 @@
     "banderaIcono": "🇪🇬",
     "fifaCode": "EGY",
     "grupo": "G",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Iran",
@@ -240,7 +266,8 @@
     "banderaIcono": "🇮🇷",
     "fifaCode": "IRN",
     "grupo": "G",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "New Zealand",
@@ -249,7 +276,8 @@
     "banderaIcono": "🇳🇿",
     "fifaCode": "NZL",
     "grupo": "G",
-    "confederacion": "OFC"
+    "confederacion": "OFC",
+    "año": 2026
   },
   {
     "nombre": "Spain",
@@ -258,7 +286,8 @@
     "banderaIcono": "🇪🇸",
     "fifaCode": "ESP",
     "grupo": "H",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Cape Verde",
@@ -267,7 +296,8 @@
     "banderaIcono": "🇨🇻",
     "fifaCode": "CPV",
     "grupo": "H",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Saudi Arabia",
@@ -276,7 +306,8 @@
     "banderaIcono": "🇸🇦",
     "fifaCode": "KSA",
     "grupo": "H",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Uruguay",
@@ -285,7 +316,8 @@
     "banderaIcono": "🇺🇾",
     "fifaCode": "URU",
     "grupo": "H",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "France",
@@ -294,7 +326,8 @@
     "banderaIcono": "🇫🇷",
     "fifaCode": "FRA",
     "grupo": "I",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Senegal",
@@ -303,7 +336,8 @@
     "banderaIcono": "🇸🇳",
     "fifaCode": "SEN",
     "grupo": "I",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Iraq",
@@ -312,7 +346,8 @@
     "banderaIcono": "🇮🇶",
     "fifaCode": "IRQ",
     "grupo": "I",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Norway",
@@ -321,7 +356,8 @@
     "banderaIcono": "🇳🇴",
     "fifaCode": "NOR",
     "grupo": "I",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Argentina",
@@ -330,7 +366,8 @@
     "banderaIcono": "🇦🇷",
     "fifaCode": "ARG",
     "grupo": "J",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "Algeria",
@@ -339,7 +376,8 @@
     "banderaIcono": "🇩🇿",
     "fifaCode": "ALG",
     "grupo": "J",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Austria",
@@ -348,7 +386,8 @@
     "banderaIcono": "🇦🇹",
     "fifaCode": "AUT",
     "grupo": "J",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Jordan",
@@ -357,7 +396,8 @@
     "banderaIcono": "🇯🇴",
     "fifaCode": "JOR",
     "grupo": "J",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Portugal",
@@ -366,7 +406,8 @@
     "banderaIcono": "🇵🇹",
     "fifaCode": "POR",
     "grupo": "K",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "DR Congo",
@@ -375,7 +416,8 @@
     "banderaIcono": "🇨🇩",
     "fifaCode": "COD",
     "grupo": "K",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Uzbekistan",
@@ -384,7 +426,8 @@
     "banderaIcono": "🇺🇿",
     "fifaCode": "UZB",
     "grupo": "K",
-    "confederacion": "AFC"
+    "confederacion": "AFC",
+    "año": 2026
   },
   {
     "nombre": "Colombia",
@@ -393,7 +436,8 @@
     "banderaIcono": "🇨🇴",
     "fifaCode": "COL",
     "grupo": "K",
-    "confederacion": "CONMEBOL"
+    "confederacion": "CONMEBOL",
+    "año": 2026
   },
   {
     "nombre": "England",
@@ -402,7 +446,8 @@
     "banderaIcono": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "fifaCode": "ENG",
     "grupo": "L",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Croatia",
@@ -411,7 +456,8 @@
     "banderaIcono": "🇭🇷",
     "fifaCode": "CRO",
     "grupo": "L",
-    "confederacion": "UEFA"
+    "confederacion": "UEFA",
+    "año": 2026
   },
   {
     "nombre": "Ghana",
@@ -420,7 +466,8 @@
     "banderaIcono": "🇬🇭",
     "fifaCode": "GHA",
     "grupo": "L",
-    "confederacion": "CAF"
+    "confederacion": "CAF",
+    "año": 2026
   },
   {
     "nombre": "Panama",
@@ -429,6 +476,7 @@
     "banderaIcono": "🇵🇦",
     "fifaCode": "PAN",
     "grupo": "L",
-    "confederacion": "CONCACAF"
+    "confederacion": "CONCACAF",
+    "año": 2026
   }
 ]

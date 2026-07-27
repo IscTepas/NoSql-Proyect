@@ -37,6 +37,11 @@ const EquipoSchema = new mongoose.Schema(
       type: String,
       trim: true,
       uppercase: true
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     }
   },
   {
