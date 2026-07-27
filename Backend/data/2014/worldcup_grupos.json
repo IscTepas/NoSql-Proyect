@@ -1,0 +1,125 @@
+{
+  "name": "World Cup 2026",
+  "grupos": [
+    {
+      "nombre": "Group A",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Mexico",
+        "South Africa",
+        "South Korea",
+        "Czech Republic"
+      ]
+    },
+    {
+      "nombre": "Group B",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Qatar",
+        "Switzerland"
+      ]
+    },
+    {
+      "nombre": "Group C",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland"
+      ]
+    },
+    {
+      "nombre": "Group D",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "USA",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ]
+    },
+    {
+      "nombre": "Group E",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Germany",
+        "Curaçao",
+        "Ivory Coast",
+        "Ecuador"
+      ]
+    },
+    {
+      "nombre": "Group F",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ]
+    },
+    {
+      "nombre": "Group G",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ]
+    },
+    {
+      "nombre": "Group H",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Spain",
+        "Cape Verde",
+        "Saudi Arabia",
+        "Uruguay"
+      ]
+    },
+    {
+      "nombre": "Group I",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "nombre": "Group J",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
+      ]
+    },
+    {
+      "nombre": "Group K",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "Portugal",
+        "DR Congo",
+        "Uzbekistan",
+        "Colombia"
+      ]
+    },
+    {
+      "nombre": "Group L",
+      "torneo": "World Cup 2026",
+      "equiposNombres": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    }
+  ]
+}
