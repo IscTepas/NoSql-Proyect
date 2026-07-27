@@ -1,124 +1,84 @@
 {
-  "name": "World Cup 2026",
+  "name": "World Cup 2022",
   "grupos": [
     {
       "nombre": "Group A",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czech Republic"
+        "Qatar",
+        "Ecuador",
+        "Senegal",
+        "Netherlands"
       ]
     },
     {
       "nombre": "Group B",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Canada",
-        "Bosnia & Herzegovina",
-        "Qatar",
-        "Switzerland"
+        "England",
+        "Iran",
+        "United States",
+        "Wales"
       ]
     },
     {
       "nombre": "Group C",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
+        "Argentina",
+        "Saudi Arabia",
+        "Mexico",
+        "Poland"
       ]
     },
     {
       "nombre": "Group D",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "USA",
-        "Paraguay",
-        "Australia",
-        "Turkey"
+        "Denmark",
+        "Tunisia",
+        "France",
+        "Australia"
       ]
     },
     {
       "nombre": "Group E",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
         "Germany",
-        "Curaçao",
-        "Ivory Coast",
-        "Ecuador"
+        "Japan",
+        "Spain",
+        "Costa Rica"
       ]
     },
     {
       "nombre": "Group F",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Netherlands",
-        "Japan",
-        "Sweden",
-        "Tunisia"
+        "Morocco",
+        "Croatia",
+        "Belgium",
+        "Canada"
       ]
     },
     {
       "nombre": "Group G",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Belgium",
-        "Egypt",
-        "Iran",
-        "New Zealand"
+        "Switzerland",
+        "Cameroon",
+        "Brazil",
+        "Serbia"
       ]
     },
     {
       "nombre": "Group H",
-      "torneo": "World Cup 2026",
+      "torneo": "World Cup 2022",
       "equiposNombres": [
-        "Spain",
-        "Cape Verde",
-        "Saudi Arabia",
-        "Uruguay"
-      ]
-    },
-    {
-      "nombre": "Group I",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
-      "nombre": "Group J",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "Argentina",
-        "Algeria",
-        "Austria",
-        "Jordan"
-      ]
-    },
-    {
-      "nombre": "Group K",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
+        "Uruguay",
+        "South Korea",
         "Portugal",
-        "DR Congo",
-        "Uzbekistan",
-        "Colombia"
-      ]
-    },
-    {
-      "nombre": "Group L",
-      "torneo": "World Cup 2026",
-      "equiposNombres": [
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
+        "Ghana"
       ]
     }
   ]

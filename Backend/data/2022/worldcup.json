@@ -1,1445 +1,17 @@
 {
-  "name": "World Cup 2026",
+  "name": "World Cup 2022",
   "partidos": [
     {
       "numeroPartido": 1,
       "ronda": "Matchday 1",
-      "fecha": "2026-06-11",
-      "hora": "13:00 UTC-6",
-      "equipo1": "Mexico",
-      "equipo2": "South Africa",
-      "marcador": {
-        "ft": [
-          2,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Julián Quiñones",
-          "minuto": "9",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Raúl Jiménez",
-          "minuto": "67",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group A",
-      "estadio": "Mexico City"
-    },
-    {
-      "numeroPartido": 2,
-      "ronda": "Matchday 1",
-      "fecha": "2026-06-11",
-      "hora": "20:00 UTC-6",
-      "equipo1": "South Korea",
-      "equipo2": "Czech Republic",
-      "marcador": {
-        "ft": [
-          2,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Hwang In-Beom",
-          "minuto": "67",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Oh Hyeon-Gyu",
-          "minuto": "80",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ladislav Krejcí",
-          "minuto": "59",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group A",
-      "estadio": "Guadalajara (Zapopan)"
-    },
-    {
-      "numeroPartido": 3,
-      "ronda": "Matchday 8",
-      "fecha": "2026-06-18",
-      "hora": "12:00 UTC-4",
-      "equipo1": "Czech Republic",
-      "equipo2": "South Africa",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Michal Sadílek",
-          "minuto": "6",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Teboho Mokoena",
-          "minuto": "83",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group A",
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 4,
-      "ronda": "Matchday 8",
-      "fecha": "2026-06-18",
-      "hora": "19:00 UTC-6",
-      "equipo1": "Mexico",
-      "equipo2": "South Korea",
-      "marcador": {
-        "ft": [
-          1,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Luis Romo",
-          "minuto": "50",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group A",
-      "estadio": "Guadalajara (Zapopan)"
-    },
-    {
-      "numeroPartido": 5,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "19:00 UTC-6",
-      "equipo1": "Czech Republic",
-      "equipo2": "Mexico",
-      "marcador": {
-        "ft": [
-          0,
-          3
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Mateo Chávez",
-          "minuto": "55",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Julián Quiñones",
-          "minuto": "61",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Álvaro Fidalgo",
-          "minuto": "90+4",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group A",
-      "estadio": "Mexico City"
-    },
-    {
-      "numeroPartido": 6,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "19:00 UTC-6",
-      "equipo1": "South Africa",
-      "equipo2": "South Korea",
-      "marcador": {
-        "ft": [
-          1,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Thapelo Maseko",
-          "minuto": "63",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group A",
-      "estadio": "Monterrey (Guadalupe)"
-    },
-    {
-      "numeroPartido": 7,
-      "ronda": "Matchday 2",
-      "fecha": "2026-06-12",
-      "hora": "15:00 UTC-4",
-      "equipo1": "Canada",
-      "equipo2": "Bosnia & Herzegovina",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Cyle Larin",
-          "minuto": "78",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Jovo Lukić",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group B",
-      "estadio": "Toronto"
-    },
-    {
-      "numeroPartido": 8,
-      "ronda": "Matchday 3",
-      "fecha": "2026-06-13",
-      "hora": "12:00 UTC-7",
+      "fecha": "2022-11-20",
+      "hora": "19:00 UTC+3",
       "equipo1": "Qatar",
-      "equipo2": "Switzerland",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Miro Muheim",
-          "minuto": "90+4",
-          "penalti": false,
-          "autogol": true
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Breel Embolo",
-          "minuto": "17",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group B",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
-    },
-    {
-      "numeroPartido": 9,
-      "ronda": "Matchday 8",
-      "fecha": "2026-06-18",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Switzerland",
-      "equipo2": "Bosnia & Herzegovina",
-      "marcador": {
-        "ft": [
-          4,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Johan Manzambi",
-          "minuto": "74",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Johan Manzambi",
-          "minuto": "90",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Rubén Vargas",
-          "minuto": "84",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Granit Xhaka",
-          "minuto": "90+7",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ermin Mahmic",
-          "minuto": "90+3",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group B",
-      "estadio": "Los Angeles (Inglewood)"
-    },
-    {
-      "numeroPartido": 10,
-      "ronda": "Matchday 8",
-      "fecha": "2026-06-18",
-      "hora": "15:00 UTC-7",
-      "equipo1": "Canada",
-      "equipo2": "Qatar",
-      "marcador": {
-        "ft": [
-          6,
-          0
-        ],
-        "ht": [
-          3,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Cyle Larin",
-          "minuto": "16",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jonathan David",
-          "minuto": "29",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jonathan David",
-          "minuto": "45+3",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Nathan Saliba",
-          "minuto": "64",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mohamed Manai",
-          "minuto": "75",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Jonathan David",
-          "minuto": "90+2",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group B",
-      "estadio": "Vancouver"
-    },
-    {
-      "numeroPartido": 11,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Switzerland",
-      "equipo2": "Canada",
-      "marcador": {
-        "ft": [
-          2,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Rubén Vargas",
-          "minuto": "46",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Johan Manzambi",
-          "minuto": "57",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Promise David",
-          "minuto": "76",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group B",
-      "estadio": "Vancouver"
-    },
-    {
-      "numeroPartido": 12,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Bosnia & Herzegovina",
-      "equipo2": "Qatar",
-      "marcador": {
-        "ft": [
-          3,
-          1
-        ],
-        "ht": [
-          2,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Kerim Alajbegovic",
-          "minuto": "29",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mahmoud Abunada",
-          "minuto": "34",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Ermin Mahmic",
-          "minuto": "80",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Hassan Al-Haydos",
-          "minuto": "42",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group B",
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 13,
-      "ronda": "Matchday 3",
-      "fecha": "2026-06-13",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Brazil",
-      "equipo2": "Morocco",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Vinícius Júnior",
-          "minuto": "32",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ismael Saibari",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group C",
-      "estadio": "New York/New Jersey (East Rutherford)"
-    },
-    {
-      "numeroPartido": 14,
-      "ronda": "Matchday 3",
-      "fecha": "2026-06-13",
-      "hora": "21:00 UTC-4",
-      "equipo1": "Haiti",
-      "equipo2": "Scotland",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "John McGinn",
-          "minuto": "28",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group C",
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 15,
-      "ronda": "Matchday 9",
-      "fecha": "2026-06-19",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Scotland",
-      "equipo2": "Morocco",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Ismael Saibari",
-          "minuto": "2",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group C",
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 16,
-      "ronda": "Matchday 9",
-      "fecha": "2026-06-19",
-      "hora": "20:30 UTC-4",
-      "equipo1": "Brazil",
-      "equipo2": "Haiti",
-      "marcador": {
-        "ft": [
-          3,
-          0
-        ],
-        "ht": [
-          3,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Matheus Cunha",
-          "minuto": "23",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Matheus Cunha",
-          "minuto": "36",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Vinícius Júnior",
-          "minuto": "45+3",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group C",
-      "estadio": "Philadelphia"
-    },
-    {
-      "numeroPartido": 17,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Scotland",
-      "equipo2": "Brazil",
-      "marcador": {
-        "ft": [
-          0,
-          3
-        ],
-        "ht": [
-          0,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Vinícius Júnior",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Vinícius Júnior",
-          "minuto": "45+3",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Matheus Cunha",
-          "minuto": "60",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group C",
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 18,
-      "ronda": "Matchday 14",
-      "fecha": "2026-06-24",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Morocco",
-      "equipo2": "Haiti",
-      "marcador": {
-        "ft": [
-          4,
-          2
-        ],
-        "ht": [
-          2,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Achraf Hakimi",
-          "minuto": "39",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ismael Saibari",
-          "minuto": "45+1",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Soufiane Rahimi",
-          "minuto": "78",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Gessime Yassine",
-          "minuto": "89",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Yassine Bounou",
-          "minuto": "10",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Wilson Isidor",
-          "minuto": "43",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group C",
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 19,
-      "ronda": "Matchday 2",
-      "fecha": "2026-06-12",
-      "hora": "18:00 UTC-7",
-      "equipo1": "USA",
-      "equipo2": "Paraguay",
-      "marcador": {
-        "ft": [
-          4,
-          1
-        ],
-        "ht": [
-          3,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Damian Bobadilla",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Folarin Balogun",
-          "minuto": "31",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Folarin Balogun",
-          "minuto": "45+5",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Giovanni Reyna",
-          "minuto": "90+8",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Mauricio",
-          "minuto": "73",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group D",
-      "estadio": "Los Angeles (Inglewood)"
-    },
-    {
-      "numeroPartido": 20,
-      "ronda": "Matchday 3",
-      "fecha": "2026-06-13",
-      "hora": "21:00 UTC-7",
-      "equipo1": "Australia",
-      "equipo2": "Turkey",
-      "marcador": {
-        "ft": [
-          2,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Nestory Irankunda",
-          "minuto": "27",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Connor Metcalfe",
-          "minuto": "75",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group D",
-      "estadio": "Vancouver"
-    },
-    {
-      "numeroPartido": 21,
-      "ronda": "Matchday 9",
-      "fecha": "2026-06-19",
-      "hora": "12:00 UTC-7",
-      "equipo1": "USA",
-      "equipo2": "Australia",
-      "marcador": {
-        "ft": [
-          2,
-          0
-        ],
-        "ht": [
-          2,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Cameron Burgess",
-          "minuto": "11",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Alex Freeman",
-          "minuto": "43",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group D",
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 22,
-      "ronda": "Matchday 9",
-      "fecha": "2026-06-19",
-      "hora": "20:00 UTC-7",
-      "equipo1": "Turkey",
-      "equipo2": "Paraguay",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Matías Galarza",
-          "minuto": "2",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group D",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
-    },
-    {
-      "numeroPartido": 23,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "19:00 UTC-7",
-      "equipo1": "Turkey",
-      "equipo2": "USA",
-      "marcador": {
-        "ft": [
-          3,
-          2
-        ],
-        "ht": [
-          2,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Arda Güler",
-          "minuto": "10",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Baris Alper Yilmaz",
-          "minuto": "31",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kaan Ayhan",
-          "minuto": "90+8",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Auston Trusty",
-          "minuto": "3",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Sebastian Berhalter",
-          "minuto": "49",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group D",
-      "estadio": "Los Angeles (Inglewood)"
-    },
-    {
-      "numeroPartido": 24,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "19:00 UTC-7",
-      "equipo1": "Paraguay",
-      "equipo2": "Australia",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group D",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
-    },
-    {
-      "numeroPartido": 25,
-      "ronda": "Matchday 4",
-      "fecha": "2026-06-14",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Germany",
-      "equipo2": "Curaçao",
-      "marcador": {
-        "ft": [
-          7,
-          1
-        ],
-        "ht": [
-          3,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Felix Nmecha",
-          "minuto": "6",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Nico Schlotterbeck",
-          "minuto": "38",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kai Havertz",
-          "minuto": "45+5",
-          "penalti": true,
-          "autogol": false
-        },
-        {
-          "nombre": "Kai Havertz",
-          "minuto": "88",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jamal Musiala",
-          "minuto": "47",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Nathaniel Brown",
-          "minuto": "68",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Deniz Undav",
-          "minuto": "78",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Livano Comenencia",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group E",
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 26,
-      "ronda": "Matchday 4",
-      "fecha": "2026-06-14",
-      "hora": "19:00 UTC-4",
-      "equipo1": "Ivory Coast",
       "equipo2": "Ecuador",
       "marcador": {
         "ft": [
-          1,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Amad Diallo",
-          "minuto": "90",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group E",
-      "estadio": "Philadelphia"
-    },
-    {
-      "numeroPartido": 27,
-      "ronda": "Matchday 10",
-      "fecha": "2026-06-20",
-      "hora": "16:00 UTC-4",
-      "equipo1": "Germany",
-      "equipo2": "Ivory Coast",
-      "marcador": {
-        "ft": [
-          2,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Deniz Undav",
-          "minuto": "68",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Deniz Undav",
-          "minuto": "90+4",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Franck Kessié",
-          "minuto": "30",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group E",
-      "estadio": "Toronto"
-    },
-    {
-      "numeroPartido": 28,
-      "ronda": "Matchday 10",
-      "fecha": "2026-06-20",
-      "hora": "19:00 UTC-5",
-      "equipo1": "Ecuador",
-      "equipo2": "Curaçao",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group E",
-      "estadio": "Kansas City"
-    },
-    {
-      "numeroPartido": 29,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "16:00 UTC-4",
-      "equipo1": "Curaçao",
-      "equipo2": "Ivory Coast",
-      "marcador": {
-        "ft": [
           0,
           2
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Nicolas Pépé",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Nicolas Pépé",
-          "minuto": "64",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group E",
-      "estadio": "Philadelphia"
-    },
-    {
-      "numeroPartido": 30,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "16:00 UTC-4",
-      "equipo1": "Ecuador",
-      "equipo2": "Germany",
-      "marcador": {
-        "ft": [
-          2,
-          1
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Nilson Angulo",
-          "minuto": "9",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Gonzalo Plata",
-          "minuto": "77",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Leroy Sané",
-          "minuto": "2",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group E",
-      "estadio": "New York/New Jersey (East Rutherford)"
-    },
-    {
-      "numeroPartido": 31,
-      "ronda": "Matchday 4",
-      "fecha": "2026-06-14",
-      "hora": "15:00 UTC-5",
-      "equipo1": "Netherlands",
-      "equipo2": "Japan",
-      "marcador": {
-        "ft": [
-          2,
-          2
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Virgil van Dijk",
-          "minuto": "51",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Crysencio Summerville",
-          "minuto": "64",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Keito Nakamura",
-          "minuto": "57",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Daichi Kamada",
-          "minuto": "88",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group F",
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 32,
-      "ronda": "Matchday 4",
-      "fecha": "2026-06-14",
-      "hora": "20:00 UTC-6",
-      "equipo1": "Sweden",
-      "equipo2": "Tunisia",
-      "marcador": {
-        "ft": [
-          5,
-          1
-        ],
-        "ht": [
-          2,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Yasin Ayari",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Yasin Ayari",
-          "minuto": "90+6",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Alexander Isak",
-          "minuto": "30",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Viktor Gyökeres",
-          "minuto": "59",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mattias Svanberg",
-          "minuto": "84",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Omar Rekik",
-          "minuto": "43",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group F",
-      "estadio": "Monterrey (Guadalupe)"
-    },
-    {
-      "numeroPartido": 33,
-      "ronda": "Matchday 10",
-      "fecha": "2026-06-20",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Netherlands",
-      "equipo2": "Sweden",
-      "marcador": {
-        "ft": [
-          5,
-          1
-        ],
-        "ht": [
-          2,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Brian Brobbey",
-          "minuto": "5",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Brian Brobbey",
-          "minuto": "17",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Cody Gakpo",
-          "minuto": "47",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Cody Gakpo",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Crysencio Summerville",
-          "minuto": "89",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Anthony Elanga",
-          "minuto": "59",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group F",
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 34,
-      "ronda": "Matchday 10",
-      "fecha": "2026-06-20",
-      "hora": "22:00 UTC-6",
-      "equipo1": "Tunisia",
-      "equipo2": "Japan",
-      "marcador": {
-        "ft": [
-          0,
-          4
         ],
         "ht": [
           0,
@@ -1451,220 +23,32 @@
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Daichi Kamada",
-          "minuto": "4",
-          "penalti": false,
+          "nombre": "Enner Valencia",
+          "minuto": "16",
+          "penalti": true,
           "autogol": false
         },
         {
-          "nombre": "Ayase Ueda",
+          "nombre": "Enner Valencia",
           "minuto": "31",
           "penalti": false,
           "autogol": false
-        },
-        {
-          "nombre": "Ayase Ueda",
-          "minuto": "83",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Junya Ito",
-          "minuto": "69",
-          "penalti": false,
-          "autogol": false
         }
       ],
-      "grupo": "Group F",
-      "estadio": "Monterrey (Guadalupe)"
+      "grupo": "Group A",
+      "estadio": "Al Bayt Stadium"
     },
     {
-      "numeroPartido": 35,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "18:00 UTC-5",
-      "equipo1": "Japan",
-      "equipo2": "Sweden",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Daizen Maeda",
-          "minuto": "56",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Anthony Elanga",
-          "minuto": "62",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group F",
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 36,
-      "ronda": "Matchday 15",
-      "fecha": "2026-06-25",
-      "hora": "18:00 UTC-5",
-      "equipo1": "Tunisia",
+      "numeroPartido": 2,
+      "ronda": "Matchday 2",
+      "fecha": "2022-11-21",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Senegal",
       "equipo2": "Netherlands",
       "marcador": {
         "ft": [
-          1,
-          3
-        ],
-        "ht": [
           0,
           2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Hazem Mastouri",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ellyes Skhiri",
-          "minuto": "3",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Brian Brobbey",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jan Paul van Hecke",
-          "minuto": "62",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group F",
-      "estadio": "Kansas City"
-    },
-    {
-      "numeroPartido": 37,
-      "ronda": "Matchday 5",
-      "fecha": "2026-06-15",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Belgium",
-      "equipo2": "Egypt",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Mohamed Hany",
-          "minuto": "66",
-          "penalti": false,
-          "autogol": true
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Emam Ashour",
-          "minuto": "19",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group G",
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 38,
-      "ronda": "Matchday 5",
-      "fecha": "2026-06-15",
-      "hora": "18:00 UTC-7",
-      "equipo1": "Iran",
-      "equipo2": "New Zealand",
-      "marcador": {
-        "ft": [
-          2,
-          2
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Ramin Rezaeian",
-          "minuto": "32",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mohammad Mohebbi",
-          "minuto": "64",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Elijah Just",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Elijah Just",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group G",
-      "estadio": "Los Angeles (Inglewood)"
-    },
-    {
-      "numeroPartido": 39,
-      "ronda": "Matchday 11",
-      "fecha": "2026-06-21",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Belgium",
-      "equipo2": "Iran",
-      "marcador": {
-        "ft": [
-          0,
-          0
         ],
         "ht": [
           0,
@@ -1674,1077 +58,203 @@
         "p": []
       },
       "goles1": [],
-      "goles2": [],
-      "grupo": "Group G",
-      "estadio": "Los Angeles (Inglewood)"
-    },
-    {
-      "numeroPartido": 40,
-      "ronda": "Matchday 11",
-      "fecha": "2026-06-21",
-      "hora": "18:00 UTC-7",
-      "equipo1": "New Zealand",
-      "equipo2": "Egypt",
-      "marcador": {
-        "ft": [
-          1,
-          3
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Finn Surman",
-          "minuto": "15",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
       "goles2": [
         {
-          "nombre": "Mostafa Zico",
-          "minuto": "58",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mohamed Salah",
-          "minuto": "67",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Trézéguet",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group G",
-      "estadio": "Vancouver"
-    },
-    {
-      "numeroPartido": 41,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "20:00 UTC-7",
-      "equipo1": "Egypt",
-      "equipo2": "Iran",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Mahmoud Saber",
-          "minuto": "5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ramin Rezaeian",
-          "minuto": "14",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group G",
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 42,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "20:00 UTC-7",
-      "equipo1": "New Zealand",
-      "equipo2": "Belgium",
-      "marcador": {
-        "ft": [
-          1,
-          5
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Elijah Just",
+          "nombre": "Cody Gakpo",
           "minuto": "84",
           "penalti": false,
           "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Leandro Trossard",
-          "minuto": "28",
-          "penalti": false,
-          "autogol": false
         },
         {
-          "nombre": "Leandro Trossard",
-          "minuto": "50",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kevin De Bruyne",
-          "minuto": "66",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Romelu Lukaku",
-          "minuto": "86",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Alexis Saelemaekers",
-          "minuto": "90+4",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group G",
-      "estadio": "Vancouver"
-    },
-    {
-      "numeroPartido": 43,
-      "ronda": "Matchday 5",
-      "fecha": "2026-06-15",
-      "hora": "12:00 UTC-4",
-      "equipo1": "Spain",
-      "equipo2": "Cape Verde",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group H",
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 44,
-      "ronda": "Matchday 5",
-      "fecha": "2026-06-15",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Saudi Arabia",
-      "equipo2": "Uruguay",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Abdulelah Al-Amri",
-          "minuto": "41",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Maxi Araújo",
-          "minuto": "80",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group H",
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 45,
-      "ronda": "Matchday 11",
-      "fecha": "2026-06-21",
-      "hora": "12:00 UTC-4",
-      "equipo1": "Spain",
-      "equipo2": "Saudi Arabia",
-      "marcador": {
-        "ft": [
-          4,
-          0
-        ],
-        "ht": [
-          3,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Lamine Yamal",
-          "minuto": "10",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mikel Oyarzabal",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mikel Oyarzabal",
-          "minuto": "24",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Hassan Al-Tambakti",
-          "minuto": "49",
-          "penalti": false,
-          "autogol": true
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group H",
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 46,
-      "ronda": "Matchday 11",
-      "fecha": "2026-06-21",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Uruguay",
-      "equipo2": "Cape Verde",
-      "marcador": {
-        "ft": [
-          2,
-          2
-        ],
-        "ht": [
-          2,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Maxi Araújo",
-          "minuto": "44",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Agustín Cano",
-          "minuto": "45+6",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Kevin Pina",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Hélio Varela",
-          "minuto": "61",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group H",
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 47,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "19:00 UTC-5",
-      "equipo1": "Cape Verde",
-      "equipo2": "Saudi Arabia",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group H",
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 48,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "18:00 UTC-6",
-      "equipo1": "Uruguay",
-      "equipo2": "Spain",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Álex Baena",
-          "minuto": "42",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group H",
-      "estadio": "Guadalajara (Zapopan)"
-    },
-    {
-      "numeroPartido": 49,
-      "ronda": "Matchday 6",
-      "fecha": "2026-06-16",
-      "hora": "15:00 UTC-4",
-      "equipo1": "France",
-      "equipo2": "Senegal",
-      "marcador": {
-        "ft": [
-          3,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "66",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "90+6",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bradley Barcola",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ibrahim Mbaye",
-          "minuto": "90+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group I",
-      "estadio": "New York/New Jersey (East Rutherford)"
-    },
-    {
-      "numeroPartido": 50,
-      "ronda": "Matchday 6",
-      "fecha": "2026-06-16",
-      "hora": "18:00 UTC-4",
-      "equipo1": "Iraq",
-      "equipo2": "Norway",
-      "marcador": {
-        "ft": [
-          1,
-          4
-        ],
-        "ht": [
-          1,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Aymen Hussein",
-          "minuto": "39",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "29",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "43",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Leo Østigard",
-          "minuto": "76",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Aymen Hussein",
-          "minuto": "90+6",
-          "penalti": false,
-          "autogol": true
-        }
-      ],
-      "grupo": "Group I",
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 51,
-      "ronda": "Matchday 12",
-      "fecha": "2026-06-22",
-      "hora": "17:00 UTC-4",
-      "equipo1": "France",
-      "equipo2": "Iraq",
-      "marcador": {
-        "ft": [
-          3,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "14",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "66",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group I",
-      "estadio": "Philadelphia"
-    },
-    {
-      "numeroPartido": 52,
-      "ronda": "Matchday 12",
-      "fecha": "2026-06-22",
-      "hora": "20:00 UTC-4",
-      "equipo1": "Norway",
-      "equipo2": "Senegal",
-      "marcador": {
-        "ft": [
-          3,
-          2
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Marcus Holmgren Pedersen",
-          "minuto": "43",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "48",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "58",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ismaïla Sarr",
-          "minuto": "53",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ismaïla Sarr",
-          "minuto": "90+3",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group I",
-      "estadio": "New York/New Jersey (East Rutherford)"
-    },
-    {
-      "numeroPartido": 53,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "15:00 UTC-4",
-      "equipo1": "Norway",
-      "equipo2": "France",
-      "marcador": {
-        "ft": [
-          1,
-          4
-        ],
-        "ht": [
-          1,
-          3
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Thelo Aasgaard",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "20",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "32",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Désiré Doué",
-          "minuto": "90+4",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group I",
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 54,
-      "ronda": "Matchday 16",
-      "fecha": "2026-06-26",
-      "hora": "15:00 UTC-4",
-      "equipo1": "Senegal",
-      "equipo2": "Iraq",
-      "marcador": {
-        "ft": [
-          5,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Habib Diarra",
-          "minuto": "4",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ismaïla Sarr",
-          "minuto": "56",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Pape Gueye",
-          "minuto": "59",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Pape Gueye",
-          "minuto": "71",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Iliman Ndiaye",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group I",
-      "estadio": "Toronto"
-    },
-    {
-      "numeroPartido": 55,
-      "ronda": "Matchday 6",
-      "fecha": "2026-06-16",
-      "hora": "20:00 UTC-5",
-      "equipo1": "Argentina",
-      "equipo2": "Algeria",
-      "marcador": {
-        "ft": [
-          3,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "17",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "60",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "76",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group J",
-      "estadio": "Kansas City"
-    },
-    {
-      "numeroPartido": 56,
-      "ronda": "Matchday 6",
-      "fecha": "2026-06-16",
-      "hora": "21:00 UTC-7",
-      "equipo1": "Austria",
-      "equipo2": "Jordan",
-      "marcador": {
-        "ft": [
-          3,
-          1
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Romano Schmid",
-          "minuto": "21",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Yazan Al-Arab",
-          "minuto": "76",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Marko Arnautovic",
-          "minuto": "90+12",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Ali Olwan",
-          "minuto": "50",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group J",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
-    },
-    {
-      "numeroPartido": 57,
-      "ronda": "Matchday 12",
-      "fecha": "2026-06-22",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Argentina",
-      "equipo2": "Austria",
-      "marcador": {
-        "ft": [
-          2,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "38",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "90+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group J",
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 58,
-      "ronda": "Matchday 12",
-      "fecha": "2026-06-22",
-      "hora": "20:00 UTC-7",
-      "equipo1": "Jordan",
-      "equipo2": "Algeria",
-      "marcador": {
-        "ft": [
-          1,
-          2
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Nizar Al-Rashdan",
-          "minuto": "36",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Nadhir Benbouali",
-          "minuto": "69",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Amine Gouiri",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group J",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
-    },
-    {
-      "numeroPartido": 59,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "21:00 UTC-5",
-      "equipo1": "Algeria",
-      "equipo2": "Austria",
-      "marcador": {
-        "ft": [
-          3,
-          3
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Rafik Belghali",
-          "minuto": "45",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Riyad Mahrez",
-          "minuto": "60",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Riyad Mahrez",
-          "minuto": "90+3",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Marko Arnautovic",
-          "minuto": "28",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Marcel Sabitzer",
-          "minuto": "55",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Sasa Kalajdzic",
-          "minuto": "90+6",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group J",
-      "estadio": "Kansas City"
-    },
-    {
-      "numeroPartido": 60,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "21:00 UTC-5",
-      "equipo1": "Jordan",
-      "equipo2": "Argentina",
-      "marcador": {
-        "ft": [
-          1,
-          3
-        ],
-        "ht": [
-          0,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Mousa Al-Tamari",
-          "minuto": "55",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Giovani Lo Celso",
-          "minuto": "19",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lautaro Martínez",
-          "minuto": "31",
-          "penalti": true,
-          "autogol": false
-        },
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "80",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group J",
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 61,
-      "ronda": "Matchday 7",
-      "fecha": "2026-06-17",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Portugal",
-      "equipo2": "DR Congo",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "João Neves",
-          "minuto": "6",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Yoane Wissa",
-          "minuto": "45+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group K",
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 62,
-      "ronda": "Matchday 7",
-      "fecha": "2026-06-17",
-      "hora": "20:00 UTC-6",
-      "equipo1": "Uzbekistan",
-      "equipo2": "Colombia",
-      "marcador": {
-        "ft": [
-          1,
-          3
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Abbosbek Fayzullaev",
-          "minuto": "60",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Daniel Muñoz",
-          "minuto": "40",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Luis Díaz",
-          "minuto": "65",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jáminton Campaz",
+          "nombre": "Davy Klaassen",
           "minuto": "90+9",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": "Group K",
-      "estadio": "Mexico City"
+      "grupo": "Group A",
+      "estadio": "Al Thumama Stadium"
     },
     {
-      "numeroPartido": 63,
-      "ronda": "Matchday 13",
-      "fecha": "2026-06-23",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Portugal",
-      "equipo2": "Uzbekistan",
+      "numeroPartido": 3,
+      "ronda": "Matchday 6",
+      "fecha": "2022-11-25",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Qatar",
+      "equipo2": "Senegal",
       "marcador": {
         "ft": [
-          5,
+          1,
+          3
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mohammed Muntari",
+          "minuto": "78",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Boulaye Dia",
+          "minuto": "41",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Famara Diédhiou",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Bamba Dieng",
+          "minuto": "84",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 4,
+      "ronda": "Matchday 6",
+      "fecha": "2022-11-25",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Netherlands",
+      "equipo2": "Ecuador",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
           0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Cody Gakpo",
+          "minuto": "6",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Enner Valencia",
+          "minuto": "49",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Khalifa International Stadium"
+    },
+    {
+      "numeroPartido": 5,
+      "ronda": "Matchday 10",
+      "fecha": "2022-11-29",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Ecuador",
+      "equipo2": "Senegal",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Moisés Caicedo",
+          "minuto": "67",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Ismaila Sarr",
+          "minuto": "44",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Koulibaly",
+          "minuto": "70",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Khalifa International Stadium"
+    },
+    {
+      "numeroPartido": 6,
+      "ronda": "Matchday 10",
+      "fecha": "2022-11-29",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Netherlands",
+      "equipo2": "Qatar",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Cody Gakpo",
+          "minuto": "26",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Frenkie de Jong",
+          "minuto": "49",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group A",
+      "estadio": "Al Bayt Stadium"
+    },
+    {
+      "numeroPartido": 7,
+      "ronda": "Matchday 2",
+      "fecha": "2022-11-21",
+      "hora": "16:00 UTC+3",
+      "equipo1": "England",
+      "equipo2": "Iran",
+      "marcador": {
+        "ft": [
+          6,
+          2
         ],
         "ht": [
           3,
@@ -2755,300 +265,375 @@
       },
       "goles1": [
         {
-          "nombre": "Cristiano Ronaldo",
-          "minuto": "6",
+          "nombre": "Jude Bellingham",
+          "minuto": "35",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Cristiano Ronaldo",
+          "nombre": "Bukayo Saka",
+          "minuto": "43",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Bukayo Saka",
+          "minuto": "62",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Raheem Sterling",
+          "minuto": "45+1",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Marcus Rashford",
+          "minuto": "71",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Jack Grealish",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Mehdi Taremi",
+          "minuto": "65",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mehdi Taremi",
+          "minuto": "90+13",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Khalifa International Stadium"
+    },
+    {
+      "numeroPartido": 8,
+      "ronda": "Matchday 2",
+      "fecha": "2022-11-21",
+      "hora": "22:00 UTC+3",
+      "equipo1": "USA",
+      "equipo2": "Wales",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Timothy Weah",
+          "minuto": "36",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Gareth Bale",
+          "minuto": "82",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Ahmad bin Ali Stadium"
+    },
+    {
+      "numeroPartido": 9,
+      "ronda": "Matchday 6",
+      "fecha": "2022-11-25",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Wales",
+      "equipo2": "Iran",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Roozbeh Cheshmi",
+          "minuto": "90+8",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Ramin Rezaeian",
+          "minuto": "90+11",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Ahmad bin Ali Stadium"
+    },
+    {
+      "numeroPartido": 10,
+      "ronda": "Matchday 6",
+      "fecha": "2022-11-25",
+      "hora": "22:00 UTC+3",
+      "equipo1": "England",
+      "equipo2": "USA",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group B",
+      "estadio": "Al Bayt Stadium"
+    },
+    {
+      "numeroPartido": 11,
+      "ronda": "Matchday 10",
+      "fecha": "2022-11-29",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Wales",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          0,
+          3
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Rashford",
+          "minuto": "50",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Foden",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Rashford",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Ahmad bin Ali Stadium"
+    },
+    {
+      "numeroPartido": 12,
+      "ronda": "Matchday 10",
+      "fecha": "2022-11-29",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Iran",
+      "equipo2": "USA",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Pulisic",
+          "minuto": "38",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 13,
+      "ronda": "Matchday 3",
+      "fecha": "2022-11-22",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "Saudi Arabia",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Lionel Messi",
+          "minuto": "10",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Saleh Al Shehri",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Salem Al Dawsari",
+          "minuto": "53",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 14,
+      "ronda": "Matchday 3",
+      "fecha": "2022-11-22",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Mexico",
+      "equipo2": "Poland",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group C",
+      "estadio": "Stadium 974"
+    },
+    {
+      "numeroPartido": 15,
+      "ronda": "Matchday 7",
+      "fecha": "2022-11-26",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Poland",
+      "equipo2": "Saudi Arabia",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Piotr Zielinski",
           "minuto": "39",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Nuno Mendes",
-          "minuto": "17",
+          "nombre": "Robert Lewandowski",
+          "minuto": "82",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group C",
+      "estadio": "Education City Stadium"
+    },
+    {
+      "numeroPartido": 16,
+      "ronda": "Matchday 7",
+      "fecha": "2022-11-26",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "Mexico",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Lionel Messi",
+          "minuto": "64",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Abduvohid Nematov",
-          "minuto": "60",
-          "penalti": false,
-          "autogol": true
-        },
-        {
-          "nombre": "Rafael Leão",
+          "nombre": "Enzo Fernández",
           "minuto": "87",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [],
-      "grupo": "Group K",
-      "estadio": "Houston"
+      "grupo": "Group C",
+      "estadio": "Lusail Iconic Stadium"
     },
     {
-      "numeroPartido": 64,
-      "ronda": "Matchday 13",
-      "fecha": "2026-06-23",
-      "hora": "20:00 UTC-6",
-      "equipo1": "Colombia",
-      "equipo2": "DR Congo",
-      "marcador": {
-        "ft": [
-          1,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Daniel Muñoz",
-          "minuto": "76",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group K",
-      "estadio": "Guadalajara (Zapopan)"
-    },
-    {
-      "numeroPartido": 65,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "19:30 UTC-4",
-      "equipo1": "Colombia",
-      "equipo2": "Portugal",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group K",
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 66,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "19:30 UTC-4",
-      "equipo1": "DR Congo",
-      "equipo2": "Uzbekistan",
-      "marcador": {
-        "ft": [
-          3,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Yoane Wissa",
-          "minuto": "68",
-          "penalti": true,
-          "autogol": false
-        },
-        {
-          "nombre": "Fiston Mayele",
-          "minuto": "78",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Yoane Wissa",
-          "minuto": "90+1",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Eldor Shomurodov",
-          "minuto": "10",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group K",
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 67,
-      "ronda": "Matchday 7",
-      "fecha": "2026-06-17",
-      "hora": "15:00 UTC-5",
-      "equipo1": "England",
-      "equipo2": "Croatia",
-      "marcador": {
-        "ft": [
-          4,
-          2
-        ],
-        "ht": [
-          2,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Harry Kane",
-          "minuto": "12",
-          "penalti": true,
-          "autogol": false
-        },
-        {
-          "nombre": "Harry Kane",
-          "minuto": "42",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jude Bellingham",
-          "minuto": "47",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Marcus Rashford",
-          "minuto": "85",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Martin Baturina",
-          "minuto": "36",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Petar Musa",
-          "minuto": "45+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group L",
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 68,
-      "ronda": "Matchday 7",
-      "fecha": "2026-06-17",
-      "hora": "19:00 UTC-4",
-      "equipo1": "Ghana",
-      "equipo2": "Panama",
-      "marcador": {
-        "ft": [
-          1,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Caleb Yirenkyi",
-          "minuto": "90+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": "Group L",
-      "estadio": "Toronto"
-    },
-    {
-      "numeroPartido": 69,
-      "ronda": "Matchday 13",
-      "fecha": "2026-06-23",
-      "hora": "16:00 UTC-4",
-      "equipo1": "England",
-      "equipo2": "Ghana",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [],
-      "grupo": "Group L",
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 70,
-      "ronda": "Matchday 13",
-      "fecha": "2026-06-23",
-      "hora": "19:00 UTC-4",
-      "equipo1": "Panama",
-      "equipo2": "Croatia",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Ante Budimir",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": "Group L",
-      "estadio": "Toronto"
-    },
-    {
-      "numeroPartido": 71,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "17:00 UTC-4",
-      "equipo1": "Panama",
-      "equipo2": "England",
+      "numeroPartido": 17,
+      "ronda": "Matchday 11",
+      "fecha": "2022-11-30",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Poland",
+      "equipo2": "Argentina",
       "marcador": {
         "ft": [
           0,
@@ -3064,32 +649,290 @@
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Jude Bellingham",
-          "minuto": "62",
+          "nombre": "Mac Allister",
+          "minuto": "46",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Harry Kane",
+          "nombre": "Julián Álvarez",
           "minuto": "67",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": "Group L",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "grupo": "Group C",
+      "estadio": "Stadium 974"
     },
     {
-      "numeroPartido": 72,
-      "ronda": "Matchday 17",
-      "fecha": "2026-06-27",
-      "hora": "17:00 UTC-4",
-      "equipo1": "Croatia",
-      "equipo2": "Ghana",
+      "numeroPartido": 18,
+      "ronda": "Matchday 11",
+      "fecha": "2022-11-30",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Saudi Arabia",
+      "equipo2": "Mexico",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Salem Al Dawasari",
+          "minuto": "90+5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Henry Martín",
+          "minuto": "47",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Luis Chávez",
+          "minuto": "52",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 19,
+      "ronda": "Matchday 3",
+      "fecha": "2022-11-22",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Denmark",
+      "equipo2": "Tunisia",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group D",
+      "estadio": "Education City Stadium"
+    },
+    {
+      "numeroPartido": 20,
+      "ronda": "Matchday 3",
+      "fecha": "2022-11-22",
+      "hora": "22:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Australia",
+      "marcador": {
+        "ft": [
+          4,
+          1
+        ],
+        "ht": [
+          2,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Adrien Rabiot",
+          "minuto": "27",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Olivier Giroud",
+          "minuto": "32",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Olivier Giroud",
+          "minuto": "71",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kylian Mbappé",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Craig Goodwin",
+          "minuto": "9",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 21,
+      "ronda": "Matchday 7",
+      "fecha": "2022-11-26",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Tunisia",
+      "equipo2": "Australia",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Mitchell Duke",
+          "minuto": "23",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 22,
+      "ronda": "Matchday 7",
+      "fecha": "2022-11-26",
+      "hora": "19:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Denmark",
       "marcador": {
         "ft": [
           2,
           1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Kylian Mbappé",
+          "minuto": "61",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kylian Mbappé",
+          "minuto": "86",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Andreas Christensen",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Stadium 974"
+    },
+    {
+      "numeroPartido": 23,
+      "ronda": "Matchday 11",
+      "fecha": "2022-11-30",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Australia",
+      "equipo2": "Denmark",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mathew Leckie",
+          "minuto": "60",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group D",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 24,
+      "ronda": "Matchday 11",
+      "fecha": "2022-11-30",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Tunisia",
+      "equipo2": "France",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Wahbi Khazri",
+          "minuto": "58",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group D",
+      "estadio": "Education City Stadium"
+    },
+    {
+      "numeroPartido": 25,
+      "ronda": "Matchday 4",
+      "fecha": "2022-11-23",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Germany",
+      "equipo2": "Japan",
+      "marcador": {
+        "ft": [
+          1,
+          2
         ],
         "ht": [
           1,
@@ -3100,36 +943,103 @@
       },
       "goles1": [
         {
-          "nombre": "Petar Sucic",
-          "minuto": "31",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Nikola Vlasic",
-          "minuto": "83",
-          "penalti": false,
+          "nombre": "Ilkay Gündogan",
+          "minuto": "33",
+          "penalti": true,
           "autogol": false
         }
       ],
       "goles2": [
         {
-          "nombre": "Derrick Luckassen",
-          "minuto": "73",
+          "nombre": "Ritsu Doan",
+          "minuto": "75",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Takuma Asano",
+          "minuto": "83",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": "Group L",
-      "estadio": "Philadelphia"
+      "grupo": "Group E",
+      "estadio": "Khalifa International Stadium"
     },
     {
-      "numeroPartido": 73,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-28",
-      "hora": "12:00 UTC-7",
-      "equipo1": "South Africa",
-      "equipo2": "Canada",
+      "numeroPartido": 26,
+      "ronda": "Matchday 4",
+      "fecha": "2022-11-23",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Spain",
+      "equipo2": "Costa Rica",
+      "marcador": {
+        "ft": [
+          7,
+          0
+        ],
+        "ht": [
+          3,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Dani Olmo",
+          "minuto": "11",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Marco Asensio",
+          "minuto": "21",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Ferran Torres",
+          "minuto": "31",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Ferran Torres",
+          "minuto": "54",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Gavi",
+          "minuto": "74",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Carlos Soler",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Álvaro Morata",
+          "minuto": "90+2",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group E",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 27,
+      "ronda": "Matchday 8",
+      "fecha": "2022-11-27",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Japan",
+      "equipo2": "Costa Rica",
       "marcador": {
         "ft": [
           0,
@@ -3145,66 +1055,22 @@
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Stephan Eustáquio",
-          "minuto": "90+2",
+          "nombre": "Keysher Fuller",
+          "minuto": "81",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "grupo": "Group E",
+      "estadio": "Ahmad bin Ali Stadium"
     },
     {
-      "numeroPartido": 74,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-29",
-      "hora": "16:30 UTC-4",
-      "equipo1": "Germany",
-      "equipo2": "Paraguay",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [
-          1,
-          1
-        ],
-        "p": [
-          3,
-          4
-        ]
-      },
-      "goles1": [
-        {
-          "nombre": "Kai Havertz",
-          "minuto": "54",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Julio Enciso",
-          "minuto": "42",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Boston (Foxborough)"
-    },
-    {
-      "numeroPartido": 75,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-29",
-      "hora": "19:00 UTC-6",
-      "equipo1": "Netherlands",
-      "equipo2": "Morocco",
+      "numeroPartido": 28,
+      "ronda": "Matchday 8",
+      "fecha": "2022-11-27",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Spain",
+      "equipo2": "Germany",
       "marcador": {
         "ft": [
           1,
@@ -3214,41 +1080,35 @@
           0,
           0
         ],
-        "et": [
-          1,
-          1
-        ],
-        "p": [
-          2,
-          3
-        ]
+        "et": [],
+        "p": []
       },
       "goles1": [
         {
-          "nombre": "Cody Gakpo",
-          "minuto": "72",
+          "nombre": "Álvaro Morata",
+          "minuto": "62",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [
         {
-          "nombre": "Issa Diop",
-          "minuto": "90+1",
+          "nombre": "Niclas Füllkrug",
+          "minuto": "83",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Monterrey (Guadalupe)"
+      "grupo": "Group E",
+      "estadio": "Al Bayt Stadium"
     },
     {
-      "numeroPartido": 76,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-29",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Brazil",
-      "equipo2": "Japan",
+      "numeroPartido": 29,
+      "ronda": "Matchday 12",
+      "fecha": "2022-12-01",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Japan",
+      "equipo2": "Spain",
       "marcador": {
         "ft": [
           2,
@@ -3256,7 +1116,453 @@
         ],
         "ht": [
           0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Ritsu Dōan",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Ao Tanaka",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Álvaro Morata",
+          "minuto": "11",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Khalifa International Stadium"
+    },
+    {
+      "numeroPartido": 30,
+      "ronda": "Matchday 12",
+      "fecha": "2022-12-01",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Costa Rica",
+      "equipo2": "Germany",
+      "marcador": {
+        "ft": [
+          2,
+          4
+        ],
+        "ht": [
+          0,
           1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Yeltsin Tejeda",
+          "minuto": "58",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Juan Vargas",
+          "minuto": "70",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Serge Gnabry",
+          "minuto": "10",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kai Lukas Havertz",
+          "minuto": "73",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kai Lukas Havertz",
+          "minuto": "85",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Niclas Füllkrug",
+          "minuto": "89",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Al Bayt Stadium"
+    },
+    {
+      "numeroPartido": 31,
+      "ronda": "Matchday 4",
+      "fecha": "2022-11-23",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Morocco",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group F",
+      "estadio": "Al Bayt Stadium"
+    },
+    {
+      "numeroPartido": 32,
+      "ronda": "Matchday 4",
+      "fecha": "2022-11-23",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "Canada",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Michy Batshuayi",
+          "minuto": "44",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group F",
+      "estadio": "Ahmad bin Ali Stadium"
+    },
+    {
+      "numeroPartido": 33,
+      "ronda": "Matchday 8",
+      "fecha": "2022-11-27",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "Morocco",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Romain Saïss",
+          "minuto": "73",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Zakaria Aboukhlal",
+          "minuto": "90+2",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 34,
+      "ronda": "Matchday 8",
+      "fecha": "2022-11-27",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "Canada",
+      "marcador": {
+        "ft": [
+          4,
+          1
+        ],
+        "ht": [
+          2,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Andrej Kramarić",
+          "minuto": "36",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Marko Livaja",
+          "minuto": "44",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Andrej Kramarić",
+          "minuto": "70",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lovro Majer",
+          "minuto": "90+4",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Alphonso Davies",
+          "minuto": "2",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Khalifa International Stadium"
+    },
+    {
+      "numeroPartido": 35,
+      "ronda": "Matchday 12",
+      "fecha": "2022-12-01",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "Belgium",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group F",
+      "estadio": "Ahmad bin Ali Stadium"
+    },
+    {
+      "numeroPartido": 36,
+      "ronda": "Matchday 12",
+      "fecha": "2022-12-01",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Canada",
+      "equipo2": "Morocco",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          2
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Nayef Aguerd",
+          "minuto": "40",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Hakim Zyiech",
+          "minuto": "4",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Youssef En-Nesyri",
+          "minuto": "23",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 37,
+      "ronda": "Matchday 5",
+      "fecha": "2022-11-24",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Switzerland",
+      "equipo2": "Cameroon",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Breel Embolo",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group G",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 38,
+      "ronda": "Matchday 5",
+      "fecha": "2022-11-24",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "Serbia",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Richarlison",
+          "minuto": "62",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Richarlison",
+          "minuto": "73",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group G",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 39,
+      "ronda": "Matchday 9",
+      "fecha": "2022-11-28",
+      "hora": "13:00 UTC+3",
+      "equipo1": "Cameroon",
+      "equipo2": "Serbia",
+      "marcador": {
+        "ft": [
+          3,
+          3
+        ],
+        "ht": [
+          1,
+          2
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Jean-Charles Castelletto",
+          "minuto": "29",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Vincent Aboubakar",
+          "minuto": "63",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Jean-Eric Choupo-Moting",
+          "minuto": "66",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Strahinja Pavlović",
+          "minuto": "45+1",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Sergej Milinković-Savić",
+          "minuto": "45+3",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Aleksandar Mitrović",
+          "minuto": "53",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 40,
+      "ronda": "Matchday 9",
+      "fecha": "2022-11-28",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "Switzerland",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
         ],
         "et": [],
         "p": []
@@ -3264,85 +1570,29 @@
       "goles1": [
         {
           "nombre": "Casemiro",
-          "minuto": "56",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Gabriel Martinelli",
-          "minuto": "90+5",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Kaishu Sano",
-          "minuto": "29",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 77,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-30",
-      "hora": "17:00 UTC-4",
-      "equipo1": "France",
-      "equipo2": "Sweden",
-      "marcador": {
-        "ft": [
-          3,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "45",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "74",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bradley Barcola",
-          "minuto": "53",
+          "minuto": "83",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [],
-      "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "grupo": "Group G",
+      "estadio": "Stadium 974"
     },
     {
-      "numeroPartido": 78,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-30",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Ivory Coast",
-      "equipo2": "Norway",
+      "numeroPartido": 41,
+      "ronda": "Matchday 13",
+      "fecha": "2022-12-02",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Serbia",
+      "equipo2": "Switzerland",
       "marcador": {
         "ft": [
-          1,
-          2
+          2,
+          3
         ],
         "ht": [
-          0,
+          2,
           1
         ],
         "et": [],
@@ -3350,43 +1600,55 @@
       },
       "goles1": [
         {
-          "nombre": "Amad Diallo",
-          "minuto": "74",
+          "nombre": "Aleksandar Mitrović",
+          "minuto": "26",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Dušan Vlahović",
+          "minuto": "35",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [
         {
-          "nombre": "Antonio Nusa",
-          "minuto": "39",
+          "nombre": "Xherdan Shaqiri",
+          "minuto": "20",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Erling Haaland",
-          "minuto": "86",
+          "nombre": "Breel Embolo",
+          "minuto": "44",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Freuler",
+          "minuto": "48",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "grupo": "Group G",
+      "estadio": "Stadium 974"
     },
     {
-      "numeroPartido": 79,
-      "ronda": "Round of 32",
-      "fecha": "2026-06-30",
-      "hora": "19:00 UTC-6",
-      "equipo1": "Mexico",
-      "equipo2": "Ecuador",
+      "numeroPartido": 42,
+      "ronda": "Matchday 13",
+      "fecha": "2022-12-02",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Cameroon",
+      "equipo2": "Brazil",
       "marcador": {
         "ft": [
-          2,
+          1,
           0
         ],
         "ht": [
-          1,
+          0,
           0
         ],
         "et": [],
@@ -3394,173 +1656,48 @@
       },
       "goles1": [
         {
-          "nombre": "Julián Quiñones",
-          "minuto": "31",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Raúl Jiménez",
-          "minuto": "45+1",
+          "nombre": "Vincent Aboubakar",
+          "minuto": "90+2",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [],
-      "grupo": null,
-      "estadio": "Mexico City"
+      "grupo": "Group G",
+      "estadio": "Lusail Iconic Stadium"
     },
     {
-      "numeroPartido": 80,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-01",
-      "hora": "12:00 UTC-4",
-      "equipo1": "England",
-      "equipo2": "DR Congo",
+      "numeroPartido": 43,
+      "ronda": "Matchday 5",
+      "fecha": "2022-11-24",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Uruguay",
+      "equipo2": "South Korea",
       "marcador": {
         "ft": [
-          2,
-          1
-        ],
-        "ht": [
           0,
-          1
+          0
         ],
+        "ht": [],
         "et": [],
         "p": []
       },
-      "goles1": [
-        {
-          "nombre": "Harry Kane",
-          "minuto": "75",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Harry Kane",
-          "minuto": "86",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Brian Cipenga",
-          "minuto": "7",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 81,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-01",
-      "hora": "17:00 UTC-7",
-      "equipo1": "USA",
-      "equipo2": "Bosnia & Herzegovina",
-      "marcador": {
-        "ft": [
-          2,
-          0
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Folarin Balogun",
-          "minuto": "45",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Malik Tillman",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
+      "goles1": [],
       "goles2": [],
-      "grupo": null,
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "grupo": "Group H",
+      "estadio": "Education City Stadium"
     },
     {
-      "numeroPartido": 82,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-01",
-      "hora": "13:00 UTC-7",
-      "equipo1": "Belgium",
-      "equipo2": "Senegal",
-      "marcador": {
-        "ft": [
-          2,
-          2
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [
-          3,
-          2
-        ],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Romelu Lukaku",
-          "minuto": "86",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Youri Tielemans",
-          "minuto": "89",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Youri Tielemans",
-          "minuto": "120+5",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Habib Diarra",
-          "minuto": "25",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ismaïla Sarr",
-          "minuto": "51",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 83,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-02",
-      "hora": "19:00 UTC-4",
+      "numeroPartido": 44,
+      "ronda": "Matchday 5",
+      "fecha": "2022-11-24",
+      "hora": "19:00 UTC+3",
       "equipo1": "Portugal",
-      "equipo2": "Croatia",
+      "equipo2": "Ghana",
       "marcador": {
         "ft": [
-          2,
-          1
+          3,
+          2
         ],
         "ht": [
           0,
@@ -3572,85 +1709,110 @@
       "goles1": [
         {
           "nombre": "Cristiano Ronaldo",
-          "minuto": "68",
+          "minuto": "65",
           "penalti": true,
           "autogol": false
         },
         {
-          "nombre": "Gonçalo Ramos",
-          "minuto": "90+4",
+          "nombre": "João Félix",
+          "minuto": "78",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Rafael Leão",
+          "minuto": "80",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [
         {
-          "nombre": "Ivan Perisic",
-          "minuto": "53",
+          "nombre": "André Ayew",
+          "minuto": "73",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Osman Bukari",
+          "minuto": "89",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Toronto"
+      "grupo": "Group H",
+      "estadio": "Stadium 974"
     },
     {
-      "numeroPartido": 84,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-02",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Spain",
-      "equipo2": "Austria",
+      "numeroPartido": 45,
+      "ronda": "Matchday 9",
+      "fecha": "2022-11-28",
+      "hora": "16:00 UTC+3",
+      "equipo1": "South Korea",
+      "equipo2": "Ghana",
       "marcador": {
         "ft": [
-          3,
-          0
+          2,
+          3
         ],
         "ht": [
-          1,
-          0
+          0,
+          2
         ],
         "et": [],
         "p": []
       },
       "goles1": [
         {
-          "nombre": "Mikel Oyarzabal",
-          "minuto": "36",
+          "nombre": "Cho Gue-sung",
+          "minuto": "58",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Mikel Oyarzabal",
-          "minuto": "89",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Pedro Porro",
-          "minuto": "66",
+          "nombre": "Cho Gue-sung",
+          "minuto": "61",
           "penalti": false,
           "autogol": false
         }
       ],
-      "goles2": [],
-      "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "goles2": [
+        {
+          "nombre": "Mohammed Salisu",
+          "minuto": "24",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mohammed Kudus",
+          "minuto": "34",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mohammed Kudus",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Education City Stadium"
     },
     {
-      "numeroPartido": 85,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-02",
-      "hora": "20:00 UTC-7",
-      "equipo1": "Switzerland",
-      "equipo2": "Algeria",
+      "numeroPartido": 46,
+      "ronda": "Matchday 9",
+      "fecha": "2022-11-28",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Portugal",
+      "equipo2": "Uruguay",
       "marcador": {
         "ft": [
           2,
           0
         ],
         "ht": [
-          1,
+          0,
           0
         ],
         "et": [],
@@ -3658,92 +1820,205 @@
       },
       "goles1": [
         {
-          "nombre": "Breel Embolo",
+          "nombre": "Bruno Fernandes",
+          "minuto": "54",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Bruno Fernandes",
+          "minuto": "90+3",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group H",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 47,
+      "ronda": "Matchday 13",
+      "fecha": "2022-12-02",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Ghana",
+      "equipo2": "Uruguay",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Giorgian De Arrascaeta",
+          "minuto": "26",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Giorgian De Arrascaeta",
+          "minuto": "32",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 48,
+      "ronda": "Matchday 13",
+      "fecha": "2022-12-02",
+      "hora": "18:00 UTC+3",
+      "equipo1": "South Korea",
+      "equipo2": "Portugal",
+      "marcador": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Kim Young-gwon",
+          "minuto": "27",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Hwang Hee-chan",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Ricardo Horta",
+          "minuto": "5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 49,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-03",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Netherlands",
+      "equipo2": "USA",
+      "marcador": {
+        "ft": [
+          3,
+          1
+        ],
+        "ht": [
+          2,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Memphis Depay",
           "minuto": "10",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Dan Ndoye",
-          "minuto": "46",
+          "nombre": "Daley Blind",
+          "minuto": "45+1",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Denzel Dumfries",
+          "minuto": "81",
           "penalti": false,
           "autogol": false
         }
       ],
-      "goles2": [],
-      "grupo": null,
-      "estadio": "Vancouver"
+      "goles2": [
+        {
+          "nombre": "Haji Wright",
+          "minuto": "76",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Khalifa International Stadium"
     },
     {
-      "numeroPartido": 86,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-03",
-      "hora": "18:00 UTC-4",
+      "numeroPartido": 50,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-03",
+      "hora": "22:00 UTC+3",
       "equipo1": "Argentina",
-      "equipo2": "Cape Verde",
+      "equipo2": "Australia",
       "marcador": {
         "ft": [
-          1,
+          2,
           1
         ],
         "ht": [
           1,
           0
         ],
-        "et": [
-          3,
-          2
-        ],
+        "et": [],
         "p": []
       },
       "goles1": [
         {
           "nombre": "Lionel Messi",
-          "minuto": "29",
+          "minuto": "35",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Lisandro Martínez",
-          "minuto": "92",
+          "nombre": "Julián Álvarez",
+          "minuto": "57",
           "penalti": false,
           "autogol": false
-        },
+        }
+      ],
+      "goles2": [
         {
-          "nombre": "Diney Borges",
-          "minuto": "111",
+          "nombre": "Enzo Fernández",
+          "minuto": "77",
           "penalti": false,
           "autogol": true
         }
       ],
-      "goles2": [
-        {
-          "nombre": "Deroy Duarte",
-          "minuto": "59",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Sidny Lopes Cabral",
-          "minuto": "103",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
+      "grupo": "",
+      "estadio": "Ahmad bin Ali Stadium"
     },
     {
-      "numeroPartido": 87,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-03",
-      "hora": "20:30 UTC-5",
-      "equipo1": "Colombia",
-      "equipo2": "Ghana",
+      "numeroPartido": 51,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-04",
+      "hora": "18:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Poland",
       "marcador": {
         "ft": [
-          1,
-          0
+          3,
+          1
         ],
         "ht": [
           1,
@@ -3754,148 +2029,49 @@
       },
       "goles1": [
         {
-          "nombre": "Jhon Arias",
-          "minuto": "14",
+          "nombre": "Olivier Giroud",
+          "minuto": "44",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mbappé",
+          "minuto": "74",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mbappé",
+          "minuto": "90+1",
           "penalti": false,
           "autogol": false
         }
       ],
-      "goles2": [],
-      "grupo": null,
-      "estadio": "Kansas City"
+      "goles2": [
+        {
+          "nombre": "Robert Lewandowski",
+          "minuto": "90+9",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Al Thumama Stadium"
     },
     {
-      "numeroPartido": 88,
-      "ronda": "Round of 32",
-      "fecha": "2026-07-03",
-      "hora": "13:00 UTC-5",
-      "equipo1": "Australia",
-      "equipo2": "Egypt",
+      "numeroPartido": 52,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-04",
+      "hora": "22:00 UTC+3",
+      "equipo1": "England",
+      "equipo2": "Senegal",
       "marcador": {
         "ft": [
-          1,
-          1
+          3,
+          0
         ],
         "ht": [
-          0,
-          1
-        ],
-        "et": [
-          1,
-          1
-        ],
-        "p": [
           2,
-          4
-        ]
-      },
-      "goles1": [
-        {
-          "nombre": "Mohamed Hany",
-          "minuto": "55",
-          "penalti": false,
-          "autogol": true
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Emam Ashour",
-          "minuto": "13",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 89,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-04",
-      "hora": "17:00 UTC-4",
-      "equipo1": "Paraguay",
-      "equipo2": "France",
-      "marcador": {
-        "ft": [
-          0,
-          1
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Kylian Mbappé",
-          "minuto": "70",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Philadelphia"
-    },
-    {
-      "numeroPartido": 90,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-04",
-      "hora": "12:00 UTC-5",
-      "equipo1": "Canada",
-      "equipo2": "Morocco",
-      "marcador": {
-        "ft": [
-          0,
-          3
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Azzedine Ounahi",
-          "minuto": "50",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Azzedine Ounahi",
-          "minuto": "82",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Soufiane Rahimi",
-          "minuto": "90+8",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Houston"
-    },
-    {
-      "numeroPartido": 91,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-05",
-      "hora": "16:00 UTC-4",
-      "equipo1": "Brazil",
-      "equipo2": "Norway",
-      "marcador": {
-        "ft": [
-          1,
-          2
-        ],
-        "ht": [
-          0,
           0
         ],
         "et": [],
@@ -3903,206 +2079,210 @@
       },
       "goles1": [
         {
-          "nombre": "Neymar",
-          "minuto": "90+10",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "79",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Erling Haaland",
-          "minuto": "90",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
-    },
-    {
-      "numeroPartido": 92,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-05",
-      "hora": "18:00 UTC-6",
-      "equipo1": "Mexico",
-      "equipo2": "England",
-      "marcador": {
-        "ft": [
-          2,
-          3
-        ],
-        "ht": [
-          1,
-          2
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Julián Quiñones",
-          "minuto": "42",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Raúl Jiménez",
-          "minuto": "69",
-          "penalti": true,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Jude Bellingham",
-          "minuto": "36",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jude Bellingham",
+          "nombre": "Jordan Henderson",
           "minuto": "38",
           "penalti": false,
           "autogol": false
         },
         {
           "nombre": "Harry Kane",
-          "minuto": "60",
-          "penalti": true,
+          "minuto": "45+3",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Bukayo Saka",
+          "minuto": "57",
+          "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Mexico City"
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Al Bayt Stadium"
     },
     {
-      "numeroPartido": 93,
+      "numeroPartido": 53,
       "ronda": "Round of 16",
-      "fecha": "2026-07-06",
-      "hora": "14:00 UTC-5",
-      "equipo1": "Portugal",
-      "equipo2": "Spain",
+      "fecha": "2022-12-05",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Japan",
+      "equipo2": "Croatia",
       "marcador": {
         "ft": [
-          0,
+          1,
           1
         ],
         "ht": [
-          0,
+          1,
+          0
+        ],
+        "et": [
+          1,
+          1
+        ],
+        "p": [
+          1,
+          3
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Daizen Maeda",
+          "minuto": "43",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Ivan Perišić",
+          "minuto": "55",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Al Janoub Stadium"
+    },
+    {
+      "numeroPartido": 54,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-05",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "South Korea",
+      "marcador": {
+        "ft": [
+          4,
+          1
+        ],
+        "ht": [
+          4,
           0
         ],
         "et": [],
         "p": []
       },
-      "goles1": [],
-      "goles2": [
+      "goles1": [
         {
-          "nombre": "Mikel Merino",
-          "minuto": "90+1",
+          "nombre": "Vinícius Jr.",
+          "minuto": "7",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Neymar",
+          "minuto": "13",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Richarlison",
+          "minuto": "29",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lucas Paquetá",
+          "minuto": "36",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "goles2": [
+        {
+          "nombre": "Paik Seung-ho",
+          "minuto": "76",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Stadium 974"
     },
     {
-      "numeroPartido": 94,
+      "numeroPartido": 55,
       "ronda": "Round of 16",
-      "fecha": "2026-07-06",
-      "hora": "17:00 UTC-7",
-      "equipo1": "USA",
-      "equipo2": "Belgium",
+      "fecha": "2022-12-06",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Morocco",
+      "equipo2": "Spain",
       "marcador": {
         "ft": [
-          1,
-          4
+          0,
+          0
         ],
         "ht": [
-          1,
-          2
+          0,
+          0
+        ],
+        "et": [
+          0,
+          0
+        ],
+        "p": [
+          3,
+          0
+        ]
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Education City Stadium"
+    },
+    {
+      "numeroPartido": 56,
+      "ronda": "Round of 16",
+      "fecha": "2022-12-06",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Portugal",
+      "equipo2": "Switzerland",
+      "marcador": {
+        "ft": [
+          6,
+          1
+        ],
+        "ht": [
+          2,
+          0
         ],
         "et": [],
         "p": []
       },
       "goles1": [
         {
-          "nombre": "Malik Tillman",
-          "minuto": "31",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Charles De Ketelaere",
-          "minuto": "9",
+          "nombre": "Gonçalo Ramos",
+          "minuto": "17",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Charles De Ketelaere",
+          "nombre": "Gonçalo Ramos",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Gonçalo Ramos",
+          "minuto": "67",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Pepe",
           "minuto": "33",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Hans Vanaken",
-          "minuto": "57",
+          "nombre": "Raphaël Guerreiro",
+          "minuto": "55",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Romelu Lukaku",
-          "minuto": "90+3",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Seattle"
-    },
-    {
-      "numeroPartido": 95,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-07",
-      "hora": "12:00 UTC-4",
-      "equipo1": "Argentina",
-      "equipo2": "Egypt",
-      "marcador": {
-        "ft": [
-          3,
-          2
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Cristian Romero",
-          "minuto": "79",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lionel Messi",
-          "minuto": "83",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Enzo Fernández",
+          "nombre": "Rafael Leão",
           "minuto": "90+2",
           "penalti": false,
           "autogol": false
@@ -4110,28 +2290,22 @@
       ],
       "goles2": [
         {
-          "nombre": "Yasser Ibrahim",
-          "minuto": "15",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Mostafa Zico",
-          "minuto": "67",
+          "nombre": "Manuel Akanji",
+          "minuto": "58",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Atlanta"
+      "grupo": "",
+      "estadio": "Lusail Iconic Stadium"
     },
     {
-      "numeroPartido": 96,
-      "ronda": "Round of 16",
-      "fecha": "2026-07-07",
-      "hora": "13:00 UTC-7",
-      "equipo1": "Switzerland",
-      "equipo2": "Colombia",
+      "numeroPartido": 57,
+      "ronda": "Quarter-finals",
+      "fecha": "2022-12-09",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "Brazil",
       "marcador": {
         "ft": [
           0,
@@ -4142,24 +2316,212 @@
           0
         ],
         "et": [
-          0,
-          0
+          1,
+          1
         ],
         "p": [
           4,
-          3
+          2
         ]
       },
-      "goles1": [],
-      "goles2": [],
-      "grupo": null,
-      "estadio": "Vancouver"
+      "goles1": [
+        {
+          "nombre": "Bruno Petković",
+          "minuto": "117",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Neymar",
+          "minuto": "105+1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Education City Stadium"
     },
     {
-      "numeroPartido": 97,
-      "ronda": "Quarter-final",
-      "fecha": "2026-07-09",
-      "hora": "16:00 UTC-4",
+      "numeroPartido": 58,
+      "ronda": "Quarter-finals",
+      "fecha": "2022-12-09",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Netherlands",
+      "equipo2": "Argentina",
+      "marcador": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [
+          2,
+          2
+        ],
+        "p": [
+          3,
+          4
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Wout Werghost",
+          "minuto": "83",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Wout Werghost",
+          "minuto": "90+11",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Nahuel Molina",
+          "minuto": "35",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lionel Messi",
+          "minuto": "73",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 59,
+      "ronda": "Quarter-finals",
+      "fecha": "2022-12-10",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Morocco",
+      "equipo2": "Portugal",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Youssef En-Nesyri",
+          "minuto": "42",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Al Thumama Stadium"
+    },
+    {
+      "numeroPartido": 60,
+      "ronda": "Quarter-finals",
+      "fecha": "2022-12-10",
+      "hora": "22:00 UTC+3",
+      "equipo1": "England",
+      "equipo2": "France",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Harry Kane",
+          "minuto": "54",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Aurelién Tchouaméni",
+          "minuto": "17",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Olivier Giroud",
+          "minuto": "78",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Al Bayt Stadium"
+    },
+    {
+      "numeroPartido": 61,
+      "ronda": "Semi-finals",
+      "fecha": "2022-12-13",
+      "hora": "22:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          3,
+          0
+        ],
+        "ht": [
+          2,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Lionel Messi",
+          "minuto": "34",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Julián Álvarez",
+          "minuto": "39",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Julián Álvarez",
+          "minuto": "69",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Lusail Iconic Stadium"
+    },
+    {
+      "numeroPartido": 62,
+      "ronda": "Semi-finals",
+      "fecha": "2022-12-14",
+      "hora": "22:00 UTC+3",
       "equipo1": "France",
       "equipo2": "Morocco",
       "marcador": {
@@ -4168,7 +2530,7 @@
           0
         ],
         "ht": [
-          0,
+          1,
           0
         ],
         "et": [],
@@ -4176,36 +2538,36 @@
       },
       "goles1": [
         {
-          "nombre": "Kylian Mbappé",
-          "minuto": "60",
+          "nombre": "Théo Hernandez",
+          "minuto": "5",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "66",
+          "nombre": "Kolo Muani",
+          "minuto": "79",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [],
-      "grupo": null,
-      "estadio": "Boston (Foxborough)"
+      "grupo": "",
+      "estadio": "Al Bayt Stadium"
     },
     {
-      "numeroPartido": 98,
-      "ronda": "Quarter-final",
-      "fecha": "2026-07-10",
-      "hora": "12:00 UTC-7",
-      "equipo1": "Spain",
-      "equipo2": "Belgium",
+      "numeroPartido": 63,
+      "ronda": "Match for third place",
+      "fecha": "2022-12-17",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "Morocco",
       "marcador": {
         "ft": [
           2,
           1
         ],
         "ht": [
-          1,
+          2,
           1
         ],
         "et": [],
@@ -4213,54 +2575,69 @@
       },
       "goles1": [
         {
-          "nombre": "Fabián Ruiz",
-          "minuto": "30",
+          "nombre": "Joško Gvardiol",
+          "minuto": "7",
           "penalti": false,
           "autogol": false
         },
         {
-          "nombre": "Mikel Merino",
-          "minuto": "88",
+          "nombre": "Mislav Oršić",
+          "minuto": "42",
           "penalti": false,
           "autogol": false
         }
       ],
       "goles2": [
         {
-          "nombre": "Charles De Ketelaere",
-          "minuto": "41",
+          "nombre": "Achraf Dari",
+          "minuto": "9",
           "penalti": false,
           "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "grupo": "",
+      "estadio": "Khalifa International Stadium"
     },
     {
-      "numeroPartido": 99,
-      "ronda": "Quarter-final",
-      "fecha": "2026-07-11",
-      "hora": "17:00 UTC-4",
-      "equipo1": "Norway",
-      "equipo2": "England",
+      "numeroPartido": 64,
+      "ronda": "Final",
+      "fecha": "2022-12-18",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "France",
       "marcador": {
         "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          1
-        ],
-        "et": [
-          1,
+          2,
           2
         ],
-        "p": []
+        "ht": [
+          2,
+          0
+        ],
+        "et": [
+          3,
+          3
+        ],
+        "p": [
+          4,
+          2
+        ]
       },
       "goles1": [
         {
-          "nombre": "Andreas Schjelderup",
+          "nombre": "Lionel Messi",
+          "minuto": "23",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Lionel Messi",
+          "minuto": "108",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Ángel Di María",
           "minuto": "36",
           "penalti": false,
           "autogol": false
@@ -4268,274 +2645,26 @@
       ],
       "goles2": [
         {
-          "nombre": "Jude Bellingham",
-          "minuto": "45+2",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Jude Bellingham",
-          "minuto": "93",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 100,
-      "ronda": "Quarter-final",
-      "fecha": "2026-07-11",
-      "hora": "20:00 UTC-5",
-      "equipo1": "Argentina",
-      "equipo2": "Switzerland",
-      "marcador": {
-        "ft": [
-          1,
-          1
-        ],
-        "ht": [
-          1,
-          0
-        ],
-        "et": [
-          3,
-          1
-        ],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Alexis Mac Allister",
-          "minuto": "10",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Julián Álvarez",
-          "minuto": "112",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lautaro Martínez",
-          "minuto": "120+1",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Dan Ndoye",
-          "minuto": "67",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Kansas City"
-    },
-    {
-      "numeroPartido": 101,
-      "ronda": "Semi-final",
-      "fecha": "2026-07-14",
-      "hora": "14:00 UTC-5",
-      "equipo1": "France",
-      "equipo2": "Spain",
-      "marcador": {
-        "ft": [
-          0,
-          2
-        ],
-        "ht": [
-          0,
-          1
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [],
-      "goles2": [
-        {
-          "nombre": "Mikel Oyarzabal",
-          "minuto": "22",
+          "nombre": "Kylian Mbappé",
+          "minuto": "80",
           "penalti": true,
           "autogol": false
         },
         {
-          "nombre": "Pedro Porro",
-          "minuto": "58",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Dallas (Arlington)"
-    },
-    {
-      "numeroPartido": 102,
-      "ronda": "Semi-final",
-      "fecha": "2026-07-15",
-      "hora": "15:00 UTC-4",
-      "equipo1": "England",
-      "equipo2": "Argentina",
-      "marcador": {
-        "ft": [
-          1,
-          2
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Anthony Gordon",
-          "minuto": "55",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Enzo Fernández",
-          "minuto": "86",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Lautaro Martínez",
-          "minuto": "92",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "grupo": null,
-      "estadio": "Atlanta"
-    },
-    {
-      "numeroPartido": 103,
-      "ronda": "Match for third place",
-      "fecha": "2026-07-18",
-      "hora": "17:00 UTC-4",
-      "equipo1": "France",
-      "equipo2": "England",
-      "marcador": {
-        "ft": [
-          4,
-          6
-        ],
-        "ht": [
-          0,
-          4
-        ],
-        "et": [],
-        "p": []
-      },
-      "goles1": [
-        {
           "nombre": "Kylian Mbappé",
-          "minuto": "48",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bradley Barcola",
-          "minuto": "54",
+          "minuto": "81",
           "penalti": false,
           "autogol": false
         },
         {
           "nombre": "Kylian Mbappé",
-          "minuto": "66",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ousmane Dembélé",
-          "minuto": "90+6",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [
-        {
-          "nombre": "Declan Rice",
-          "minuto": "3",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Ezri Konsa",
-          "minuto": "18",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bukayo Saka",
-          "minuto": "37",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bukayo Saka",
-          "minuto": "45+1",
-          "penalti": false,
-          "autogol": false
-        },
-        {
-          "nombre": "Bukayo Saka",
-          "minuto": "87",
+          "minuto": "118",
           "penalti": true,
           "autogol": false
-        },
-        {
-          "nombre": "Jude Bellingham",
-          "minuto": "90+8",
-          "penalti": false,
-          "autogol": false
         }
       ],
-      "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
-    },
-    {
-      "numeroPartido": 104,
-      "ronda": "Final",
-      "fecha": "2026-07-19",
-      "hora": "15:00 UTC-4",
-      "equipo1": "Spain",
-      "equipo2": "Argentina",
-      "marcador": {
-        "ft": [
-          0,
-          0
-        ],
-        "ht": [
-          0,
-          0
-        ],
-        "et": [
-          1,
-          0
-        ],
-        "p": []
-      },
-      "goles1": [
-        {
-          "nombre": "Ferran Torres",
-          "minuto": "106",
-          "penalti": false,
-          "autogol": false
-        }
-      ],
-      "goles2": [],
-      "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "grupo": "",
+      "estadio": "Lusail Iconic Stadium"
     }
   ]
 }
