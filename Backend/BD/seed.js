@@ -61,7 +61,11 @@ const poblarBaseDeDatos = async () => {
       ciudad: stadium.city || stadium.ciudad || "Sede",
       pais: (stadium.cc === "mx" || stadium.pais === "México") ? "México" : (stadium.cc === "ca" || stadium.pais === "Canadá") ? "Canadá" : "Estados Unidos",
       capacidad: stadium.capacity || stadium.capacidad || 50000,
-      año: ANIO
+      año: ANIO,
+      codigoPais: (stadium.codigoPais || stadium.cc || "us").toLowerCase().trim(),
+      capacidad: stadium.capacidad || stadium.capacity || 50000,
+      zonaHoraria: stadium.zonaHoraria || "",
+      coordenadas: stadium.coordenadas || ""
     }));
 
     const estadiosDB = await Estadio.insertMany(estadiosFormateados);

@@ -1,14 +1,12 @@
 "use client";
 
 import useSWR from "swr";
-import type { Grupo, Partido } from "@/lib/types";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import type { Grupo, Partido, Equipo } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Trophy, MapPin, Clock, Target } from "lucide-react";
+import { Trophy, MapPin, Clock, X, Target, Shield, Globe } from "lucide-react";
 import Flag from "@/components/Flag";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useCallback } from "react";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const fetcher = (url: string): Promise<any> =>
@@ -17,6 +15,8 @@ const fetcher = (url: string): Promise<any> =>
 interface Standing {
   code: string;
   nombre: string;
+  confederacion: string;
+  continente: string;
   pj: number;
   pg: number;
   pe: number;
@@ -34,6 +34,8 @@ function computeStandings(grupo: Grupo, partidos: Partido[]): Standing[] {
     stats[eq.fifaCode] = {
       code: eq.fifaCode,
       nombre: eq.nombre,
+      confederacion: eq.confederacion,
+      continente: eq.continente,
       pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0, dg: 0, pts: 0,
     };
   });
@@ -76,34 +78,159 @@ function computeStandings(grupo: Grupo, partidos: Partido[]): Standing[] {
     .sort((a, b) => b.pts - a.pts || b.dg - a.dg || b.gf - a.gf);
 }
 
-function getRowBg(index: number): string {
-  if (index < 2) return "rgba(85,155,100,0.05)";
-  if (index < 3) return "rgba(180,140,60,0.05)";
-  return "rgba(180,70,70,0.05)";
+function getPositionColor(index: number) {
+  if (index < 2) return { bg: "bg-emerald-50", border: "border-emerald-400", badge: "bg-emerald-500 text-white", label: "Clasificado" };
+  if (index < 3) return { bg: "bg-amber-50", border: "border-amber-400", badge: "bg-amber-500 text-white", label: "3er Lugar" };
+  return { bg: "bg-red-50", border: "border-red-300", badge: "bg-red-400 text-white", label: "Eliminado" };
 }
 
-function getRowBorder(index: number): string {
-  if (index < 2) return "var(--wc-green)";
-  if (index < 3) return "var(--wc-gold)";
-  return "var(--wc-red)";
+function CountryCard({ standing, position, onClick }: { standing: Standing; position: number; onClick: () => void }) {
+  const posStyle = getPositionColor(position);
+  return (
+    <button
+      onClick={onClick}
+      className={`group relative ${posStyle.bg} rounded-xl border ${posStyle.border} p-4 text-left transition-all duration-200 hover:shadow-lg hover:shadow-[var(--wc-gold)]/10 hover:-translate-y-0.5 cursor-pointer`}
+    >
+      <div className="flex items-center gap-3">
+        <div className="relative">
+          <Flag code={standing.code} size={40} />
+          <span className={`absolute -top-1 -right-1 h-5 w-5 rounded-full ${posStyle.badge} text-[9px] font-bold flex items-center justify-center shadow-sm`}>
+            {position + 1}
+          </span>
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="font-bold text-sm text-[var(--wc-black)] truncate group-hover:text-[var(--wc-gold-dark)] transition-colors">
+            {standing.nombre}
+          </p>
+          <p className="text-[10px] text-muted-foreground">{standing.confederacion}</p>
+        </div>
+        <div className="text-right">
+          <p className="text-2xl font-black text-[var(--wc-gold-dark)]">{standing.pts}</p>
+          <p className="text-[9px] text-muted-foreground uppercase tracking-wider">Pts</p>
+        </div>
+      </div>
+      <div className="flex items-center justify-between mt-3 pt-2 border-t border-black/5">
+        <div className="flex gap-3 text-[10px] text-muted-foreground">
+          <span>PJ: {standing.pj}</span>
+          <span>PG: <span className="text-emerald-600 font-medium">{standing.pg}</span></span>
+          <span>PE: <span className="text-amber-600 font-medium">{standing.pe}</span></span>
+          <span>PP: <span className="text-red-500 font-medium">{standing.pp}</span></span>
+        </div>
+        <span className={`text-[10px] font-semibold ${standing.dg > 0 ? "text-emerald-600" : standing.dg < 0 ? "text-red-500" : "text-muted-foreground"}`}>
+          DG {standing.dg > 0 ? `+${standing.dg}` : standing.dg}
+        </span>
+      </div>
+    </button>
+  );
 }
 
-function getBadgeClass(index: number): string {
-  if (index < 2) return "bg-[var(--wc-green)] text-white";
-  if (index < 3) return "bg-[var(--wc-gold)] text-white";
-  return "bg-[var(--wc-red)] text-white";
-}
+function TeamPopup({ standing, matches, onClose }: { standing: Standing; matches: Partido[]; onClose: () => void }) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" />
+      <div
+        className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="relative bg-gradient-to-br from-[var(--wc-gold)]/10 to-white p-6">
+          <button
+            onClick={onClose}
+            className="absolute top-3 right-3 h-8 w-8 rounded-full bg-white/80 hover:bg-white flex items-center justify-center transition-colors"
+          >
+            <X className="h-4 w-4 text-muted-foreground" />
+          </button>
+          <div className="flex items-center gap-4">
+            <Flag code={standing.code} size={56} />
+            <div>
+              <h2 className="text-xl font-black text-[var(--wc-black)]">{standing.nombre}</h2>
+              <p className="text-sm text-muted-foreground">{standing.code} &middot; {standing.confederacion}</p>
+            </div>
+          </div>
+        </div>
 
-function getLabel(index: number): string {
-  if (index < 2) return "Clasificado";
-  if (index < 3) return "3er puesto";
-  return "Eliminado";
+        {/* Stats Grid */}
+        <div className="p-6 space-y-4">
+          <div className="grid grid-cols-4 gap-2">
+            {[
+              { label: "PJ", value: standing.pj, icon: Shield },
+              { label: "PG", value: standing.pg, icon: Trophy },
+              { label: "GF", value: standing.gf, icon: Target },
+              { label: "GC", value: standing.gc, icon: Target },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center p-2 rounded-lg bg-[var(--wc-gold)]/5">
+                <p className="text-lg font-black text-[var(--wc-black)]">{stat.value}</p>
+                <p className="text-[9px] text-muted-foreground uppercase tracking-wider">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Points highlight */}
+          <div className="flex items-center justify-center gap-3 py-3 bg-[var(--wc-gold)]/5 rounded-xl">
+            <span className="text-sm text-muted-foreground">Puntos</span>
+            <span className="text-3xl font-black text-[var(--wc-gold-dark)]">{standing.pts}</span>
+          </div>
+
+          {/* Matches */}
+          {matches.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Partidos</h3>
+              <div className="space-y-1.5">
+                {matches.map((m) => {
+                  const played = m.marcador.ft && m.marcador.ft.length === 2;
+                  const isHome = m.equipo1?.fifaCode === standing.code;
+                  const opponent = isHome ? m.equipo2 : m.equipo1;
+                  const opponentScore = played ? (isHome ? m.marcador.ft[1] : m.marcador.ft[0]) : null;
+                  const myScore = played ? (isHome ? m.marcador.ft[0] : m.marcador.ft[1]) : null;
+                  const won = played && myScore !== null && opponentScore !== null && myScore > opponentScore;
+                  const draw = played && myScore === opponentScore;
+
+                  return (
+                    <div
+                      key={m._id}
+                      className={`flex items-center justify-between p-2 rounded-lg text-xs ${
+                        won ? "bg-emerald-50 border border-emerald-200" :
+                        draw ? "bg-amber-50 border border-amber-200" :
+                        "bg-red-50 border border-red-200"
+                      }`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <Flag code={opponent?.fifaCode} size={16} />
+                        <span className="font-medium">{opponent?.fifaCode}</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        {played ? (
+                          <span className={`font-bold ${won ? "text-emerald-600" : draw ? "text-amber-600" : "text-red-500"}`}>
+                            {myScore} - {opponentScore}
+                          </span>
+                        ) : (
+                          <span className="text-muted-foreground font-mono">{m.fecha}</span>
+                        )}
+                        <span className={`px-1.5 py-0.5 rounded text-[8px] font-bold ${
+                          won ? "bg-emerald-500 text-white" :
+                          draw ? "bg-amber-500 text-white" :
+                          "bg-red-400 text-white"
+                        }`}>
+                          {won ? "W" : draw ? "D" : "L"}
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default function GruposPage() {
   const { data: grupos, isLoading: lGrupos } = useSWR<Grupo[]>("/api/grupos", fetcher);
   const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos", fetcher);
   const [selectedGroup, setSelectedGroup] = useState<string>("A");
+  const [selectedTeam, setSelectedTeam] = useState<Standing | null>(null);
 
   const loading = lGrupos || lPartidos;
 
@@ -122,23 +249,17 @@ export default function GruposPage() {
     return computeStandings(currentGrupo, partidos);
   }, [currentGrupo, partidos]);
 
-  const groupMatches = useMemo(() => {
-    if (!currentGrupo || !partidos) return [];
+  const teamMatches = useMemo(() => {
+    if (!selectedTeam || !currentGrupo || !partidos) return [];
     return partidos
       .filter((p) => p.grupo && p.grupo._id === currentGrupo._id)
+      .filter((p) => p.equipo1?.fifaCode === selectedTeam.code || p.equipo2?.fifaCode === selectedTeam.code)
       .sort((a, b) => a.numeroPartido - b.numeroPartido);
-  }, [currentGrupo, partidos]);
+  }, [selectedTeam, currentGrupo, partidos]);
 
-  const groupStats = useMemo(() => {
-    if (standings.length === 0) return { totalGoals: 0, totalMatches: 0, avgGoals: "0" };
-    const totalGoals = standings.reduce((sum, s) => sum + s.gf, 0) / 2;
-    const totalMatches = standings.reduce((sum, s) => sum + s.pj, 0) / 2;
-    return {
-      totalGoals,
-      totalMatches,
-      avgGoals: totalMatches > 0 ? (totalGoals / totalMatches).toFixed(1) : "0",
-    };
-  }, [standings]);
+  const handleTeamClick = useCallback((standing: Standing) => {
+    setSelectedTeam(standing);
+  }, []);
 
   if (loading) {
     return (
@@ -149,7 +270,11 @@ export default function GruposPage() {
             <Skeleton key={i} className="h-9 w-9 rounded-lg" />
           ))}
         </div>
-        <Skeleton className="h-64" />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <Skeleton key={i} className="h-28" />
+          ))}
+        </div>
       </div>
     );
   }
@@ -157,15 +282,18 @@ export default function GruposPage() {
   return (
     <div className="container mx-auto px-4 py-8 space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2">
-          <Trophy className="h-6 w-6 text-primary" />
+        <h1 className="text-2xl font-black tracking-tight flex items-center gap-2 text-[var(--wc-black)]">
+          <div className="h-8 w-8 rounded-lg bg-[var(--wc-gold)] flex items-center justify-center">
+            <Trophy className="h-4 w-4 text-white" />
+          </div>
           Grupos
         </h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Tablas de posiciones y calendario por grupo
+          Selecciona un grupo para ver las selecciones
         </p>
       </div>
 
+      {/* Group Selector */}
       <div className="flex flex-wrap gap-1.5">
         {groupNames.map((name) => (
           <button
@@ -173,8 +301,8 @@ export default function GruposPage() {
             onClick={() => setSelectedGroup(name)}
             className={`h-10 w-10 rounded-lg text-sm font-bold transition-all duration-200 ${
               selectedGroup === name
-                ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                : "bg-muted hover:bg-accent text-muted-foreground hover:text-foreground hover:shadow-sm"
+                ? "bg-[var(--wc-gold)] text-white shadow-md shadow-[var(--wc-gold)]/25"
+                : "bg-[var(--wc-gold)]/10 hover:bg-[var(--wc-gold)]/20 text-[var(--wc-black)] hover:shadow-sm"
             }`}
           >
             {name}
@@ -182,172 +310,80 @@ export default function GruposPage() {
         ))}
       </div>
 
+      {/* Country Cards Grid */}
       {currentGrupo && (
-        <div className="grid lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2 space-y-6">
-            <Card className="border-border/60 shadow-sm">
-              <CardHeader className="pb-3">
-                <CardTitle className="text-base flex items-center justify-between">
-                  <span className="flex items-center gap-2">
-                    <Trophy className="h-4 w-4 text-[var(--wc-gold)]" />
-                    Grupo {selectedGroup}
-                  </span>
-                  <div className="flex gap-1.5">
-                    <Badge className="bg-[var(--wc-green)] text-white text-[10px] border-0">Clasificado</Badge>
-                    <Badge className="bg-[var(--wc-gold)] text-white text-[10px] border-0">3er</Badge>
-                    <Badge className="bg-[var(--wc-red)] text-white text-[10px] border-0">Eliminado</Badge>
-                  </div>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="border border-border/60 rounded-xl overflow-hidden">
-                  <table className="w-full">
-                    <thead>
-                      <tr className="bg-muted/50 border-b">
-                        <th className="text-left py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">#</th>
-                        <th className="text-left py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">Equipo</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">PJ</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">PG</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">PE</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">PP</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">GF</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">GC</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">DG</th>
-                        <th className="text-center py-3 px-4 text-xs font-semibold text-muted-foreground uppercase tracking-wider">Pts</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {standings.map((s, i) => (
-                        <tr
-                          key={s.code}
-                          className="border-b last:border-0 transition-colors duration-150"
-                          style={{ backgroundColor: getRowBg(i), borderLeft: `4px solid ${getRowBorder(i)}` }}
-                        >
-                          <td className="py-3 px-4">
-                            <Badge className={`${getBadgeClass(i)} text-[10px] border-0 font-bold min-w-[20px] justify-center`}>
-                              {i + 1}
-                            </Badge>
-                          </td>
-                          <td className="py-3 px-4">
-                            <div className="flex items-center gap-2.5">
-                              <Flag code={s.code} size={24} />
-                              <div>
-                                <p className="text-sm font-semibold">{s.code}</p>
-                                <p className="text-[10px] text-muted-foreground truncate max-w-[140px]">{s.nombre}</p>
-                              </div>
-                            </div>
-                          </td>
-                          <td className="text-center py-3 px-4 text-sm">{s.pj}</td>
-                          <td className="text-center py-3 px-4 text-sm font-medium text-[var(--wc-green)]">{s.pg}</td>
-                          <td className="text-center py-3 px-4 text-sm font-medium text-[var(--wc-orange)]">{s.pe}</td>
-                          <td className="text-center py-3 px-4 text-sm font-medium text-[var(--wc-red)]">{s.pp}</td>
-                          <td className="text-center py-3 px-4 text-sm">{s.gf}</td>
-                          <td className="text-center py-3 px-4 text-sm">{s.gc}</td>
-                          <td className="text-center py-3 px-4 text-sm font-semibold">
-                            <span className={s.dg > 0 ? "text-[var(--wc-green)]" : s.dg < 0 ? "text-[var(--wc-red)]" : ""}>
-                              {s.dg > 0 ? `+${s.dg}` : s.dg}
-                            </span>
-                          </td>
-                          <td className="text-center py-3 px-4">
-                            <span className="inline-flex items-center justify-center h-7 min-w-[28px] rounded-md bg-primary text-primary-foreground text-sm font-bold">
-                              {s.pts}
-                            </span>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {standings.map((s, i) => (
+            <CountryCard
+              key={s.code}
+              standing={s}
+              position={i}
+              onClick={() => handleTeamClick(s)}
+            />
+          ))}
+        </div>
+      )}
 
-          <div className="space-y-6">
-            <Card className="border-border/60 shadow-sm">
-              <CardHeader className="pb-3">
-                <CardTitle className="text-sm flex items-center gap-2">
-                  <Target className="h-4 w-4 text-primary" />
-                  Estadisticas del Grupo
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="grid grid-cols-3 gap-3">
-                  <div className="text-center p-3 rounded-xl bg-muted/50">
-                    <p className="text-2xl font-bold">{groupStats.totalMatches}</p>
-                    <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">Partidos</p>
-                  </div>
-                  <div className="text-center p-3 rounded-xl bg-muted/50">
-                    <p className="text-2xl font-bold">{groupStats.totalGoals}</p>
-                    <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">Goles</p>
-                  </div>
-                  <div className="text-center p-3 rounded-xl bg-muted/50">
-                    <p className="text-2xl font-bold">{groupStats.avgGoals}</p>
-                    <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">Promedio</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-border/60 shadow-sm">
-              <CardHeader className="pb-3">
-                <CardTitle className="text-sm flex items-center gap-2">
-                  <Clock className="h-4 w-4 text-[var(--wc-gold)]" />
-                  Calendario - Grupo {selectedGroup}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                {groupMatches.map((p) => {
-                  const played = p.marcador.ft && p.marcador.ft.length === 2;
-                  return (
-                    <div
-                      key={p._id}
-                      className="rounded-xl border border-border/60 p-3 hover:shadow-md hover:shadow-black/[0.03] transition-all duration-200"
-                    >
-                      <div className="flex items-center justify-between mb-1.5">
-                        <span className="text-[10px] text-muted-foreground font-mono">
-                          Jornada {p.numeroPartido}
-                        </span>
-                        <span className="text-[10px] text-muted-foreground">
-                          {p.fecha}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2 min-w-0 flex-1">
-                          <Flag code={p.equipo1?.fifaCode} size={20} />
-                          <span className="text-xs font-semibold truncate">{p.equipo1?.fifaCode}</span>
-                        </div>
-                        <div className="flex flex-col items-center mx-2 shrink-0">
-                          {played ? (
-                            <span className="text-xs font-bold bg-muted px-2 py-0.5 rounded">
-                              {p.marcador.ft[0]} - {p.marcador.ft[1]}
-                            </span>
-                          ) : (
-                            <span className="text-[10px] text-muted-foreground font-mono">{p.hora?.split(" ")[0]}</span>
-                          )}
-                        </div>
-                        <div className="flex items-center gap-2 min-w-0 flex-1 justify-end">
-                          <span className="text-xs font-semibold truncate">{p.equipo2?.fifaCode}</span>
-                          <Flag code={p.equipo2?.fifaCode} size={20} />
-                        </div>
-                      </div>
-                      {p.estadio && (
-                        <div className="flex items-center gap-1 mt-1.5 text-[10px] text-muted-foreground">
-                          <MapPin className="h-3 w-3" />
-                          {p.estadio.nombre}, {p.estadio.ciudad}
-                        </div>
-                      )}
+      {/* Matches Calendar */}
+      {currentGrupo && (
+        <div className="mt-6">
+          <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
+            Calendario - Grupo {selectedGroup}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {partidos
+              ?.filter((p) => p.grupo && p.grupo._id === currentGrupo._id)
+              .sort((a, b) => a.numeroPartido - b.numeroPartido)
+              .map((p) => {
+                const played = p.marcador.ft && p.marcador.ft.length === 2;
+                return (
+                  <div
+                    key={p._id}
+                    className="rounded-xl border border-[var(--wc-gold)]/10 p-3.5 hover:shadow-md hover:shadow-[var(--wc-gold)]/5 transition-all duration-200 bg-white"
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-[10px] text-muted-foreground font-mono">#{p.numeroPartido}</span>
+                      <span className="text-[10px] text-muted-foreground">{p.fecha}</span>
                     </div>
-                  );
-                })}
-                {groupMatches.length === 0 && (
-                  <p className="text-sm text-muted-foreground text-center py-4">
-                    No hay partidos programados para este grupo
-                  </p>
-                )}
-              </CardContent>
-            </Card>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2 min-w-0 flex-1">
+                        <Flag code={p.equipo1?.fifaCode} size={22} />
+                        <span className="text-xs font-semibold truncate">{p.equipo1?.fifaCode}</span>
+                      </div>
+                      <div className="flex flex-col items-center mx-2 shrink-0">
+                        {played ? (
+                          <span className="text-xs font-bold bg-[var(--wc-gold)] text-white px-2.5 py-0.5 rounded-md">
+                            {p.marcador.ft[0]} - {p.marcador.ft[1]}
+                          </span>
+                        ) : (
+                          <span className="text-[10px] text-muted-foreground font-mono">{p.hora?.split(" ")[0]}</span>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-2 min-w-0 flex-1 justify-end">
+                        <span className="text-xs font-semibold truncate">{p.equipo2?.fifaCode}</span>
+                        <Flag code={p.equipo2?.fifaCode} size={22} />
+                      </div>
+                    </div>
+                    {p.estadio && (
+                      <div className="flex items-center gap-1 mt-2 text-[10px] text-muted-foreground">
+                        <MapPin className="h-3 w-3" />
+                        {p.estadio.ciudad}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
           </div>
         </div>
+      )}
+
+      {/* Team Popup */}
+      {selectedTeam && (
+        <TeamPopup
+          standing={selectedTeam}
+          matches={teamMatches}
+          onClose={() => setSelectedTeam(null)}
+        />
       )}
     </div>
   );

@@ -15,13 +15,13 @@ const fetcher = (url: string): Promise<any> =>
   fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
 
 const CONFEDERACIONES = [
-  { value: "all", label: "Todas", color: "bg-gray-100 text-gray-700" },
-  { value: "UEFA", label: "UEFA", color: "bg-blue-100 text-blue-700" },
-  { value: "CAF", label: "CAF", color: "bg-amber-100 text-amber-700" },
-  { value: "AFC", label: "AFC", color: "bg-emerald-100 text-emerald-700" },
-  { value: "CONCACAF", label: "CONCACAF", color: "bg-orange-100 text-orange-700" },
-  { value: "CONMEBOL", label: "CONMEBOL", color: "bg-teal-100 text-teal-700" },
-  { value: "OFC", label: "OFC", color: "bg-purple-100 text-purple-700" },
+  { value: "all", label: "Todas" },
+  { value: "UEFA", label: "UEFA" },
+  { value: "CAF", label: "CAF" },
+  { value: "AFC", label: "AFC" },
+  { value: "CONCACAF", label: "CONCACAF" },
+  { value: "CONMEBOL", label: "CONMEBOL" },
+  { value: "OFC", label: "OFC" },
 ];
 
 const CONF_COLORS: Record<string, string> = {
@@ -35,18 +35,18 @@ const CONF_COLORS: Record<string, string> = {
 
 function TeamCardGrid({ equipo }: { equipo: Equipo }) {
   return (
-    <Card className="group hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 cursor-pointer overflow-hidden border-border/60">
+    <Card className="group hover:shadow-xl hover:shadow-[var(--wc-gold)]/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer overflow-hidden border-[var(--wc-gold)]/10 bg-white">
       <CardContent className="p-0">
-        <div className="relative h-28 bg-gradient-to-br from-primary/5 via-primary/[0.02] to-transparent group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+        <div className="relative h-28 bg-gradient-to-br from-[var(--wc-gold)]/[0.04] via-transparent to-transparent group-hover:scale-105 transition-transform duration-300 overflow-hidden">
           <Flag code={equipo.fifaCode} fill className="rounded-none" />
           <div className="absolute top-2 right-2">
-            <Badge variant="secondary" className="text-[10px] font-mono">
+            <Badge variant="secondary" className="text-[10px] font-mono bg-white/90 backdrop-blur-sm">
               {equipo.fifaCode}
             </Badge>
           </div>
         </div>
         <div className="p-3.5 space-y-2.5">
-          <h3 className="font-semibold text-sm truncate group-hover:text-primary transition-colors">{equipo.nombre}</h3>
+          <h3 className="font-semibold text-sm truncate group-hover:text-[var(--wc-gold-dark)] transition-colors">{equipo.nombre}</h3>
           <div className="flex items-center justify-between">
             <Badge
               className={`${CONF_COLORS[equipo.confederacion] || "bg-gray-500"} text-white text-[10px] border-0 shadow-sm`}
@@ -63,7 +63,7 @@ function TeamCardGrid({ equipo }: { equipo: Equipo }) {
 
 function TeamTableRow({ equipo }: { equipo: Equipo }) {
   return (
-    <tr className="border-b hover:bg-accent/50 transition-colors">
+    <tr className="border-b hover:bg-[var(--wc-gold)]/[0.02] transition-colors">
       <td className="py-3 px-4">
         <div className="flex items-center gap-3">
           <Flag code={equipo.fifaCode} size={32} />
@@ -74,7 +74,7 @@ function TeamTableRow({ equipo }: { equipo: Equipo }) {
         </div>
       </td>
       <td className="py-3 px-4 text-center">
-        <Badge variant="outline" className="font-mono text-xs">{equipo.fifaCode}</Badge>
+        <Badge variant="outline" className="font-mono text-xs border-[var(--wc-gold)]/20">{equipo.fifaCode}</Badge>
       </td>
       <td className="py-3 px-4 text-center">
         <Badge
@@ -138,25 +138,27 @@ export default function SeleccionesPage() {
     <div className="container mx-auto px-4 py-8 space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2">
-            <Users className="h-6 w-6 text-primary" />
+          <h1 className="text-2xl font-black tracking-tight flex items-center gap-2 text-[var(--wc-black)]">
+            <div className="h-8 w-8 rounded-lg bg-[var(--wc-gold)] flex items-center justify-center">
+              <Users className="h-4 w-4 text-white" />
+            </div>
             Selecciones
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
             {filtered.length} de {equipos?.length ?? 0} equipos
           </p>
         </div>
-        <div className="flex items-center border border-border/60 rounded-lg overflow-hidden shadow-sm">
+        <div className="flex items-center border border-[var(--wc-gold)]/20 rounded-lg overflow-hidden shadow-sm">
           <button
             onClick={() => setView("grid")}
-            className={`p-2.5 transition-all duration-200 ${view === "grid" ? "bg-primary text-primary-foreground shadow-sm" : "hover:bg-accent"}`}
+            className={`p-2.5 transition-all duration-200 ${view === "grid" ? "bg-[var(--wc-gold)] text-white shadow-sm" : "hover:bg-[var(--wc-gold)]/10 text-muted-foreground"}`}
             aria-label="Vista cuadricula"
           >
             <LayoutGrid className="h-4 w-4" />
           </button>
           <button
             onClick={() => setView("table")}
-            className={`p-2.5 transition-all duration-200 ${view === "table" ? "bg-primary text-primary-foreground shadow-sm" : "hover:bg-accent"}`}
+            className={`p-2.5 transition-all duration-200 ${view === "table" ? "bg-[var(--wc-gold)] text-white shadow-sm" : "hover:bg-[var(--wc-gold)]/10 text-muted-foreground"}`}
             aria-label="Vista tabla"
           >
             <List className="h-4 w-4" />
@@ -170,7 +172,7 @@ export default function SeleccionesPage() {
           placeholder="Buscar por nombre o codigo FIFA..."
           value={busqueda}
           onChange={(e) => setBusqueda(e.target.value)}
-          className="pl-9"
+          className="pl-9 border-[var(--wc-gold)]/20 focus-visible:ring-[var(--wc-gold)]/30"
         />
       </div>
 
@@ -181,8 +183,8 @@ export default function SeleccionesPage() {
             onClick={() => setConfFilter(conf.value)}
             className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
               confFilter === conf.value
-                ? "bg-primary text-primary-foreground shadow-md shadow-primary/20"
-                : "bg-secondary text-secondary-foreground hover:bg-accent hover:shadow-sm"
+                ? "bg-[var(--wc-gold)] text-white shadow-md shadow-[var(--wc-gold)]/20"
+                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
             }`}
           >
             {conf.label}
@@ -202,15 +204,15 @@ export default function SeleccionesPage() {
       )}
 
       {view === "table" && (
-        <div className="border border-border/60 rounded-xl overflow-hidden shadow-sm">
+        <div className="border border-[var(--wc-gold)]/10 rounded-xl overflow-hidden shadow-sm bg-white">
           <table className="w-full">
             <thead>
-              <tr className="bg-muted/50 border-b">
-                <th className="text-left py-3 px-4 text-sm font-medium text-muted-foreground">Equipo</th>
-                <th className="text-center py-3 px-4 text-sm font-medium text-muted-foreground">Codigo</th>
-                <th className="text-center py-3 px-4 text-sm font-medium text-muted-foreground">Confederacion</th>
-                <th className="text-center py-3 px-4 text-sm font-medium text-muted-foreground">Continente</th>
-                <th className="text-center py-3 px-4 text-sm font-medium text-muted-foreground">Grupo</th>
+              <tr className="bg-[var(--wc-gold)] text-white border-b">
+                <th className="text-left py-3 px-4 text-sm font-medium">Equipo</th>
+                <th className="text-center py-3 px-4 text-sm font-medium">Codigo</th>
+                <th className="text-center py-3 px-4 text-sm font-medium">Confederacion</th>
+                <th className="text-center py-3 px-4 text-sm font-medium">Continente</th>
+                <th className="text-center py-3 px-4 text-sm font-medium">Grupo</th>
               </tr>
             </thead>
             <tbody>

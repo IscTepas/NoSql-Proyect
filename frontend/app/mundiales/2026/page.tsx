@@ -130,7 +130,7 @@ function MatchCardSmall({ partido }: { partido: Partido }) {
   );
 }
 
-export default function Home() {
+export default function Mundial2026Page() {
   const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos", fetcher);
   const { data: equipos, isLoading: lEquipos } = useSWR<Equipo[]>("/api/equipos", fetcher);
   const { data: estadios, isLoading: lEstadios } = useSWR<Estadio[]>("/api/estadios", fetcher);
@@ -187,12 +187,12 @@ export default function Home() {
       <div className="min-h-screen bg-gradient-to-b from-[var(--wc-gold)]/5 to-white">
         <div className="container mx-auto px-4 py-12 space-y-8">
           <div className="text-center space-y-2">
-            <Skeleton className="h-12 w-64 mx-auto" />
-            <Skeleton className="h-6 w-96 mx-auto" />
+            <Skeleton className="h-12 w-64 mx-auto bg-white/10" />
+            <Skeleton className="h-6 w-96 mx-auto bg-white/10" />
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             {[1, 2, 3, 4].map((i) => (
-              <Skeleton key={i} className="h-24" />
+              <Skeleton key={i} className="h-24 bg-white/10" />
             ))}
           </div>
         </div>
@@ -204,19 +204,20 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[var(--wc-gold)]/5 via-white to-[var(--wc-gold)]/10 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-30">
           <WCGeometry className="absolute top-0 left-0 w-64 h-64 -translate-x-1/4 -translate-y-1/4" />
           <WCGeometry className="absolute bottom-0 right-0 w-80 h-80 translate-x-1/4 translate-y-1/4" />
         </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--wc-gold)]/[0.03] to-transparent" />
         <div className="container mx-auto px-4 py-16 sm:py-24 relative z-10">
           <div className="text-center space-y-6">
             <div className="inline-flex items-center gap-2 bg-[var(--wc-gold)]/10 border border-[var(--wc-gold)]/20 rounded-full px-4 py-1.5">
-              <span className="text-[var(--wc-gold-dark)] text-xs font-semibold tracking-widest uppercase">Estados Unidos &middot; Mexico &middot; Canada</span>
+              <span className="text-[var(--wc-gold)] text-xs font-semibold tracking-widest uppercase">Estados Unidos &middot; Mexico &middot; Canada</span>
             </div>
             <div className="space-y-2">
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tighter text-[var(--wc-black)]">
-                <span className="text-[var(--wc-gold-dark)]">FIFA</span>{" "}
-                <span>World Cup</span>
+              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tighter">
+                <span className="text-[var(--wc-gold)]">FIFA</span>{" "}
+                <span className="text-white">World Cup</span>
               </h1>
               <div className="flex items-center justify-center gap-3">
                 <div className="h-px flex-1 max-w-[80px] bg-gradient-to-r from-transparent to-[var(--wc-gold)]/40" />
@@ -224,7 +225,7 @@ export default function Home() {
                 <div className="h-px flex-1 max-w-[80px] bg-gradient-to-l from-transparent to-[var(--wc-gold)]/40" />
               </div>
             </div>
-            <p className="text-muted-foreground max-w-lg mx-auto text-sm leading-relaxed">
+            <p className="text-white/50 max-w-lg mx-auto text-sm leading-relaxed">
               48 selecciones, 16 estadios, 104 partidos. La mayor copa del mundo.
             </p>
           </div>
@@ -236,9 +237,9 @@ export default function Home() {
       <section className="container mx-auto px-4 -mt-6 relative z-20">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCard title="Selecciones" value={equipos?.length ?? 0} icon={Users} color="bg-white text-[var(--wc-black)] border border-[var(--wc-gold)]/10 shadow-sm" />
-          <StatCard title="Estadios" value={estadios?.length ?? 0} icon={MapPin} color="bg-white text-[var(--wc-green)] border border-[var(--wc-green)]/10 shadow-sm" />
-          <StatCard title="Partidos" value={partidos?.length ?? 0} icon={Calendar} color="bg-white text-[var(--wc-gold-dark)] border border-[var(--wc-gold)]/10 shadow-sm" />
-          <StatCard title="Confederaciones" value={confederaciones} icon={Trophy} color="bg-white text-[var(--wc-purple)] border border-[var(--wc-purple)]/10 shadow-sm" />
+          <StatCard title="Estadios" value={estadios?.length ?? 0} icon={MapPin} color="bg-[var(--wc-green)]/10 text-[var(--wc-green)]" />
+          <StatCard title="Partidos" value={partidos?.length ?? 0} icon={Calendar} color="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)]" />
+          <StatCard title="Confederaciones" value={confederaciones} icon={Trophy} color="bg-[var(--wc-purple)]/10 text-[var(--wc-purple)]" />
         </div>
       </section>
 
