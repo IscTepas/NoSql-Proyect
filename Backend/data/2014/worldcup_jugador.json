@@ -1,0 +1,5698 @@
+
+{
+  "name": "jugadores",
+  "jugadores": [
+    {
+      "nombre": "David Ospina",
+      "numero": 1,
+      "posicion": "GK",
+      "fechaNacimiento": "1988-08-31",
+    "club": {
+      "nombre": "OGC Nice",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Cristian Zapata",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-30",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Mario Yepes",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1976-01-13",
+    "club": {
+      "nombre": "Atalanta Bergamo",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Santiago Arias",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-13",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Carlos Carbonero",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-07-25",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Juan Carlos Sánchez",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-10-15",
+    "club": {
+      "nombre": "Deportes Tolima",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Pablo Armero",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-11-02",
+    "club": {
+      "nombre": "West Ham United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Abel Aguilar",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-06",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Radamel Falcao",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-02-10",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "James Rodríguez",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-07-12",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Juan Cuadrado",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-26",
+    "club": {
+      "nombre": "ACF Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Camilo Vargas",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-03-09",
+    "club": {
+      "nombre": "Independiente Santa Fe",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Fredy Guarín",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-06-30",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Víctor Ibarbo",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-05-19",
+    "club": {
+      "nombre": "Cagliari Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Alexander Mejía",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-09-07",
+    "club": {
+      "nombre": "Atlético Nacional",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Eder Álvarez Balanta",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-28",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Carlos Bacca",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-09-08",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Juan Camilo Zúñiga",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-12-14",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Teófilo Gutiérrez",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-05-17",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Juan Fernando Quintero",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-18",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Jackson Martínez",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-10-03",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Faryd Mondragón",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1971-06-21",
+    "club": {
+      "nombre": "Deportivo Cali",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Carlos Valdés",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-05-22",
+    "club": {
+      "nombre": "San Lorenzo",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL"
+  },
+  {
+    "nombre": "Orestis Karnezis",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-07-11",
+    "club": {
+      "nombre": "Granada CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Giannis Maniatis",
+    "numero": 2,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-10-12",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Giorgos Tzavellas",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-11-26",
+    "club": {
+      "nombre": "PAOK Saloniki",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Kostas Manolas",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-06-14",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Vangelis Moras",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-08-26",
+    "club": {
+      "nombre": "Hellas Verona FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Alexandros Tziolis",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-02-13",
+    "club": {
+      "nombre": "Kayserispor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Georgios Samaras",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-02-21",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Panagiotis Kone",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-07-26",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Kostas Mitroglou",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-03-12",
+    "club": {
+      "nombre": "Fulham FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Giorgos Karagounis",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1977-03-06",
+    "club": {
+      "nombre": "Fulham FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Giannis Fetfatzidis",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-12-21",
+    "club": {
+      "nombre": "Genoa CFC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Panagiotis Glykos",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-06-03",
+    "club": {
+      "nombre": "PAOK Saloniki",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Stefanos Kapino",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-03-18",
+    "club": {
+      "nombre": "Panathinaikos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Dimitris Salpingidis",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1981-08-18",
+    "club": {
+      "nombre": "PAOK Saloniki",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Vasilis Torosidis",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-06-10",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Lazaros Christodoulopoulos",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-12-19",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Theofanis Gekas",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1980-05-23",
+    "club": {
+      "nombre": "Konyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Ioannis Maniatis",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-10-12",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Sokratis Papastathopoulos",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-06-09",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "José Holebas",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-06-27",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Kostas Katsouranis",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1979-06-21",
+    "club": {
+      "nombre": "PAOK Saloniki",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Andreas Samaris",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-06-13",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Dimitris Kolovetsios",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-10-16",
+    "club": {
+      "nombre": "Panathinaikos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Yaya Touré",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-05-13",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Didier Drogba",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1978-03-11",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Gervinho",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-05-27",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Wilfried Bony",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-12-10",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Salomon Kalou",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-08-05",
+    "club": {
+      "nombre": "LOSC Lille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Serge Aurier",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-12-24",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Serey Dié",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-11-07",
+    "club": {
+      "nombre": "FC Basel",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Eric Bailly",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-04-12",
+    "club": {
+      "nombre": "RCD Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Kolo Touré",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-03-19",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Cheick Tioté",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-06-21",
+    "club": {
+      "nombre": "Newcastle United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Youssouf Koné",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-03-12",
+    "club": {
+      "nombre": "Al Jazira",
+      "pais": "UAE"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Boubacar Barry",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1979-12-30",
+    "club": {
+      "nombre": "Lokeren",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Dieudonné Gbohouo",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-07-12",
+    "club": {
+      "nombre": "ASEC Mimosas",
+      "pais": "CIV"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Arthur Boka",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-04-02",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Jean-Daniel Akpa-Akpro",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-10-11",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Max Gradel",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-11-30",
+    "club": {
+      "nombre": "AS Saint-Etienne",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Mathis Bolly",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-11-14",
+    "club": {
+      "nombre": "Fortuna Düsseldorf",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Gbenga Cisse",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-05",
+    "club": {
+      "nombre": "FK Bodø/Glimt",
+      "pais": "NOR"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Ismaël Diomandé",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-08-28",
+    "club": {
+      "nombre": "AS Saint-Etienne",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CIV"
+  },
+  {
+    "nombre": "Jonathan Mensah",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-07-13",
+    "club": {
+      "nombre": "Evian Thonon Gaillard",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA"
+  },
+  {
+    "nombre": "Giannis Maniatis",
+    "numero": 2,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-10-12",
+    "club": {
+      "nombre": "Olympiacos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "GRE"
+  },
+  {
+    "nombre": "Eiji Kawashima",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-03-20",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Atsuto Uchida",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-03-27",
+    "club": {
+      "nombre": "Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Gōtoku Sakai",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-03-14",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Keisuke Honda",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-06-13",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yuto Nagatomo",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-12",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Masato Morishige",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-21",
+    "club": {
+      "nombre": "FC Tokyo",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yasuhito Endō",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1980-01-28",
+    "club": {
+      "nombre": "Gamba Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Hiroshi Kiyotake",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-11-12",
+    "club": {
+      "nombre": "1. FC Nürnberg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Shinji Okazaki",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-04-16",
+    "club": {
+      "nombre": "FSV Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Shinji Kagawa",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-17",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yoichiro Kakitani",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-01-03",
+    "club": {
+      "nombre": "Cerezo Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Shusaku Nishikawa",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-06-18",
+    "club": {
+      "nombre": "Urawa Red Diamonds",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yoshito Ōkubo",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1982-06-09",
+    "club": {
+      "nombre": "Kawasaki Frontale",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Toshihiro Aoyama",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-02-22",
+    "club": {
+      "nombre": "Sanfrecce Hiroshima",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yuya Konno",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-30",
+    "club": {
+      "nombre": "FC Tokyo",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Hotaru Yamaguchi",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-06",
+    "club": {
+      "nombre": "Cerezo Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Makoto Hasebe",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-01-18",
+    "club": {
+      "nombre": "1. FC Nürnberg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Maya Yoshida",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-08-24",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Manabu Saito",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-04",
+    "club": {
+      "nombre": "Yokohama F. Marinos",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Masahiko Inoha",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-08-28",
+    "club": {
+      "nombre": "Jubilo Iwata",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Hiroki Sakai",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-04-12",
+    "club": {
+      "nombre": "Hannover 96",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Yuichi Komano",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-07-25",
+    "club": {
+      "nombre": "Jubilo Iwata",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Shuichi Gonda",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-03-03",
+    "club": {
+      "nombre": "FC Tokyo",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN"
+  },
+  {
+    "nombre": "Luis Suárez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-24",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Edinson Cavani",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-02-14",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Diego Forlán",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1979-05-19",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Diego Godín",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-16",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "José Giménez",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-20",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Maxi Pereira",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-06-08",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Martín Cáceres",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-07",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Giorgian de Arrascaeta",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-06-01",
+    "club": {
+      "nombre": "Cruzeiro EC",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Walter Gargano",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-07-23",
+    "club": {
+      "nombre": "ACF Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Egidio Arévalo",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1982-01-01",
+    "club": {
+      "nombre": "Monarcas Morelia",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Fernando Muslera",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-06-16",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Nicolás Lodeiro",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-21",
+    "club": {
+      "nombre": "SC Corinthians",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Sebastián Coates",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-10-07",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Gastón Ramírez",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-12-02",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Alejandro Silva",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-09-04",
+    "club": {
+      "nombre": "CA Lanús",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Christian Stuani",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-10-12",
+    "club": {
+      "nombre": "RCD Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Álvaro Pereira",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-11-28",
+    "club": {
+      "nombre": "São Paulo FC",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Jorge Fucile",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-11-19",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Abel Hernández",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-08-08",
+    "club": {
+      "nombre": "US Città di Palermo",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "José María Giménez",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-20",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Martín Silva",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-03-25",
+    "club": {
+      "nombre": "CA Vasco da Gama",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Rodrigo Muñoz",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-01-22",
+    "club": {
+      "nombre": "Libertad",
+      "pais": "PAR"
+    },
+    "fifaCodeEquipo": "URU"
+  },
+  {
+    "nombre": "Joe Hart",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-04-19",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Glen Johnson",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-08-23",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Leighton Baines",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-12-11",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Steven Gerrard",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1980-05-30",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Gary Cahill",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-12-19",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Phil Jagielka",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1982-08-17",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Jack Wilshere",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-01",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Frank Lampard",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1978-06-20",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Daniel Sturridge",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-09-01",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Wayne Rooney",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-10-24",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Danny Welbeck",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-11-26",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Chris Smalling",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-11-22",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Ben Foster",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-04-03",
+    "club": {
+      "nombre": "West Bromwich Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Jordan Henderson",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Alex Oxlade-Chamberlain",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-08-15",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Phil Jones",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-21",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "James Milner",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-01-04",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Rickie Lambert",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1982-02-16",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Raheem Sterling",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-12-08",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Adam Lallana",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-10",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Ross Barkley",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-12-05",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Fraser Forster",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-03-17",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Luke Shaw",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-07-12",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG"
+  },
+  {
+    "nombre": "Gianluigi Buffon",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1978-01-28",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Mattia De Sciglio",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-10-20",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Giorgio Chiellini",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-08-14",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Matteo Darmian",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-12-02",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Thiago Motta",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1982-08-28",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Antonio Candreva",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-02-28",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Andrea Pirlo",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1979-05-19",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Claudio Marchisio",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-01-19",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Mario Balotelli",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-08-12",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Daniele De Rossi",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-07-24",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Leonardo Bonucci",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-01",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Ciro Immobile",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-02-20",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Salvatore Sirigu",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-01-12",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Mattia Perin",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-11-10",
+    "club": {
+      "nombre": "Genoa CFC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Andrea Barzagli",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-05-08",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Lorenzo Insigne",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-04",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Marco Parolo",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-25",
+    "club": {
+      "nombre": "Parma FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Alessio Cerci",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-07-23",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Gabriel Paletta",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-15",
+    "club": {
+      "nombre": "Parma FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+  {
+    "nombre": "Ignazio Abate",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-11-12",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ITA"
+  },
+
+  {
+    "nombre": "Hugo Lloris",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-12-26",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Mathieu Debuchy",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-07-28",
+    "club": {
+      "nombre": "Newcastle United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Patrice Evra",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-05-15",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Raphaël Varane",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-25",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Mamadou Sakho",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-13",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Laurent Koscielny",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-09-10",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Yohan Cabaye",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-01-14",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Paul Pogba",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-15",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Blaise Matuidi",
+    "numero": 12,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-09",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Mathieu Valbuena",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-09-28",
+    "club": {
+      "nombre": "Olympique Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Karim Benzema",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-19",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Antoine Griezmann",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-21",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Olivier Giroud",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-09-30",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Rio Mavuba",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-03-08",
+    "club": {
+      "nombre": "LOSC Lille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Moussa Sissoko",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-16",
+    "club": {
+      "nombre": "Newcastle United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Loïc Rémy",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-02",
+    "club": {
+      "nombre": "Newcastle United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Bacary Sagna",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-02-14",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Stéphane Ruffier",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-09-27",
+    "club": {
+      "nombre": "AS Saint-Etienne",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Mickaël Landreau",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1979-05-14",
+    "club": {
+      "nombre": "SC Bastia",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Eliaquim Mangala",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-13",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Morgan Schneiderlin",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-11-08",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Rémy Cabella",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-03-08",
+    "club": {
+      "nombre": "Montpellier HSC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Kurt Zouma",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-10-27",
+    "club": {
+      "nombre": "AS Saint-Etienne",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA"
+  },
+  {
+    "nombre": "Diego Benaglio",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-09-08",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Stephan Lichtsteiner",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-01-16",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Reto Ziegler",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-01-16",
+    "club": {
+      "nombre": "US Sassuolo",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Johan Djourou",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-18",
+    "club": {
+      "nombre": "Hamburger SV",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Steve von Bergen",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-06-10",
+    "club": {
+      "nombre": "BSC Young Boys",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Michael Lang",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-08",
+    "club": {
+      "nombre": "Grasshopper Club Zürich",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Valon Behrami",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-04-19",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Granit Xhaka",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-27",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Xherdan Shaqiri",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-10-10",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Josip Drmic",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-08-08",
+    "club": {
+      "nombre": "1. FC Nürnberg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Admir Mehmedi",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-16",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Haris Seferović",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-22",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Blerim Džemaili",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-04-12",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Gelson Fernandes",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-02",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Ricardo Rodríguez",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-25",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Yann Sommer",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-12-17",
+    "club": {
+      "nombre": "FC Basel",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Roman Bürki",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-11-14",
+    "club": {
+      "nombre": "Grasshopper Club Zürich",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "François Affolter",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-03-13",
+    "club": {
+      "nombre": "BSC Young Boys",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Philippe Senderos",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-02-14",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Mario Gavranović",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-11-24",
+    "club": {
+      "nombre": "FC Zürich",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Tranquillo Barnetta",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-05-22",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI"
+  },
+  {
+    "nombre": "Sofiane Feghouli",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-26",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Islam Slimani",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-18",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Yacine Brahimi",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-08",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Nabil Bentaleb",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-11-24",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Rafik Halliche",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-02",
+    "club": {
+      "nombre": "Académica de Coimbra",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Essaid Belkalem",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-01-01",
+    "club": {
+      "nombre": "Watford FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Riyad Mahrez",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-21",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Hassan Yebda",
+    "numero": 12,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-14",
+    "club": {
+      "nombre": "Udinese Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Carl Medjani",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-05-15",
+    "club": {
+      "nombre": "Valenciennes FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Djamel Mesbah",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-10-09",
+    "club": {
+      "nombre": "AS Livorno Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Nabil Ghilas",
+    "numero": 6,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-08",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Abdelmoumene Djabou",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-01-31",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Saphir Taïder",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-29",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Faouzi Ghoulam",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-01",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Liassine Cadamuro-Bentaïba",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-03-05",
+    "club": {
+      "nombre": "Mallorca",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Rais M'Bolhi",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-04-25",
+    "club": {
+      "nombre": "CSKA Sofia",
+      "pais": "BUL"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Adlène Guedioura",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-11-12",
+    "club": {
+      "nombre": "Crystal Palace FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "M'Barek Boussoufa",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-08-15",
+    "club": {
+      "nombre": "Lokeren",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Cédric Si Mohamed",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-01-09",
+    "club": {
+      "nombre": "CS Constantine",
+      "pais": "ALG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Alexander Domínguez",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-06-05",
+    "club": {
+      "nombre": "LDU Quito",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Juan Carlos Paredes",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-07-08",
+    "club": {
+      "nombre": "Barcelona SC",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Frickson Erazo",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-05",
+    "club": {
+      "nombre": "Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Jorge Guagua",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-09-28",
+    "club": {
+      "nombre": "CS Emelec",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Renato Ibarra",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-01-20",
+    "club": {
+      "nombre": "SBV Vitesse",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Christian Noboa",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-04-09",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Jefferson Montero",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-09-01",
+    "club": {
+      "nombre": "Monarcas Morelia",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Édison Méndez",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1979-03-16",
+    "club": {
+      "nombre": "Independiente Santa Fe",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Jaime Ayoví",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-02-21",
+    "club": {
+      "nombre": "Tijuana",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Walter Ayoví",
+    "numero": 10,
+    "posicion": "DF",
+    "fechaNacimiento": "1979-08-11",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Felipe Caicedo",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-09-05",
+    "club": {
+      "nombre": "Al Jazira",
+      "pais": "UAE"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Enner Valencia",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-11-04",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Oswaldo Minda",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-07-26",
+    "club": {
+      "nombre": "Chivas USA",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Antonio Valencia",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-08-04",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Joao Rojas",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-06-14",
+    "club": {
+      "nombre": "CF Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Michael Arroyo",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-23",
+    "club": {
+      "nombre": "CF América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Gabriel Achilier",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-03-23",
+    "club": {
+      "nombre": "CS Emelec",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Fidel Martínez",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-02-15",
+    "club": {
+      "nombre": "Tijuana",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Édison Vega",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-03-08",
+    "club": {
+      "nombre": "CS Emelec",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Jonathan Orozco",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-05-12",
+    "club": {
+      "nombre": "CF Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU"
+  },
+  {
+    "nombre": "Andrés Guardado",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-28",
+    "club": {
+      "nombre": "Bayer 04 Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Javier Hernández",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-01",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Giovani dos Santos",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-05-11",
+    "club": {
+      "nombre": "Villarreal CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Oribe Peralta",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-01-12",
+    "club": {
+      "nombre": "Santos Laguna",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Guillermo Ochoa",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-07-13",
+    "club": {
+      "nombre": "Ajaccio",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Raúl Jiménez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-05-05",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Héctor Moreno",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-17",
+    "club": {
+      "nombre": "RCD Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Rafael Márquez",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1979-02-13",
+    "club": {
+      "nombre": "Club León",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Francisco Javier Rodríguez",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-10-20",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Héctor Herrera",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-19",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Miguel Layún",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-06-25",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Juan Carlos Medina",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-08-22",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "José Juan Vázquez",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-03-14",
+    "club": {
+      "nombre": "Club León",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Marco Fabián",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-07-21",
+    "club": {
+      "nombre": "Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  {
+    "nombre": "Alan Pulido",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-08",
+    "club": {
+      "nombre": "Tigres UANL",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX"
+  },
+  
+  {
+    "nombre": "Sergio Romero",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-02-22",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Ezequiel Garay",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-10-10",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Federico Fernández",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-02-21",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Pablo Zabaleta",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-01-16",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Fernando Gago",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-04-10",
+    "club": {
+      "nombre": "CA Boca Juniors",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Marcos Rojo",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-20",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Ángel Di María",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-02-14",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Enzo Pérez",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-02-22",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Gonzalo Higuaín",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-10",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Lionel Messi",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-06-24",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Maximiliano Rodríguez",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1981-01-02",
+    "club": {
+      "nombre": "Newell's Old Boys",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Agustín Orión",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1981-06-26",
+    "club": {
+      "nombre": "CA Boca Juniors",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Hugo Campagnaro",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1980-06-27",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Javier Mascherano",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-06-08",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Martín Demichelis",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1980-12-20",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Sergio Agüero",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-02",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Federico Insúa",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-01-03",
+    "club": {
+      "nombre": "Newell's Old Boys",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Rodrigo Palacio",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1982-02-05",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Álvaro Fernández",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-10-11",
+    "club": {
+      "nombre": "Racing Club",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Matiás Kranevitter",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-05-21",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Mariano Andújar",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-07-30",
+    "club": {
+      "nombre": "Catania",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Ezequiel Lavezzi",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-05-03",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "José María Basanta",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-04-03",
+    "club": {
+      "nombre": "CF Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ARG"
+  },
+  {
+    "nombre": "Asmir Begović",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-06-20",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Avdija Vršajević",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-03-06",
+    "club": {
+      "nombre": "Hajduk Split",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Ermin Bičakčić",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-01-24",
+    "club": {
+      "nombre": "Eintracht Braunschweig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Emir Spahić",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1980-08-18",
+    "club": {
+      "nombre": "Bayer 04 Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Sead Kolašinac",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-06-20",
+    "club": {
+      "nombre": "Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Ognjen Vranješ",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-10-24",
+    "club": {
+      "nombre": "Elazığspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Muhamed Bešić",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-10",
+    "club": {
+      "nombre": "Ferencvárosi TC",
+      "pais": "HUN"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Miralem Pjanić",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-02",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Vedad Ibišević",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-08-06",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Zvjezdan Misimović",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1982-06-05",
+    "club": {
+      "nombre": "Guizhou Renhe",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Edin Džeko",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-03-17",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Jasmin Fejzić",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-05-15",
+    "club": {
+      "nombre": "VfR Aalen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Mensur Mujdža",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-03-28",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Tino-Sven Sušić",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-13",
+    "club": {
+      "nombre": "Hajduk Split",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Senad Lulić",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-01-18",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Senad Lulić",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-01-18",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Izet Hajrović",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-04",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Anel Hadžić",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-16",
+    "club": {
+      "nombre": "Sturm Graz",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Edin Višća",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-02-17",
+    "club": {
+      "nombre": "Medipol Başakşehir",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Ibrahim Šehić",
+    "numero": 20,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-09-02",
+    "club": {
+      "nombre": "Mersin İdmanyurdu",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Ermedin Demirović",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-03-25",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Danijel Milićević",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-01-05",
+    "club": {
+      "nombre": "Rostov",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Salih Uçan",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-01-06",
+    "club": {
+      "nombre": "Fenerbahçe SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "BIH"
+  },
+  {
+    "nombre": "Alireza Haghighi",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-05-02",
+    "club": {
+      "nombre": "Sporting Covilhã",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Khosro Heydari",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-09-14",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Ehsan Hajsafi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-25",
+    "club": {
+      "nombre": "Sepahan",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Jalal Hosseini",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1982-02-03",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Amir Hossein Sadeghi",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-09-06",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Javad Nekounam",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1980-09-07",
+    "club": {
+      "nombre": "Al Kuwait SC",
+      "pais": "KUW"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Masoud Shojaei",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-06-09",
+    "club": {
+      "nombre": "UD Las Palmas",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Reza Haghighi",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-31",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Alireza Jahanbakhsh",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-08-11",
+    "club": {
+      "nombre": "NEC Nijmegen",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Karim Ansarifard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-03",
+    "club": {
+      "nombre": "Tractor Sazi",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Ghasem Haddadifar",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-07-12",
+    "club": {
+      "nombre": "Zob Ahan",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Alireza Beiranvand",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-09-21",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Hossein Mahini",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-16",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Andranik Teymourian",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-03-06",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Pejman Montazeri",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-09-06",
+    "club": {
+      "nombre": "Umm Salal",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Reza Ghoochannejhad",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-09-20",
+    "club": {
+      "nombre": "Charlton Athletic",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Ahmad Alenemeh",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1982-10-20",
+    "club": {
+      "nombre": "Naft Tehran",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Bakhtiar Rahmani",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-09-23",
+    "club": {
+      "nombre": "Foolad",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Hashem Beikzadeh",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-01-22",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Mohammad Reza Khanzadeh",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-05-11",
+    "club": {
+      "nombre": "Zob Ahan",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Sardar Azmoun",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-01-01",
+    "club": {
+      "nombre": "Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Rashid Mazaheri",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-18",
+    "club": {
+      "nombre": "Foolad",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Mehrdad Pooladi",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-02-26",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN"
+  },
+  {
+    "nombre": "Vincent Enyeama",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-08-29",
+    "club": {
+      "nombre": "LOSC Lille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Efe Ambrose",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-10-18",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Ejike Uzoenyi",
+    "numero": 3,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-03-23",
+    "club": {
+      "nombre": "Enugu Rangers",
+      "pais": "NGA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Reuben Gabriel",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-09-25",
+    "club": {
+      "nombre": "Waasland-Beveren",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Godfrey Oboabona",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-08-16",
+    "club": {
+      "nombre": "Çaykur Rizespor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Azubuike Egwuekwe",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-07-16",
+    "club": {
+      "nombre": "Warri Wolves",
+      "pais": "NGA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Ahmed Musa",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-10-14",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Shola Ameobi",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1981-10-12",
+    "club": {
+      "nombre": "Newcastle United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Peter Odemwingie",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1981-07-15",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "John Obi Mikel",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-22",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Victor Moses",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-12-12",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Kunle Odunlami",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-05",
+    "club": {
+      "nombre": "Sunshine Stars",
+      "pais": "NGA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Juwon Oshaniwa",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-14",
+    "club": {
+      "nombre": "Ashdod FC",
+      "pais": "ISR"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Joseph Yobo",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1980-09-06",
+    "club": {
+      "nombre": "Norwich City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Emmanuel Emenike",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-05-10",
+    "club": {
+      "nombre": "Fenerbahçe SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Austin Ejide",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-04-08",
+    "club": {
+      "nombre": "Hapoel Be'er Sheva",
+      "pais": "ISR"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Ogenyi Onazi",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-25",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Nosa Igiebor",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-11-09",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Michael Babatunde",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-24",
+    "club": {
+      "nombre": "FC Volyn Lutsk",
+      "pais": "UKR"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Chigozie Agbim",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-11-28",
+    "club": {
+      "nombre": "Gombe United",
+      "pais": "NGA"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Kenneth Omeruo",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-10-17",
+    "club": {
+      "nombre": "Middlesbrough FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  {
+    "nombre": "Ayoze Pérez",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-29",
+    "club": {
+      "nombre": "Tenerife",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NGA"
+  },
+  
+  {
+    "nombre": "Manuel Neuer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-03-27",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Kevin Großkreutz",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-07-19",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Matthias Ginter",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-01-19",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Benedikt Höwedes",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-29",
+    "club": {
+      "nombre": "Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Mats Hummels",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-12-16",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Sami Khedira",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-04",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Bastian Schweinsteiger",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-08-01",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Mesut Özil",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-10-15",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "André Schürrle",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-11-06",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Lukas Podolski",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-06-04",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Miroslav Klose",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1978-06-09",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Ron-Robert Zieler",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-02-12",
+    "club": {
+      "nombre": "Hannover 96",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Thomas Müller",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-09-13",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Julian Draxler",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-09-20",
+    "club": {
+      "nombre": "Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Erik Durm",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-05-12",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Philipp Lahm",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-11-11",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Per Mertesacker",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-09-29",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Toni Kroos",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-04",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Mario Götze",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-06-03",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Jerome Boateng",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-09-03",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Shkodran Mustafi",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-04-17",
+    "club": {
+      "nombre": "Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Roman Weidenfeller",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1980-08-06",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Christoph Kramer",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-02-19",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER"
+  },
+  {
+    "nombre": "Rui Patrício",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-02-15",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Bruno Alves",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-11-27",
+    "club": {
+      "nombre": "Fenerbahçe SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Pepe",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-02-26",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Miguel Veloso",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-05-11",
+    "club": {
+      "nombre": "FC Dynamo Kyiv",
+      "pais": "UKR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Fábio Coentrão",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-03-11",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "William Carvalho",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-07",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Cristiano Ronaldo",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-02-05",
+    "club": {
+      "nombre": "Real Madrid C. F.",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "João Moutinho",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-08",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Hugo Almeida",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-05-23",
+    "club": {
+      "nombre": "Beşiktaş JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Vieirinha",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-01-24",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Éder",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-22",
+    "club": {
+      "nombre": "SC Braga",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Beto",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-05-01",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Ricardo Costa",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-05-16",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Luís Neto",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-26",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Rúben Amorim",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-27",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Raul Meireles",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-03-17",
+    "club": {
+      "nombre": "Fenerbahçe SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Nani",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-11-17",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "André Gomes",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-07-30",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "André Almeida",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-10",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Rúben Micael",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-08-19",
+    "club": {
+      "nombre": "SC Braga",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "João Pereira",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-02-25",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Eduardo Carvalho",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-09-19",
+    "club": {
+      "nombre": "SC Braga",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Hélder Postiga",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1982-08-02",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POR"
+  },
+  {
+    "nombre": "Tim Howard",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1979-03-06",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "DeAndre Yedlin",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-09",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Omar Gonzalez",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-10-11",
+    "club": {
+      "nombre": "LA Galaxy",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Michael Bradley",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-07-31",
+    "club": {
+      "nombre": "Toronto FC",
+      "pais": "CAN"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Matt Besler",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-02-11",
+    "club": {
+      "nombre": "Sporting Kansas City",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "John Brooks",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-01-28",
+    "club": {
+      "nombre": "Hertha BSC",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "DaMarcus Beasley",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1982-05-24",
+    "club": {
+      "nombre": "Puebla FC",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Clint Dempsey",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1983-03-09",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Jermaine Jones",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1981-11-03",
+    "club": {
+      "nombre": "Beşiktaş JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Mix Diskerud",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-02",
+    "club": {
+      "nombre": "Rosenborg BK",
+      "pais": "NOR"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Alejandro Bedoya",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-29",
+    "club": {
+      "nombre": "FC Nantes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Brad Guzan",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-09-09",
+    "club": {
+      "nombre": "Aston Villa FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Jermaine Jones",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1981-11-03",
+    "club": {
+      "nombre": "Beşiktaş JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Brad Davis",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1981-11-08",
+    "club": {
+      "nombre": "Houston Dynamo",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Kyle Beckerman",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1982-04-23",
+    "club": {
+      "nombre": "Real Salt Lake",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Julian Green",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-06-06",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Jozy Altidore",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-11-06",
+    "club": {
+      "nombre": "Sunderland AFC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Chris Wondolowski",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1983-01-28",
+    "club": {
+      "nombre": "San Jose Earthquakes",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Graham Zusi",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-08-18",
+    "club": {
+      "nombre": "Sporting Kansas City",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Geoff Cameron",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-07-11",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Timothy Chandler",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-29",
+    "club": {
+      "nombre": "1. FC Nürnberg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Nick Rimando",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1979-06-17",
+    "club": {
+      "nombre": "Real Salt Lake",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Fabian Johnson",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-12-11",
+    "club": {
+      "nombre": "TSG Hoffenheim",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA"
+  },
+  {
+    "nombre": "Thibaut Courtois",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-05-11",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Toby Alderweireld",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-02",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Thomas Vermaelen",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-11-14",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Vincent Kompany",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-04-10",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Jan Vertonghen",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-24",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Axel Witsel",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-12",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Kevin De Bruyne",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-06-28",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Marouane Fellaini",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-11-22",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Romelu Lukaku",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-05-13",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Eden Hazard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-07",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Kevin Mirallas",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-10-05",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Nacer Chadli",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-08-02",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  [
+  {
+    "nombre": "Thibaut Courtois",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-05-11",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Toby Alderweireld",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-02",
+    "club": {
+      "nombre": "Atlético De Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Thomas Vermaelen",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-11-14",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Vincent Kompany",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-04-10",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Jan Vertonghen",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-24",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Axel Witsel",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-12",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Kevin De Bruyne",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-06-28",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Marouane Fellaini",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-11-22",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Romelu Lukaku",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-05-13",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Eden Hazard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-07",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Kevin Mirallas",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-10-05",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Sammy Bossut",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-08-11",
+    "club": {
+      "nombre": "Zulte Waregem",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Nacer Chadli",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-08-02",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Dries Mertens",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-05-06",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Daniel Van Buyten",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1978-02-07",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Steven Defour",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-04-15",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Divock Origi",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-04-18",
+    "club": {
+      "nombre": "LOSC Lille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Nicolas Lombaerts",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-03-20",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Moussa Dembélé",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-07-16",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Adnan Januzaj",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-02-05",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Eden Hazard",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-07",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Simon Mignolet",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-03-06",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Laurent Ciman",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-08-05",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "BEL"
+  },
+  {
+    "nombre": "Igor Akinfeev",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-04-08",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Aleksei Kozlov",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-11-16",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Georgi Shchennikov",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-04-27",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Sergei Ignashevich",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1979-07-14",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Andrei Semyonov",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-24",
+    "club": {
+      "nombre": "FC Terek Grozny",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Maksim Kanunnikov",
+    "numero": 6,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-07-14",
+    "club": {
+      "nombre": "FC Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Igor Denisov",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-17",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Denis Glushakov",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-01-27",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Aleksandr Kokorin",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-19",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Alan Dzagoev",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Aleksandr Kerzhakov",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1982-11-27",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Yury Lodygin",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-05-26",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Vladimir Granat",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-22",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Viktor Vasin",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-10-06",
+    "club": {
+      "nombre": "PFC CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Dmitriy Kombarov",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-22",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Sergey Ryzhikov",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1980-09-19",
+    "club": {
+      "nombre": "FC Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Oleg Shatov",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-07-29",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Yuri Zhirkov",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-08-20",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Alexander Samedov",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-07-19",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Viktor Fayzulin",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-04-22",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Alexey Ionov",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-02-18",
+    "club": {
+      "nombre": "FC Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Andrey Eshchenko",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-02-09",
+    "club": {
+      "nombre": "FC Anzhi Makhachkala",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Dmitriy Kombarov",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-22",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS"
+  },
+  {
+    "nombre": "Jung Sung-ryong",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-01-04",
+    "club": {
+      "nombre": "Suwon Samsung Bluewings",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kim Chang-soo",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-09-12",
+    "club": {
+      "nombre": "Kashiwa Reysol",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Yun Suk-young",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-13",
+    "club": {
+      "nombre": "Queens Park Rangers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kwak Tae-hwi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-07-08",
+    "club": {
+      "nombre": "Al Hilal SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kim Young-gwon",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-27",
+    "club": {
+      "nombre": "Guangzhou Evergrande",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Hwang Seok-ho",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-06-27",
+    "club": {
+      "nombre": "Sanfrecce Hiroshima",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kim Bo-kyung",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-10-06",
+    "club": {
+      "nombre": "Cardiff City FC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Ha Dae-sung",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-03-02",
+    "club": {
+      "nombre": "FC Seoul",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Son Heung-min",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-08",
+    "club": {
+      "nombre": "Bayer 04 Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Park Chu-young",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-07-10",
+    "club": {
+      "nombre": "Watford FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Lee Keun-ho",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-04-11",
+    "club": {
+      "nombre": "Sangju Sangmu FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Lee Yong",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-12-24",
+    "club": {
+      "nombre": "Ulsan Hyundai FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Koo Ja-cheol",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-02-27",
+    "club": {
+      "nombre": "FSV Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Han Kook-young",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-19",
+    "club": {
+      "nombre": "Kashiwa Reysol",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Park Jong-woo",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-10",
+    "club": {
+      "nombre": "Guangzhou R&F",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Ki Sung-yueng",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-24",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Lee Chung-yong",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-07-02",
+    "club": {
+      "nombre": "Bolton Wanderers FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kim Shin-wook",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-04-14",
+    "club": {
+      "nombre": "Ulsan Hyundai FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Ji Dong-won",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-05-28",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Hong Jeong-ho",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-08-12",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Kim Seung-gyu",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-09-30",
+    "club": {
+      "nombre": "Ulsan Hyundai FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Park Joo-ho",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-16",
+    "club": {
+      "nombre": "FSV Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Lee Bum-young",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-04-02",
+    "club": {
+      "nombre": "Busan IPark",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR"
+  },
+  {
+    "nombre": "Rais M'Bolhi",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-04-25",
+    "club": {
+      "nombre": "CSKA Sofia",
+      "pais": "BUL"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Liassine Cadamuro-Bentaïba",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-03-05",
+    "club": {
+      "nombre": "RCD Mallorca",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Faouzi Ghoulam",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-01",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Essaid Belkalem",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-01-01",
+    "club": {
+      "nombre": "Watford FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Rafik Halliche",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-02",
+    "club": {
+      "nombre": "Académica de Coimbra",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Djamel Mesbah",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-10-09",
+    "club": {
+      "nombre": "AS Livorno Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Hassan Yebda",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-14",
+    "club": {
+      "nombre": "Udinese Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Medhi Lacen",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-15",
+    "club": {
+      "nombre": "Getafe CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Nabil Ghilas",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-08",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Sofiane Feghouli",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-26",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Yacine Brahimi",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-08",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Carl Medjani",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-05-15",
+    "club": {
+      "nombre": "Valenciennes FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Islam Slimani",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-18",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Nabil Bentaleb",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-11-24",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "El Arbi Hillel Soudani",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-11-25",
+    "club": {
+      "nombre": "GNK Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Mohamed Lamine Zemmamouche",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-03-19",
+    "club": {
+      "nombre": "USM Alger",
+      "pais": "ALG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Abdelmoumene Djabou",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-01-31",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Mehdi Mostefa",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-08-30",
+    "club": {
+      "nombre": "Ajaccio",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Saphir Taïder",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-29",
+    "club": {
+      "nombre": "FC Internazionale Milano",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Aïssa Mandi",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-10-22",
+    "club": {
+      "nombre": "Stade Reims",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Riyad Mahrez",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-21",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Adlène Guedioura",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-11-12",
+    "club": {
+      "nombre": "Crystal Palace FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ALG"
+  },
+  {
+    "nombre": "Cédric Si Mohamed",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-01-09",
+    "club": {
+      "nombre": "CS Constantine",
+      "pais": "ALG"
+    },
+    "fifaCodeEquipo": "ALG"
+  }
+]
+  ]
+}

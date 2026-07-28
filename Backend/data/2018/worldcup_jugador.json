@@ -1,0 +1,8834 @@
+[
+  {
+    "nombre": "Essam El Hadary",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1973-01-15",
+    "club": {
+      "nombre": "Al Taawoun FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ali Gabr",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-01-01",
+    "club": {
+      "nombre": "West Bromwich Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Elmohamady",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-09-09",
+    "club": {
+      "nombre": "Aston Villa FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Omar Gaber",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-30",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Sam Morsy",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-09-10",
+    "club": {
+      "nombre": "Wigan Athletic FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Hegazy",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-01-25",
+    "club": {
+      "nombre": "West Bromwich Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Fathi",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-11-10",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Tarek Hamed",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-10-24",
+    "club": {
+      "nombre": "Zamalek",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Marwan Mohsen",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-02-26",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Salah",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-06-15",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Kahraba",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-04-13",
+    "club": {
+      "nombre": "Al-Ittihad FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ayman Ashraf",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-04-09",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Abdelshafy",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-07-01",
+    "club": {
+      "nombre": "Al Fateh FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Ramadan Sobhy",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-01-23",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Mahmoud Hamdy",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-06-01",
+    "club": {
+      "nombre": "Zamalek",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Sherif Ekramy",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-07-10",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Elneny",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-07-11",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Shikabala",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-03-05",
+    "club": {
+      "nombre": "Al Raed SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdalla Said",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-07-13",
+    "club": {
+      "nombre": "Kuopion PS",
+      "pais": "FIN"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Samir Saad",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-04-01",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Trezeguet",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-10-01",
+    "club": {
+      "nombre": "Kasimpasa SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Amr Warda",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-09-17",
+    "club": {
+      "nombre": "Atromitos FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Elshenawy",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-12-18",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "EGY",
+    "año": 2018
+  },
+  {
+    "nombre": "Igor Akinfeev",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-04-08",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Mario Fernandes",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-19",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Ilya Kutepov",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-29",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Sergey Ignashevich",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1979-07-14",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Andrey Semenov",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-24",
+    "club": {
+      "nombre": "FC Akhmat Grozny",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Denis Cheryshev",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-12-26",
+    "club": {
+      "nombre": "Villarreal CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Daler Kuziaev",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-15",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Iury Gazinsky",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-07-20",
+    "club": {
+      "nombre": "FC Krasnodar",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Alan Dzagoev",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Fedor Smolov",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-02-09",
+    "club": {
+      "nombre": "FC Krasnodar",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Roman Zobnin",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-02-11",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Andrei Lunev",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-11-13",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Fedor Kudriashov",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-05",
+    "club": {
+      "nombre": "FC Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Vladimir Granat",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-22",
+    "club": {
+      "nombre": "FC Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Alexey Miranchuk",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-10-17",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Anton Miranchuk",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-10-17",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Aleksandr Golovin",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-05-30",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Yury Zhirkov",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-08-20",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Alexander Samedov",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-07-19",
+    "club": {
+      "nombre": "FC Spartak Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Vladimir Gabulov",
+    "numero": 20,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-10-19",
+    "club": {
+      "nombre": "Club Brugge KV",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Aleksandr Erokhin",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-10-13",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Artem Dzyuba",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-08-22",
+    "club": {
+      "nombre": "FC Arsenal Tula",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Igor Smolnikov",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-08-08",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "RUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdullah Almuaiouf",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-01-23",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Mansour Alharbi",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-10-19",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Osama Hawsawi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-03-31",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ali Albulayhi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-11-21",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Omar Othman",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-09-27",
+    "club": {
+      "nombre": "Al Nassr FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohammed Alburayk",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-09-15",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Salman Alfaraj",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-01",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Yahia Alshehri",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-26",
+    "club": {
+      "nombre": "CD Leganés",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Hatan Bahbir",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-07-16",
+    "club": {
+      "nombre": "Al Shabab FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohammed Alsahlawi",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-10",
+    "club": {
+      "nombre": "Al Nassr FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdulmalek Alkhaibri",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-03-13",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Kanno",
+    "numero": 12,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-22",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Yasir Alshahrani",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-05-25",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdullah Otayf",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-08-03",
+    "club": {
+      "nombre": "Al Hilal SFC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdullah Alkhaibari",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-08-16",
+    "club": {
+      "nombre": "Al Shabab FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Hussain Almoqahwi",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-03-24",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Taiseer Aljassam",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-07-25",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Salem Aldawsari",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-19",
+    "club": {
+      "nombre": "Villarreal CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Fahad Almuwallad",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-09-14",
+    "club": {
+      "nombre": "Levante UD",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Muhannad Asiri",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-10-14",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Yasser Almosailem",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-02-27",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohammed Alowais",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-10-10",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Motaz Hawsawi",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-17",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2018
+  },
+  {
+    "nombre": "Fernando Muslera",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-06-16",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Gimenez",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-20",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Diego Godin",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-16",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Guillermo Varela",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-24",
+    "club": {
+      "nombre": "CA Penarol",
+      "pais": "URU"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Sanchez",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-12-02",
+    "club": {
+      "nombre": "CF Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Rodrigo Bentancur",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-25",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristian Rodriguez",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-09-30",
+    "club": {
+      "nombre": "CA Penarol",
+      "pais": "URU"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Nahitan Nandez",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-12-28",
+    "club": {
+      "nombre": "CA Boca Juniors",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Luis Suarez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-24",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Giorgian De Arrascaeta",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-01",
+    "club": {
+      "nombre": "Cruzeiro EC",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristhian Stuani",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-10-12",
+    "club": {
+      "nombre": "Girona FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Martin Campana",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-29",
+    "club": {
+      "nombre": "CA Independiente",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Gaston Silva",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-03-05",
+    "club": {
+      "nombre": "CA Independiente",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Lucas Torreira",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-02-11",
+    "club": {
+      "nombre": "UC Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Matias Vecino",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-24",
+    "club": {
+      "nombre": "FC Internazionale",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Maximiliano Pereira",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-06-08",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Diego Laxalt",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-02-07",
+    "club": {
+      "nombre": "Genoa CFC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Maximiliano Gomez",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-08-14",
+    "club": {
+      "nombre": "Celta Vigo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Sebastian Coates",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-10-07",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Jonathan Urretaviscaya",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-03-19",
+    "club": {
+      "nombre": "CF Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Edinson Cavani",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-02-14",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Martin Caceres",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-07",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Martin Silva",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-03-25",
+    "club": {
+      "nombre": "CR Vasco da Gama",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2018
+  },
+  {
+    "nombre": "Ali Beiranvand",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-09-21",
+    "club": {
+      "nombre": "Persepolis FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mehdi Torabi",
+    "numero": 2,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-10",
+    "club": {
+      "nombre": "Saipa Alborz FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ehsan Haji Safi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-25",
+    "club": {
+      "nombre": "Olympiacos Piraeus FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Roozbeh Cheshmi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-24",
+    "club": {
+      "nombre": "Esteghlal Tehran FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Milad Mohammadi",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-29",
+    "club": {
+      "nombre": "FC Akhmat Grozny",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Saeid Ezatolahi",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-10-01",
+    "club": {
+      "nombre": "FK Amkar Perm",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Masoud Shojaei",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-06-09",
+    "club": {
+      "nombre": "AEK Athens",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Morteza Pouraliganji",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-04-19",
+    "club": {
+      "nombre": "Al Sadd SC",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Omid Ebrahimi",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-09-16",
+    "club": {
+      "nombre": "Esteghlal Tehran FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Karim Ansarifard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-03",
+    "club": {
+      "nombre": "Olympiacos Piraeus FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Vahid Amiri",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-04-02",
+    "club": {
+      "nombre": "Persepolis FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Rashid Mazaheri",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-18",
+    "club": {
+      "nombre": "Zob Ahan Isfahan FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohammad Reza Khanzadeh",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-05-11",
+    "club": {
+      "nombre": "Padideh FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Saman Ghoddos",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-09-06",
+    "club": {
+      "nombre": "IFK Östersund FK",
+      "pais": "SWE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Pejman Montazeri",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-09-06",
+    "club": {
+      "nombre": "Esteghlal Tehran FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Reza Ghoochannejhad",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-09-20",
+    "club": {
+      "nombre": "SC Heerenveen",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mehdi Taremi",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-18",
+    "club": {
+      "nombre": "Al Gharafa SC",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Alireza Jahanbakhsh",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-08-11",
+    "club": {
+      "nombre": "AZ Alkmaar",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Majid Hosseini",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-06-20",
+    "club": {
+      "nombre": "Esteghlal Tehran FC",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Sardar Azmoun",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-01-01",
+    "club": {
+      "nombre": "FC Rubin Kazan",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ashkan Dejagah",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-07-05",
+    "club": {
+      "nombre": "Nottingham Forest FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Amir Abedzadeh",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-04-26",
+    "club": {
+      "nombre": "CS Maritimo",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ramin Rezaeian",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-21",
+    "club": {
+      "nombre": "KV Oostende",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yassine Bounou",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-04-05",
+    "club": {
+      "nombre": "Girona FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Achraf Hakimi",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-11-04",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Hamza Mendyl",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-21",
+    "club": {
+      "nombre": "Lille OSC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Manuel Da Costa",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-05-06",
+    "club": {
+      "nombre": "Istanbul Başakşehir FK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Mehdi Benatia",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-17",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Romain Saiss",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-26",
+    "club": {
+      "nombre": "Wolverhampton Wanderers FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Hakim Ziyach",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-19",
+    "club": {
+      "nombre": "AFC Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Karim El Ahmadi",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-27",
+    "club": {
+      "nombre": "Feyenoord Rotterdam",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Ayoub El Kaabi",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-06-25",
+    "club": {
+      "nombre": "RS Berkane",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Younes Belhanda",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-25",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Faycal Fajr",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-08-01",
+    "club": {
+      "nombre": "Getafe CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Monir El Kajoui",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-10",
+    "club": {
+      "nombre": "CD Numancia",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Khalid Boutaib",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-04-24",
+    "club": {
+      "nombre": "Yeni Malatyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Mbark Boussoufa",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-08-15",
+    "club": {
+      "nombre": "Al Jazira",
+      "pais": "UAE"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Youssef Ait Bennasser",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-07-07",
+    "club": {
+      "nombre": "SM Caen",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Noureddine Amrabat",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-03-31",
+    "club": {
+      "nombre": "CD Leganés",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Nabil Dirar",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-25",
+    "club": {
+      "nombre": "Fenerbahce SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Amine Harit",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-18",
+    "club": {
+      "nombre": "FC Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Youssef En Nesyri",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-06-01",
+    "club": {
+      "nombre": "Malaga CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Aziz Bouhaddouz",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-03-30",
+    "club": {
+      "nombre": "FC St. Pauli",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Sofyan Amrabat",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-08-21",
+    "club": {
+      "nombre": "Feyenoord Rotterdam",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Tagnaouti",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-04-05",
+    "club": {
+      "nombre": "IRT Tanger",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Mehdi Carcela",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-07-01",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2018
+  },
+  {
+    "nombre": "Rui Patricio",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-02-15",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Bruno Alves",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-11-27",
+    "club": {
+      "nombre": "Rangers FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Pepe",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-02-26",
+    "club": {
+      "nombre": "Besiktas JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Manuel Fernandes",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-02-05",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Raphael Guerreiro",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-12-22",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Fonte",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-12-22",
+    "club": {
+      "nombre": "Dalian Yifang FC",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristiano Ronaldo",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-02-05",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Joao Moutinho",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-08",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Andre Silva",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-11-06",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Joao Mario",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-19",
+    "club": {
+      "nombre": "West Ham United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Bernardo Silva",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-08-10",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Anthony Lopes",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-10-01",
+    "club": {
+      "nombre": "Olympique Lyon",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Ruben Dias",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-05-14",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "William",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-07",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Ricardo",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-10-06",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Bruno Fernandes",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-08",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Goncalo Guedes",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-11-29",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Gelson Martins",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-05-11",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Mario Rui",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-05-27",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Ricardo Quaresma",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1983-09-26",
+    "club": {
+      "nombre": "Besiktas JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Cedric",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-08-31",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Beto",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-05-01",
+    "club": {
+      "nombre": "Goztepe SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "Adrien Silva",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-15",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2018
+  },
+  {
+    "nombre": "David De Gea",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-11-07",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Dani Carvajal",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-11",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Gerard Pique",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-02-02",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Nacho",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-01-18",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Sergio Busquets",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-07-16",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Andres Iniesta",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-11",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Saul",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-11-21",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Koke",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-08",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Rodrigo",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-06",
+    "club": {
+      "nombre": "Valencia CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Thiago",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-04-11",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Lucas Vazquez",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-07-01",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Alvaro Odriozola",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-12-14",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Kepa Arrizabalaga",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-10-03",
+    "club": {
+      "nombre": "Athletic Bilbao",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Cesar Azpilicueta",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-08-28",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Sergio Ramos",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-03-30",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Nacho Monreal",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-26",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Iago Aspas",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-08-01",
+    "club": {
+      "nombre": "Celta Vigo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Jordi Alba",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-21",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Diego Costa",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-10-07",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Marco Asensio",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-01-21",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "David Silva",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-01-08",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Isco",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-21",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Pepe Reina",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-08-31",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2018
+  },
+  {
+    "nombre": "Mathew Ryan",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-08",
+    "club": {
+      "nombre": "Brighton & Hove Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Milos Degenek",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-04-28",
+    "club": {
+      "nombre": "Yokohama F-Marinos",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "James Meredith",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-04-05",
+    "club": {
+      "nombre": "Millwall FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Tim Cahill",
+    "numero": 4,
+    "posicion": "FW",
+    "fechaNacimiento": "1979-12-06",
+    "club": {
+      "nombre": "Millwall FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Mark Milligan",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-08-04",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Matthew Jurman",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-12-08",
+    "club": {
+      "nombre": "Suwon Samsung Bluewings FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Mathew Leckie",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-04",
+    "club": {
+      "nombre": "Hertha BSC",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Massimo Luongo",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-25",
+    "club": {
+      "nombre": "Queens Park Rangers FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Tomi Juric",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-07-22",
+    "club": {
+      "nombre": "FC Luzern",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Robbie Kruse",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-10-05",
+    "club": {
+      "nombre": "VfL Bochum",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Andrew Nabbout",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-12-17",
+    "club": {
+      "nombre": "Urawa Reds",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Brad Jones",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-03-19",
+    "club": {
+      "nombre": "Feyenoord Rotterdam",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Aaron Mooy",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-09-15",
+    "club": {
+      "nombre": "Huddersfield Town FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "MacLAREN Jamie",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-29",
+    "club": {
+      "nombre": "Hibernian FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Mile Jedinak",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-08-03",
+    "club": {
+      "nombre": "Aston Villa FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Aziz Behich",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-12-16",
+    "club": {
+      "nombre": "Bursaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Daniel Arzani",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-01-04",
+    "club": {
+      "nombre": "Melbourne City FC",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Danny Vukovic",
+    "numero": 18,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-03-27",
+    "club": {
+      "nombre": "KRC Genk",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Joshua Risdon",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-27",
+    "club": {
+      "nombre": "WS Wanderers FC",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Trent Sainsbury",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-05",
+    "club": {
+      "nombre": "Grasshopper Club",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Dimitrios Petratos",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-11-10",
+    "club": {
+      "nombre": "Newcastle United Jets FC",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Jackson Irvine",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-07",
+    "club": {
+      "nombre": "Hull City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Tom Rogic",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-16",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2018
+  },
+  {
+    "nombre": "Kasper Schmeichel",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-11-05",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Michael Krohn-Dehli",
+    "numero": 2,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-06-06",
+    "club": {
+      "nombre": "Deportivo La Coruña",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jannik Vestergaard",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-03",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Simon Kjaer",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-26",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jonas Knudsen",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-09-16",
+    "club": {
+      "nombre": "Ipswich Town FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Andreas Christensen",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-10",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "William Kvist",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-02-24",
+    "club": {
+      "nombre": "FC Kobenhavn",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Thomas Delaney",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-09-03",
+    "club": {
+      "nombre": "SV Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Nicolai Jorgensen",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-15",
+    "club": {
+      "nombre": "Feyenoord Rotterdam",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Christian Eriksen",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-14",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Martin Braithwaite",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-05",
+    "club": {
+      "nombre": "FC Girondins Bordeaux",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Kasper Dolberg",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-06",
+    "club": {
+      "nombre": "AFC Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mathias Jorgensen",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-04-23",
+    "club": {
+      "nombre": "Huddersfield Town FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Henrik Dalsgaard",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-07-27",
+    "club": {
+      "nombre": "Brentford FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Viktor Fischer",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-09",
+    "club": {
+      "nombre": "FC Kobenhavn",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jonas Lossl",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-02-01",
+    "club": {
+      "nombre": "Huddersfield Town FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jens Stryger Larsen",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-21",
+    "club": {
+      "nombre": "Udinese Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Lukas Lerager",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-07-12",
+    "club": {
+      "nombre": "FC Girondins Bordeaux",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Lasse Schone",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-05-27",
+    "club": {
+      "nombre": "AFC Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yussuf Yurary Poulsen",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-15",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Andreas Cornelius",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-03-16",
+    "club": {
+      "nombre": "Atalanta Bergamo",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Frederik Ronnow",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-08-04",
+    "club": {
+      "nombre": "Brondby IF",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Pione Sisto",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-02-04",
+    "club": {
+      "nombre": "Celta Vigo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Hugo Lloris",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-12-26",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Benjamin Pavard",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-03-28",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Presnel Kimpembe",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-08-13",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Raphael Varane",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-25",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Samuel Umtiti",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-11-14",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Paul Pogba",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-15",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Antoine Griezmann",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-21",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Thomas Lemar",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-11-12",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Olivier Giroud",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-09-30",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Kylian Mbappe",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-12-20",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ousmane Dembele",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-05-15",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Corentin Tolisso",
+    "numero": 12,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-08-03",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ngolo Kante",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-03-29",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Blaise Matuidi",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-09",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Steven Nzonzi",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-12-15",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Steve Mandanda",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-03-28",
+    "club": {
+      "nombre": "Olympique Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Adil Rami",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-12-27",
+    "club": {
+      "nombre": "Olympique Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Nabil Fekir",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-18",
+    "club": {
+      "nombre": "Olympique Lyon",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Djibril Sidibe",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-29",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Florian Thauvin",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-01-26",
+    "club": {
+      "nombre": "Olympique Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Lucas Hernandez",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-02-14",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Benjamin Mendy",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-17",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Alphonse Areola",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-02-27",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Pedro Gallese",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-02-23",
+    "club": {
+      "nombre": "CD Tiburones Rojos de Veracruz",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Alberto Rodriguez",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-03-31",
+    "club": {
+      "nombre": "Atletico Junior",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Aldo Corzo",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-05-20",
+    "club": {
+      "nombre": "Universitario Lima",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Anderson Santamaria",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-10",
+    "club": {
+      "nombre": "Puebla FC",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Miguel Araujo",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-10-24",
+    "club": {
+      "nombre": "Alianza Lima",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Miguel Trauco",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-25",
+    "club": {
+      "nombre": "CR Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Paolo Hurtado",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-07-27",
+    "club": {
+      "nombre": "Vitoria Guimaraes",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Christian Cueva",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-11-23",
+    "club": {
+      "nombre": "Sao Paulo FC",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Paolo Guerrero",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-01-01",
+    "club": {
+      "nombre": "CR Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Jefferson Farfan",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-10-26",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Raul Ruidiaz",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-07-25",
+    "club": {
+      "nombre": "CA Monarcas Morelia",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Caceda",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-09-27",
+    "club": {
+      "nombre": "Deportivo Municipal",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Renato Tapia",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-07-28",
+    "club": {
+      "nombre": "Feyenoord Rotterdam",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Andy Polo",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-29",
+    "club": {
+      "nombre": "Portland Timbers",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Christian Ramos",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-11-04",
+    "club": {
+      "nombre": "CD Tiburones Rojos de Veracruz",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Wilder Cartagena",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-23",
+    "club": {
+      "nombre": "CD Tiburones Rojos de Veracruz",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Luis Advincula",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-02",
+    "club": {
+      "nombre": "Lobos BUAP",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Andre Carrillo",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-14",
+    "club": {
+      "nombre": "Watford FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Yoshimar Yotun",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-07",
+    "club": {
+      "nombre": "Orlando City SC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Edison Flores",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-05-14",
+    "club": {
+      "nombre": "Aalborg BK",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Carvallo",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-03-01",
+    "club": {
+      "nombre": "Universidad Técnica de Cajamarca",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Nilson Loyola",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-10-26",
+    "club": {
+      "nombre": "FBC Melgar",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Pedro Aquino",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-13",
+    "club": {
+      "nombre": "Lobos BUAP",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PER",
+    "año": 2018
+  },
+  {
+    "nombre": "Nahuel Guzman",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-02-10",
+    "club": {
+      "nombre": "Tigres UANL",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Gabriel Mercado",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-03-18",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Nicolas Tagliafico",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-31",
+    "club": {
+      "nombre": "AFC Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristian Ansaldi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-20",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Lucas Biglia",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-01-30",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Federico Fazio",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-03-17",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Ever Banega",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-29",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcos Acuna",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-10-28",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Gonzalo Higuain",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-10",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Lionel Messi",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-06-24",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Angel Di Maria",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-02-14",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Franco Armani",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-10-16",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Maximiliano Meza",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-15",
+    "club": {
+      "nombre": "CA Independiente",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Javier Mascherano",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-06-08",
+    "club": {
+      "nombre": "Hebei China Fortune FC",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Enzo Pérez",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-02-22",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcos Rojo",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-20",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Nicolas Otamendi",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-12",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Eduardo Salvio",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-07-13",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Sergio Aguero",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-02",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Giovani Lo Celso",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-04-09",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Paulo Dybala",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-11-15",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristian Pavon",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-01-21",
+    "club": {
+      "nombre": "CA Boca Juniors",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Wilfredo Caballero",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1981-09-28",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2018
+  },
+  {
+    "nombre": "Dominik Livakovic",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-01-09",
+    "club": {
+      "nombre": "GNK Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Sime Vrsaljko",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-10",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Ivan Strinic",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-07-17",
+    "club": {
+      "nombre": "UC Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Ivan Perisic",
+    "numero": 4,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-02-02",
+    "club": {
+      "nombre": "FC Internazionale",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Vedran Corluka",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-05",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Dejan Lovren",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-07-05",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Ivan Rakitic",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-03-10",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Mateo Kovacic",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-05-06",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Andrej Kramaric",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-19",
+    "club": {
+      "nombre": "TSG 1899 Hoffenheim",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Luka Modric",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-09-09",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcelo Brozovic",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-11-16",
+    "club": {
+      "nombre": "FC Internazionale",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Lovre Kalinic",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-04-03",
+    "club": {
+      "nombre": "KAA Gent",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Tin Jedvaj",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-11-28",
+    "club": {
+      "nombre": "Bayer 04 Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Filip Bradaric",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-11",
+    "club": {
+      "nombre": "HNK Rijeka",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Duje Caleta-Car",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-09-17",
+    "club": {
+      "nombre": "FC Red Bull Salzburg",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Nikola Kalinic",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-01-05",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Mario Mandzukic",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-05-21",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Ante Rebic",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-09-21",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Milan Badelj",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-02-25",
+    "club": {
+      "nombre": "ACF Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Marko Pjaca",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-05-06",
+    "club": {
+      "nombre": "FC Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Domagoj Vida",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-04-29",
+    "club": {
+      "nombre": "Besiktas JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Josip Pivaric",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-01-30",
+    "club": {
+      "nombre": "FC Dynamo Kyiv",
+      "pais": "UKR"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Danijel Subasic",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-10-27",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2018
+  },
+  {
+    "nombre": "Hannes Halldorsson",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-04-27",
+    "club": {
+      "nombre": "Randers FC",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Birkir Saevarsson",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-11-11",
+    "club": {
+      "nombre": "Valur Reykjavik",
+      "pais": "ISL"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Samuel Fridjonsson",
+    "numero": 3,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-02-22",
+    "club": {
+      "nombre": "Valerenga IF",
+      "pais": "NOR"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Albert Gudmundsson",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-15",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Sverrir Ingason",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-08-05",
+    "club": {
+      "nombre": "FC Rostov",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Ragnar Sigurdsson",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-06-19",
+    "club": {
+      "nombre": "FC Rostov",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Johann Gudmundsson",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-27",
+    "club": {
+      "nombre": "Burnley FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Birkir Bjarnason",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-27",
+    "club": {
+      "nombre": "Aston Villa FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Bjorn Sigurdarson",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-26",
+    "club": {
+      "nombre": "FC Rostov",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Gylfi Sigurdsson",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-09-08",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Alfred Finnbogason",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-02-01",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Frederik Schram",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-01-19",
+    "club": {
+      "nombre": "Roskilde BK",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Runar Runarsson",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-02-18",
+    "club": {
+      "nombre": "FC Nordsjaelland",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Kari Arnason",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1982-10-13",
+    "club": {
+      "nombre": "Aberdeen FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Holmar Eyjolfsson",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-08-06",
+    "club": {
+      "nombre": "Levski Sofia",
+      "pais": "BUL"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Olafur Skulason",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1983-04-01",
+    "club": {
+      "nombre": "Karabukspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Aron Gunnarsson",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-04-22",
+    "club": {
+      "nombre": "Cardiff City FC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Hordur Magnusson",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-11",
+    "club": {
+      "nombre": "Bristol City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Rurik Gislason",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-02-25",
+    "club": {
+      "nombre": "SV Sandhausen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Emil Hallfredsson",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-06-29",
+    "club": {
+      "nombre": "Udinese Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Arnor Traustason",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-04-30",
+    "club": {
+      "nombre": "Malmö FF",
+      "pais": "SWE"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jon Bodvarsson",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-05-25",
+    "club": {
+      "nombre": "Reading FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Ari Skulason",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-14",
+    "club": {
+      "nombre": "KSC Lokeren",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "ISL",
+    "año": 2018
+  },
+  {
+    "nombre": "Ikechukwu Ezenwa",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-10-16",
+    "club": {
+      "nombre": "Enyimba FC",
+      "pais": "NGA"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Bryan Idowu",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-05-18",
+    "club": {
+      "nombre": "FK Amkar Perm",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Elderson Echiejile",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-20",
+    "club": {
+      "nombre": "Cercle Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Onyinye Ndidi",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-12-16",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "William Ekong",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-01",
+    "club": {
+      "nombre": "Bursaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Leon Balogun",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-06-28",
+    "club": {
+      "nombre": "FSV Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Musa",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-10-14",
+    "club": {
+      "nombre": "CSKA Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Oghenekaro Etebo",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-11-09",
+    "club": {
+      "nombre": "UD Las Palmas",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Odion Ighalo",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-06-16",
+    "club": {
+      "nombre": "Changchun Yatai",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "John Obi Mikel",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-22",
+    "club": {
+      "nombre": "Tianjin Teda",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Victor Moses",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-12-12",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdullahi Shehu",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-12",
+    "club": {
+      "nombre": "Bursaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Simeon Nwankwo",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-05-07",
+    "club": {
+      "nombre": "FC Crotone",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Kelechi Iheanacho",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-03-10",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Joel Obi",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-05-22",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Daniel Akpeyi",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-03-08",
+    "club": {
+      "nombre": "Chippa United FC",
+      "pais": "RSA"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ogenyi Onazi",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-25",
+    "club": {
+      "nombre": "Trabzonspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Alex Iwobi",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-05-03",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "John Ogu",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-04-20",
+    "club": {
+      "nombre": "Hapoel Be’er Sheva FC",
+      "pais": "ISR"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Chidozie Awaziem",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-01",
+    "club": {
+      "nombre": "FC Nantes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Tyronne Ebuehi",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-12-16",
+    "club": {
+      "nombre": "ADO Den Haag",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Kenneth Omeruo",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-10-17",
+    "club": {
+      "nombre": "Kasimpasa SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Francis Uzoho",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1998-10-28",
+    "club": {
+      "nombre": "Deportivo La Coruña",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NGA",
+    "año": 2018
+  },
+  {
+    "nombre": "Alisson",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-10-02",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Thiago Silva",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-09-22",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Miranda",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-09-07",
+    "club": {
+      "nombre": "FC Internazionale",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Pedro Geromel",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-09-21",
+    "club": {
+      "nombre": "Grêmio FBPA",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Casemiro",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-23",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Filipe Luis",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-08-09",
+    "club": {
+      "nombre": "Atletico Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Douglas Costa",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-09-14",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Renato Augusto",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-02-08",
+    "club": {
+      "nombre": "Beijing Guoan",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Gabriel Jesus",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-04-03",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Neymar",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-05",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Philippe Coutinho",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-06-12",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcelo",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-12",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Marquinhos",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-14",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Danilo",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-07-15",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Paulinho",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-07-25",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Cassio",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-06-06",
+    "club": {
+      "nombre": "SC Corinthians",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Fernandinho",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-05-04",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Fred",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "FC Shakhtar Donetsk",
+      "pais": "UKR"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Willian",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-08-09",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Roberto Firmino",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-10-02",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Taison",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-01-13",
+    "club": {
+      "nombre": "FC Shakhtar Donetsk",
+      "pais": "UKR"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Fagner",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-06-11",
+    "club": {
+      "nombre": "SC Corinthians",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Ederson",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-08-17",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2018
+  },
+  {
+    "nombre": "Keylor Navas",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-12-15",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Johnny Acosta",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-07-21",
+    "club": {
+      "nombre": "Rionegro Águilas",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Giancarlo Gonzalez",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-08",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Ian Smith",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-03-06",
+    "club": {
+      "nombre": "IFK Norrkoping FK",
+      "pais": "SWE"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Celso Borges",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-27",
+    "club": {
+      "nombre": "Deportivo La Coruña",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Oscar Duarte",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-06-03",
+    "club": {
+      "nombre": "RCD Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Christian Bolanos",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-17",
+    "club": {
+      "nombre": "Deportivo Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Bryan Oviedo",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-18",
+    "club": {
+      "nombre": "Sunderland AFC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Daniel Colindres",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-10",
+    "club": {
+      "nombre": "Deportivo Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Bryan Ruiz",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-08-18",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Johan Venegas",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-11-27",
+    "club": {
+      "nombre": "Deportivo Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Joel Campbell",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-06-26",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Rodney Wallace",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-17",
+    "club": {
+      "nombre": "New York City FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Randall Azofeifa",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-12-30",
+    "club": {
+      "nombre": "CS Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Francisco Calvo",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-08",
+    "club": {
+      "nombre": "Minnesota United FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristian Gamboa",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-10-24",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Yeltsin Tejeda",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-03-17",
+    "club": {
+      "nombre": "FC Lausanne-Sport",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Patrick Pemberton",
+    "numero": 18,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-04-24",
+    "club": {
+      "nombre": "LD Alajuelense",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Kendall Waston",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-01",
+    "club": {
+      "nombre": "Vancouver Whitecaps FC",
+      "pais": "CAN"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "David Guzman",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-18",
+    "club": {
+      "nombre": "Portland Timbers",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcos Urena",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-03-05",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Ronald Matarrita",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-09",
+    "club": {
+      "nombre": "New York City FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Leonel Moreira",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-04-02",
+    "club": {
+      "nombre": "CS Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2018
+  },
+  {
+    "nombre": "Vladimir Stojkovic",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-07-28",
+    "club": {
+      "nombre": "FK Partizan",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Antonio Rukavina",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-01-26",
+    "club": {
+      "nombre": "Villarreal CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Dusko Tosic",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-01-19",
+    "club": {
+      "nombre": "Besiktas JK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Luka Milivojevic",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-04-07",
+    "club": {
+      "nombre": "Crystal Palace FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Uros Spajic",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-13",
+    "club": {
+      "nombre": "RSC Anderlecht",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Branislav Ivanovic",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-02-22",
+    "club": {
+      "nombre": "FC Zenit St. Petersburg",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Andrija Zivkovic",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-07-11",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Aleksandar Prijovic",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-21",
+    "club": {
+      "nombre": "PAOK FC",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Aleksandar Mitrovic",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-09-16",
+    "club": {
+      "nombre": "Fulham FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Dusan Tadic",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-11-20",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Aleksandar Kolarov",
+    "numero": 11,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-11-10",
+    "club": {
+      "nombre": "AS Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Predrag Rajkovic",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-10-31",
+    "club": {
+      "nombre": "Maccabi Tel-Aviv FC",
+      "pais": "ISR"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Milos Veljkovic",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-26",
+    "club": {
+      "nombre": "SV Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Milan Rodic",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-04-02",
+    "club": {
+      "nombre": "FK Crvena Zvezda",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Nikola Milenkovic",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-12",
+    "club": {
+      "nombre": "ACF Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Marko Grujic",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-04-13",
+    "club": {
+      "nombre": "Cardiff City FC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Filip Kostic",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-11-01",
+    "club": {
+      "nombre": "Hamburger SV",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Nemanja Radonjic",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-02-15",
+    "club": {
+      "nombre": "FK Crvena Zvezda",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Luka Jovic",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-12-23",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Sergej Milinkovic-Savic",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-27",
+    "club": {
+      "nombre": "SS Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Nemanja Matic",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-08-01",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Adem Ljajic",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-09-29",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Marko Dmitrovic",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-01-24",
+    "club": {
+      "nombre": "SD Eibar",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2018
+  },
+  {
+    "nombre": "Yann Sommer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-12-17",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Stephan Lichtsteiner",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-01-16",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Francois Moubandje",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-06-21",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Nico Elvedi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-09-30",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Manuel Akanji",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-07-19",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Michael Lang",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-08",
+    "club": {
+      "nombre": "FC Basel",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Breel Embolo",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-02-14",
+    "club": {
+      "nombre": "FC Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Remo Freuler",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-15",
+    "club": {
+      "nombre": "Atalanta Bergamo",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Haris Seferovic",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-22",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Granit Xhaka",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-27",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Valon Behrami",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-04-19",
+    "club": {
+      "nombre": "Udinese Calcio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Yvon Mvogo",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-06-06",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Ricardo Rodriguez",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-25",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Steven Zuber",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-17",
+    "club": {
+      "nombre": "TSG 1899 Hoffenheim",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Blerim Dzemaili",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-04-12",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Gelson Fernandes",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-02",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Denis Zakaria",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-11-20",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Mario Gavranovic",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-11-24",
+    "club": {
+      "nombre": "GNK Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Josip Drmic",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-08-08",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Johan Djourou",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-18",
+    "club": {
+      "nombre": "Antalyaspor AS",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Roman Buerki",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-11-14",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Fabian Schaer",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-12-20",
+    "club": {
+      "nombre": "Deportivo La Coruña",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Xherdan Shaqiri",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-10-10",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2018
+  },
+  {
+    "nombre": "Manuel Neuer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-03-27",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Marvin Plattenhardt",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-26",
+    "club": {
+      "nombre": "Hertha BSC",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Jonas Hector",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-05-27",
+    "club": {
+      "nombre": "1. FC Köln",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Matthias Ginter",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-01-19",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Mats Hummels",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-12-16",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Sami Khedira",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-04-04",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Julian Draxler",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-09-20",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Toni Kroos",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-04",
+    "club": {
+      "nombre": "Real Madrid CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Timo Werner",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-03-06",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Mesut Oezil",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-10-15",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Marco Reus",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-05-31",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Kevin Trapp",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-07-08",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Thomas Mueller",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-09-13",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Leon Goretzka",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-06",
+    "club": {
+      "nombre": "FC Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Niklas Suele",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-03",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Antonio Ruediger",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-03",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Jerome Boateng",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-09-03",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Joshua Kimmich",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-02-08",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Sebastian Rudy",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-28",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Julian Brandt",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-05-02",
+    "club": {
+      "nombre": "Bayer 04 Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Ilkay Guendogan",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-24",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Marc-Andre Ter Stegen",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-30",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Mario Gomez",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-07-10",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2018
+  },
+  {
+    "nombre": "Seunggyu Kim",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-09-30",
+    "club": {
+      "nombre": "Vissel Kobe",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Yong Lee",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-12-24",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Seunghyun Jung",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-04-03",
+    "club": {
+      "nombre": "Sagan Tosu FC",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Bansuk Oh",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-20",
+    "club": {
+      "nombre": "Jeju United FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Youngsun Yun",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-10-04",
+    "club": {
+      "nombre": "Seongnam FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jooho Park",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-01-16",
+    "club": {
+      "nombre": "Ulsan Hyundai FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Heungmin Son",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-08",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Sejong Ju",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-30",
+    "club": {
+      "nombre": "Asan Mugunghwa FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Shinwook Kim",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-04-14",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Seungwoo Lee",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-01-06",
+    "club": {
+      "nombre": "Hellas Verona FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Heechan Hwang",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-01-26",
+    "club": {
+      "nombre": "FC Red Bull Salzburg",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Minwoo Kim",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-25",
+    "club": {
+      "nombre": "Sangju Sangmu FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jacheol Koo",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-02-27",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Chul Hong",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-17",
+    "club": {
+      "nombre": "Sangju Sangmu FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Wooyoung Jung",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-14",
+    "club": {
+      "nombre": "Vissel Kobe",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Sungyueng Ki",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-24",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jaesung Lee",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-08-10",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Seonmin Moon",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-06-09",
+    "club": {
+      "nombre": "Incheon United FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Younggwon Kim",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-27",
+    "club": {
+      "nombre": "Guangzhou Evergrande FC",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Hyunsoo Jang",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-09-28",
+    "club": {
+      "nombre": "FC Tokyo",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jinhyeon Kim",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-07-06",
+    "club": {
+      "nombre": "Cerezo Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Yohan Go",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-03-10",
+    "club": {
+      "nombre": "FC Seoul",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Hyeonwoo Jo",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-09-25",
+    "club": {
+      "nombre": "Daegu FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Corona",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1981-01-26",
+    "club": {
+      "nombre": "Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Hugo Ayala",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-03-31",
+    "club": {
+      "nombre": "Tigres UANL",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Salcedo",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-29",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Rafael Marquez",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1979-02-13",
+    "club": {
+      "nombre": "CF Atlas",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Erick Gutierrez",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-06-15",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Jonathan Dos Santos",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-26",
+    "club": {
+      "nombre": "LA Galaxy",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Miguel Layun",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-25",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Marco Fabian",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-07-21",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Raul Jimenez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-05-05",
+    "club": {
+      "nombre": "SL Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Giovani Dos Santos",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-05-11",
+    "club": {
+      "nombre": "LA Galaxy",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Vela",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-03-01",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Alfredo Talavera",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-09-18",
+    "club": {
+      "nombre": "Deportivo Toluca FC",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Guillermo Ochoa",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-07-13",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Javier Hernandez",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-06-01",
+    "club": {
+      "nombre": "West Ham United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Hector Moreno",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-17",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Hector Herrera",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-19",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Jesus Corona",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-06",
+    "club": {
+      "nombre": "FC Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Andres Guardado",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-28",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Oribe Peralta",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1984-01-12",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Javier Aquino",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-11",
+    "club": {
+      "nombre": "Tigres UANL",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Edson Alvarez",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-24",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Hirving Lozano",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-07-30",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Jesus Gallardo",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-08-15",
+    "club": {
+      "nombre": "Pumas UNAM",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2018
+  },
+  {
+    "nombre": "Robin Olsen",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-01-08",
+    "club": {
+      "nombre": "FC Copenhagen",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Mikael Lustig",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-12-13",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Victor Lindelof",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-17",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Andreas Granqvist",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-04-16",
+    "club": {
+      "nombre": "FC Krasnodar",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Martin Olsson",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-17",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Ludwig Augustinsson",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-04-21",
+    "club": {
+      "nombre": "SV Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Sebastian Larsson",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-06-06",
+    "club": {
+      "nombre": "Hull City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Albin Ekdal",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-07-28",
+    "club": {
+      "nombre": "Hamburger SV",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcus Berg",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-08-17",
+    "club": {
+      "nombre": "Al Ain FC",
+      "pais": "UAE"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Emil Forsberg",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-10-23",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "John Guidetti",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-04-15",
+    "club": {
+      "nombre": "Deportivo Alavés",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Karl-Johan Johnsson",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-01-28",
+    "club": {
+      "nombre": "EA Guingamp",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Gustav Svensson",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-02-07",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Filip Helander",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-22",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Oscar Hiljemark",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-06-28",
+    "club": {
+      "nombre": "Genoa CFC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Emil Krafth",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-08-02",
+    "club": {
+      "nombre": "Bologna FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Viktor Claesson",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-02",
+    "club": {
+      "nombre": "FC Krasnodar",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Pontus Jansson",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-13",
+    "club": {
+      "nombre": "Leeds United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcus Rohden",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-05-11",
+    "club": {
+      "nombre": "FC Crotone",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Ola Toivonen",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-07-03",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Jimmy Durmaz",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-22",
+    "club": {
+      "nombre": "Toulouse FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Isaac Thelin",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-06-24",
+    "club": {
+      "nombre": "Waasland-Beveren",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Kristoffer Nordtfeldt",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-06-23",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "SWE",
+    "año": 2018
+  },
+  {
+    "nombre": "Thibaut Courtois",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-05-11",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Toby Alderweireld",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-02",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Thomas Vermaelen",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-11-14",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Vincent Kompany",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-04-10",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jan Vertonghen",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-24",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Axel Witsel",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-12",
+    "club": {
+      "nombre": "Tianjin Quanjian FC",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Kevin De Bruyne",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-06-28",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Marouane Fellaini",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-11-22",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Romelu Lukaku",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-05-13",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Eden Hazard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-07",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Yannick Carrasco",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-09-04",
+    "club": {
+      "nombre": "Dalian Yifang FC",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Simon Mignolet",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-03-06",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Koen Casteels",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-06-25",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Dries Mertens",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-05-06",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Thomas Meunier",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-09-12",
+    "club": {
+      "nombre": "Paris Saint-Germain FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Thorgan Hazard",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-29",
+    "club": {
+      "nombre": "VfL Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Youri Tielemans",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-05-07",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Adnan Januzaj",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-05",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Mousa Dembele",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1987-07-16",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Dedryck Boyata",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-11-28",
+    "club": {
+      "nombre": "Celtic FC",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Michy Batshuayi",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-10-02",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Nacer Chadli",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-02",
+    "club": {
+      "nombre": "West Bromwich Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Leander Dendoncker",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-15",
+    "club": {
+      "nombre": "RSC Anderlecht",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "BEL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jordan Pickford",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-03-07",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Kyle Walker",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-05-28",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Danny Rose",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-07-02",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Eric Dier",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-01-15",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "John Stones",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-28",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Harry Maguire",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Jesse Lingard",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-12-15",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Jordan Henderson",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Harry Kane",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-28",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Raheem Sterling",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-12-08",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Jamie Vardy",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-11",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Kieran Trippier",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-19",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Jack Butland",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-03-10",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Danny Welbeck",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-11-26",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Gary Cahill",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-12-19",
+    "club": {
+      "nombre": "Chelsea FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Phil Jones",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-21",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Fabian Delph",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-11-21",
+    "club": {
+      "nombre": "Manchester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Ashley Young",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-07-09",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Marcus Rashford",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-31",
+    "club": {
+      "nombre": "Manchester United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Dele Alli",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-04-11",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Ruben Loftus-Cheek",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-01-23",
+    "club": {
+      "nombre": "Crystal Palace FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Trent Alexander-Arnold",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-07",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Nick Pope",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-19",
+    "club": {
+      "nombre": "Burnley FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2018
+  },
+  {
+    "nombre": "Jaime Penedo",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1981-09-26",
+    "club": {
+      "nombre": "Dinamo Bucuresti",
+      "pais": "ROU"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Michael Murillo",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-02-11",
+    "club": {
+      "nombre": "New York Red Bulls",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Harold Cummings",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-03-01",
+    "club": {
+      "nombre": "San Jose Earthquakes",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Fidel Escobar",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-09",
+    "club": {
+      "nombre": "New York Red Bulls",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Roman Torres",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-03-20",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Gabriel Gomez",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-05-29",
+    "club": {
+      "nombre": "Atletico Bucaramanga",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Blas Perez",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1981-03-13",
+    "club": {
+      "nombre": "CSD Municipal",
+      "pais": "GUA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Edgar Barcenas",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-10-23",
+    "club": {
+      "nombre": "Cafetaleros de Tapachula",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Gabriel Torres",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-10-31",
+    "club": {
+      "nombre": "Huachipato FC",
+      "pais": "CHI"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ismael Diaz",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-05-12",
+    "club": {
+      "nombre": "Deportivo Fabril",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Armando Cooper",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-11-26",
+    "club": {
+      "nombre": "Universidad de Chile",
+      "pais": "CHI"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Calderon",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-08-14",
+    "club": {
+      "nombre": "Chorrillo FC",
+      "pais": "PAN"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Adolfo Machado",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-02-14",
+    "club": {
+      "nombre": "Houston Dynamo",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Valentín Pimentel",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-05-30",
+    "club": {
+      "nombre": "Plaza Amador",
+      "pais": "PAN"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Eric Davis",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-03-31",
+    "club": {
+      "nombre": "DAC Dunajska Streda",
+      "pais": "SVK"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdiel Arroyo",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-12-13",
+    "club": {
+      "nombre": "LD Alajuelense",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Luis Ovalle",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-09-07",
+    "club": {
+      "nombre": "CD Olimpia",
+      "pais": "HON"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Miguel Camargo",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-05-09",
+    "club": {
+      "nombre": "Universidad San Martin",
+      "pais": "PER"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ricardo Avila",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-02-04",
+    "club": {
+      "nombre": "KAA Gent",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Anibal Godoy",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-02-10",
+    "club": {
+      "nombre": "San Jose Earthquakes",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Rodriguez",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-06-19",
+    "club": {
+      "nombre": "KAA Gent",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Alex Rodriguez",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-08-05",
+    "club": {
+      "nombre": "San Francisco FC",
+      "pais": "PAN"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Felipe Balloy",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1981-02-24",
+    "club": {
+      "nombre": "CSD Municipal",
+      "pais": "GUA"
+    },
+    "fifaCodeEquipo": "PAN",
+    "año": 2018
+  },
+  {
+    "nombre": "Farouk Ben Mustapha",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-07-01",
+    "club": {
+      "nombre": "Al Shabab FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Syam Ben Youssef",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-31",
+    "club": {
+      "nombre": "Kasimpasa SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yohan Benalouane",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-03-28",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yassine Meriah",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-02",
+    "club": {
+      "nombre": "CS Sfaxien",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Oussama Haddadi",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-28",
+    "club": {
+      "nombre": "Dijon FCO",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Rami Bedoui",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-01-19",
+    "club": {
+      "nombre": "Étoile du Sahel",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Saif-Eddine Khaoui",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-27",
+    "club": {
+      "nombre": "ES Troyes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Fakhreddine Ben Youssef",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-23",
+    "club": {
+      "nombre": "Al Ettifaq FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Anice Badri",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-09-18",
+    "club": {
+      "nombre": "ES Tunis",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Wahbi Khazri",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-08",
+    "club": {
+      "nombre": "Stade Rennais FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Dylan Bronn",
+    "numero": 11,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-06-19",
+    "club": {
+      "nombre": "KAA Gent",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ali Maaloul",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-01-01",
+    "club": {
+      "nombre": "Al Ahly SC",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ferjani Sassi",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-03-18",
+    "club": {
+      "nombre": "Al Nassr FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mohamed Ben Amor",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-05-03",
+    "club": {
+      "nombre": "Al Ahli SC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ahmed Khalil",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-12-21",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Aymen Mathlouthi",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-09-14",
+    "club": {
+      "nombre": "Al Batin FC",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ellyes Skhiri",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-05-10",
+    "club": {
+      "nombre": "Montpellier HSC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Bassem Srarfi",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-25",
+    "club": {
+      "nombre": "OGC Nice",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Saber Khalifa",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-10-14",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ghaylen Chaaleli",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-02-28",
+    "club": {
+      "nombre": "ES Tunis",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Hamdi Naguez",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-10-28",
+    "club": {
+      "nombre": "Zamalek",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mouez Hassen",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-03-05",
+    "club": {
+      "nombre": "LB Chateauroux",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "Naim Sliti",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-07-27",
+    "club": {
+      "nombre": "Dijon FCO",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2018
+  },
+  {
+    "nombre": "David Ospina",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-08-31",
+    "club": {
+      "nombre": "Arsenal FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Cristian Zapata",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-30",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Oscar Murillo",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-04-18",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Santiago Arias",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-13",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Wilmar Barrios",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-10-16",
+    "club": {
+      "nombre": "CA Boca Juniors",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Sanchez",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-02-06",
+    "club": {
+      "nombre": "RCD Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Carlos Bacca",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-09-08",
+    "club": {
+      "nombre": "Villarreal CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Abel Aguilar",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-01-06",
+    "club": {
+      "nombre": "Deportivo Cali",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Radamel Falcao",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-02-10",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "James Rodriguez",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-07-12",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Juan Cuadrado",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-26",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Camilo Vargas",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-03-09",
+    "club": {
+      "nombre": "Deportivo Cali",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Yerry Mina",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-09-23",
+    "club": {
+      "nombre": "FC Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Luis Muriel",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-04-16",
+    "club": {
+      "nombre": "Sevilla FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Mateus Uribe",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Lerma Jefferson",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-10-25",
+    "club": {
+      "nombre": "Levante UD",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Johan Mojica",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-21",
+    "club": {
+      "nombre": "Girona FC",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Farid Diaz",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1983-07-20",
+    "club": {
+      "nombre": "Club Olimpia",
+      "pais": "PAR"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Miguel Borja",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-01-26",
+    "club": {
+      "nombre": "SE Palmeiras",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Juan Quintero",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-18",
+    "club": {
+      "nombre": "CA River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Izquierdo",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-07",
+    "club": {
+      "nombre": "Brighton & Hove Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jose Cuadrado",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-06-01",
+    "club": {
+      "nombre": "Once Caldas",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Davinson Sanchez",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-06-12",
+    "club": {
+      "nombre": "Tottenham Hotspur FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "COL",
+    "año": 2018
+  },
+  {
+    "nombre": "Eiji Kawashima",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-03-20",
+    "club": {
+      "nombre": "FC Metz",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Naomichi Ueda",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-10-24",
+    "club": {
+      "nombre": "Kashima Antlers",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Gen Shoji",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-12-11",
+    "club": {
+      "nombre": "Kashima Antlers",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Keisuke Honda",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-06-13",
+    "club": {
+      "nombre": "CF Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yuto Nagatomo",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-12",
+    "club": {
+      "nombre": "Galatasaray SK",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Wataru Endo",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-09",
+    "club": {
+      "nombre": "Urawa Reds",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Gaku Shibasaki",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-05-28",
+    "club": {
+      "nombre": "Getafe CF",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Genki Haraguchi",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-05-09",
+    "club": {
+      "nombre": "Fortuna Düsseldorf",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Shinji Okazaki",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-04-16",
+    "club": {
+      "nombre": "Leicester City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Shinji Kagawa",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-03-17",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Takashi Usami",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-05-06",
+    "club": {
+      "nombre": "Fortuna Düsseldorf",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Masaaki Higashiguchi",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-05-12",
+    "club": {
+      "nombre": "Gamba Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yoshinori Muto",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-15",
+    "club": {
+      "nombre": "FSV Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Takashi Inui",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-02",
+    "club": {
+      "nombre": "SD Eibar",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Yuya Osako",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-05-18",
+    "club": {
+      "nombre": "Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Hotaru Yamaguchi",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-06",
+    "club": {
+      "nombre": "Cerezo Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Makoto Hasebe",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1984-01-18",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ryota Ohshima",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-01-23",
+    "club": {
+      "nombre": "Kawasaki Frontale",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Hiroki Sakai",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-04-12",
+    "club": {
+      "nombre": "Olympique Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Tomoaki Makino",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-05-11",
+    "club": {
+      "nombre": "Urawa Reds",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Gotoku Sakai",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-03-14",
+    "club": {
+      "nombre": "Hamburger SV",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Maya Yoshida",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-08-24",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Kosuke Nakamura",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-02-27",
+    "club": {
+      "nombre": "Kashiwa Reysol",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2018
+  },
+  {
+    "nombre": "Wojciech Szczesny",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-04-18",
+    "club": {
+      "nombre": "Juventus FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Michal Pazdan",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-09-21",
+    "club": {
+      "nombre": "Legia Warsaw",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Artur Jedrzejczyk",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-11-04",
+    "club": {
+      "nombre": "Legia Warsaw",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Thiago Cionek",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-04-21",
+    "club": {
+      "nombre": "SPAL Ferrara",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jan Bednarek",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-12",
+    "club": {
+      "nombre": "Southampton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jacek Goralski",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-21",
+    "club": {
+      "nombre": "PFC Ludogorets Razgrad",
+      "pais": "BUL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Arkadiusz Milik",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-02-28",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Karol Linetty",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-02",
+    "club": {
+      "nombre": "UC Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Robert Lewandowski",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-08-21",
+    "club": {
+      "nombre": "FC Bayern München",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Grzegorz Krychowiak",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-29",
+    "club": {
+      "nombre": "West Bromwich Albion FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Kamil Grosicki",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-08",
+    "club": {
+      "nombre": "Hull City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Bartosz Bialkowski",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-07-06",
+    "club": {
+      "nombre": "Ipswich Town FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Maciej Rybus",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-19",
+    "club": {
+      "nombre": "FC Lokomotiv Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Lukasz Teodorczyk",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-03",
+    "club": {
+      "nombre": "RSC Anderlecht",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Kamil Glik",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-03",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Jakub Blaszczykowski",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-12-14",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Slawomir Peszko",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-02-19",
+    "club": {
+      "nombre": "Lechia Gdansk",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Bartosz Bereszynski",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-12",
+    "club": {
+      "nombre": "UC Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Piotr Zielinski",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-05-20",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Lukasz Piszczek",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1985-06-03",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Rafal Kurzawa",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-29",
+    "club": {
+      "nombre": "Gornik Zabrze",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Lukasz Fabianski",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-04-18",
+    "club": {
+      "nombre": "Swansea City AFC",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Dawid Kownacki",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-03-14",
+    "club": {
+      "nombre": "UC Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2018
+  },
+  {
+    "nombre": "Abdoulaye Diallo",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-03-30",
+    "club": {
+      "nombre": "Stade Rennais FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Adama Mbengue",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-12-01",
+    "club": {
+      "nombre": "SM Caen",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Kalidou Koulibaly",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-06-20",
+    "club": {
+      "nombre": "SSC Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Kara Mbodji",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-11-22",
+    "club": {
+      "nombre": "RSC Anderlecht",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Idrissa Gueye",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-09-26",
+    "club": {
+      "nombre": "Everton FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Salif Sane",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-08-25",
+    "club": {
+      "nombre": "Hannover 96",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Moussa Sow",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-01-19",
+    "club": {
+      "nombre": "Bursaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Cheikhou Kouyate",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-21",
+    "club": {
+      "nombre": "West Ham United FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mame Diouf",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-16",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Sadio Mane",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-04-10",
+    "club": {
+      "nombre": "Liverpool FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Cheikh N'Doye",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-27",
+    "club": {
+      "nombre": "Birmingham City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Youssouf Sabaly",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "FC Girondins Bordeaux",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Alfred Ndiaye",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-03-06",
+    "club": {
+      "nombre": "Wolverhampton Wanderers FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Moussa Konate",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-04-03",
+    "club": {
+      "nombre": "Amiens SC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Diafra Sakho",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-12-24",
+    "club": {
+      "nombre": "Stade Rennais FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Khadim N'Diaye",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-04-05",
+    "club": {
+      "nombre": "Horoya AC",
+      "pais": "GUI"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Badou Ndiaye",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-27",
+    "club": {
+      "nombre": "Stoke City FC",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Ismaila Sarr",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-02-25",
+    "club": {
+      "nombre": "Stade Rennais FC",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Mbaye Niang",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-12-19",
+    "club": {
+      "nombre": "Torino FC",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Balde Keita",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-03-08",
+    "club": {
+      "nombre": "AS Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Lamine Gassama",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-10-20",
+    "club": {
+      "nombre": "Alanyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Moussa Wague",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-04",
+    "club": {
+      "nombre": "KAS Eupen",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  },
+  {
+    "nombre": "Alfred Gomis",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-09-05",
+    "club": {
+      "nombre": "SPAL Ferrara",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2018
+  }
+]

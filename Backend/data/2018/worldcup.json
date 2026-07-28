@@ -1,0 +1,2741 @@
+{
+  "name": "World Cup 2018",
+  "partidos": [
+    {
+      "numeroPartido": 1,
+      "ronda": "Matchday 1",
+      "fecha": "2018-06-14",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Russia",
+      "equipo2": "Saudi Arabia",
+      "marcador": {
+        "ft": [
+          5,
+          0
+        ],
+        "ht": [
+          2,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Gazinsky",
+          "minuto": "12",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Cheryshev",
+          "minuto": "43",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Cheryshev",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Dzyuba",
+          "minuto": "71",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Golovin",
+          "minuto": "90+4",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group A",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 2,
+      "ronda": "Matchday 2",
+      "fecha": "2018-06-15",
+      "hora": "17:00 UTC+5",
+      "equipo1": "Egypt",
+      "equipo2": "Uruguay",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Giménez",
+          "minuto": "89",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 3,
+      "ronda": "Matchday 6",
+      "fecha": "2018-06-19",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Russia",
+      "equipo2": "Egypt",
+      "marcador": {
+        "ft": [
+          3,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "A. Fathi",
+          "minuto": "47",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "Cheryshev",
+          "minuto": "59",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Dzyuba",
+          "minuto": "62",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "M. Salah",
+          "minuto": "73",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 4,
+      "ronda": "Matchday 7",
+      "fecha": "2018-06-20",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Uruguay",
+      "equipo2": "Saudi Arabia",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "L. Suárez",
+          "minuto": "23",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group A",
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 5,
+      "ronda": "Matchday 12",
+      "fecha": "2018-06-25",
+      "hora": "18:00 UTC+4",
+      "equipo1": "Uruguay",
+      "equipo2": "Russia",
+      "marcador": {
+        "ft": [
+          3,
+          0
+        ],
+        "ht": [
+          2,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "L. Suárez",
+          "minuto": "10",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Cheryshev",
+          "minuto": "23",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "E. Cavani",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group A",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 6,
+      "ronda": "Matchday 12",
+      "fecha": "2018-06-25",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Saudi Arabia",
+      "equipo2": "Egypt",
+      "marcador": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Salman Al-Faraj",
+          "minuto": "45+6",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Salem Al-Dawsari",
+          "minuto": "90+5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "M. Salah",
+          "minuto": "22",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group A",
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 7,
+      "ronda": "Matchday 2",
+      "fecha": "2018-06-15",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Morocco",
+      "equipo2": "Iran",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Bouhaddouz",
+          "minuto": "90+5",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 8,
+      "ronda": "Matchday 2",
+      "fecha": "2018-06-15",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Portugal",
+      "equipo2": "Spain",
+      "marcador": {
+        "ft": [
+          3,
+          3
+        ],
+        "ht": [
+          2,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Ronaldo",
+          "minuto": "4",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Ronaldo",
+          "minuto": "44",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Ronaldo",
+          "minuto": "88",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Costa",
+          "minuto": "24",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Costa",
+          "minuto": "55",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Nacho",
+          "minuto": "58",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 9,
+      "ronda": "Matchday 7",
+      "fecha": "2018-06-20",
+      "hora": "15:00 UTC+3",
+      "equipo1": "Portugal",
+      "equipo2": "Morocco",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Ronaldo",
+          "minuto": "4",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group B",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 10,
+      "ronda": "Matchday 7",
+      "fecha": "2018-06-20",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Iran",
+      "equipo2": "Spain",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Diego Costa",
+          "minuto": "54",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 11,
+      "ronda": "Matchday 12",
+      "fecha": "2018-06-25",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Iran",
+      "equipo2": "Portugal",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Karim Ansarifard",
+          "minuto": "90+3",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Quaresma",
+          "minuto": "45",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 12,
+      "ronda": "Matchday 12",
+      "fecha": "2018-06-25",
+      "hora": "20:00 UTC+2",
+      "equipo1": "Spain",
+      "equipo2": "Morocco",
+      "marcador": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Isco",
+          "minuto": "19",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Iago Aspas",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Boutaib",
+          "minuto": "14",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "En-Nesyri",
+          "minuto": "81",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group B",
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 13,
+      "ronda": "Matchday 3",
+      "fecha": "2018-06-16",
+      "hora": "13:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Australia",
+      "marcador": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Griezmann",
+          "minuto": "58",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Behich",
+          "minuto": "81",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Jedinak",
+          "minuto": "62",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 14,
+      "ronda": "Matchday 3",
+      "fecha": "2018-06-16",
+      "hora": "19:00 UTC+3",
+      "equipo1": "Peru",
+      "equipo2": "Denmark",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Poulsen",
+          "minuto": "59",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 15,
+      "ronda": "Matchday 8",
+      "fecha": "2018-06-21",
+      "hora": "16:00 UTC+4",
+      "equipo1": "Denmark",
+      "equipo2": "Australia",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Eriksen",
+          "minuto": "7",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Jedinak",
+          "minuto": "38",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 16,
+      "ronda": "Matchday 8",
+      "fecha": "2018-06-21",
+      "hora": "20:00 UTC+5",
+      "equipo1": "France",
+      "equipo2": "Peru",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mbappé",
+          "minuto": "34",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group C",
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 17,
+      "ronda": "Matchday 13",
+      "fecha": "2018-06-26",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Denmark",
+      "equipo2": "France",
+      "marcador": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [],
+      "grupo": "Group C",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 18,
+      "ronda": "Matchday 13",
+      "fecha": "2018-06-26",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Australia",
+      "equipo2": "Peru",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Carrillo",
+          "minuto": "18",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Guerrero",
+          "minuto": "50",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group C",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 19,
+      "ronda": "Matchday 3",
+      "fecha": "2018-06-16",
+      "hora": "16:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "Iceland",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Agüero",
+          "minuto": "19",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Finnbogason",
+          "minuto": "23",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 20,
+      "ronda": "Matchday 3",
+      "fecha": "2018-06-16",
+      "hora": "21:00 UTC+2",
+      "equipo1": "Croatia",
+      "equipo2": "Nigeria",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Etebo",
+          "minuto": "32",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "Modrić",
+          "minuto": "71",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group D",
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 21,
+      "ronda": "Matchday 8",
+      "fecha": "2018-06-21",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Argentina",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          0,
+          3
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Rebić",
+          "minuto": "53",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Modrić",
+          "minuto": "80",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Rakitić",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 22,
+      "ronda": "Matchday 9",
+      "fecha": "2018-06-22",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Nigeria",
+      "equipo2": "Iceland",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Musa",
+          "minuto": "49",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Musa",
+          "minuto": "75",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group D",
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 23,
+      "ronda": "Matchday 13",
+      "fecha": "2018-06-26",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Nigeria",
+      "equipo2": "Argentina",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Moses",
+          "minuto": "51",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Messi",
+          "minuto": "14",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Marcos Rojo",
+          "minuto": "86",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 24,
+      "ronda": "Matchday 13",
+      "fecha": "2018-06-26",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Iceland",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "G. Sigurðsson",
+          "minuto": "76",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Badelj",
+          "minuto": "53",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Perišić",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group D",
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 25,
+      "ronda": "Matchday 4",
+      "fecha": "2018-06-17",
+      "hora": "16:00 UTC+4",
+      "equipo1": "Costa Rica",
+      "equipo2": "Serbia",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Kolarov",
+          "minuto": "56",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 26,
+      "ronda": "Matchday 4",
+      "fecha": "2018-06-17",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "Switzerland",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Coutinho",
+          "minuto": "20",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Zuber",
+          "minuto": "50",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 27,
+      "ronda": "Matchday 9",
+      "fecha": "2018-06-22",
+      "hora": "15:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "Costa Rica",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "P. Coutinho",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Neymar Jr",
+          "minuto": "90+7",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group E",
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 28,
+      "ronda": "Matchday 9",
+      "fecha": "2018-06-22",
+      "hora": "20:00 UTC+2",
+      "equipo1": "Serbia",
+      "equipo2": "Switzerland",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mitrović",
+          "minuto": "5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Xhaka",
+          "minuto": "52",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Shaqiri",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 29,
+      "ronda": "Matchday 14",
+      "fecha": "2018-06-27",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Serbia",
+      "equipo2": "Brazil",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Paulinho",
+          "minuto": "36",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Thiago Silva",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 30,
+      "ronda": "Matchday 14",
+      "fecha": "2018-06-27",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Switzerland",
+      "equipo2": "Costa Rica",
+      "marcador": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Džemaili",
+          "minuto": "31",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Drmić",
+          "minuto": "88",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Waston",
+          "minuto": "56",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Sommer",
+          "minuto": "90+3",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "grupo": "Group E",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 31,
+      "ronda": "Matchday 4",
+      "fecha": "2018-06-17",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Germany",
+      "equipo2": "Mexico",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Lozano",
+          "minuto": "35",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 32,
+      "ronda": "Matchday 5",
+      "fecha": "2018-06-18",
+      "hora": "15:00 UTC+3",
+      "equipo1": "Sweden",
+      "equipo2": "South Korea",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Granqvist",
+          "minuto": "65",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group F",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 33,
+      "ronda": "Matchday 10",
+      "fecha": "2018-06-23",
+      "hora": "18:00 UTC+3",
+      "equipo1": "South Korea",
+      "equipo2": "Mexico",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Son Heung-min",
+          "minuto": "90+3",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Carlos Vela",
+          "minuto": "26",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "J. Hernández",
+          "minuto": "66",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 34,
+      "ronda": "Matchday 10",
+      "fecha": "2018-06-23",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Germany",
+      "equipo2": "Sweden",
+      "marcador": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Reus",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kroos",
+          "minuto": "90+5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Toivonen",
+          "minuto": "32",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 35,
+      "ronda": "Matchday 14",
+      "fecha": "2018-06-27",
+      "hora": "17:00 UTC+3",
+      "equipo1": "South Korea",
+      "equipo2": "Germany",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Kim Young-gwon",
+          "minuto": "90+2",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Son Heung-min",
+          "minuto": "90+6",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group F",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 36,
+      "ronda": "Matchday 14",
+      "fecha": "2018-06-27",
+      "hora": "19:00 UTC+5",
+      "equipo1": "Mexico",
+      "equipo2": "Sweden",
+      "marcador": {
+        "ft": [
+          0,
+          3
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Augustinsson",
+          "minuto": "50",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Granqvist",
+          "minuto": "62",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Álvarez",
+          "minuto": "74",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "grupo": "Group F",
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 37,
+      "ronda": "Matchday 5",
+      "fecha": "2018-06-18",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "Panama",
+      "marcador": {
+        "ft": [
+          3,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mertens",
+          "minuto": "47",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lukaku",
+          "minuto": "69",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lukaku",
+          "minuto": "75",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "Group G",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 38,
+      "ronda": "Matchday 5",
+      "fecha": "2018-06-18",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Tunisia",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Sassi",
+          "minuto": "35",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Kane",
+          "minuto": "11",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kane",
+          "minuto": "90+1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 39,
+      "ronda": "Matchday 10",
+      "fecha": "2018-06-23",
+      "hora": "15:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "Tunisia",
+      "marcador": {
+        "ft": [
+          5,
+          2
+        ],
+        "ht": [
+          3,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "E. Hazard",
+          "minuto": "6",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "E. Hazard",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "R. Lukaku",
+          "minuto": "16",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "R. Lukaku",
+          "minuto": "45+3",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Batshuayi",
+          "minuto": "90",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Bronn",
+          "minuto": "18",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Khazri",
+          "minuto": "90+3",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 40,
+      "ronda": "Matchday 11",
+      "fecha": "2018-06-24",
+      "hora": "15:00 UTC+3",
+      "equipo1": "England",
+      "equipo2": "Panama",
+      "marcador": {
+        "ft": [
+          6,
+          1
+        ],
+        "ht": [
+          5,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Stones",
+          "minuto": "8",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Stones",
+          "minuto": "40",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kane",
+          "minuto": "22",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Kane",
+          "minuto": "45+1",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Kane",
+          "minuto": "62",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Lingard",
+          "minuto": "36",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Baloy",
+          "minuto": "78",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 41,
+      "ronda": "Matchday 15",
+      "fecha": "2018-06-28",
+      "hora": "20:00 UTC+2",
+      "equipo1": "England",
+      "equipo2": "Belgium",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Adnan Januzaj",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Kaliningrad Stadium, Kaliningrad",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 42,
+      "ronda": "Matchday 15",
+      "fecha": "2018-06-28",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Panama",
+      "equipo2": "Tunisia",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Yassine Meriah",
+          "minuto": "33",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Fakhereedine Ben Youssef",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Wahbi Khazri",
+          "minuto": "66",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group G",
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 43,
+      "ronda": "Matchday 6",
+      "fecha": "2018-06-19",
+      "hora": "15:00 UTC+3",
+      "equipo1": "Colombia",
+      "equipo2": "Japan",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "J. Quintero",
+          "minuto": "39",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Kagawa",
+          "minuto": "6",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Osako",
+          "minuto": "73",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Mordovia Arena, Saransk",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 44,
+      "ronda": "Matchday 6",
+      "fecha": "2018-06-19",
+      "hora": "18:00 UTC+3",
+      "equipo1": "Poland",
+      "equipo2": "Senegal",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Krychowiak",
+          "minuto": "86",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Cionek",
+          "minuto": "37",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "Niang",
+          "minuto": "60",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 45,
+      "ronda": "Matchday 11",
+      "fecha": "2018-06-24",
+      "hora": "20:00 UTC+5",
+      "equipo1": "Japan",
+      "equipo2": "Senegal",
+      "marcador": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Inui",
+          "minuto": "34",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Honda",
+          "minuto": "78",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Mané",
+          "minuto": "11",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "M. Wagué",
+          "minuto": "71",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Ekaterinburg Arena, Ekaterinburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 46,
+      "ronda": "Matchday 11",
+      "fecha": "2018-06-24",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Poland",
+      "equipo2": "Colombia",
+      "marcador": {
+        "ft": [
+          0,
+          3
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Y. Mina",
+          "minuto": "40",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Falcao",
+          "minuto": "70",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Cuadrado",
+          "minuto": "75",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 47,
+      "ronda": "Matchday 15",
+      "fecha": "2018-06-28",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Japan",
+      "equipo2": "Poland",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Bednarek",
+          "minuto": "59",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Volgograd Arena, Volgograd",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 48,
+      "ronda": "Matchday 15",
+      "fecha": "2018-06-28",
+      "hora": "18:00 UTC+4",
+      "equipo1": "Senegal",
+      "equipo2": "Colombia",
+      "marcador": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Y. Mina",
+          "minuto": "74",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "Group H",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 49,
+      "ronda": "Round of 16",
+      "fecha": "2018-06-30",
+      "hora": "17:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Argentina",
+      "marcador": {
+        "ft": [
+          4,
+          3
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Antoine Griezmann",
+          "minuto": "13",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Benjamin Pavard",
+          "minuto": "57",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kylian Mbappé",
+          "minuto": "64",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Kylian Mbappé",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Ángel Di María",
+          "minuto": "41",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Gabriel Mercado",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Sergio Agüero",
+          "minuto": "90+3",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 50,
+      "ronda": "Round of 16",
+      "fecha": "2018-06-30",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Uruguay",
+      "equipo2": "Portugal",
+      "marcador": {
+        "ft": [
+          2,
+          1
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Edinson Cavani",
+          "minuto": "7",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Edinson Cavani",
+          "minuto": "62",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Pepe",
+          "minuto": "55",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 51,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-01",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Spain",
+      "equipo2": "Russia",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [
+          1,
+          1
+        ],
+        "p": [
+          3,
+          4
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Sergei Ignashevich",
+          "minuto": "12",
+          "penalti": false,
+          "autogol": true
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Artem Dzyuba",
+          "minuto": "41",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 52,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-01",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "Denmark",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [
+          1,
+          1
+        ],
+        "p": [
+          3,
+          2
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Mario Mandžukić",
+          "minuto": "4",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Mathias Jørgensen",
+          "minuto": "1",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 53,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-02",
+      "hora": "18:00 UTC+4",
+      "equipo1": "Brazil",
+      "equipo2": "Mexico",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Neymar",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Roberto Firmino",
+          "minuto": "88",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 54,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-02",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "Japan",
+      "marcador": {
+        "ft": [
+          3,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Jan Vertonghen",
+          "minuto": "69",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Marouane Fellaini",
+          "minuto": "74",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Nacer Chadli",
+          "minuto": "90+4",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Genki Haraguchi",
+          "minuto": "48",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Takashi Inui",
+          "minuto": "52",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Rostov Arena, Rostov-on-Don",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 55,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-03",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Sweden",
+      "equipo2": "Switzerland",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Emil Forsberg",
+          "minuto": "66",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Saint Petersburg Stadium, Saint Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 56,
+      "ronda": "Round of 16",
+      "fecha": "2018-07-03",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Colombia",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [
+          1,
+          1
+        ],
+        "p": [
+          3,
+          4
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Yerry Mina",
+          "minuto": "90+3",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Harry Kane",
+          "minuto": "57",
+          "penalti": true,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Spartak Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 57,
+      "ronda": "Quarter-finals",
+      "fecha": "2018-07-06",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Uruguay",
+      "equipo2": "France",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Raphaël Varane",
+          "minuto": "40",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Antoine Griezmann",
+          "minuto": "61",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Nizhny Novgorod Stadium, Nizhny Novgorod",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 58,
+      "ronda": "Quarter-finals",
+      "fecha": "2018-07-06",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Brazil",
+      "equipo2": "Belgium",
+      "marcador": {
+        "ft": [
+          1,
+          2
+        ],
+        "ht": [
+          0,
+          2
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Renato Augusto",
+          "minuto": "76",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Fernandinho",
+          "minuto": "13",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "Kevin De Bruyne",
+          "minuto": "31",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Kazan Arena, Kazan",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 59,
+      "ronda": "Quarter-finals",
+      "fecha": "2018-07-07",
+      "hora": "18:00 UTC+4",
+      "equipo1": "Sweden",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          0,
+          2
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [],
+      "goles2": [
+        {
+          "nombre": "Harry Maguire",
+          "minuto": "30",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Dele Alli",
+          "minuto": "58",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Samara Arena, Samara",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 60,
+      "ronda": "Quarter-finals",
+      "fecha": "2018-07-07",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Russia",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ],
+        "et": [
+          2,
+          2
+        ],
+        "p": [
+          3,
+          4
+        ]
+      },
+      "goles1": [
+        {
+          "nombre": "Denis Cheryshev",
+          "minuto": "31",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mário Figueira Fernandes",
+          "minuto": "115",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Andrej Kramarić",
+          "minuto": "39",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Domagoj Vida",
+          "minuto": "100",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Fisht Stadium, Sochi",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 61,
+      "ronda": "Semi-finals",
+      "fecha": "2018-07-10",
+      "hora": "21:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Belgium",
+      "marcador": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Samuel Umtiti",
+          "minuto": "51",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Saint Petersburg Stadium, St. Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 62,
+      "ronda": "Semi-finals",
+      "fecha": "2018-07-11",
+      "hora": "21:00 UTC+3",
+      "equipo1": "Croatia",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ],
+        "et": [
+          2,
+          1
+        ],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Ivan Perišić",
+          "minuto": "68",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mario Mandžukić",
+          "minuto": "109",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Kieran Trippier",
+          "minuto": "5",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 63,
+      "ronda": "Match for third place",
+      "fecha": "2018-07-14",
+      "hora": "17:00 UTC+3",
+      "equipo1": "Belgium",
+      "equipo2": "England",
+      "marcador": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Thomas Meunier",
+          "minuto": "4",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Eden Hazard",
+          "minuto": "82",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [],
+      "grupo": "",
+      "estadio": "Saint Petersburg Stadium, St. Petersburg",
+      "año": 2018
+    },
+    {
+      "numeroPartido": 64,
+      "ronda": "Final",
+      "fecha": "2018-07-15",
+      "hora": "18:00 UTC+3",
+      "equipo1": "France",
+      "equipo2": "Croatia",
+      "marcador": {
+        "ft": [
+          4,
+          2
+        ],
+        "ht": [
+          2,
+          1
+        ],
+        "et": [],
+        "p": []
+      },
+      "goles1": [
+        {
+          "nombre": "Mandžukić",
+          "minuto": "18",
+          "penalti": false,
+          "autogol": true
+        },
+        {
+          "nombre": "Griezmann",
+          "minuto": "38",
+          "penalti": true,
+          "autogol": false
+        },
+        {
+          "nombre": "Pogba",
+          "minuto": "59",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mbappé",
+          "minuto": "65",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "goles2": [
+        {
+          "nombre": "Perišić",
+          "minuto": "28",
+          "penalti": false,
+          "autogol": false
+        },
+        {
+          "nombre": "Mandžukić",
+          "minuto": "69",
+          "penalti": false,
+          "autogol": false
+        }
+      ],
+      "grupo": "",
+      "estadio": "Luzhniki Stadium, Moscow",
+      "año": 2018
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "nombre": "Qatar",
+    "nombreNormalizado": "qatar",
+    "continente": "Asia",
+    "banderaIcono": "🇶🇦",
+    "fifaCode": "QAT",
+    "grupo": "A",
+    "confederacion": "AFC",
+    "año": 2022
+  },
+  {
+    "nombre": "Ecuador",
+    "nombreNormalizado": "ecuador",
+    "continente": "South America",
+    "banderaIcono": "🇪🇨",
+    "fifaCode": "ECU",
+    "grupo": "A",
+    "confederacion": "CONMEBOL",
+    "año": 2022
+  },
+  {
+    "nombre": "Senegal",
+    "nombreNormalizado": "senegal",
+    "continente": "Africa",
+    "banderaIcono": "🇸🇳",
+    "fifaCode": "SEN",
+    "grupo": "A",
+    "confederacion": "CAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Netherlands",
+    "nombreNormalizado": "netherlands",
+    "continente": "Europe",
+    "banderaIcono": "🇳🇱",
+    "fifaCode": "NED",
+    "grupo": "A",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "England",
+    "nombreNormalizado": "england",
+    "continente": "Europe",
+    "banderaIcono": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "fifaCode": "ENG",
+    "grupo": "B",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Iran",
+    "nombreNormalizado": "iran",
+    "continente": "Asia",
+    "banderaIcono": "🇮🇷",
+    "fifaCode": "IRN",
+    "grupo": "B",
+    "confederacion": "AFC",
+    "año": 2022
+  },
+  {
+    "nombre": "United States",
+    "nombreNormalizado": "united-states",
+    "continente": "North America",
+    "banderaIcono": "🇺🇸",
+    "fifaCode": "USA",
+    "grupo": "B",
+    "confederacion": "CONCACAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Wales",
+    "nombreNormalizado": "wales",
+    "continente": "Europe",
+    "banderaIcono": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "fifaCode": "WAL",
+    "grupo": "B",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Argentina",
+    "nombreNormalizado": "argentina",
+    "continente": "South America",
+    "banderaIcono": "🇦🇷",
+    "fifaCode": "ARG",
+    "grupo": "C",
+    "confederacion": "CONMEBOL",
+    "año": 2022
+  },
+  {
+    "nombre": "Saudi Arabia",
+    "nombreNormalizado": "saudi-arabia",
+    "continente": "Asia",
+    "banderaIcono": "🇸🇦",
+    "fifaCode": "KSA",
+    "grupo": "C",
+    "confederacion": "AFC",
+    "año": 2022
+  },
+  {
+    "nombre": "Mexico",
+    "nombreNormalizado": "mexico",
+    "continente": "North America",
+    "banderaIcono": "🇲🇽",
+    "fifaCode": "MEX",
+    "grupo": "C",
+    "confederacion": "CONCACAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Poland",
+    "nombreNormalizado": "poland",
+    "continente": "Europe",
+    "banderaIcono": "🇵🇱",
+    "fifaCode": "POL",
+    "grupo": "C",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "France",
+    "nombreNormalizado": "france",
+    "continente": "Europe",
+    "banderaIcono": "🇫🇷",
+    "fifaCode": "FRA",
+    "grupo": "D",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Australia",
+    "nombreNormalizado": "australia",
+    "continente": "Oceania",
+    "banderaIcono": "🇦🇺",
+    "fifaCode": "AUS",
+    "grupo": "D",
+    "confederacion": "AFC",
+    "año": 2022
+  },
+  {
+    "nombre": "Denmark",
+    "nombreNormalizado": "denmark",
+    "continente": "Europe",
+    "banderaIcono": "🇩🇰",
+    "fifaCode": "DEN",
+    "grupo": "D",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Tunisia",
+    "nombreNormalizado": "tunisia",
+    "continente": "Africa",
+    "banderaIcono": "🇹🇳",
+    "fifaCode": "TUN",
+    "grupo": "D",
+    "confederacion": "CAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Spain",
+    "nombreNormalizado": "spain",
+    "continente": "Europe",
+    "banderaIcono": "🇪🇸",
+    "fifaCode": "ESP",
+    "grupo": "E",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Costa Rica",
+    "nombreNormalizado": "costa-rica",
+    "continente": "North America",
+    "banderaIcono": "🇨🇷",
+    "fifaCode": "CRC",
+    "grupo": "E",
+    "confederacion": "CONCACAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Germany",
+    "nombreNormalizado": "germany",
+    "continente": "Europe",
+    "banderaIcono": "🇩🇪",
+    "fifaCode": "GER",
+    "grupo": "E",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Japan",
+    "nombreNormalizado": "japan",
+    "continente": "Asia",
+    "banderaIcono": "🇯🇵",
+    "fifaCode": "JPN",
+    "grupo": "E",
+    "confederacion": "AFC",
+    "año": 2022
+  },
+  {
+    "nombre": "Belgium",
+    "nombreNormalizado": "belgium",
+    "continente": "Europe",
+    "banderaIcono": "🇧🇪",
+    "fifaCode": "BEL",
+    "grupo": "F",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Canada",
+    "nombreNormalizado": "canada",
+    "continente": "North America",
+    "banderaIcono": "🇨🇦",
+    "fifaCode": "CAN",
+    "grupo": "F",
+    "confederacion": "CONCACAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Morocco",
+    "nombreNormalizado": "morocco",
+    "continente": "Africa",
+    "banderaIcono": "🇲🇦",
+    "fifaCode": "MAR",
+    "grupo": "F",
+    "confederacion": "CAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Croatia",
+    "nombreNormalizado": "croatia",
+    "continente": "Europe",
+    "banderaIcono": "🇭🇷",
+    "fifaCode": "CRO",
+    "grupo": "F",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Brazil",
+    "nombreNormalizado": "brazil",
+    "continente": "South America",
+    "banderaIcono": "🇧🇷",
+    "fifaCode": "BRA",
+    "grupo": "G",
+    "confederacion": "CONMEBOL",
+    "año": 2022
+  },
+  {
+    "nombre": "Serbia",
+    "nombreNormalizado": "serbia",
+    "continente": "Europe",
+    "banderaIcono": "🇷🇸",
+    "fifaCode": "SRB",
+    "grupo": "G",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Switzerland",
+    "nombreNormalizado": "switzerland",
+    "continente": "Europe",
+    "banderaIcono": "🇨🇭",
+    "fifaCode": "SUI",
+    "grupo": "G",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Cameroon",
+    "nombreNormalizado": "cameroon",
+    "continente": "Africa",
+    "banderaIcono": "🇨🇲",
+    "fifaCode": "CMR",
+    "grupo": "G",
+    "confederacion": "CAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Portugal",
+    "nombreNormalizado": "portugal",
+    "continente": "Europe",
+    "banderaIcono": "🇵🇹",
+    "fifaCode": "POR",
+    "grupo": "H",
+    "confederacion": "UEFA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ghana",
+    "nombreNormalizado": "ghana",
+    "continente": "Africa",
+    "banderaIcono": "🇬🇭",
+    "fifaCode": "GHA",
+    "grupo": "H",
+    "confederacion": "CAF",
+    "año": 2022
+  },
+  {
+    "nombre": "Uruguay",
+    "nombreNormalizado": "uruguay",
+    "continente": "South America",
+    "banderaIcono": "🇺🇾",
+    "fifaCode": "URU",
+    "grupo": "H",
+    "confederacion": "CONMEBOL",
+    "año": 2022
+  },
+  {
+    "nombre": "South Korea",
+    "nombreNormalizado": "south-korea",
+    "continente": "Asia",
+    "banderaIcono": "🇰🇷",
+    "fifaCode": "KOR",
+    "grupo": "H",
+    "confederacion": "AFC",
+    "año": 2022
+  }
+]

@@ -1,0 +1,293 @@
+{
+  "name": "World Cup 2018",
+  "equipos": [
+    {
+      "nombre": "Egypt",
+      "nombreNormalizado": "",
+      "continente": "Africa",
+      "banderaIcono": "",
+      "fifaCode": "EGY",
+      "grupo": "A",
+      "confederacion": "CAF"
+    },
+    {
+      "nombre": "Morocco",
+      "nombreNormalizado": "",
+      "continente": "Africa",
+      "banderaIcono": "",
+      "fifaCode": "MAR",
+      "grupo": "B",
+      "confederacion": "CAF"
+    },
+    {
+      "nombre": "Tunisia",
+      "nombreNormalizado": "",
+      "continente": "Africa",
+      "banderaIcono": "",
+      "fifaCode": "TUN",
+      "grupo": "G",
+      "confederacion": "CAF"
+    },
+    {
+      "nombre": "Senegal",
+      "nombreNormalizado": "",
+      "continente": "Africa",
+      "banderaIcono": "",
+      "fifaCode": "SEN",
+      "grupo": "H",
+      "confederacion": "CAF"
+    },
+    {
+      "nombre": "Nigeria",
+      "nombreNormalizado": "",
+      "continente": "Africa",
+      "banderaIcono": "",
+      "fifaCode": "NGA",
+      "grupo": "D",
+      "confederacion": "CAF"
+    },
+    {
+      "nombre": "Japan",
+      "nombreNormalizado": "",
+      "continente": "Asia",
+      "banderaIcono": "",
+      "fifaCode": "JPN",
+      "grupo": "H",
+      "confederacion": "AFC"
+    },
+    {
+      "nombre": "South Korea",
+      "nombreNormalizado": "",
+      "continente": "Asia",
+      "banderaIcono": "",
+      "fifaCode": "KOR",
+      "grupo": "F",
+      "confederacion": "AFC"
+    },
+    {
+      "nombre": "Costa Rica",
+      "nombreNormalizado": "",
+      "continente": "Central America",
+      "banderaIcono": "",
+      "fifaCode": "CRC",
+      "grupo": "E",
+      "confederacion": "CONCACAF"
+    },
+    {
+      "nombre": "Panama",
+      "nombreNormalizado": "",
+      "continente": "Central America",
+      "banderaIcono": "",
+      "fifaCode": "PAN",
+      "grupo": "G",
+      "confederacion": "CONCACAF"
+    },
+    {
+      "nombre": "Belgium",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "BEL",
+      "grupo": "G",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Germany",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "GER",
+      "grupo": "F",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Spain",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "ESP",
+      "grupo": "B",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "France",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "FRA",
+      "grupo": "C",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Portugal",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "POR",
+      "grupo": "B",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Denmark",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "DEN",
+      "grupo": "C",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Poland",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "POL",
+      "grupo": "H",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Sweden",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "SWE",
+      "grupo": "F",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Switzerland",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "SUI",
+      "grupo": "E",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Croatia",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "CRO",
+      "grupo": "D",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Serbia",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "SRB",
+      "grupo": "E",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Russia",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "RUS",
+      "grupo": "A",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Iceland",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "ISL",
+      "grupo": "D",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "England",
+      "nombreNormalizado": "",
+      "continente": "Europe",
+      "banderaIcono": "",
+      "fifaCode": "ENG",
+      "grupo": "G",
+      "confederacion": "UEFA"
+    },
+    {
+      "nombre": "Iran",
+      "nombreNormalizado": "IR Iran",
+      "continente": "Middle East",
+      "banderaIcono": "",
+      "fifaCode": "IRN",
+      "grupo": "B",
+      "confederacion": "AFC"
+    },
+    {
+      "nombre": "Saudi Arabia",
+      "nombreNormalizado": "",
+      "continente": "Middle East",
+      "banderaIcono": "",
+      "fifaCode": "KSA",
+      "grupo": "A",
+      "confederacion": "AFC"
+    },
+    {
+      "nombre": "Mexico",
+      "nombreNormalizado": "",
+      "continente": "North America",
+      "banderaIcono": "",
+      "fifaCode": "MEX",
+      "grupo": "F",
+      "confederacion": "CONCACAF"
+    },
+    {
+      "nombre": "Australia",
+      "nombreNormalizado": "",
+      "continente": "Pacific",
+      "banderaIcono": "",
+      "fifaCode": "AUS",
+      "grupo": "C",
+      "confederacion": "AFC"
+    },
+    {
+      "nombre": "Argentina",
+      "nombreNormalizado": "",
+      "continente": "South America",
+      "banderaIcono": "",
+      "fifaCode": "ARG",
+      "grupo": "D",
+      "confederacion": "CONMEBOL"
+    },
+    {
+      "nombre": "Brazil",
+      "nombreNormalizado": "",
+      "continente": "South America",
+      "banderaIcono": "",
+      "fifaCode": "BRA",
+      "grupo": "E",
+      "confederacion": "CONMEBOL"
+    },
+    {
+      "nombre": "Uruguay",
+      "nombreNormalizado": "",
+      "continente": "South America",
+      "banderaIcono": "",
+      "fifaCode": "URU",
+      "grupo": "A",
+      "confederacion": "CONMEBOL"
+    },
+    {
+      "nombre": "Colombia",
+      "nombreNormalizado": "",
+      "continente": "South America",
+      "banderaIcono": "",
+      "fifaCode": "COL",
+      "grupo": "H",
+      "confederacion": "CONMEBOL"
+    },
+    {
+      "nombre": "Peru",
+      "nombreNormalizado": "",
+      "continente": "South America",
+      "banderaIcono": "",
+      "fifaCode": "PER",
+      "grupo": "C",
+      "confederacion": "CONMEBOL"
+    }
+  ]
+}

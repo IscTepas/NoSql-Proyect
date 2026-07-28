@@ -1,0 +1,113 @@
+{
+  "name": "World Cup 2018",
+  "estadios": [
+    {
+      "nombre": "Kaliningrad Stadium",
+      "ciudad": "Kaliningrad",
+      "capacidad": 33973,
+      "zonaHoraria": "UTC+2",
+      "codigoPais": "ru",
+      "coordenadas": "54°41'53\"N 20°32'02\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Luzhniki Stadium",
+      "ciudad": "Moscow (1)",
+      "capacidad": 78011,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "55°42'57\"N 37°33'13\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Otkritie Arena (Spartak Stadium)",
+      "ciudad": "Moscow (2)",
+      "capacidad": 44190,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "55°49'4.3\"N 37°26'24.9\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Krestovsky Stadium (Saint Petersburg Stadium)",
+      "ciudad": "Saint Petersburg",
+      "capacidad": 64468,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "59°58'23\"N 30°13'14\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Fisht Olympic Stadium (Fisht Stadium)",
+      "ciudad": "Sochi",
+      "capacidad": 44287,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "43°24'08\"N 39°57'22\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Volgograd Arena",
+      "ciudad": "Volgograd",
+      "capacidad": 43713,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "48°44'04\"N 44°32'55\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Rostov Arena",
+      "ciudad": "Rostov-on-Don",
+      "capacidad": 43472,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "47°12'34\"N 39°44'16\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Nizhny Novgorod Stadium",
+      "ciudad": "Nizhny Novgorod",
+      "capacidad": 43319,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "56°20'15\"N 43°57'48\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Kazan Arena",
+      "ciudad": "Kazan",
+      "capacidad": 42873,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "55°49'16\"N 49°09'39\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Mordovia Arena",
+      "ciudad": "Saransk",
+      "capacidad": 41685,
+      "zonaHoraria": "UTC+3",
+      "codigoPais": "ru",
+      "coordenadas": "54°10'58\"N 45°12'05\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Samara Arena",
+      "ciudad": "Samara",
+      "capacidad": 41970,
+      "zonaHoraria": "UTC+4",
+      "codigoPais": "ru",
+      "coordenadas": "53°16'40\"N 50°14'14\"E",
+      "año": 2018
+    },
+    {
+      "nombre": "Central Stadium (Ekaterinburg Arena)",
+      "ciudad": "Yekaterinburg",
+      "capacidad": 33061,
+      "zonaHoraria": "UTC+5",
+      "codigoPais": "ru",
+      "coordenadas": "56°49'57\"N 60°34'25\"E",
+      "año": 2018
+    }
+  ]
+}

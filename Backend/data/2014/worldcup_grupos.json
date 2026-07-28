@@ -1,0 +1,93 @@
+{
+  "name": "World Cup 2014",
+  "grupos": [
+    {
+      "nombre": "Group A",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Cameroon",
+        "Croatia",
+        "Mexico",
+        "Brazil"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group B",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Spain",
+        "Netherlands",
+        "Australia",
+        "Chile"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group C",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Côte d'Ivoire",
+        "Japan",
+        "Greece",
+        "Colombia"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group D",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Costa Rica",
+        "Italy",
+        "England",
+        "Uruguay"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group E",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Honduras",
+        "France",
+        "Switzerland",
+        "Ecuador"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group F",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Nigeria",
+        "Bosnia-Herzegovina",
+        "Iran",
+        "Argentina"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group G",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Ghana",
+        "Germany",
+        "Portugal",
+        "United States"
+      ],
+      "año": 2014
+    },
+    {
+      "nombre": "Group H",
+      "torneo": "World Cup 2014",
+      "equiposNombres": [
+        "Algeria",
+        "South Korea",
+        "Belgium",
+        "Russia"
+      ],
+      "año": 2014
+    }
+  ]
+}

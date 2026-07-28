@@ -5,14 +5,17 @@ const GrupoSchema = new mongoose.Schema(
     nombre: {
       type: String,
       required: true,
-      unique: true,
       trim: true,
-      index: true // ej: "Group A"
+      index: true
     },
     torneo: {
       type: String,
-      default: "World Cup 2026",
-      trim: true // Para identificar a qué mundial pertenece
+      trim: true
+    },
+    año: {
+      type: Number,
+      required: true,
+      index: true
     },
     // Guarda los nombres tal cual vienen en el JSON original: ["Mexico", "South Africa", ...]
     equiposNombres: [
@@ -33,6 +36,8 @@ const GrupoSchema = new mongoose.Schema(
     timestamps: true
   }
 );
+
+GrupoSchema.index({ nombre: 1, año: 1 });
 
 const Grupo = mongoose.model("Grupo", GrupoSchema);
 

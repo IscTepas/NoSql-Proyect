@@ -1,0 +1,93 @@
+{
+  "name": "World Cup 2018",
+  "grupos": [
+    {
+      "nombre": "Group A",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Egypt",
+        "Russia",
+        "Saudi Arabia",
+        "Uruguay"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group B",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Morocco",
+        "Spain",
+        "Portugal",
+        "Iran"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group C",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "France",
+        "Denmark",
+        "Australia",
+        "Peru"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group D",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Nigeria",
+        "Croatia",
+        "Iceland",
+        "Argentina"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group E",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Costa Rica",
+        "Switzerland",
+        "Serbia",
+        "Brazil"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group F",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "South Korea",
+        "Germany",
+        "Sweden",
+        "Mexico"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group G",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Tunisia",
+        "Panama",
+        "Belgium",
+        "England"
+      ],
+      "año": 2018
+    },
+    {
+      "nombre": "Group H",
+      "torneo": "World Cup 2018",
+      "equiposNombres": [
+        "Senegal",
+        "Japan",
+        "Poland",
+        "Colombia"
+      ],
+      "año": 2018
+    }
+  ]
+}

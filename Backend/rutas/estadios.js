@@ -3,10 +3,11 @@ const router = express.Router();
 
 const Estadio = require("../Modelos/Estadio");
 
-// GET - consultar todos los estadios
+// GET - consultar todos los estadios (filtro opcional ?año=YYYY)
 router.get("/", async (req, res) => {
     try {
-        const estadios = await Estadio.find();
+        const filtro = req.query.año ? { año: Number(req.query.año) } : {};
+        const estadios = await Estadio.find(filtro);
         res.status(200).json({
             ok: true,
             data: estadios,

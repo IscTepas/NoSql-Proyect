@@ -22,9 +22,18 @@
 frontend/
 ├── app/
 │   ├── layout.tsx              # Root layout (Inter font + Navbar + Footer + TooltipProvider)
-│   ├── page.tsx                # Home/Dashboard principal
+│   ├── page.tsx                # Landing page: grid de 4 mundiales
 │   ├── globals.css             # Paleta de colores mundial + shadcn vars
 │   ├── tw-animate-local.css    # Animaciones Tailwind (local)
+│   ├── mundiales/
+│   │   ├── 2026/
+│   │   │   └── page.tsx        # Dashboard 2026 (hero + stats + resultados)
+│   │   ├── 2022/
+│   │   │   └── page.tsx        # Placeholder "Proximamente"
+│   │   ├── 2018/
+│   │   │   └── page.tsx        # Placeholder "Proximamente"
+│   │   └── 2014/
+│   │       └── page.tsx        # Placeholder "Proximamente"
 │   ├── selecciones/
 │   │   └── page.tsx            # Grid de 48 selecciones filtrable
 │   ├── grupos/
@@ -40,10 +49,11 @@ frontend/
 │   └── [matchId]/
 │       └── page.tsx            # Detalle de partido individual
 ├── components/
-│   ├── Navbar.tsx              # Navegacion responsive con links activos
-│   ├── Footer.tsx              # Footer con credits
+│   ├── Navbar.tsx              # Navegacion responsive (Mundiales, 2026, Selecciones, etc)
+│   ├── Footer.tsx              # Footer con linea dorada decorativa
 │   ├── StatCard.tsx            # Tarjeta reutilizable para estadisticas
 │   ├── Flag.tsx                # Componente de bandera via flagcdn.com
+│   ├── WCGeometry.tsx          # Patron SVG geometrico del "26" WC2026
 │   └── ui/                     # shadcn/ui components
 │       ├── badge.tsx
 │       ├── button.tsx
@@ -66,15 +76,18 @@ frontend/
 
 ---
 
-## Paleta de Colores (Tema)
+## Paleta de Colores (Tema - WC2026 Oficial)
 
 | Elemento | Variable CSS | Uso |
 |----------|-------------|-----|
-| Primario (Azul) | `--primary` | Navbar, botones, links activos |
-| Secundario (Dorado) | `--wc-gold` | Acentos, badges, estrellas |
-| Exito (Verde) | `--wc-green` | Equipos clasificados, victorias |
-| Advertencia (Naranja) | `--wc-orange` | Tercer puesto, empates |
-| Peligro (Rojo) | `--wc-red` | Equipos eliminados |
+| Negro (Primario) | `--wc-black` / `--primary` | Navbar, footer, header de tablas, botones activos |
+| Dorado (Acento) | `--wc-gold` | Acentos, badges, iconos de seccion, bordes, hover effects |
+| Dorado Claro | `--wc-gold-light` | Fondos sutiles de acento |
+| Dorado Oscuro | `--wc-gold-dark` | Texto sobre fondo claro |
+| Blanco | `--wc-white` / `--background` | Fondos de cards, texto sobre negro |
+| Exito (Verde) | `--wc-green` | Equipos clasificados, victorias, goles equipo 1 |
+| Advertencia (Naranja) | `--wc-orange` | Goles equipo 2 |
+| Peligro (Rojo) | `--wc-red` | Equipos eliminados, autogoles |
 | Púrpura | `--wc-purple` | Confederaciones, charts |
 
 ---
@@ -155,43 +168,64 @@ frontend/
 
 ---
 
-## Paginas Pendientes
-
-### 4. Estadios (`/estadios`) - PENDIENTE
-- Grid de 16 estadios con tarjetas
+### 4. Estadios (`/estadios`) - COMPLETADO
+- Grid de 16 estadios con tarjetas (icono Building2, bandera pais)
 - Info: nombre, ciudad, pais, capacidad, zona horaria
-- Filtro por pais (US, MX, CA)
-- Detalle con lista de partidos programados
-- Mapa estatico
+- Filtro por pais (US, MX, CA) con conteo y bandera
+- Busqueda por nombre o ciudad
+- Detalle expandible con lista de partidos programados por estadio
+- Badge de pais con color (azul=US, verde=MX, rojo=CA)
+- Capacidad formateada con separadores de miles
+- Loading skeleton
 
-### 5. Calendario de Partidos (`/partidos`) - PENDIENTE
-- Timeline vertical de 104 partidos
-- Filtros por ronda, fecha, equipo, estadio
-- Colores por fase (azul=naranja=purpura=dorado=rojo)
-- Partido expandible con goles detallados
+### 5. Calendario de Partidos (`/partidos`) - COMPLETADO
+- Timeline vertical con linea conectando partidos por fecha
+- Filtros por ronda (Fase de Grupos, Octavos, Cuartos, Semifinal, 3er Puesto, Final)
+- Busqueda por equipo, estadio o fecha
+- Colores por fase: azul=grupos, naranja=octavos, purpura=cuartos, dorado=semifinal/final, rojo=3er puesto
+- Partido expandible con: marcador HT/ET/Penales, goles detallados (minuto, penalti, autogol), ganador
+- Agrupacion por fecha con header sticky
+- Indicador visual de partidos jugados (borde verde izquierdo)
+- Loading skeleton
 
-### 6. Bracket de Eliminatorias (`/bracket`) - PENDIENTE
-- Bracket visual SVG: Octavos -> Cuartos -> Semis -> Final
-- Lineas conectando ganadores
-- Hover con info detallada
-- Click para modal con detalle
-- Resaltado del camino del campeon
-- Vista responsive por rondas en movil
+### 6. Bracket de Eliminatorias (`/bracket`) - COMPLETADO
+- Bracket visual horizontal: Round of 32 → Round of 16 → Quarter-final → Semi-final → Final
+- Lado Izquierdo (Grupos A-D) y Lado Derecho (Grupos E-L)
+- MatchCard con flags, scores, ganador destacado en verde
+- Badge de ronda por columna (R32 negro, QF/SF dorado, Final dorado con icono Trophy)
+- Display del campeon al final con Trophy, bandera y score
+- Manejo de partidos no jugados ("Por definir")
+- Score detallado: PEN, AET indicators
+- Dark theme (fondo negro a gradiente)
 
-### 7. Jugadores (`/jugadores`) - PENDIENTE
-- Busqueda global por nombre, equipo, posicion
-- Filtros por posicion (GK, DF, MF, FW)
-- Ranking de goleadores con grafica de barras
-- Distribucion de posiciones (dona)
-- Distribucion por confederacion
-- Detalle de jugador (equipo, club, edad)
+### 7. Jugadores (`/jugadores`) - COMPLETADO
+- Busqueda por nombre, equipo o codigo FIFA
+- Filtros por posicion (Porteros, Defensas, Mediocampistas, Delanteros) con colores por posicion
+- Filtros por equipo (primeros 16 con bandera)
+- Panel de estadísticas: distribución por posición (barras), top goleadores (Recharts BarChart)
+- Grid de jugadores: card con posición (color badge), numero, nombre, equipo, club
+- Barra de color por posición en cada card
+- Toggle mostrar/ocultar estadísticas
+- Dark theme
 
-### 8. Detalle de Partido (`/[matchId]`) - PENDIENTE
-- Header: Bandera eq1 vs Bandera eq2 + marcador
-- Marcador detallado (FT, HT, ET, P)
-- Lista cronologica de goles
-- Info del estadio
-- Plantillas de titulares
+### 8. Detalle de Partido (`/[matchId]`) - COMPLETADO
+- Header: Bandera eq1 vs Bandera eq2 + marcador grande
+- Score detallado: FT, HT, ET, PEN
+- Ganador destacado en dorado, perdedor atenuado
+- Badge de Final del Mundial con icono Trophy
+- Lista de goles por equipo: minuto, nombre, badges PEN/OG
+- Card de estadio: nombre, ciudad, capacidad, pais
+- Badges informativos: numero, ronda, grupo, tipo (eliminatoria)
+- Link "Volver a Partidos"
+- Loading skeleton, 404 state
+- Dark theme
+
+### 9. Estructura de Rutas Mundiales - COMPLETADO
+- Landing page (`/`) con grid de 4 mundiales (2026, 2022, 2018, 2014)
+- 2026 marcado como "Actual" con badge dorado
+- Dashboard 2026 (`/mundiales/2026`) con hero + stats + resultados
+- Placeholders para 2022, 2018, 2014 con "Proximamente"
+- Navbar actualizada: "Mundiales" → `/`, "2026" → `/mundiales/2026`
 
 ---
 
@@ -252,3 +286,104 @@ frontend/
 - Banderas SVG cargando correctamente desde flagcdn.com
 - Filtros de confederacion funcionando (requerio fix del seed backend)
 - Grupos con tabla de posiciones y calendario por grupo
+
+### 2026-07-27: Pasos 4-5 Completado
+
+**Archivos creados:**
+- `frontend/app/estadios/page.tsx` - Pagina de estadios con grid, filtros por pais, busqueda y detalle expandible
+- `frontend/app/partidos/page.tsx` - Pagina de calendario con timeline, filtros por ronda y partidos expandibles
+
+**Features implementadas:**
+- Estadios: Grid responsive 1-4 columnas con tarjetas que muestran icono Building2, bandera del pais, capacidad formateada, zona horaria
+- Estadios: Filtros por pais (US/MX/CA) con conteo y bandera, busqueda por nombre/ciudad
+- Estadios: Detalle expandible por estadio mostrando partidos programados con resultado o hora
+- Estadios: Colores por pais (azul=US, verde=MX, rojo=CA) en badges
+- Partidos: Timeline vertical con linea conectando partidos, agrupados por fecha con header sticky
+- Partidos: Filtros por ronda (7 fases) con conteo, busqueda por equipo/estadio/fecha
+- Partidos: Colores por fase (azul=grupos, naranja=octavos, purpura=cuartos, dorado=semifinal/final, rojo=3er puesto)
+- Partidos: Partido expandible con marcador HT/ET/Penales, goles detallados (minuto, penalti, autogol), ganador
+- Partidos: Indicador visual de partidos jugados (borde verde izquierdo)
+
+**Verificacion:**
+- `npm run build` exitoso sin errores de TypeScript
+- 5 paginas funcionando: `/`, `/selecciones`, `/grupos`, `/estadios`, `/partidos`
+- Estadios con 16 tarjetas y filtro por 3 paises
+- Partidos con timeline de 104 partidos y 7 filtros de ronda
+
+### 2026-07-27: Fix Estadios y Partidos
+
+**Bug seed.js (Backend/BD/seed.js):**
+- El seed escribia `pais: "Estados Unidos"` en vez de `codigoPais` (campo del schema)
+- Usaba `stadium.cc` (inexistente en JSON) en vez de `stadium.codigoPais`
+- No incluia `zonaHoraria` ni `coordenadas`
+- Fix: Ahora escribe `codigoPais`, `zonaHoraria`, `coordenadas` correctamente desde el JSON
+
+**Fix frontend/app/estadios/page.tsx:**
+- `getCountryCode()` ahora lee `codigoPais` en lowercase de la DB
+- Mapeo de paises usa keys lowercase ("us", "mx", "ca") consistentes con la DB
+- Labels legibles: "EE.UU.", "Mexico", "Canada"
+
+**Fix frontend/app/partidos/page.tsx:**
+- Filtros de ronda ahora usan valores reales de la API: "Matchday 1-3", "Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Match for third place", "Final"
+- Busqueda por grupo funciona: busca "group A" en `p.grupo.nombre`
+- Busqueda incluye: equipo, fifaCode, estadio, ciudad, fecha, ronda, grupo
+
+**Verificacion:**
+- Seed ejecutado: 16 estadios, 48 equipos, 1248 jugadores, 12 grupos, 104 partidos
+- `npm run build` exitoso sin errores
+
+### 2026-07-27: Rediseño WC2026 Oficial
+
+**Cambio de sistema de diseño:**
+- Paleta: Negro/Blanco/Dorado (oficial FIFA World Cup 2026) reemplaza azul como primario
+- Navbar: Fondo negro con logo dorado "26" y texto "FIFA WORLD CUP"
+- Footer: Fondo negro con linea dorada decorativa
+- Hero: Seccion negra con patron geometrico WCGeometry y "26" dorado grande
+- Cards: Bordes dorados sutiles, hover con sombra dorada
+- Botones de filtro: Negro activo, dorado inactivo
+- Headers de tabla: Fondo negro con texto blanco
+- Score badges: Fondo negro para marcadores
+- Input fields: Bordes dorados en focus
+
+**Archivos creados:**
+- `frontend/components/WCGeometry.tsx` - Patron SVG geometrico del "26" con 48 unidades
+
+**Archivos modificados:**
+- `frontend/app/globals.css` - Nueva paleta: primary=negro, wc-gold dorado, wc-gold-dark, wc-gold-light
+- `frontend/app/page.tsx` - Hero WC2026 con WCGeometry, StatCards con nueva paleta
+- `frontend/components/Navbar.tsx` - Navbar negro con logo dorado "26"
+- `frontend/components/Footer.tsx` - Footer negro con linea dorada
+- `frontend/components/StatCard.tsx` - Cards con acentos dorados
+- `frontend/app/selecciones/page.tsx` - Filtros y tabla con colores WC2026
+- `frontend/app/grupos/page.tsx` - Tabla con header negro, badges dorados
+- `frontend/app/estadios/page.tsx` - Cards con bordes dorados
+- `frontend/app/partidos/page.tsx` - Timeline con linea dorada, badges de fecha negros
+
+**Verificacion:**
+- `npm run build` exitoso sin errores de TypeScript
+- 5 paginas funcionando con nuevo sistema de diseño WC2026
+
+### 2026-07-27: Pasos 6-8 + Estructura Mundiales Completado
+
+**Archivos creados:**
+- `frontend/app/bracket/page.tsx` - Bracket visual de eliminatorias (R32→R16→QF→SF→Final)
+- `frontend/app/jugadores/page.tsx` - Busqueda/filtros de jugadores + estadisticas con Recharts
+- `frontend/app/[matchId]/page.tsx` - Detalle de partido individual con scorecard
+- `frontend/app/mundiales/2026/page.tsx` - Dashboard 2026 (hero + stats + resultados)
+- `frontend/app/mundiales/2022/page.tsx` - Placeholder "Proximamente"
+- `frontend/app/mundiales/2018/page.tsx` - Placeholder "Proximamente"
+- `frontend/app/mundiales/2014/page.tsx` - Placeholder "Proximamente"
+
+**Archivos modificados:**
+- `frontend/app/page.tsx` - Landing page con grid de 4 mundiales
+- `frontend/components/Navbar.tsx` - Links actualizados: "Mundiales" → `/`, "2026" → `/mundiales/2026`
+
+**Features implementadas:**
+- Bracket: Layout horizontal con columnas por ronda, MatchCard con flags/scores, campeon display
+- Jugadores: Filtros por posicion/equipo, barras de distribucion, top goleadores con Recharts BarChart
+- Detalle Partido: Header con flags vs score grande, goles cronologicos, info de estadio
+- Rutas Mundiales: Landing `/` con 4 cards de mundiales, dashboard 2026 funcional
+
+**Verificacion:**
+- `npm run build` exitoso sin errores de TypeScript
+- 14 rutas generadas: `/`, `/mundiales/2014|2018|2022|2026`, `/selecciones`, `/grupos`, `/estadios`, `/partidos`, `/bracket`, `/jugadores`, `/[matchId]`

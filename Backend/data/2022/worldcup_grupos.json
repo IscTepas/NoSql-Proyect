@@ -1,0 +1,93 @@
+{
+  "name": "World Cup 2022",
+  "grupos": [
+    {
+      "nombre": "Group A",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Qatar",
+        "Ecuador",
+        "Senegal",
+        "Netherlands"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group B",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "England",
+        "Iran",
+        "United States",
+        "Wales"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group C",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Argentina",
+        "Saudi Arabia",
+        "Mexico",
+        "Poland"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group D",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Denmark",
+        "Tunisia",
+        "France",
+        "Australia"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group E",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Germany",
+        "Japan",
+        "Spain",
+        "Costa Rica"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group F",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Morocco",
+        "Croatia",
+        "Belgium",
+        "Canada"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group G",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Switzerland",
+        "Cameroon",
+        "Brazil",
+        "Serbia"
+      ],
+      "año": 2022
+    },
+    {
+      "nombre": "Group H",
+      "torneo": "World Cup 2022",
+      "equiposNombres": [
+        "Uruguay",
+        "South Korea",
+        "Portugal",
+        "Ghana"
+      ],
+      "año": 2022
+    }
+  ]
+}

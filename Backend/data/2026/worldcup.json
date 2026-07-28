@@ -36,7 +36,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Mexico City"
+      "estadio": "Mexico City",
+      "año": 2026
     },
     {
       "numeroPartido": 2,
@@ -80,7 +81,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Guadalajara (Zapopan)"
+      "estadio": "Guadalajara (Zapopan)",
+      "año": 2026
     },
     {
       "numeroPartido": 3,
@@ -118,7 +120,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 4,
@@ -149,7 +152,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Guadalajara (Zapopan)"
+      "estadio": "Guadalajara (Zapopan)",
+      "año": 2026
     },
     {
       "numeroPartido": 5,
@@ -192,7 +196,8 @@
         }
       ],
       "grupo": "Group A",
-      "estadio": "Mexico City"
+      "estadio": "Mexico City",
+      "año": 2026
     },
     {
       "numeroPartido": 6,
@@ -223,7 +228,8 @@
       ],
       "goles2": [],
       "grupo": "Group A",
-      "estadio": "Monterrey (Guadalupe)"
+      "estadio": "Monterrey (Guadalupe)",
+      "año": 2026
     },
     {
       "numeroPartido": 7,
@@ -261,7 +267,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 8,
@@ -299,7 +306,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 9,
@@ -355,7 +363,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 10,
@@ -416,7 +425,8 @@
       ],
       "goles2": [],
       "grupo": "Group B",
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 11,
@@ -460,7 +470,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 12,
@@ -510,7 +521,8 @@
         }
       ],
       "grupo": "Group B",
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 13,
@@ -548,7 +560,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 14,
@@ -579,7 +592,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 15,
@@ -610,7 +624,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 16,
@@ -653,7 +668,8 @@
       ],
       "goles2": [],
       "grupo": "Group C",
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 17,
@@ -696,7 +712,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 18,
@@ -758,7 +775,8 @@
         }
       ],
       "grupo": "Group C",
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 19,
@@ -814,7 +832,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 20,
@@ -851,7 +870,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 21,
@@ -888,7 +908,8 @@
       ],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 22,
@@ -919,7 +940,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 23,
@@ -975,7 +997,8 @@
         }
       ],
       "grupo": "Group D",
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 24,
@@ -999,7 +1022,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group D",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 25,
@@ -1073,7 +1097,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 26,
@@ -1104,7 +1129,8 @@
       ],
       "goles2": [],
       "grupo": "Group E",
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 27,
@@ -1148,7 +1174,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 28,
@@ -1172,7 +1199,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group E",
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 29,
@@ -1209,7 +1237,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 30,
@@ -1253,7 +1282,8 @@
         }
       ],
       "grupo": "Group E",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 31,
@@ -1303,7 +1333,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 32,
@@ -1365,7 +1396,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Monterrey (Guadalupe)"
+      "estadio": "Monterrey (Guadalupe)",
+      "año": 2026
     },
     {
       "numeroPartido": 33,
@@ -1427,7 +1459,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 34,
@@ -1476,7 +1509,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Monterrey (Guadalupe)"
+      "estadio": "Monterrey (Guadalupe)",
+      "año": 2026
     },
     {
       "numeroPartido": 35,
@@ -1514,7 +1548,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 36,
@@ -1564,7 +1599,8 @@
         }
       ],
       "grupo": "Group F",
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 37,
@@ -1602,7 +1638,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 38,
@@ -1652,7 +1689,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 39,
@@ -1676,7 +1714,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group G",
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 40,
@@ -1726,7 +1765,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 41,
@@ -1764,7 +1804,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 42,
@@ -1826,7 +1867,8 @@
         }
       ],
       "grupo": "Group G",
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 43,
@@ -1850,7 +1892,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group H",
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 44,
@@ -1888,7 +1931,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 45,
@@ -1937,7 +1981,8 @@
       ],
       "goles2": [],
       "grupo": "Group H",
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 46,
@@ -1987,7 +2032,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 47,
@@ -2011,7 +2057,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group H",
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 48,
@@ -2042,7 +2089,8 @@
         }
       ],
       "grupo": "Group H",
-      "estadio": "Guadalajara (Zapopan)"
+      "estadio": "Guadalajara (Zapopan)",
+      "año": 2026
     },
     {
       "numeroPartido": 49,
@@ -2092,7 +2140,8 @@
         }
       ],
       "grupo": "Group I",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 50,
@@ -2148,7 +2197,8 @@
         }
       ],
       "grupo": "Group I",
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 51,
@@ -2191,7 +2241,8 @@
       ],
       "goles2": [],
       "grupo": "Group I",
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 52,
@@ -2247,7 +2298,8 @@
         }
       ],
       "grupo": "Group I",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 53,
@@ -2303,7 +2355,8 @@
         }
       ],
       "grupo": "Group I",
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 54,
@@ -2358,7 +2411,8 @@
       ],
       "goles2": [],
       "grupo": "Group I",
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 55,
@@ -2401,7 +2455,8 @@
       ],
       "goles2": [],
       "grupo": "Group J",
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 56,
@@ -2451,7 +2506,8 @@
         }
       ],
       "grupo": "Group J",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 57,
@@ -2488,7 +2544,8 @@
       ],
       "goles2": [],
       "grupo": "Group J",
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 58,
@@ -2532,7 +2589,8 @@
         }
       ],
       "grupo": "Group J",
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 59,
@@ -2594,7 +2652,8 @@
         }
       ],
       "grupo": "Group J",
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 60,
@@ -2644,7 +2703,8 @@
         }
       ],
       "grupo": "Group J",
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 61,
@@ -2682,7 +2742,8 @@
         }
       ],
       "grupo": "Group K",
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 62,
@@ -2732,7 +2793,8 @@
         }
       ],
       "grupo": "Group K",
-      "estadio": "Mexico City"
+      "estadio": "Mexico City",
+      "año": 2026
     },
     {
       "numeroPartido": 63,
@@ -2787,7 +2849,8 @@
       ],
       "goles2": [],
       "grupo": "Group K",
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 64,
@@ -2818,7 +2881,8 @@
       ],
       "goles2": [],
       "grupo": "Group K",
-      "estadio": "Guadalajara (Zapopan)"
+      "estadio": "Guadalajara (Zapopan)",
+      "año": 2026
     },
     {
       "numeroPartido": 65,
@@ -2842,7 +2906,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group K",
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 66,
@@ -2892,7 +2957,8 @@
         }
       ],
       "grupo": "Group K",
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 67,
@@ -2954,7 +3020,8 @@
         }
       ],
       "grupo": "Group L",
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 68,
@@ -2985,7 +3052,8 @@
       ],
       "goles2": [],
       "grupo": "Group L",
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 69,
@@ -3009,7 +3077,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": "Group L",
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 70,
@@ -3040,7 +3109,8 @@
         }
       ],
       "grupo": "Group L",
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 71,
@@ -3077,7 +3147,8 @@
         }
       ],
       "grupo": "Group L",
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 72,
@@ -3121,7 +3192,8 @@
         }
       ],
       "grupo": "Group L",
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 73,
@@ -3152,7 +3224,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 74,
@@ -3196,7 +3269,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 75,
@@ -3240,7 +3314,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Monterrey (Guadalupe)"
+      "estadio": "Monterrey (Guadalupe)",
+      "año": 2026
     },
     {
       "numeroPartido": 76,
@@ -3284,7 +3359,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 77,
@@ -3327,7 +3403,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 78,
@@ -3371,7 +3448,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 79,
@@ -3408,7 +3486,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "Mexico City"
+      "estadio": "Mexico City",
+      "año": 2026
     },
     {
       "numeroPartido": 80,
@@ -3452,7 +3531,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 81,
@@ -3489,7 +3569,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "San Francisco Bay Area (Santa Clara)"
+      "estadio": "San Francisco Bay Area (Santa Clara)",
+      "año": 2026
     },
     {
       "numeroPartido": 82,
@@ -3548,7 +3629,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 83,
@@ -3592,7 +3674,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Toronto"
+      "estadio": "Toronto",
+      "año": 2026
     },
     {
       "numeroPartido": 84,
@@ -3635,7 +3718,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 85,
@@ -3672,7 +3756,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 86,
@@ -3731,7 +3816,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 87,
@@ -3762,7 +3848,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 88,
@@ -3806,7 +3893,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 89,
@@ -3837,7 +3925,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Philadelphia"
+      "estadio": "Philadelphia",
+      "año": 2026
     },
     {
       "numeroPartido": 90,
@@ -3880,7 +3969,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Houston"
+      "estadio": "Houston",
+      "año": 2026
     },
     {
       "numeroPartido": 91,
@@ -3924,7 +4014,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     },
     {
       "numeroPartido": 92,
@@ -3980,7 +4071,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Mexico City"
+      "estadio": "Mexico City",
+      "año": 2026
     },
     {
       "numeroPartido": 93,
@@ -4011,7 +4103,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 94,
@@ -4067,7 +4160,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Seattle"
+      "estadio": "Seattle",
+      "año": 2026
     },
     {
       "numeroPartido": 95,
@@ -4123,7 +4217,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 96,
@@ -4153,7 +4248,8 @@
       "goles1": [],
       "goles2": [],
       "grupo": null,
-      "estadio": "Vancouver"
+      "estadio": "Vancouver",
+      "año": 2026
     },
     {
       "numeroPartido": 97,
@@ -4190,7 +4286,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "Boston (Foxborough)"
+      "estadio": "Boston (Foxborough)",
+      "año": 2026
     },
     {
       "numeroPartido": 98,
@@ -4234,7 +4331,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Los Angeles (Inglewood)"
+      "estadio": "Los Angeles (Inglewood)",
+      "año": 2026
     },
     {
       "numeroPartido": 99,
@@ -4281,7 +4379,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 100,
@@ -4334,7 +4433,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Kansas City"
+      "estadio": "Kansas City",
+      "año": 2026
     },
     {
       "numeroPartido": 101,
@@ -4371,7 +4471,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Dallas (Arlington)"
+      "estadio": "Dallas (Arlington)",
+      "año": 2026
     },
     {
       "numeroPartido": 102,
@@ -4415,7 +4516,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Atlanta"
+      "estadio": "Atlanta",
+      "año": 2026
     },
     {
       "numeroPartido": 103,
@@ -4501,7 +4603,8 @@
         }
       ],
       "grupo": null,
-      "estadio": "Miami (Miami Gardens)"
+      "estadio": "Miami (Miami Gardens)",
+      "año": 2026
     },
     {
       "numeroPartido": 104,
@@ -4535,7 +4638,8 @@
       ],
       "goles2": [],
       "grupo": null,
-      "estadio": "New York/New Jersey (East Rutherford)"
+      "estadio": "New York/New Jersey (East Rutherford)",
+      "año": 2026
     }
   ]
 }

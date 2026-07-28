@@ -1,0 +1,9350 @@
+[
+  {
+    "nombre": "Saad Al-Sheeb",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-02-19",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Ró-Ró",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-08-06",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdelkarim Hassan",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-08-28",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Waad",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-09-18",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Tarek Salman",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-12-05",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdulaziz Hatem",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-28",
+    "club": {
+      "nombre": "Al-Rayyan",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Ahmed Alaaeldin",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-01-31",
+    "club": {
+      "nombre": "Al-Gharafa",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Assadalla",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-19",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Muntari",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-12-20",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Hassan Al-Haydos",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-12-11",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Akram Afif",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-11-18",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Karim Boudiaf",
+    "numero": 12,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-09-16",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Musab Kheder",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-01-01",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Homam Ahmed",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-08-25",
+    "club": {
+      "nombre": "Al-Gharafa",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Bassam Al-Rawi",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-12-16",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Boualem Khoukhi",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-07",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Ismaeel Mohammad",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-05",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Khalid Muneer",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-02-24",
+    "club": {
+      "nombre": "Al-Wakrah",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Almoez Ali",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-08-19",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Salem Al-Hajri",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-10",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Yousef Hassan",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-05-24",
+    "club": {
+      "nombre": "Al-Gharafa",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Meshaal Barsham",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1998-02-14",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Assim Madibo",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-10-22",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Naif Al-Hadhrami",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-07-18",
+    "club": {
+      "nombre": "Al-Rayyan",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Jassem Gaber",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "2002-02-20",
+    "club": {
+      "nombre": "Al-Arabi",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Mostafa Meshaal",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-03-28",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "QAT",
+    "año": 2022
+  },
+  {
+    "nombre": "Hernán Galíndez",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-03-30",
+    "club": {
+      "nombre": "S. D. Aucas",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Félix Torres",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-11",
+    "club": {
+      "nombre": "Santos Laguna",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Piero Hincapié",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "2002-01-09",
+    "club": {
+      "nombre": "Bayer Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Robert Arboleda",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-10-22",
+    "club": {
+      "nombre": "São Paulo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "José Cifuentes",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-03-12",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "William Pacho",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-10-16",
+    "club": {
+      "nombre": "Royal Antwerp",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Pervis Estupiñán",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-01-21",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Carlos Gruezo",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-19",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Ayrton Preciado",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-07-17",
+    "club": {
+      "nombre": "Santos Laguna",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Romario Ibarra",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-09-24",
+    "club": {
+      "nombre": "Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Michael Estrada",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-04-07",
+    "club": {
+      "nombre": "Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Moisés Ramírez",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "2000-09-09",
+    "club": {
+      "nombre": "Independiente del Valle",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Enner Valencia",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-11-04",
+    "club": {
+      "nombre": "Fenerbahçe",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Xavier Arreaga",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-09-28",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Ángel Mena",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-01-21",
+    "club": {
+      "nombre": "Club León",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Jeremy Sarmiento",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-06-16",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Angelo Preciado",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-02-18",
+    "club": {
+      "nombre": "KRC Genk",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Diego Palacios",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-07-12",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Gonzalo Plata",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-11-01",
+    "club": {
+      "nombre": "Real Valladolid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Sebas Méndez",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-04-26",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Alan Franco",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-08-21",
+    "club": {
+      "nombre": "Talleres de Córdoba",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Alexander Domínguez",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-06-05",
+    "club": {
+      "nombre": "LDU Quito",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Moisés Caicedo",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-11-02",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Djorkaeff Reasco",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-01-18",
+    "club": {
+      "nombre": "Newell's Old Boys",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Jackson Porozo",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-08-04",
+    "club": {
+      "nombre": "Troyes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Kevin Rodríguez",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-03-04",
+    "club": {
+      "nombre": "Imbabura S. C.",
+      "pais": "ECU"
+    },
+    "fifaCodeEquipo": "ECU",
+    "año": 2022
+  },
+  {
+    "nombre": "Seny Dieng",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-11-23",
+    "club": {
+      "nombre": "Queens Park Rangers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Formose Mendy",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-01-02",
+    "club": {
+      "nombre": "Amiens",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Kalidou Koulibaly",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-06-20",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Pape Abou Cissé",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-14",
+    "club": {
+      "nombre": "Olympiacos",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Idrissa Gueye",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-09-26",
+    "club": {
+      "nombre": "Everton",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Nampalys Mendy",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-06-23",
+    "club": {
+      "nombre": "Leicester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssouf Sabaly",
+    "numero": 7,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Cheikhou Kouyaté",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-21",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Boulaye Dia",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-11-16",
+    "club": {
+      "nombre": "Salernitana",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Moussa N'Diaye",
+    "numero": 10,
+    "posicion": "DF",
+    "fechaNacimiento": "2002-06-18",
+    "club": {
+      "nombre": "Anderlecht",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Pathé Ciss",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-03-16",
+    "club": {
+      "nombre": "Rayo Vallecano",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Fodé Ballo-Touré",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-03",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Iliman Ndiaye",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-03-06",
+    "club": {
+      "nombre": "Sheffield United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ismail Jakobs",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-08-17",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Krépin Diatta",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-02-25",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Édouard Mendy",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-03-01",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Pape Matar Sarr",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-09-14",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ismaïla Sarr",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-02-25",
+    "club": {
+      "nombre": "Watford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Famara Diédhiou",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-12-15",
+    "club": {
+      "nombre": "Alanyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Bamba Dieng",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-03-23",
+    "club": {
+      "nombre": "Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mamadou Loum",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-12-30",
+    "club": {
+      "nombre": "Reading",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Pape Gueye",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-01-24",
+    "club": {
+      "nombre": "Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Alfred Gomis",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-09-05",
+    "club": {
+      "nombre": "Rennes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Moustapha Name",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-05-05",
+    "club": {
+      "nombre": "Pafos",
+      "pais": "CYP"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicolas Jackson",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-06-20",
+    "club": {
+      "nombre": "Villarreal",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdou Diallo",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-05-04",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Remko Pasveer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-11-08",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Jurriën Timber",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-06-17",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Matthijs de Ligt",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-08-12",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Virgil van Dijk",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-07-08",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Nathan Aké",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-02-18",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Stefan de Vrij",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-05",
+    "club": {
+      "nombre": "Inter Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Steven Bergwijn",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-08",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Cody Gakpo",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-05-07",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Luuk de Jong",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-08-27",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Memphis Depay",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-02-13",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Steven Berghuis",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-12-19",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Noa Lang",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-06-17",
+    "club": {
+      "nombre": "Club Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Justin Bijlow",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1998-01-22",
+    "club": {
+      "nombre": "Feyenoord",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Davy Klaassen",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-02-21",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Marten de Roon",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-03-29",
+    "club": {
+      "nombre": "Atalanta",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Tyrell Malacia",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-08-17",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Daley Blind",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-09",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Vincent Janssen",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-15",
+    "club": {
+      "nombre": "Royal Antwerp",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Wout Weghorst",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-08-07",
+    "club": {
+      "nombre": "Beşiktaş",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Teun Koopmeiners",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-02-28",
+    "club": {
+      "nombre": "Atalanta",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Frenkie de Jong",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-05-12",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Denzel Dumfries",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-18",
+    "club": {
+      "nombre": "Inter Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Andries Noppert",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-04-07",
+    "club": {
+      "nombre": "Heerenveen",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Kenneth Taylor",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-05-16",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Xavi Simons",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2003-04-21",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Jeremie Frimpong",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-12-10",
+    "club": {
+      "nombre": "Bayer Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "NED",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordan Pickford",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-03-07",
+    "club": {
+      "nombre": "Everton",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Kyle Walker",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-05-28",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Luke Shaw",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-07-12",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Declan Rice",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-01-14",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "John Stones",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-28",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Harry Maguire",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Jack Grealish",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-09-10",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordan Henderson",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-06-17",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Harry Kane",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-28",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Raheem Sterling",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-12-08",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Marcus Rashford",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-31",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Kieran Trippier",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-19",
+    "club": {
+      "nombre": "Newcastle United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Nick Pope",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-19",
+    "club": {
+      "nombre": "Newcastle United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Kalvin Phillips",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-12-02",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Eric Dier",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-01-15",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Conor Coady",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-25",
+    "club": {
+      "nombre": "Everton",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Bukayo Saka",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-09-05",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Trent Alexander-Arnold",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-07",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Mason Mount",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-01-10",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Phil Foden",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-05-28",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Ben White",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-08",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Jude Bellingham",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "2003-06-29",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Aaron Ramsdale",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1998-05-14",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Callum Wilson",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-27",
+    "club": {
+      "nombre": "Newcastle United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "James Maddison",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-11-23",
+    "club": {
+      "nombre": "Leicester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Conor Gallagher",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-02-06",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ENG",
+    "año": 2022
+  },
+  {
+    "nombre": "Alireza Beiranvand",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-09-21",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Sadegh Moharrami",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-03-24",
+    "club": {
+      "nombre": "Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ehsan Hajsafi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-25",
+    "club": {
+      "nombre": "AEK Athens",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Shojae Khalilzadeh",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-05-14",
+    "club": {
+      "nombre": "Al-Ahli",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Milad Mohammadi",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-29",
+    "club": {
+      "nombre": "AEK Athens",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Saeid Ezatolahi",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-10-01",
+    "club": {
+      "nombre": "Vejle",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Alireza Jahanbakhsh",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-08-11",
+    "club": {
+      "nombre": "Feyenoord",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Morteza Pouraliganji",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-04-19",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mehdi Taremi",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-18",
+    "club": {
+      "nombre": "Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Karim Ansarifard",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-04-03",
+    "club": {
+      "nombre": "Omonia",
+      "pais": "CYP"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Vahid Amiri",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-04-02",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Payam Niazmand",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-04-06",
+    "club": {
+      "nombre": "Sepahan",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hossein Kanaanizadegan",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-03-23",
+    "club": {
+      "nombre": "Al-Ahli",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Saman Ghoddos",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-09-06",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Rouzbeh Cheshmi",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-07-24",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mehdi Torabi",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-10",
+    "club": {
+      "nombre": "Persepolis",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Gholizadeh",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-03-10",
+    "club": {
+      "nombre": "Charleroi",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Karimi",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-02-11",
+    "club": {
+      "nombre": "Kayserispor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Majid Hosseini",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-06-20",
+    "club": {
+      "nombre": "Kayserispor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Sardar Azmoun",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-01-01",
+    "club": {
+      "nombre": "Bayer Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ahmad Nourollahi",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-02-01",
+    "club": {
+      "nombre": "Shabab Al-Ahli",
+      "pais": "UAE"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Amir Abedzadeh",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-04-26",
+    "club": {
+      "nombre": "Ponferradina",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ramin Rezaeian",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-21",
+    "club": {
+      "nombre": "Sepahan",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hossein Hosseini",
+    "numero": 24,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-06-30",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Abolfazl Jalali",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-06-26",
+    "club": {
+      "nombre": "Esteghlal",
+      "pais": "IRN"
+    },
+    "fifaCodeEquipo": "IRN",
+    "año": 2022
+  },
+  {
+    "nombre": "Matt Turner",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-06-24",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Sergiño Dest",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-11-03",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Walker Zimmerman",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-05-19",
+    "club": {
+      "nombre": "Nashville SC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Tyler Adams",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-02-14",
+    "club": {
+      "nombre": "Leeds United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Antonee Robinson",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-08-08",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Yunus Musah",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-11-29",
+    "club": {
+      "nombre": "Valencia",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Giovanni Reyna",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-11-13",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Weston McKennie",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-08-28",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Jesús Ferreira",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-12-24",
+    "club": {
+      "nombre": "FC Dallas",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Pulisic",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-09-18",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Brenden Aaronson",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-10-22",
+    "club": {
+      "nombre": "Leeds United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ethan Horvath",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-06-09",
+    "club": {
+      "nombre": "Luton Town",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Tim Ream",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-10-05",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Luca de la Torre",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-05-23",
+    "club": {
+      "nombre": "Celta Vigo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Aaron Long",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-10-12",
+    "club": {
+      "nombre": "New York Red Bulls",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordan Morris",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-10-26",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Cristian Roldan",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-06-03",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Shaq Moore",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-11-02",
+    "club": {
+      "nombre": "Nashville SC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Haji Wright",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-03-27",
+    "club": {
+      "nombre": "Antalyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Cameron Carter-Vickers",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-12-31",
+    "club": {
+      "nombre": "Celtic",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Timothy Weah",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-22",
+    "club": {
+      "nombre": "Lille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "DeAndre Yedlin",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-09",
+    "club": {
+      "nombre": "Inter Miami",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Kellyn Acosta",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-07-24",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Josh Sargent",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-20",
+    "club": {
+      "nombre": "Norwich City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Sean Johnson",
+    "numero": 25,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-31",
+    "club": {
+      "nombre": "New York City FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Joe Scally",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "2002-12-31",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "USA",
+    "año": 2022
+  },
+  {
+    "nombre": "Wayne Hennessey",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-01-24",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Chris Gunter",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-07-21",
+    "club": {
+      "nombre": "AFC Wimbledon",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Neco Williams",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-04-13",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Ben Davies",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-24",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Chris Mepham",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-11-05",
+    "club": {
+      "nombre": "Bournemouth",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Joe Rodon",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-22",
+    "club": {
+      "nombre": "Rennes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Joe Allen",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-03-14",
+    "club": {
+      "nombre": "Swansea City",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Harry Wilson",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-03-22",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Brennan Johnson",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-05-23",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Aaron Ramsey",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-12-26",
+    "club": {
+      "nombre": "Nice",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Gareth Bale",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-07-16",
+    "club": {
+      "nombre": "Los Angeles FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Danny Ward",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-06-22",
+    "club": {
+      "nombre": "Leicester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Kieffer Moore",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-08-08",
+    "club": {
+      "nombre": "Bournemouth",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Connor Roberts",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-23",
+    "club": {
+      "nombre": "Burnley",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Ethan Ampadu",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-09-14",
+    "club": {
+      "nombre": "Spezia",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Joe Morrell",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-01-03",
+    "club": {
+      "nombre": "Portsmouth",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Tom Lockyer",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-12-03",
+    "club": {
+      "nombre": "Luton Town",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Jonny Williams",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-10-09",
+    "club": {
+      "nombre": "Swindon Town",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Mark Harris",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-12-29",
+    "club": {
+      "nombre": "Cardiff City",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel James",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-11-10",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Adam Davies",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-07-17",
+    "club": {
+      "nombre": "Sheffield United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Sorba Thomas",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-01-25",
+    "club": {
+      "nombre": "Huddersfield Town",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Dylan Levitt",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-11-17",
+    "club": {
+      "nombre": "Dundee United",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Ben Cabango",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-05-30",
+    "club": {
+      "nombre": "Swansea City",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Rubin Colwill",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-04-27",
+    "club": {
+      "nombre": "Cardiff City",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Matthew Smith",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-11-22",
+    "club": {
+      "nombre": "Milton Keynes Dons",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "WAL",
+    "año": 2022
+  },
+  {
+    "nombre": "Franco Armani",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-10-16",
+    "club": {
+      "nombre": "River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Juan Foyth",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-01-12",
+    "club": {
+      "nombre": "Villarreal",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicolás Tagliafico",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-31",
+    "club": {
+      "nombre": "Lyon",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Gonzalo Montiel",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-01",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Leandro Paredes",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-06-29",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Germán Pezzella",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-06-27",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Rodrigo De Paul",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-05-24",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Marcos Acuña",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-10-28",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Julián Álvarez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-01-31",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Lionel Messi",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-06-24",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Ángel Di María",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-02-14",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Gerónimo Rulli",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-05-20",
+    "club": {
+      "nombre": "Villarreal",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Cristian Romero",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-04-27",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Exequiel Palacios",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-10-05",
+    "club": {
+      "nombre": "Bayer Leverkusen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Ángel Correa",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-03-09",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Thiago Almada",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-04-26",
+    "club": {
+      "nombre": "Atlanta United",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Papu Gómez",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-02-15",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Guido Rodríguez",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-04-12",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicolás Otamendi",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-12",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Alexis Mac Allister",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-12-24",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Paulo Dybala",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-11-15",
+    "club": {
+      "nombre": "Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Lautaro Martínez",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-08-22",
+    "club": {
+      "nombre": "Inter Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Emiliano Martínez",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-09-02",
+    "club": {
+      "nombre": "Aston Villa",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Enzo Fernández",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-01-17",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Lisandro Martínez",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-01-18",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Nahuel Molina",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-04-06",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ARG",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Al-Rubaie",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-08-14",
+    "club": {
+      "nombre": "Al-Ahli",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Sultan Al-Ghanam",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-06",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdullah Madu",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-15",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdulelah Al-Amri",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-15",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Al-Bulaihi",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-11-21",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Al-Breik",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-09-15",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Salman Al-Faraj",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-08-01",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdulelah Al-Malki",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-10-11",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Firas Al-Buraikan",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-05-14",
+    "club": {
+      "nombre": "Al-Fateh",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Salem Al-Dawsari",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-19",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Saleh Al-Shehri",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-11-01",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Saud Abdulhamid",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-07-18",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Yasser Al-Shahrani",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-05-25",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdullah Otayf",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-08-03",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Al-Hassan",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-03-04",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Sami Al-Najei",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-02-07",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Hassan Al-Tambakti",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-02-09",
+    "club": {
+      "nombre": "Al-Shabab",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Nawaf Al-Abed",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-26",
+    "club": {
+      "nombre": "Al-Shabab",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Hattan Bahebri",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-07-16",
+    "club": {
+      "nombre": "Al-Shabab",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdulrahman Al-Obaid",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-30",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Al-Owais",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-10-10",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Nawaf Al-Aqidi",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "2000-05-10",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohamed Kanno",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-22",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Nasser Al-Dawsari",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-12-19",
+    "club": {
+      "nombre": "Al-Hilal",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Haitham Asiri",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-03-25",
+    "club": {
+      "nombre": "Al-Ahli",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Riad Sharahili",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-04-28",
+    "club": {
+      "nombre": "Abha",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KSA",
+    "año": 2022
+  },
+  {
+    "nombre": "Rodolfo Cota",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-07-03",
+    "club": {
+      "nombre": "Club León",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Néstor Araujo",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-08-29",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "César Montes",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-02-24",
+    "club": {
+      "nombre": "Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Edson Álvarez",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-10-24",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Johan Vásquez",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-22",
+    "club": {
+      "nombre": "Cremonese",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Gerardo Arteaga",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-09-07",
+    "club": {
+      "nombre": "Genk",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Luis Romo",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-06-05",
+    "club": {
+      "nombre": "Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Carlos Rodríguez",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-01-03",
+    "club": {
+      "nombre": "Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Raúl Jiménez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-05-05",
+    "club": {
+      "nombre": "Wolverhampton Wanderers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Alexis Vega",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-11-25",
+    "club": {
+      "nombre": "Guadalajara",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Rogelio Funes Mori",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-05",
+    "club": {
+      "nombre": "Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Alfredo Talavera",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1982-09-18",
+    "club": {
+      "nombre": "FC Juárez",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Guillermo Ochoa",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-07-13",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Érick Gutiérrez",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-06-15",
+    "club": {
+      "nombre": "PSV Eindhoven",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Héctor Moreno",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-17",
+    "club": {
+      "nombre": "Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Héctor Herrera",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-04-19",
+    "club": {
+      "nombre": "Houston Dynamo",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Orbelín Pineda",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-03-24",
+    "club": {
+      "nombre": "AEK Athens",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Andrés Guardado",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1986-09-28",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Jorge Sánchez",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-12-10",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Henry Martín",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-11-18",
+    "club": {
+      "nombre": "Club América",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Uriel Antuna",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-08-21",
+    "club": {
+      "nombre": "Cruz Azul",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Hirving Lozano",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-07-30",
+    "club": {
+      "nombre": "Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Jesús Gallardo",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-08-15",
+    "club": {
+      "nombre": "Monterrey",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Luis Chávez",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-01-15",
+    "club": {
+      "nombre": "Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Roberto Alvarado",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-09-07",
+    "club": {
+      "nombre": "Guadalajara",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Kevin Álvarez",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-01-15",
+    "club": {
+      "nombre": "Pachuca",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "MEX",
+    "año": 2022
+  },
+  {
+    "nombre": "Wojciech Szczęsny",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-04-18",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Matty Cash",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-08-07",
+    "club": {
+      "nombre": "Aston Villa",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Artur Jędrzejczyk",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-11-04",
+    "club": {
+      "nombre": "Legia Warsaw",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Mateusz Wieteska",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-02-11",
+    "club": {
+      "nombre": "Clermont",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Jan Bednarek",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-12",
+    "club": {
+      "nombre": "Aston Villa",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Krystian Bielik",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-01-04",
+    "club": {
+      "nombre": "Birmingham City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Arkadiusz Milik",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-02-28",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Damian Szymański",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-03-15",
+    "club": {
+      "nombre": "AEK Athens",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Robert Lewandowski",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-08-21",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Grzegorz Krychowiak",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-01-29",
+    "club": {
+      "nombre": "Al-Shabab",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Kamil Grosicki",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-06-08",
+    "club": {
+      "nombre": "Pogoń Szczecin",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Łukasz Skorupski",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-05-05",
+    "club": {
+      "nombre": "Bologna",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Jakub Kamiński",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-06-05",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Jakub Kiwior",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-02-15",
+    "club": {
+      "nombre": "Spezia",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Kamil Glik",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-02-03",
+    "club": {
+      "nombre": "Benevento",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Karol Świderski",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-01-23",
+    "club": {
+      "nombre": "Charlotte FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Szymon Żurkowski",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-09-25",
+    "club": {
+      "nombre": "Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Bartosz Bereszyński",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-12",
+    "club": {
+      "nombre": "Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Sebastian Szymański",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-05-10",
+    "club": {
+      "nombre": "Feyenoord",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Piotr Zieliński",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-05-20",
+    "club": {
+      "nombre": "Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicola Zalewski",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-01-23",
+    "club": {
+      "nombre": "Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Kamil Grabara",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1999-01-08",
+    "club": {
+      "nombre": "Copenhagen",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Krzysztof Piątek",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-07-01",
+    "club": {
+      "nombre": "Salernitana",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Przemysław Frankowski",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-12",
+    "club": {
+      "nombre": "Lens",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Robert Gumny",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-06-04",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Michał Skóraś",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-02-15",
+    "club": {
+      "nombre": "Lech Poznań",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "POL",
+    "año": 2022
+  },
+  {
+    "nombre": "Hugo Lloris",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-12-26",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Benjamin Pavard",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-03-28",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Axel Disasi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-03-11",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Raphaël Varane",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-04-25",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Jules Koundé",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-11-12",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Matteo Guendouzi",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-04-14",
+    "club": {
+      "nombre": "Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Antoine Griezmann",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-03-21",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Aurélien Tchouaméni",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-01-27",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Olivier Giroud",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1986-09-30",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Kylian Mbappé",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-12-20",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ousmane Dembélé",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-05-15",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Randal Kolo Muani",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-12-05",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssouf Fofana",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-01-10",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Adrien Rabiot",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-04-03",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordan Veretout",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-01",
+    "club": {
+      "nombre": "Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Steve Mandanda",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-03-28",
+    "club": {
+      "nombre": "Rennes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "William Saliba",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-03-24",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Dayot Upamecano",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-27",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Karim Benzema",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-12-19",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Kingsley Coman",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-06-13",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Lucas Hernandez",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-02-14",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Théo Hernandez",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-06",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Alphonse Areola",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-02-27",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ibrahima Konaté",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-05-25",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Eduardo Camavinga",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-11-10",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Marcus Thuram",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-08-06",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "FRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mathew Ryan",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-08",
+    "club": {
+      "nombre": "Copenhagen",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Milos Degenek",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-04-28",
+    "club": {
+      "nombre": "Columbus Crew",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Nathaniel Atkinson",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-06-13",
+    "club": {
+      "nombre": "Hearts",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Kye Rowles",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-06-24",
+    "club": {
+      "nombre": "Hearts",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Fran Karačić",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-05-12",
+    "club": {
+      "nombre": "Brescia",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Marco Tilio",
+    "numero": 6,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-08-23",
+    "club": {
+      "nombre": "Melbourne City",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Mathew Leckie",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-04",
+    "club": {
+      "nombre": "Melbourne City",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Bailey Wright",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-28",
+    "club": {
+      "nombre": "Sunderland",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Jamie Maclaren",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-07-29",
+    "club": {
+      "nombre": "Melbourne City",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Ajdin Hrustic",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-07-05",
+    "club": {
+      "nombre": "Hellas Verona",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Awer Mabil",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-09-15",
+    "club": {
+      "nombre": "Cádiz",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Andrew Redmayne",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-01-13",
+    "club": {
+      "nombre": "Sydney FC",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Aaron Mooy",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-09-15",
+    "club": {
+      "nombre": "Celtic",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Riley McGree",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-11-02",
+    "club": {
+      "nombre": "Middlesbrough",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Mitchell Duke",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-01-18",
+    "club": {
+      "nombre": "Fagiano Okayama",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Aziz Behich",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-12-16",
+    "club": {
+      "nombre": "Dundee United",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Cameron Devlin",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-06-07",
+    "club": {
+      "nombre": "Hearts",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Danny Vukovic",
+    "numero": 18,
+    "posicion": "GK",
+    "fechaNacimiento": "1985-03-27",
+    "club": {
+      "nombre": "Central Coast Mariners",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Harry Souttar",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-22",
+    "club": {
+      "nombre": "Stoke City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Thomas Deng",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-03-20",
+    "club": {
+      "nombre": "Albirex Niigata",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Garang Kuol",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "2004-09-15",
+    "club": {
+      "nombre": "Central Coast Mariners",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Jackson Irvine",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-07",
+    "club": {
+      "nombre": "St. Pauli",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Craig Goodwin",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-12-16",
+    "club": {
+      "nombre": "Adelaide United",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Joel King",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-10-30",
+    "club": {
+      "nombre": "OB",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Jason Cummings",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-08-01",
+    "club": {
+      "nombre": "Central Coast Mariners",
+      "pais": "AUS"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Keanu Baccus",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-06-07",
+    "club": {
+      "nombre": "St Mirren",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "AUS",
+    "año": 2022
+  },
+  {
+    "nombre": "Kasper Schmeichel",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-11-05",
+    "club": {
+      "nombre": "Nice",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Joachim Andersen",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-05-31",
+    "club": {
+      "nombre": "Crystal Palace",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Victor Nelsson",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-10-14",
+    "club": {
+      "nombre": "Galatasaray",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Simon Kjær",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-26",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Joakim Mæhle",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-05-20",
+    "club": {
+      "nombre": "Atalanta",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Andreas Christensen",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-10",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mathias Jensen",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-01-01",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Thomas Delaney",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-09-03",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Martin Braithwaite",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-06-05",
+    "club": {
+      "nombre": "Espanyol",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Eriksen",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-14",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Andreas Skov Olsen",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-12-29",
+    "club": {
+      "nombre": "Club Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Kasper Dolberg",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-06",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Rasmus Kristensen",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-07-11",
+    "club": {
+      "nombre": "Leeds United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mikkel Damsgaard",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-07-03",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Nørgaard",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-03-10",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Oliver Christensen",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1999-03-22",
+    "club": {
+      "nombre": "Hertha BSC",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Jens Stryger Larsen",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-02-21",
+    "club": {
+      "nombre": "Trabzonspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel Wass",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-05-31",
+    "club": {
+      "nombre": "Brøndby",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Jonas Wind",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-02-07",
+    "club": {
+      "nombre": "VfL Wolfsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Yussuf Poulsen",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-15",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Andreas Cornelius",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-03-16",
+    "club": {
+      "nombre": "Copenhagen",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Frederik Rønnow",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-08-04",
+    "club": {
+      "nombre": "Union Berlin",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Pierre-Emile Højbjerg",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-08-05",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Robert Skov",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-05-20",
+    "club": {
+      "nombre": "TSG Hoffenheim",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Jesper Lindstrøm",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-02",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Alexander Bah",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-12-09",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "DEN",
+    "año": 2022
+  },
+  {
+    "nombre": "Aymen Mathlouthi",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1984-09-14",
+    "club": {
+      "nombre": "Étoile du Sahel",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Bilel Ifa",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-09",
+    "club": {
+      "nombre": "Kuwait SC",
+      "pais": "KUW"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Montassar Talbi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-05-26",
+    "club": {
+      "nombre": "Lorient",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Yassine Meriah",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-07-02",
+    "club": {
+      "nombre": "Espérance de Tunis",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Nader Ghandri",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-02-18",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Dylan Bronn",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-06-19",
+    "club": {
+      "nombre": "Salernitana",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssef Msakni",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-10-28",
+    "club": {
+      "nombre": "Al-Arabi",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hannibal Mejbri",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "2003-01-21",
+    "club": {
+      "nombre": "Birmingham City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Issam Jebali",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-12-25",
+    "club": {
+      "nombre": "OB",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Wahbi Khazri",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-02-08",
+    "club": {
+      "nombre": "Montpellier",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Taha Yassine Khenissi",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-01-06",
+    "club": {
+      "nombre": "Kuwait SC",
+      "pais": "KUW"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Maâloul",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-01-01",
+    "club": {
+      "nombre": "Al Ahly",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ferjani Sassi",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-03-18",
+    "club": {
+      "nombre": "Al-Duhail",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Aïssa Laïdouni",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-12-13",
+    "club": {
+      "nombre": "Ferencváros",
+      "pais": "HUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohamed Ali Ben Romdhane",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1999-09-06",
+    "club": {
+      "nombre": "Espérance de Tunis",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Aymen Dahmen",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-01-28",
+    "club": {
+      "nombre": "CS Sfaxien",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ellyes Skhiri",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-05-10",
+    "club": {
+      "nombre": "1. FC Köln",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ghaylen Chaaleli",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-03-01",
+    "club": {
+      "nombre": "Espérance de Tunis",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Seifeddine Jaziri",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-02-12",
+    "club": {
+      "nombre": "Zamalek",
+      "pais": "EGY"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohamed Dräger",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-06-25",
+    "club": {
+      "nombre": "Luzern",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Wajdi Kechrida",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-11-05",
+    "club": {
+      "nombre": "Atromitos",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Bechir Ben Saïd",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-11-29",
+    "club": {
+      "nombre": "US Monastir",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Naïm Sliti",
+    "numero": 23,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-27",
+    "club": {
+      "nombre": "Al-Ettifaq",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ali Abdi",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-12-20",
+    "club": {
+      "nombre": "Caen",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Anis Ben Slimane",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-03-16",
+    "club": {
+      "nombre": "Brøndby",
+      "pais": "DEN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Mouez Hassen",
+    "numero": 26,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-03-05",
+    "club": {
+      "nombre": "Club Africain",
+      "pais": "TUN"
+    },
+    "fifaCodeEquipo": "TUN",
+    "año": 2022
+  },
+  {
+    "nombre": "Robert Sánchez",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-11-18",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "César Azpilicueta",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-08-28",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Eric García",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-01-09",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Pau Torres",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-16",
+    "club": {
+      "nombre": "Villarreal",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Sergio Busquets",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-07-16",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Marcos Llorente",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-01-30",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Álvaro Morata",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-10-23",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Koke",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-08",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Gavi",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "2004-08-05",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Marco Asensio",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-01-21",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Ferran Torres",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-29",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Nico Williams",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-07-12",
+    "club": {
+      "nombre": "Athletic Bilbao",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "David Raya",
+    "numero": 13,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-09-15",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Alejandro Balde",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "2003-10-18",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Hugo Guillamón",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-01-31",
+    "club": {
+      "nombre": "Valencia",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Rodri",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-06-22",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Yeremy Pino",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-10-20",
+    "club": {
+      "nombre": "Villarreal",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordi Alba",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-03-21",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Carlos Soler",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-01-02",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Dani Carvajal",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-11",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Dani Olmo",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-05-07",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Unai Simón",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-06-11",
+    "club": {
+      "nombre": "Athletic Bilbao",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Aymeric Laporte",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-27",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Ansu Fati",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-10-31",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Pedri",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-11-25",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "ESP",
+    "año": 2022
+  },
+  {
+    "nombre": "Keylor Navas",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-12-15",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel Chacón",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-04-11",
+    "club": {
+      "nombre": "Colorado Rapids 2",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Juan Pablo Vargas",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-06-06",
+    "club": {
+      "nombre": "Millonarios",
+      "pais": "COL"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Keysher Fuller",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-12",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Celso Borges",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1988-05-27",
+    "club": {
+      "nombre": "Alajuelense",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Óscar Duarte",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-06-03",
+    "club": {
+      "nombre": "Al-Wehda",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Anthony Contreras",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-01-29",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Bryan Oviedo",
+    "numero": 8,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-18",
+    "club": {
+      "nombre": "Real Salt Lake",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Jewison Bennette",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "2004-06-15",
+    "club": {
+      "nombre": "Sunderland",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Bryan Ruiz",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1985-08-18",
+    "club": {
+      "nombre": "Alajuelense",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Johan Venegas",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-11-27",
+    "club": {
+      "nombre": "Alajuelense",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Joel Campbell",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-06-26",
+    "club": {
+      "nombre": "Club León",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Gerson Torres",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-08-28",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Youstin Salas",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-06-17",
+    "club": {
+      "nombre": "Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Francisco Calvo",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-07-08",
+    "club": {
+      "nombre": "Konyaspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Carlos Martínez",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-03-30",
+    "club": {
+      "nombre": "San Carlos",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Yeltsin Tejeda",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-03-17",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Esteban Alvarado",
+    "numero": 18,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-04-28",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Kendall Waston",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-01-01",
+    "club": {
+      "nombre": "Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Brandon Aguilera",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "2003-06-28",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Douglas López",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-09-21",
+    "club": {
+      "nombre": "Herediano",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Rónald Matarrita",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-09",
+    "club": {
+      "nombre": "FC Cincinnati",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Patrick Sequeira",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1999-03-01",
+    "club": {
+      "nombre": "Lugo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Roán Wilson",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-05-01",
+    "club": {
+      "nombre": "Grecia",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Anthony Hernández",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-10-11",
+    "club": {
+      "nombre": "Puntarenas",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Álvaro Zamora",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-03-09",
+    "club": {
+      "nombre": "Saprissa",
+      "pais": "CRC"
+    },
+    "fifaCodeEquipo": "CRC",
+    "año": 2022
+  },
+  {
+    "nombre": "Manuel Neuer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-03-27",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Antonio Rüdiger",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-03",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "David Raum",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-04-22",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Matthias Ginter",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-01-19",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Thilo Kehrer",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-09-21",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Joshua Kimmich",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-08",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Kai Havertz",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-06-11",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Leon Goretzka",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-06",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Niclas Füllkrug",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-02-09",
+    "club": {
+      "nombre": "Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Serge Gnabry",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-07-14",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Mario Götze",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-06-03",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Kevin Trapp",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-07-08",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Thomas Müller",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-09-13",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Jamal Musiala",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "2003-02-26",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Niklas Süle",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-03",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Lukas Klostermann",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-06-03",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Julian Brandt",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-05-02",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Jonas Hofmann",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-07-14",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Leroy Sané",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-01-11",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Günter",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-02-28",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "İlkay Gündoğan",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-10-24",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Marc-André ter Stegen",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-04-30",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Nico Schlotterbeck",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-12-01",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Karim Adeyemi",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-01-18",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Armel Bella-Kotchap",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-12-11",
+    "club": {
+      "nombre": "Southampton",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssoufa Moukoko",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "2004-11-20",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GER",
+    "año": 2022
+  },
+  {
+    "nombre": "Eiji Kawashima",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1983-03-20",
+    "club": {
+      "nombre": "Strasbourg",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Miki Yamane",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-12-22",
+    "club": {
+      "nombre": "Kawasaki Frontale",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Shogo Taniguchi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-07-15",
+    "club": {
+      "nombre": "Kawasaki Frontale",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ko Itakura",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-01-27",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Yuto Nagatomo",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-09-12",
+    "club": {
+      "nombre": "FC Tokyo",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Wataru Endo",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-02-09",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Gaku Shibasaki",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-05-28",
+    "club": {
+      "nombre": "Leganés",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ritsu Doan",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-06-16",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Kaoru Mitoma",
+    "numero": 9,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-05-20",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Takumi Minamino",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-01-16",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Takefusa Kubo",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-06-04",
+    "club": {
+      "nombre": "Real Sociedad",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Shuichi Gonda",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-03-03",
+    "club": {
+      "nombre": "Shimizu S-Pulse",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hidemasa Morita",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-05-10",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Junya Ito",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-09",
+    "club": {
+      "nombre": "Reims",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Daichi Kamada",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-08-05",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Takehiro Tomiyasu",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-11-05",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ao Tanaka",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-09-10",
+    "club": {
+      "nombre": "Fortuna Düsseldorf",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Takuma Asano",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-11-10",
+    "club": {
+      "nombre": "VfL Bochum",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hiroki Sakai",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-04-12",
+    "club": {
+      "nombre": "Urawa Red Diamonds",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Shuto Machino",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-09-30",
+    "club": {
+      "nombre": "Shonan Bellmare",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Ayase Ueda",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-08-28",
+    "club": {
+      "nombre": "Cercle Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Maya Yoshida",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-08-24",
+    "club": {
+      "nombre": "Schalke 04",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel Schmidt",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-02-03",
+    "club": {
+      "nombre": "Sint-Truiden",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Yuki Soma",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-02-25",
+    "club": {
+      "nombre": "Nagoya Grampus",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Daizen Maeda",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-10-20",
+    "club": {
+      "nombre": "Celtic",
+      "pais": "SCO"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Hiroki Ito",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-05-12",
+    "club": {
+      "nombre": "VfB Stuttgart",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "JPN",
+    "año": 2022
+  },
+  {
+    "nombre": "Yassine Bounou",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-04-05",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Achraf Hakimi",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-11-04",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Noussair Mazraoui",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-11-14",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Sofyan Amrabat",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-08-21",
+    "club": {
+      "nombre": "Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Nayef Aguerd",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-03-30",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Romain Saïss",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-26",
+    "club": {
+      "nombre": "Beşiktaş",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hakim Ziyech",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-19",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Azzedine Ounahi",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-04-19",
+    "club": {
+      "nombre": "Angers",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abderrazak Hamdallah",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-12-17",
+    "club": {
+      "nombre": "Al-Ittihad",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Anass Zaroury",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-11-07",
+    "club": {
+      "nombre": "Burnley",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abde Ezzalzouli",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-12-17",
+    "club": {
+      "nombre": "Osasuna",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Munir Mohamedi",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-10",
+    "club": {
+      "nombre": "Al-Wehda",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Ilias Chair",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-10-30",
+    "club": {
+      "nombre": "Queens Park Rangers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Zakaria Aboukhlal",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-18",
+    "club": {
+      "nombre": "Toulouse",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Selim Amallah",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-11-15",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abde Ezzalzouli",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-12-17",
+    "club": {
+      "nombre": "Osasuna",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Sofiane Boufal",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-09-17",
+    "club": {
+      "nombre": "Angers",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jawad El Yamiq",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-29",
+    "club": {
+      "nombre": "Real Valladolid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssef En-Nesyri",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-06-01",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Achraf Dari",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-05-06",
+    "club": {
+      "nombre": "Brest",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Walid Cheddira",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-01-22",
+    "club": {
+      "nombre": "Bari",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Ahmed Reda Tagnaouti",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-04-05",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Bilal El Khannouss",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "2004-05-10",
+    "club": {
+      "nombre": "Genk",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Badr Benoun",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-30",
+    "club": {
+      "nombre": "Qatar SC",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Yahia Attiyat Allah",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-03-02",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Yahya Jabrane",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-06-18",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Dominik Livaković",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-01-09",
+    "club": {
+      "nombre": "Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2022
+  },
+  {
+    "nombre": "Yassine Bounou",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-04-05",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Achraf Hakimi",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-11-04",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Noussair Mazraoui",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-11-14",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Sofyan Amrabat",
+    "numero": 4,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-08-21",
+    "club": {
+      "nombre": "Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Nayef Aguerd",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-03-30",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Romain Saïss",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-26",
+    "club": {
+      "nombre": "Beşiktaş",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hakim Ziyech",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-19",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Azzedine Ounahi",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-04-19",
+    "club": {
+      "nombre": "Angers",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abderrazak Hamdallah",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1990-12-17",
+    "club": {
+      "nombre": "Al-Ittihad",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Anass Zaroury",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-11-07",
+    "club": {
+      "nombre": "Burnley",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abde Ezzalzouli",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-12-17",
+    "club": {
+      "nombre": "Osasuna",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Munir Mohamedi",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1989-05-10",
+    "club": {
+      "nombre": "Al-Wehda",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Ilias Chair",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-10-30",
+    "club": {
+      "nombre": "Queens Park Rangers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Zakaria Aboukhlal",
+    "numero": 14,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-18",
+    "club": {
+      "nombre": "Toulouse",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Selim Amallah",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-11-15",
+    "club": {
+      "nombre": "Standard Liège",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Abde Ezzalzouli",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-12-17",
+    "club": {
+      "nombre": "Osasuna",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Sofiane Boufal",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1993-09-17",
+    "club": {
+      "nombre": "Angers",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jawad El Yamiq",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-02-29",
+    "club": {
+      "nombre": "Real Valladolid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Youssef En-Nesyri",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-06-01",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Achraf Dari",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-05-06",
+    "club": {
+      "nombre": "Brest",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Walid Cheddira",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-01-22",
+    "club": {
+      "nombre": "Bari",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Ahmed Reda Tagnaouti",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-04-05",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Bilal El Khannouss",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "2004-05-10",
+    "club": {
+      "nombre": "Genk",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Badr Benoun",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-09-30",
+    "club": {
+      "nombre": "Qatar SC",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Yahia Attiyat Allah",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-03-02",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Yahya Jabrane",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-06-18",
+    "club": {
+      "nombre": "Wydad AC",
+      "pais": "MAR"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Dominik Livaković",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-01-09",
+    "club": {
+      "nombre": "Dinamo Zagreb",
+      "pais": "CRO"
+    },
+    "fifaCodeEquipo": "CRO",
+    "año": 2022
+  },
+  {
+    "nombre": "Josip Stanišić",
+    "numero": 12,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-07-21",
+    "club": {
+      "nombre": "Qatar SC",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "MAR",
+    "año": 2022
+  },
+  {
+    "nombre": "Alisson",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-10-02",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Danilo",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-07-15",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Thiago Silva",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1984-09-22",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Marquinhos",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-14",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Casemiro",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-02-23",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Alex Sandro",
+    "numero": 6,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-01-26",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Lucas Paquetá",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-08-27",
+    "club": {
+      "nombre": "West Ham United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Fred",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Richarlison",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-05-10",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Neymar Jr",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-05",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Raphinha",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-12-14",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Weverton",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1987-12-13",
+    "club": {
+      "nombre": "Palmeiras",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Dani Alves",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-05-06",
+    "club": {
+      "nombre": "UNAM",
+      "pais": "MEX"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Éder Militão",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-01-18",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Fabinho",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-10-23",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Alex Telles",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-12-15",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Bruno Guimarães",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-11-16",
+    "club": {
+      "nombre": "Newcastle United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Gabriel Jesus",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-04-03",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Antony",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-02-24",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Vinícius Júnior",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-07-12",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Rodrygo",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-01-09",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Éverton Ribeiro",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-04-10",
+    "club": {
+      "nombre": "Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ederson",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-08-17",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Bremer",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-03-18",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Pedro",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-06-20",
+    "club": {
+      "nombre": "Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Gabriel Martinelli",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-06-18",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "BRA",
+    "año": 2022
+  },
+  {
+    "nombre": "Marko Dmitrović",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1992-01-24",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Strahinja Pavlović",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-05-24",
+    "club": {
+      "nombre": "Red Bull Salzburg",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Strahinja Eraković",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-01-22",
+    "club": {
+      "nombre": "Red Star Belgrade",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Nikola Milenković",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-12",
+    "club": {
+      "nombre": "Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Miloš Veljković",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-26",
+    "club": {
+      "nombre": "Werder Bremen",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Nemanja Maksimović",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-01-26",
+    "club": {
+      "nombre": "Getafe",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Nemanja Radonjić",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-02-15",
+    "club": {
+      "nombre": "Torino",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Nemanja Gudelj",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-11-16",
+    "club": {
+      "nombre": "Sevilla",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Aleksandar Mitrović",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-09-16",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Dušan Tadić",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1988-11-20",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Luka Jović",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-12-23",
+    "club": {
+      "nombre": "Fiorentina",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Predrag Rajković",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1995-10-31",
+    "club": {
+      "nombre": "Mallorca",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Stefan Mitrović",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-05-22",
+    "club": {
+      "nombre": "Getafe",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Andrija Živković",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-07-11",
+    "club": {
+      "nombre": "PAOK",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Saša Lukić",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-10-23",
+    "club": {
+      "nombre": "Torino",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Marko Grujić",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-04-13",
+    "club": {
+      "nombre": "Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Filip Kostić",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-11-01",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Dušan Vlahović",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-01-28",
+    "club": {
+      "nombre": "Juventus",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Filip Đuričić",
+    "numero": 19,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-01-30",
+    "club": {
+      "nombre": "Sampdoria",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Sergej Milinković-Savić",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-27",
+    "club": {
+      "nombre": "Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Filip Mladenović",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-08-15",
+    "club": {
+      "nombre": "Legia Warsaw",
+      "pais": "POL"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Darko Lazović",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1990-09-15",
+    "club": {
+      "nombre": "Hellas Verona",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Vanja Milinković-Savić",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-02-20",
+    "club": {
+      "nombre": "Torino",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Ivan Ilić",
+    "numero": 24,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-03-17",
+    "club": {
+      "nombre": "Hellas Verona",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Strahinja Eraković",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-01-22",
+    "club": {
+      "nombre": "Red Star Belgrade",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Uroš Račić",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-03-17",
+    "club": {
+      "nombre": "Braga",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "SRB",
+    "año": 2022
+  },
+  {
+    "nombre": "Yann Sommer",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-12-17",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Edimilson Fernandes",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-04-15",
+    "club": {
+      "nombre": "Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Silvan Widmer",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-05",
+    "club": {
+      "nombre": "Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Nico Elvedi",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-09-30",
+    "club": {
+      "nombre": "Borussia Mönchengladbach",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Manuel Akanji",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-07-19",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Denis Zakaria",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-11-20",
+    "club": {
+      "nombre": "Chelsea",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Breel Embolo",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1997-02-14",
+    "club": {
+      "nombre": "Monaco",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Remo Freuler",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-15",
+    "club": {
+      "nombre": "Nottingham Forest",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Haris Seferovic",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-02-22",
+    "club": {
+      "nombre": "Galatasaray",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Granit Xhaka",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-09-27",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Renato Steffen",
+    "numero": 11,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-11-03",
+    "club": {
+      "nombre": "Lugano",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Jonas Omlin",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1994-01-10",
+    "club": {
+      "nombre": "Montpellier",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Ricardo Rodríguez",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-25",
+    "club": {
+      "nombre": "Torino",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Michel Aebischer",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-01-06",
+    "club": {
+      "nombre": "Bologna",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Djibril Sow",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-02-06",
+    "club": {
+      "nombre": "Eintracht Frankfurt",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Fassnacht",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-11-11",
+    "club": {
+      "nombre": "Young Boys",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Ruben Vargas",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-08-05",
+    "club": {
+      "nombre": "FC Augsburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Eray Cömert",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-02-04",
+    "club": {
+      "nombre": "Valencia",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Noah Okafor",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-05-24",
+    "club": {
+      "nombre": "Red Bull Salzburg",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Fabian Frei",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-01-08",
+    "club": {
+      "nombre": "Basel",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Gregor Kobel",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-12-06",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Fabian Schär",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-12-20",
+    "club": {
+      "nombre": "Newcastle United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Xherdan Shaqiri",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-10-10",
+    "club": {
+      "nombre": "Chicago Fire",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Philipp Köhn",
+    "numero": 24,
+    "posicion": "GK",
+    "fechaNacimiento": "1998-04-02",
+    "club": {
+      "nombre": "Red Bull Salzburg",
+      "pais": "AUT"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Fabian Rieder",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-02-16",
+    "club": {
+      "nombre": "Young Boys",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Ardon Jashari",
+    "numero": 26,
+    "posicion": "MF",
+    "fechaNacimiento": "2002-07-30",
+    "club": {
+      "nombre": "Luzern",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "SUI",
+    "año": 2022
+  },
+  {
+    "nombre": "Devis Epassy",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-02-02",
+    "club": {
+      "nombre": "Abha",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jerome Ngom Mbekeli",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-09-30",
+    "club": {
+      "nombre": "APEJES",
+      "pais": "CMR"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicolas Nkoulou",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-03-27",
+    "club": {
+      "nombre": "Aris",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Christopher Wooh",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "2001-09-18",
+    "club": {
+      "nombre": "Rennes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Gaël Ondoua",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-11-04",
+    "club": {
+      "nombre": "Hannover 96",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Moumi Ngamaleu",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-07-09",
+    "club": {
+      "nombre": "Dynamo Moscow",
+      "pais": "RUS"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "André-Frank Zambo Anguissa",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-11-16",
+    "club": {
+      "nombre": "Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Vincent Aboubakar",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-01-22",
+    "club": {
+      "nombre": "Al-Nassr",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Christian Bassogog",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-10-18",
+    "club": {
+      "nombre": "Shanghai Shenhua",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Karl Toko Ekambi",
+    "numero": 12,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-09-14",
+    "club": {
+      "nombre": "Lyon",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Eric Maxim Choupo-Moting",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-03-23",
+    "club": {
+      "nombre": "Bayern Munich",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Samuel Gouet",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-12-14",
+    "club": {
+      "nombre": "Mechelen",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Pierre Kunde",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-07-26",
+    "club": {
+      "nombre": "Olympiacos",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Simon Ngapandouetnbu",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "2003-04-12",
+    "club": {
+      "nombre": "Marseille",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Olivier Mbaizo",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-08-15",
+    "club": {
+      "nombre": "Philadelphia Union",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Martin Hongla",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-03-16",
+    "club": {
+      "nombre": "Hellas Verona",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Collins Fai",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-08-13",
+    "club": {
+      "nombre": "Al-Tai",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Bryan Mbeumo",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-08-07",
+    "club": {
+      "nombre": "Brentford",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jean-Charles Castelletto",
+    "numero": 21,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-26",
+    "club": {
+      "nombre": "Nantes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Olivier Ntcham",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-02-09",
+    "club": {
+      "nombre": "Swansea City",
+      "pais": "WAL"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Nouhou Tolo",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-06-23",
+    "club": {
+      "nombre": "Seattle Sounders FC",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "André Onana",
+    "numero": 24,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-04-02",
+    "club": {
+      "nombre": "Inter Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Enzo Ebosse",
+    "numero": 25,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-03-11",
+    "club": {
+      "nombre": "Udinese",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Souaibou Marou",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-12-03",
+    "club": {
+      "nombre": "Coton Sport",
+      "pais": "CMR"
+    },
+    "fifaCodeEquipo": "CMR",
+    "año": 2022
+  },
+  {
+    "nombre": "Rui Patrício",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1988-02-15",
+    "club": {
+      "nombre": "Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Diogo Dalot",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-03-18",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Pepe",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1983-02-26",
+    "club": {
+      "nombre": "Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Rúben Dias",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-05-14",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Raphaël Guerreiro",
+    "numero": 5,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-12-22",
+    "club": {
+      "nombre": "Borussia Dortmund",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "João Palhinha",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-07-09",
+    "club": {
+      "nombre": "Fulham",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Cristiano Ronaldo",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1985-02-05",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Bruno Fernandes",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-09-08",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "André Silva",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1995-11-06",
+    "club": {
+      "nombre": "RB Leipzig",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Bernardo Silva",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-08-10",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "João Félix",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-11-10",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "José Sá",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-01-17",
+    "club": {
+      "nombre": "Wolverhampton Wanderers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Danilo Pereira",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1991-09-09",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "William Carvalho",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-04-07",
+    "club": {
+      "nombre": "Real Betis",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Rafael Leão",
+    "numero": 15,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-06-10",
+    "club": {
+      "nombre": "AC Milan",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Vitinha",
+    "numero": 16,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-02-13",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "João Mário",
+    "numero": 17,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-01-19",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Rúben Neves",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-03-13",
+    "club": {
+      "nombre": "Wolverhampton Wanderers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Nuno Mendes",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "2002-06-19",
+    "club": {
+      "nombre": "Paris Saint-Germain",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "João Cancelo",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-05-27",
+    "club": {
+      "nombre": "Manchester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Ricardo Horta",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-10-24",
+    "club": {
+      "nombre": "Braga",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Diogo Costa",
+    "numero": 22,
+    "posicion": "GK",
+    "fechaNacimiento": "1999-09-19",
+    "club": {
+      "nombre": "Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Matheus Nunes",
+    "numero": 23,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-08-27",
+    "club": {
+      "nombre": "Wolverhampton Wanderers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "António Silva",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "2003-10-31",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Otávio",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "1995-02-09",
+    "club": {
+      "nombre": "Porto",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Gonçalo Ramos",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-06-20",
+    "club": {
+      "nombre": "Benfica",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "POR",
+    "año": 2022
+  },
+  {
+    "nombre": "Lawrence Ati-Zigi",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1996-11-29",
+    "club": {
+      "nombre": "St. Gallen",
+      "pais": "SUI"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Tariq Lamptey",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-09-30",
+    "club": {
+      "nombre": "Brighton & Hove Albion",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Denis Odoi",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1988-05-27",
+    "club": {
+      "nombre": "Club Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Salisu",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-04-17",
+    "club": {
+      "nombre": "Southampton",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Thomas Partey",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1993-06-13",
+    "club": {
+      "nombre": "Arsenal",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Elisha Owusu",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-11-07",
+    "club": {
+      "nombre": "Gent",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdul Fatawu Issahaku",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "2004-03-08",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel-Kofi Kyereh",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-03-08",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Jordan Ayew",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1991-09-11",
+    "club": {
+      "nombre": "Crystal Palace",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "André Ayew",
+    "numero": 10,
+    "posicion": "FW",
+    "fechaNacimiento": "1989-12-17",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Osman Bukari",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-12-13",
+    "club": {
+      "nombre": "Red Star Belgrade",
+      "pais": "SRB"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Ibrahim Danlad",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "2002-12-02",
+    "club": {
+      "nombre": "Asante Kotoko",
+      "pais": "GHA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel Afriyie",
+    "numero": 13,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-06-26",
+    "club": {
+      "nombre": "Hearts of Oak",
+      "pais": "GHA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Gideon Mensah",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-07-18",
+    "club": {
+      "nombre": "Auxerre",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Joseph Aidoo",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-09-29",
+    "club": {
+      "nombre": "Celta Vigo",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Abdul Manaf Nurudeen",
+    "numero": 16,
+    "posicion": "GK",
+    "fechaNacimiento": "1999-02-08",
+    "club": {
+      "nombre": "Eupen",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Baba Rahman",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-07-02",
+    "club": {
+      "nombre": "Reading",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Daniel Amartey",
+    "numero": 18,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-12-21",
+    "club": {
+      "nombre": "Leicester City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Iñaki Williams",
+    "numero": 19,
+    "posicion": "FW",
+    "fechaNacimiento": "1994-06-15",
+    "club": {
+      "nombre": "Athletic Bilbao",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Mohammed Kudus",
+    "numero": 20,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-08-02",
+    "club": {
+      "nombre": "Ajax",
+      "pais": "NED"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Salis Abdul Samed",
+    "numero": 21,
+    "posicion": "MF",
+    "fechaNacimiento": "2000-03-26",
+    "club": {
+      "nombre": "Lens",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Kamaldeen Sulemana",
+    "numero": 22,
+    "posicion": "FW",
+    "fechaNacimiento": "2002-02-15",
+    "club": {
+      "nombre": "Rennes",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Alexander Djiku",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1994-08-09",
+    "club": {
+      "nombre": "Strasbourg",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Kamal Sowah",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-01-09",
+    "club": {
+      "nombre": "Club Brugge",
+      "pais": "BEL"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Antoine Semenyo",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-01-07",
+    "club": {
+      "nombre": "Bristol City",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Alidu Seidu",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "2000-06-04",
+    "club": {
+      "nombre": "Clermont",
+      "pais": "FRA"
+    },
+    "fifaCodeEquipo": "GHA",
+    "año": 2022
+  },
+  {
+    "nombre": "Fernando Muslera",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-06-16",
+    "club": {
+      "nombre": "Galatasaray",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "José María Giménez",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-01-20",
+    "club": {
+      "nombre": "Atlético Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Diego Godín",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1986-02-16",
+    "club": {
+      "nombre": "Vélez Sarsfield",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Ronald Araújo",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1999-03-07",
+    "club": {
+      "nombre": "Barcelona",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Matías Vecino",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1991-08-24",
+    "club": {
+      "nombre": "Lazio",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Rodrigo Bentancur",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-25",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Nicolás de la Cruz",
+    "numero": 7,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-06-01",
+    "club": {
+      "nombre": "River Plate",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Facundo Pellistri",
+    "numero": 8,
+    "posicion": "FW",
+    "fechaNacimiento": "2001-12-20",
+    "club": {
+      "nombre": "Manchester United",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Luis Suárez",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-01-24",
+    "club": {
+      "nombre": "Nacional",
+      "pais": "URU"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Giorgian de Arrascaeta",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-06-01",
+    "club": {
+      "nombre": "Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Darwin Núñez",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-06-24",
+    "club": {
+      "nombre": "Liverpool",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Sebastián Sosa",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1986-08-19",
+    "club": {
+      "nombre": "Independiente",
+      "pais": "ARG"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Guillermo Varela",
+    "numero": 13,
+    "posicion": "DF",
+    "fechaNacimiento": "1993-03-24",
+    "club": {
+      "nombre": "Flamengo",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Lucas Torreira",
+    "numero": 14,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-02-11",
+    "club": {
+      "nombre": "Galatasaray",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Federico Valverde",
+    "numero": 15,
+    "posicion": "MF",
+    "fechaNacimiento": "1998-07-22",
+    "club": {
+      "nombre": "Real Madrid",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Mathías Olivera",
+    "numero": 16,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-10-31",
+    "club": {
+      "nombre": "Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Matías Viña",
+    "numero": 17,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-11-09",
+    "club": {
+      "nombre": "Roma",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Maxi Gómez",
+    "numero": 18,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-08-14",
+    "club": {
+      "nombre": "Trabzonspor",
+      "pais": "TUR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Sebastián Coates",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-10-07",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Facundo Torres",
+    "numero": 20,
+    "posicion": "FW",
+    "fechaNacimiento": "2000-04-13",
+    "club": {
+      "nombre": "Orlando City",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Edinson Cavani",
+    "numero": 21,
+    "posicion": "FW",
+    "fechaNacimiento": "1987-02-14",
+    "club": {
+      "nombre": "Valencia",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Martín Cáceres",
+    "numero": 22,
+    "posicion": "DF",
+    "fechaNacimiento": "1987-04-07",
+    "club": {
+      "nombre": "LA Galaxy",
+      "pais": "USA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Sergio Rochet",
+    "numero": 23,
+    "posicion": "GK",
+    "fechaNacimiento": "1993-03-23",
+    "club": {
+      "nombre": "Nacional",
+      "pais": "URU"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Agustín Canobbio",
+    "numero": 24,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-10-01",
+    "club": {
+      "nombre": "Athletico Paranaense",
+      "pais": "BRA"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Manuel Ugarte",
+    "numero": 25,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-04-11",
+    "club": {
+      "nombre": "Sporting CP",
+      "pais": "POR"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "José Luis Rodríguez",
+    "numero": 26,
+    "posicion": "DF",
+    "fechaNacimiento": "1997-03-14",
+    "club": {
+      "nombre": "Nacional",
+      "pais": "URU"
+    },
+    "fifaCodeEquipo": "URU",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Seung-gyu",
+    "numero": 1,
+    "posicion": "GK",
+    "fechaNacimiento": "1990-09-30",
+    "club": {
+      "nombre": "Al-Shabab",
+      "pais": "KSA"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Yoon Jong-gyu",
+    "numero": 2,
+    "posicion": "DF",
+    "fechaNacimiento": "1998-03-20",
+    "club": {
+      "nombre": "FC Seoul",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Jin-su",
+    "numero": 3,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-06-13",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Min-jae",
+    "numero": 4,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-11-15",
+    "club": {
+      "nombre": "Napoli",
+      "pais": "ITA"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jung Woo-young",
+    "numero": 5,
+    "posicion": "MF",
+    "fechaNacimiento": "1989-12-14",
+    "club": {
+      "nombre": "Al-Sadd",
+      "pais": "QAT"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hwang In-beom",
+    "numero": 6,
+    "posicion": "MF",
+    "fechaNacimiento": "1996-09-20",
+    "club": {
+      "nombre": "Olympiacos",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Son Heung-min",
+    "numero": 7,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-07-08",
+    "club": {
+      "nombre": "Tottenham Hotspur",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Paik Seung-ho",
+    "numero": 8,
+    "posicion": "MF",
+    "fechaNacimiento": "1997-03-17",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Cho Gue-sung",
+    "numero": 9,
+    "posicion": "FW",
+    "fechaNacimiento": "1998-01-25",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Lee Jae-sung",
+    "numero": 10,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-08-10",
+    "club": {
+      "nombre": "Mainz 05",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hwang Hee-chan",
+    "numero": 11,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-01-26",
+    "club": {
+      "nombre": "Wolverhampton Wanderers",
+      "pais": "ENG"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Song Bum-keun",
+    "numero": 12,
+    "posicion": "GK",
+    "fechaNacimiento": "1997-10-15",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Son Jun-ho",
+    "numero": 13,
+    "posicion": "MF",
+    "fechaNacimiento": "1992-05-12",
+    "club": {
+      "nombre": "Shandong Taishan",
+      "pais": "CHN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hong Chul",
+    "numero": 14,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-09-17",
+    "club": {
+      "nombre": "Daegu FC",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Moon-hwan",
+    "numero": 15,
+    "posicion": "DF",
+    "fechaNacimiento": "1995-08-01",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Hwang Ui-jo",
+    "numero": 16,
+    "posicion": "FW",
+    "fechaNacimiento": "1992-08-28",
+    "club": {
+      "nombre": "Olympiacos",
+      "pais": "GRE"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Na Sang-ho",
+    "numero": 17,
+    "posicion": "FW",
+    "fechaNacimiento": "1996-08-12",
+    "club": {
+      "nombre": "FC Seoul",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Lee Kang-in",
+    "numero": 18,
+    "posicion": "MF",
+    "fechaNacimiento": "2001-02-19",
+    "club": {
+      "nombre": "Mallorca",
+      "pais": "ESP"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Young-gwon",
+    "numero": 19,
+    "posicion": "DF",
+    "fechaNacimiento": "1990-02-27",
+    "club": {
+      "nombre": "Ulsan Hyundai",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kwon Kyung-won",
+    "numero": 20,
+    "posicion": "DF",
+    "fechaNacimiento": "1992-01-31",
+    "club": {
+      "nombre": "Gamba Osaka",
+      "pais": "JPN"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jo Hyeon-woo",
+    "numero": 21,
+    "posicion": "GK",
+    "fechaNacimiento": "1991-09-25",
+    "club": {
+      "nombre": "Ulsan Hyundai",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kwon Chang-hoon",
+    "numero": 22,
+    "posicion": "MF",
+    "fechaNacimiento": "1994-06-30",
+    "club": {
+      "nombre": "Gimcheon Sangmu",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Kim Tae-hwan",
+    "numero": 23,
+    "posicion": "DF",
+    "fechaNacimiento": "1989-07-24",
+    "club": {
+      "nombre": "Ulsan Hyundai",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Cho Yu-min",
+    "numero": 24,
+    "posicion": "DF",
+    "fechaNacimiento": "1996-11-17",
+    "club": {
+      "nombre": "Daejeon Hana Citizen",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Jeong Woo-yeong",
+    "numero": 25,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-09-20",
+    "club": {
+      "nombre": "SC Freiburg",
+      "pais": "GER"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  },
+  {
+    "nombre": "Song Min-kyu",
+    "numero": 26,
+    "posicion": "FW",
+    "fechaNacimiento": "1999-09-12",
+    "club": {
+      "nombre": "Jeonbuk Hyundai Motors",
+      "pais": "KOR"
+    },
+    "fifaCodeEquipo": "KOR",
+    "año": 2022
+  }
+]
