@@ -30,6 +30,7 @@ export const WORLDCUPS: WorldCup[] = [
     topScorer: "Por definirse",
     color: "var(--wc-2026)",
     route: "/mundiales/2026",
+    logo: "/mundiales/fifa-world-cup-2026-logo-footylogos-1200.png",
   },
   {
     id: "2022",
@@ -45,6 +46,7 @@ export const WORLDCUPS: WorldCup[] = [
     topScorer: "Kylian Mbappé",
     color: "var(--wc-2022)",
     route: "/mundiales/2022",
+    logo: "/mundiales/World-Cup-Qatar-2022-FIFA-Logo-PNG-Transparent-Image.png",
   },
   {
     id: "2018",
@@ -60,6 +62,7 @@ export const WORLDCUPS: WorldCup[] = [
     topScorer: "Harry Kane",
     color: "var(--wc-2018)",
     route: "/mundiales/2018",
+    logo: "/mundiales/2018_FIFA_World_Cup.svg.png",
   },
   {
     id: "2014",
