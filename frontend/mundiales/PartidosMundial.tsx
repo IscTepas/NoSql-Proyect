@@ -10,6 +10,15 @@ import { Calendar, Search, MapPin, Clock, ChevronDown, ChevronUp, Circle } from 
 import Flag from "@/components/Flag";
 import { useMemo, useState } from "react";
 
+const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
+  2014: { accent: "oklch(0.55 0.18 155)", accentDark: "oklch(0.42 0.18 155)" },
+  2018: { accent: "oklch(0.58 0.20 25)", accentDark: "oklch(0.45 0.20 25)" },
+  2022: { accent: "oklch(0.48 0.15 310)", accentDark: "oklch(0.35 0.15 310)" },
+  2026: { accent: "oklch(0.42 0.16 255)", accentDark: "oklch(0.30 0.16 255)" },
+};
+
+const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const fetcher = (url: string): Promise<any> =>
   fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
@@ -34,7 +43,7 @@ function getRondaColor(ronda: string): { bg: string; text: string; dot: string }
   if (ronda === "Quarter-final") return { bg: "bg-amber-500/10", text: "text-amber-600", dot: "bg-amber-500" };
   if (ronda === "Semi-final") return { bg: "bg-rose-500/10", text: "text-rose-600", dot: "bg-rose-500" };
   if (ronda === "Match for third place") return { bg: "bg-red-500/10", text: "text-red-600", dot: "bg-red-500" };
-  if (ronda === "Final") return { bg: "bg-[var(--wc-gold)]/10", text: "text-[var(--wc-gold-dark)]", dot: "bg-[var(--wc-gold)]" };
+  if (ronda === "Final") return { bg: "bg-[var(--wc-accent)]/10", text: "text-[var(--wc-accent-dark)]", dot: "bg-[var(--wc-accent)]" };
   return { bg: "bg-gray-500/10", text: "text-gray-600", dot: "bg-gray-500" };
 }
 
@@ -46,14 +55,14 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
     <div className="relative flex gap-4">
       <div className="flex flex-col items-center shrink-0">
         <div className={`w-3.5 h-3.5 rounded-full ${colors.dot} ring-4 ring-background z-10`} />
-        <div className="w-px flex-1 bg-[var(--wc-gold)]/10" />
+        <div className="w-px flex-1 bg-[var(--wc-accent)]/10" />
       </div>
-      <Card className={`flex-1 mb-4 hover:shadow-lg hover:shadow-[var(--wc-gold)]/5 transition-all duration-300 border-[var(--wc-gold)]/10 cursor-pointer overflow-hidden bg-white ${played ? "border-l-2" : ""}`} style={played ? { borderLeftColor: "var(--wc-green)" } : undefined} onClick={onToggle}>
+      <Card className={`flex-1 mb-4 hover:shadow-lg hover:shadow-[var(--wc-accent)]/5 transition-all duration-300 border-[var(--wc-accent)]/10 cursor-pointer overflow-hidden bg-white ${played ? "border-l-2" : ""}`} style={played ? { borderLeftColor: "var(--wc-green)" } : undefined} onClick={onToggle}>
         <CardContent className="p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
               <Badge className={`${colors.bg} ${colors.text} text-[10px] border-0`}>{partido.ronda}</Badge>
-              {grupoNombre && <Badge variant="outline" className="text-[10px] border-[var(--wc-gold)]/20">Grupo {grupoNombre}</Badge>}
+              {grupoNombre && <Badge variant="outline" className="text-[10px] border-[var(--wc-accent)]/20">Grupo {grupoNombre}</Badge>}
               <span className="text-[10px] text-muted-foreground font-mono">#{partido.numeroPartido}</span>
             </div>
             <div className="flex items-center gap-3">
@@ -71,7 +80,7 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
               </div>
             </div>
             <div className="flex flex-col items-center mx-4 shrink-0">
-              {played ? (<div className="flex items-center gap-2"><span className={`text-xl font-bold ${partido.marcador.ft[0] > partido.marcador.ft[1] ? "text-[var(--wc-green)]" : ""}`}>{partido.marcador.ft[0]}</span><span className="text-muted-foreground">-</span><span className={`text-xl font-bold ${partido.marcador.ft[1] > partido.marcador.ft[0] ? "text-[var(--wc-green)]" : ""}`}>{partido.marcador.ft[1]}</span></div>) : (<Badge variant="outline" className="text-xs font-mono border-[var(--wc-gold)]/20">VS</Badge>)}
+              {played ? (<div className="flex items-center gap-2"><span className={`text-xl font-bold ${partido.marcador.ft[0] > partido.marcador.ft[1] ? "text-[var(--wc-green)]" : ""}`}>{partido.marcador.ft[0]}</span><span className="text-muted-foreground">-</span><span className={`text-xl font-bold ${partido.marcador.ft[1] > partido.marcador.ft[0] ? "text-[var(--wc-green)]" : ""}`}>{partido.marcador.ft[1]}</span></div>) : (<Badge variant="outline" className="text-xs font-mono border-[var(--wc-accent)]/20">VS</Badge>)}
             </div>
             <div className="flex items-center gap-3 min-w-0 flex-1 justify-end">
               <div className="text-right min-w-0"><p className="text-sm font-semibold truncate">{partido.equipo2?.nombre || "Por definir"}</p><p className="text-[10px] text-muted-foreground">{partido.equipo2?.fifaCode}</p></div>
@@ -81,7 +90,7 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
           {partido.estadio && <div className="flex items-center gap-1.5 mt-3 text-xs text-muted-foreground"><MapPin className="h-3.5 w-3.5" /><span>{partido.estadio.nombre}, {partido.estadio.ciudad}</span></div>}
         </CardContent>
         {expanded && (
-          <div className="border-t border-[var(--wc-gold)]/10 p-4 space-y-3 bg-[var(--wc-gold)]/[0.02]">
+          <div className="border-t border-[var(--wc-accent)]/10 p-4 space-y-3 bg-[var(--wc-accent)]/[0.02]">
             {played && (
               <div className="space-y-2">
                 {partido.marcador.ht && partido.marcador.ht.length === 2 && <div className="flex items-center justify-between text-xs text-muted-foreground"><span>Medio tiempo:</span><span className="font-mono font-medium">{partido.marcador.ht[0]} - {partido.marcador.ht[1]}</span></div>}
@@ -93,8 +102,8 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
               <div className="space-y-1.5">
                 <p className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider">Goles</p>
                 <div className="space-y-1">
-                  {partido.goles1?.map((g, i) => (<div key={`g1-${i}`} className="flex items-center gap-2 text-xs"><Circle className="h-2 w-2 fill-[var(--wc-green)] text-[var(--wc-green)]" /><span className="font-medium">{g.nombre}</span><span className="text-muted-foreground">{g.minuto}&apos;</span>{g.penalti && <Badge className="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] text-[8px] border-0">PEN</Badge>}{g.autogol && <Badge className="bg-[var(--wc-red)] text-white text-[8px] border-0">OG</Badge>}</div>))}
-                  {partido.goles2?.map((g, i) => (<div key={`g2-${i}`} className="flex items-center gap-2 text-xs"><Circle className="h-2 w-2 fill-[var(--wc-orange)] text-[var(--wc-orange)]" /><span className="font-medium">{g.nombre}</span><span className="text-muted-foreground">{g.minuto}&apos;</span>{g.penalti && <Badge className="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] text-[8px] border-0">PEN</Badge>}{g.autogol && <Badge className="bg-[var(--wc-red)] text-white text-[8px] border-0">OG</Badge>}</div>))}
+                  {partido.goles1?.map((g, i) => (<div key={`g1-${i}`} className="flex items-center gap-2 text-xs"><Circle className="h-2 w-2 fill-[var(--wc-green)] text-[var(--wc-green)]" /><span className="font-medium">{g.nombre}</span><span className="text-muted-foreground">{g.minuto}&apos;</span>{g.penalti && <Badge className="bg-[var(--wc-accent)]/10 text-[var(--wc-accent-dark)] text-[8px] border-0">PEN</Badge>}{g.autogol && <Badge className="bg-[var(--wc-red)] text-white text-[8px] border-0">OG</Badge>}</div>))}
+                  {partido.goles2?.map((g, i) => (<div key={`g2-${i}`} className="flex items-center gap-2 text-xs"><Circle className="h-2 w-2 fill-[var(--wc-orange)] text-[var(--wc-orange)]" /><span className="font-medium">{g.nombre}</span><span className="text-muted-foreground">{g.minuto}&apos;</span>{g.penalti && <Badge className="bg-[var(--wc-accent)]/10 text-[var(--wc-accent-dark)] text-[8px] border-0">PEN</Badge>}{g.autogol && <Badge className="bg-[var(--wc-red)] text-white text-[8px] border-0">OG</Badge>}</div>))}
                 </div>
               </div>
             )}
@@ -107,6 +116,7 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
 }
 
 export default function PartidosMundial({ year }: { year: number }) {
+  const { accent, accentDark } = wcColors(year);
   const { data: partidos, isLoading } = useSWR<Partido[]>(`/api/partidos?año=${year}`, fetcher);
   const [rondaFilter, setRondaFilter] = useState("all");
   const [busqueda, setBusqueda] = useState("");
@@ -138,40 +148,42 @@ export default function PartidosMundial({ year }: { year: number }) {
   }, [filtered]);
 
   if (isLoading) {
-    return (<div className="container mx-auto px-4 py-8 space-y-6"><Skeleton className="h-8 w-48" /><Skeleton className="h-10 w-full max-w-md" /><div className="flex gap-2">{[1,2,3,4,5,6,7].map((i) => <Skeleton key={i} className="h-8 w-20" />)}</div><div className="space-y-4">{Array.from({length:6}).map((_,i) => <Skeleton key={i} className="h-28" />)}</div></div>);
+    return (<div className="container mx-auto px-4 py-8 space-y-6"
+      style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}><Skeleton className="h-8 w-48" /><Skeleton className="h-10 w-full max-w-md" /><div className="flex gap-2">{[1,2,3,4,5,6,7].map((i) => <Skeleton key={i} className="h-8 w-20" />)}</div><div className="space-y-4">{Array.from({length:6}).map((_,i) => <Skeleton key={i} className="h-28" />)}</div></div>);
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 space-y-6">
+    <div className="container mx-auto px-4 py-8 space-y-6"
+      style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}>
       <div>
         <h1 className="text-2xl font-black tracking-tight flex items-center gap-2 text-[var(--wc-black)]">
-          <div className="h-8 w-8 rounded-lg bg-[var(--wc-gold)] flex items-center justify-center"><Calendar className="h-4 w-4 text-white" /></div>
+          <div className="h-8 w-8 rounded-lg bg-[var(--wc-accent)] flex items-center justify-center"><Calendar className="h-4 w-4 text-white" /></div>
           Calendario de Partidos
         </h1>
         <p className="text-sm text-muted-foreground mt-1">{filtered.length} de {partidos?.length ?? 0} partidos</p>
       </div>
       <div className="relative max-w-md">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-        <Input placeholder="Buscar por equipo, grupo, estadio o fecha..." value={busqueda} onChange={(e) => setBusqueda(e.target.value)} className="pl-9 border-[var(--wc-gold)]/20 focus-visible:ring-[var(--wc-gold)]/30" />
+        <Input placeholder="Buscar por equipo, grupo, estadio o fecha..." value={busqueda} onChange={(e) => setBusqueda(e.target.value)} className="pl-9 border-[var(--wc-accent)]/20 focus-visible:ring-[var(--wc-accent)]/30" />
       </div>
       <div className="flex flex-wrap gap-2">
         {RONDAS.map((r) => (
-          <button key={r.value} onClick={() => setRondaFilter(r.value)} className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${rondaFilter === r.value ? "bg-[var(--wc-gold)] text-white shadow-md shadow-[var(--wc-gold)]/20" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
+          <button key={r.value} onClick={() => setRondaFilter(r.value)} className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${rondaFilter === r.value ? "bg-[var(--wc-accent)] text-white shadow-md shadow-[var(--wc-accent)]/20" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
             {r.label}
             {r.value !== "all" && rondaCount[r.value] ? <span className="ml-1 opacity-70">({rondaCount[r.value]})</span> : r.value === "Matchday 1" || r.value === "Matchday 2" || r.value === "Matchday 3" ? <span className="ml-1 opacity-70">({(rondaCount["Matchday 1"] || 0) + (rondaCount["Matchday 2"] || 0) + (rondaCount["Matchday 3"] || 0)})</span> : null}
           </button>
         ))}
       </div>
       <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
-        {[{label:"Grupos",color:"bg-blue-500"},{label:"Round of 32",color:"bg-orange-500"},{label:"Round of 16",color:"bg-purple-500"},{label:"Quarter-final",color:"bg-amber-500"},{label:"Semi-final",color:"bg-rose-500"},{label:"3rd Place",color:"bg-red-500"},{label:"Final",color:"bg-[var(--wc-gold)]"}].map((item) => (<div key={item.label} className="flex items-center gap-1.5"><div className={`w-2.5 h-2.5 rounded-full ${item.color}`} /><span>{item.label}</span></div>))}
+        {[{label:"Grupos",color:"bg-blue-500"},{label:"Round of 32",color:"bg-orange-500"},{label:"Round of 16",color:"bg-purple-500"},{label:"Quarter-final",color:"bg-amber-500"},{label:"Semi-final",color:"bg-rose-500"},{label:"3rd Place",color:"bg-red-500"},{label:"Final",color:"bg-[var(--wc-accent)]"}].map((item) => (<div key={item.label} className="flex items-center gap-1.5"><div className={`w-2.5 h-2.5 rounded-full ${item.color}`} /><span>{item.label}</span></div>))}
       </div>
       <div className="space-y-2">
         {Object.entries(groupedByDate).map(([fecha, partidosFecha]) => (
           <div key={fecha} className="space-y-2">
             <div className="flex items-center gap-3 sticky top-20 z-20 bg-background/95 backdrop-blur-sm py-2">
-              <div className="h-px flex-1 bg-[var(--wc-gold)]/10" />
-              <Badge variant="secondary" className="text-xs font-semibold px-3 py-1 bg-[var(--wc-gold)] text-white border-0"><Calendar className="h-3.5 w-3.5 mr-1.5" />{fecha}<span className="ml-2 opacity-60">({partidosFecha.length})</span></Badge>
-              <div className="h-px flex-1 bg-[var(--wc-gold)]/10" />
+              <div className="h-px flex-1 bg-[var(--wc-accent)]/10" />
+              <Badge variant="secondary" className="text-xs font-semibold px-3 py-1 bg-[var(--wc-accent)] text-white border-0"><Calendar className="h-3.5 w-3.5 mr-1.5" />{fecha}<span className="ml-2 opacity-60">({partidosFecha.length})</span></Badge>
+              <div className="h-px flex-1 bg-[var(--wc-accent)]/10" />
             </div>
             {partidosFecha.map((p) => (<MatchCard key={p._id} partido={p} expanded={expandedId === p._id} onToggle={() => setExpandedId(expandedId === p._id ? null : p._id)} />))}
           </div>

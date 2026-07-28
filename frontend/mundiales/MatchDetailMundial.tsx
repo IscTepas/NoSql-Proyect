@@ -10,11 +10,21 @@ import Flag from "@/components/Flag";
 import Link from "next/link";
 import { useMemo } from "react";
 
+const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
+  2014: { accent: "oklch(0.55 0.18 155)", accentDark: "oklch(0.42 0.18 155)" },
+  2018: { accent: "oklch(0.58 0.20 25)", accentDark: "oklch(0.45 0.20 25)" },
+  2022: { accent: "oklch(0.48 0.15 310)", accentDark: "oklch(0.35 0.15 310)" },
+  2026: { accent: "oklch(0.42 0.16 255)", accentDark: "oklch(0.30 0.16 255)" },
+};
+
+const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const fetcher = (url: string): Promise<any> =>
   fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
 
 export default function MatchDetailMundial({ year, matchId }: { year: number; matchId: string }) {
+  const { accent, accentDark } = wcColors(year);
   const { data: partidos, isLoading } = useSWR<Partido[]>(`/api/partidos?año=${year}`, fetcher);
 
   const partido = useMemo(() => {
@@ -24,7 +34,8 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
 
   if (isLoading) {
     return (
-      <div className="container mx-auto px-4 py-8 space-y-6">
+      <div className="container mx-auto px-4 py-8 space-y-6"
+        style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}>
         <Skeleton className="h-8 w-48" />
         <Skeleton className="h-48 w-full" />
         <Skeleton className="h-64 w-full" />
@@ -34,9 +45,10 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
 
   if (!partido) {
     return (
-      <div className="container mx-auto px-4 py-16 text-center">
+      <div className="container mx-auto px-4 py-16 text-center"
+        style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}>
         <p className="text-muted-foreground text-lg mb-4">Partido no encontrado</p>
-        <Link href={`/mundiales/${year}/partidos`} className="text-[var(--wc-gold-dark)] hover:underline">
+        <Link href={`/mundiales/${year}/partidos`} className="text-[var(--wc-accent-dark)] hover:underline">
           Volver a Partidos
         </Link>
       </div>
@@ -56,19 +68,20 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
   const isFinal = partido.numeroPartido === 104;
 
   return (
-    <div className="container mx-auto px-4 py-8 space-y-6">
+    <div className="container mx-auto px-4 py-8 space-y-6"
+      style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}>
       <Link
         href={`/mundiales/${year}/partidos`}
-        className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-[var(--wc-gold-dark)] transition-colors"
+        className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-[var(--wc-accent-dark)] transition-colors"
       >
         <ArrowLeft className="h-4 w-4" />
         Volver a Partidos
       </Link>
 
       {/* Match Header */}
-      <div className={`rounded-2xl border overflow-hidden ${isFinal ? "border-[var(--wc-gold)] shadow-lg shadow-[var(--wc-gold)]/10" : "border-gray-200"} bg-white`}>
+      <div className={`rounded-2xl border overflow-hidden ${isFinal ? "border-[var(--wc-accent)] shadow-lg shadow-[var(--wc-accent)]/10" : "border-gray-200"} bg-white`}>
         {isFinal && (
-          <div className="bg-gradient-to-r from-[var(--wc-gold)] to-[var(--wc-gold-dark)] text-white text-center py-2">
+          <div className="bg-gradient-to-r from-[var(--wc-accent)] to-[var(--wc-accent-dark)] text-white text-center py-2">
             <Trophy className="h-5 w-5 inline mr-2" />
             <span className="text-sm font-bold tracking-wider uppercase">{`Final del Mundial ${year}`}</span>
           </div>
@@ -85,7 +98,7 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
               {partido.hora}
             </Badge>
             {partido.grupo && (
-              <Badge className="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] border-0 text-[10px]">
+              <Badge className="bg-[var(--wc-accent)]/10 text-[var(--wc-accent-dark)] border-0 text-[10px]">
                 Grupo {partido.grupo.nombre}
               </Badge>
             )}
@@ -111,11 +124,11 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
               {played ? (
                 <>
                   <div className="flex items-center gap-2 sm:gap-3">
-                    <span className={`text-4xl sm:text-6xl font-black ${winner === 1 ? "text-[var(--wc-gold-dark)]" : "text-gray-400"}`}>
+                    <span className={`text-4xl sm:text-6xl font-black ${winner === 1 ? "text-[var(--wc-accent-dark)]" : "text-gray-400"}`}>
                       {partido.marcador.ft[0]}
                     </span>
                     <span className="text-2xl sm:text-3xl text-gray-300">–</span>
-                    <span className={`text-4xl sm:text-6xl font-black ${winner === 2 ? "text-[var(--wc-gold-dark)]" : "text-gray-400"}`}>
+                    <span className={`text-4xl sm:text-6xl font-black ${winner === 2 ? "text-[var(--wc-accent-dark)]" : "text-gray-400"}`}>
                       {partido.marcador.ft[1]}
                     </span>
                   </div>
@@ -153,12 +166,29 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
         </div>
       </div>
 
+      {played && (
+        <div className="grid grid-cols-3 gap-3">
+          <div className="rounded-xl bg-gradient-to-b from-[var(--wc-accent)]/5 to-white border border-[var(--wc-accent)]/10 p-4 text-center">
+            <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Goles Totales</p>
+            <p className="text-2xl font-black text-[var(--wc-black)]">{(partido.goles1?.length || 0) + (partido.goles2?.length || 0)}</p>
+          </div>
+          <div className="rounded-xl bg-gradient-to-b from-emerald-500/5 to-white border border-emerald-500/10 p-4 text-center">
+            <p className="text-[10px] text-muted-foreground uppercase tracking-wider">1er Tiempo</p>
+            <p className="text-2xl font-black text-[var(--wc-black)]">{partido.marcador.ht?.[0] ?? 0} – {partido.marcador.ht?.[1] ?? 0}</p>
+          </div>
+          <div className="rounded-xl bg-gradient-to-b from-amber-500/5 to-white border border-amber-500/10 p-4 text-center">
+            <p className="text-[10px] text-muted-foreground uppercase tracking-wider">2do Tiempo</p>
+            <p className="text-2xl font-black text-[var(--wc-black)]">{(partido.marcador.ft?.[0] ?? 0) - (partido.marcador.ht?.[0] ?? 0)} – {(partido.marcador.ft?.[1] ?? 0) - (partido.marcador.ht?.[1] ?? 0)}</p>
+          </div>
+        </div>
+      )}
+
       <div className="grid md:grid-cols-2 gap-4">
-        {/* Goals */}
+        {/* Goals Timeline */}
         <Card className="border-gray-200 bg-white">
           <CardHeader className="pb-3">
             <CardTitle className="text-sm flex items-center gap-2">
-              <div className="h-7 w-7 rounded-lg bg-[var(--wc-gold)] flex items-center justify-center">
+              <div className="h-7 w-7 rounded-lg bg-[var(--wc-accent)] flex items-center justify-center">
                 <Footprints className="h-3.5 w-3.5 text-white" />
               </div>
               Goles
@@ -170,25 +200,26 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
               <p className="text-sm text-muted-foreground">Sin goles</p>
             )}
 
+            {/* Team 1 goals */}
             {partido.goles1?.map((g, i) => (
-              <div key={`g1-${i}`} className="flex items-center gap-2 py-1.5 border-b border-gray-100 last:border-0">
+              <div key={`g1-${i}`} className="flex items-center gap-2 py-1.5 px-2 rounded-lg bg-emerald-50/50 border border-emerald-100/50">
                 <Flag code={partido.equipo1?.fifaCode} size={16} />
                 <span className="text-xs text-muted-foreground w-8 font-mono">{g.minuto}&apos;</span>
                 <span className="text-sm text-[var(--wc-black)] flex-1">{g.nombre}</span>
                 <div className="flex gap-1">
-                  {g.penalti && <Badge className="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] text-[8px] border-0">PEN</Badge>}
+                  {g.penalti && <Badge className="bg-[var(--wc-accent)]/10 text-[var(--wc-accent-dark)] text-[8px] border-0">PEN</Badge>}
                   {g.autogol && <Badge className="bg-red-100 text-red-600 text-[8px] border-0">OG</Badge>}
                 </div>
               </div>
             ))}
-
+            {/* Team 2 goals */}
             {partido.goles2?.map((g, i) => (
-              <div key={`g2-${i}`} className="flex items-center gap-2 py-1.5 border-b border-gray-100 last:border-0">
+              <div key={`g2-${i}`} className="flex items-center gap-2 py-1.5 px-2 rounded-lg bg-orange-50/50 border border-orange-100/50">
                 <Flag code={partido.equipo2?.fifaCode} size={16} />
                 <span className="text-xs text-muted-foreground w-8 font-mono">{g.minuto}&apos;</span>
                 <span className="text-sm text-[var(--wc-black)] flex-1">{g.nombre}</span>
                 <div className="flex gap-1">
-                  {g.penalti && <Badge className="bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] text-[8px] border-0">PEN</Badge>}
+                  {g.penalti && <Badge className="bg-[var(--wc-accent)]/10 text-[var(--wc-accent-dark)] text-[8px] border-0">PEN</Badge>}
                   {g.autogol && <Badge className="bg-red-100 text-red-600 text-[8px] border-0">OG</Badge>}
                 </div>
               </div>
@@ -200,8 +231,8 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
         <Card className="border-gray-200 bg-white">
           <CardHeader className="pb-3">
             <CardTitle className="text-sm flex items-center gap-2">
-              <div className="h-7 w-7 rounded-lg bg-[var(--wc-gold)]/10 flex items-center justify-center">
-                <MapPin className="h-3.5 w-3.5 text-[var(--wc-gold-dark)]" />
+              <div className="h-7 w-7 rounded-lg bg-[var(--wc-accent)]/10 flex items-center justify-center">
+                <MapPin className="h-3.5 w-3.5 text-[var(--wc-accent-dark)]" />
               </div>
               Estadio
             </CardTitle>
@@ -263,7 +294,7 @@ export default function MatchDetailMundial({ year, matchId }: { year: number; ma
                   <div className="w-px h-6 bg-gray-200" />
                   <div className="text-center">
                     <p className="text-[10px] uppercase tracking-wider mb-0.5">Tipo</p>
-                    <p className="font-bold text-[var(--wc-gold-dark)]">Eliminatoria</p>
+                    <p className="font-bold text-[var(--wc-accent-dark)]">Eliminatoria</p>
                   </div>
                 </>
               )}
