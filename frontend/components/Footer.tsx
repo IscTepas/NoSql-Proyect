@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <Circle className="h-3 w-3 text-primary" fill="currentColor" />
-          <p>FIFA World Cup 2026 &mdash; Proyecto NoSQL</p>
+          <p>FIFA World Cup Portal &mdash; Proyecto NoSQL</p>
         </div>
-        <p>Estados Unidos &middot; Mexico &middot; Canada</p>
+        <p>2014 &middot; 2018 &middot; 2022 &middot; 2026</p>
       </div>
     </footer>
   );

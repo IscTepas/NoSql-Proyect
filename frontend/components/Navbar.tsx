@@ -28,7 +28,7 @@ export default function Navbar() {
             <Circle className="h-5 w-5" fill="currentColor" />
           </div>
           <span className="hidden sm:inline">
-            <span className="text-primary">WC</span> 2026
+            <span className="text-primary">FIFA</span> World Cups
           </span>
         </Link>
 
