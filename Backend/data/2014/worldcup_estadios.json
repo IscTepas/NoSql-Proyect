@@ -6,8 +6,8 @@
       "ciudad": "Rio de Janeiro",
       "zonaHoraria": "UTC-3",
       "capacidad": 74738,
+      "codigoPais": "br",
       "coordenadas": "22°54'44\"S 43°13'49\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -15,8 +15,8 @@
       "ciudad": "Brasília",
       "zonaHoraria": "UTC-3",
       "capacidad": 69432,
+      "codigoPais": "br",
       "coordenadas": "15°47'0.60\"S 47°53'56.99\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -24,8 +24,8 @@
       "ciudad": "São Paulo",
       "zonaHoraria": "UTC-3",
       "capacidad": 63321,
+      "codigoPais": "br",
       "coordenadas": "23°32'42.9\"S 46°28'27.4\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -33,8 +33,8 @@
       "ciudad": "Fortaleza",
       "zonaHoraria": "UTC-3",
       "capacidad": 60348,
+      "codigoPais": "br",
       "coordenadas": "3°48'26\"S 38°31'21\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -42,8 +42,8 @@
       "ciudad": "Belo Horizonte",
       "zonaHoraria": "UTC-3",
       "capacidad": 58259,
+      "codigoPais": "br",
       "coordenadas": "19°51'57\"S 43°58'15\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -51,8 +51,8 @@
       "ciudad": "Salvador",
       "zonaHoraria": "UTC-3",
       "capacidad": 51708,
+      "codigoPais": "br",
       "coordenadas": "12°58'43\"S 38°30'15\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -60,8 +60,8 @@
       "ciudad": "Porto Alegre",
       "zonaHoraria": "UTC-3",
       "capacidad": 43394,
+      "codigoPais": "br",
       "coordenadas": "30°3'56.21\"S 51°14'9.91\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -69,8 +69,8 @@
       "ciudad": "Recife",
       "zonaHoraria": "UTC-3",
       "capacidad": 42583,
+      "codigoPais": "br",
       "coordenadas": "08°02'26\"S 35°00'30\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -78,8 +78,8 @@
       "ciudad": "Natal",
       "zonaHoraria": "UTC-3",
       "capacidad": 39971,
+      "codigoPais": "br",
       "coordenadas": "5.826936°S 35.212371°W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -87,8 +87,8 @@
       "ciudad": "Curitiba",
       "zonaHoraria": "UTC-3",
       "capacidad": 39631,
+      "codigoPais": "br",
       "coordenadas": "25°26'54\"S 49°16'37\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -96,8 +96,8 @@
       "ciudad": "Cuiabá",
       "zonaHoraria": "UTC-4",
       "capacidad": 41112,
+      "codigoPais": "br",
       "coordenadas": "",
-      "torneo": "World Cup 2014",
       "año": 2014
     },
     {
@@ -105,8 +105,8 @@
       "ciudad": "Manaus",
       "zonaHoraria": "UTC-4",
       "capacidad": 40549,
+      "codigoPais": "br",
       "coordenadas": "3°4'59\"S 60°1'41\"W",
-      "torneo": "World Cup 2014",
       "año": 2014
     }
   ]

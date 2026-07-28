@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "World Cup 2014",
   "partidos": [
     {
@@ -17,7 +17,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "Brazil",
       "equipo2": "Croatia",
       "goles1": [
@@ -28,12 +28,12 @@
         {
           "nombre": "Neymar",
           "minuto": 71,
-          "penal": true
+          "penalti": true
         },
         {
           "nombre": "Oscar",
           "minuto": 90,
-          "descuento": 1
+          "minutoStoppage": 1
         }
       ],
       "goles2": [
@@ -61,7 +61,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Estádio das Dunas, Natal",
+      "estadio": "EstÃ¡dio das Dunas, Natal",
       "equipo1": "Mexico",
       "equipo2": "Cameroon",
       "goles1": [
@@ -85,7 +85,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Brazil",
       "equipo2": "Mexico",
       "goles1": [],
@@ -104,25 +104,25 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Arena Amazônia, Manaus",
+      "estadio": "Arena AmazÃ´nia, Manaus",
       "equipo1": "Cameroon",
       "equipo2": "Croatia",
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Ivica Oli─ç",
+          "nombre": "Ivica Oliâ”€Ã§",
           "minuto": 11
         },
         {
-          "nombre": "Ivan Peri┼íi─ç",
+          "nombre": "Ivan Periâ”¼Ã­iâ”€Ã§",
           "minuto": 48
         },
         {
-          "nombre": "Mario Mand┼¥uki─ç",
+          "nombre": "Mario Mandâ”¼Â¥ukiâ”€Ã§",
           "minuto": 61
         },
         {
-          "nombre": "Mario Mand┼¥uki─ç",
+          "nombre": "Mario Mandâ”¼Â¥ukiâ”€Ã§",
           "minuto": 73
         }
       ],
@@ -140,7 +140,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Cameroon",
       "equipo2": "Brazil",
       "goles1": [
@@ -186,13 +186,13 @@
       "equipo2": "Mexico",
       "goles1": [
         {
-          "nombre": "Ivan Peri┼íi─ç",
+          "nombre": "Ivan Periâ”¼Ã­iâ”€Ã§",
           "minuto": 87
         }
       ],
       "goles2": [
         {
-          "nombre": "Rafael Márquez",
+          "nombre": "Rafael MÃ¡rquez",
           "minuto": 72
         },
         {
@@ -200,7 +200,7 @@
           "minuto": 75
         },
         {
-          "nombre": "Javier Hernández",
+          "nombre": "Javier HernÃ¡ndez",
           "minuto": 82
         }
       ],
@@ -229,7 +229,7 @@
         {
           "nombre": "Xabi Alonso",
           "minuto": 27,
-          "penal": true
+          "penalti": true
         }
       ],
       "goles2": [
@@ -272,22 +272,22 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Arena Pantanal, Cuiabá",
+      "estadio": "Arena Pantanal, CuiabÃ¡",
       "equipo1": "Chile",
       "equipo2": "Australia",
       "goles1": [
         {
-          "nombre": "Alexis Sánchez",
+          "nombre": "Alexis SÃ¡nchez",
           "minuto": 12
         },
         {
-          "nombre": "Jorge Valdívia",
+          "nombre": "Jorge ValdÃ­via",
           "minuto": 14
         },
         {
           "nombre": "Jean Beausejour",
           "minuto": 90,
-          "descuento": 2
+          "minutoStoppage": 2
         }
       ],
       "goles2": [
@@ -310,7 +310,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Estádio Beira-Rio, Porto Alegre",
+      "estadio": "EstÃ¡dio Beira-Rio, Porto Alegre",
       "equipo1": "Australia",
       "equipo2": "Netherlands",
       "goles1": [
@@ -321,7 +321,7 @@
         {
           "nombre": "Mile Jedinak",
           "minuto": 54,
-          "penal": true
+          "penalti": true
         }
       ],
       "goles2": [
@@ -352,7 +352,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Spain",
       "equipo2": "Chile",
       "goles1": [],
@@ -362,7 +362,7 @@
           "minuto": 20
         },
         {
-          "nombre": "Charles Aránguiz",
+          "nombre": "Charles ArÃ¡nguiz",
           "minuto": 43
         }
       ],
@@ -412,7 +412,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "Netherlands",
       "equipo2": "Chile",
       "goles1": [
@@ -423,7 +423,7 @@
         {
           "nombre": "Memphis Depay",
           "minuto": 90,
-          "descuento": 2
+          "minutoStoppage": 2
         }
       ],
       "goles2": [],
@@ -441,7 +441,7 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Colombia",
       "equipo2": "Greece",
       "goles1": [
@@ -450,13 +450,13 @@
           "minuto": 5
         },
         {
-          "nombre": "Teofilo Gutiérrez",
+          "nombre": "Teofilo GutiÃ©rrez",
           "minuto": 58
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James RodrÃ­guez",
           "minuto": 90,
-          "descuento": 3
+          "minutoStoppage": 3
         }
       ],
       "goles2": [],
@@ -475,7 +475,7 @@
       },
       "grupo": "Group C",
       "estadio": "Arena Pernambuco, Recife",
-      "equipo1": "Côte d'Ivoire",
+      "equipo1": "CÃ´te d'Ivoire",
       "equipo2": "Japan",
       "goles1": [
         {
@@ -507,12 +507,12 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Colombia",
-      "equipo2": "Côte d'Ivoire",
+      "equipo2": "CÃ´te d'Ivoire",
       "goles1": [
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James RodrÃ­guez",
           "minuto": 64
         },
         {
@@ -540,7 +540,7 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Estádio das Dunas, Natal",
+      "estadio": "EstÃ¡dio das Dunas, Natal",
       "equipo1": "Japan",
       "equipo2": "Greece",
       "goles1": [],
@@ -559,32 +559,32 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Arena Pantanal, Cuiabá",
+      "estadio": "Arena Pantanal, CuiabÃ¡",
       "equipo1": "Japan",
       "equipo2": "Colombia",
       "goles1": [
         {
           "nombre": "Shinji Okazaki",
           "minuto": 45,
-          "descuento": 1
+          "minutoStoppage": 1
         }
       ],
       "goles2": [
         {
           "nombre": "Juan Cuadrado",
           "minuto": 17,
-          "penal": true
+          "penalti": true
         },
         {
-          "nombre": "Jackson Martínez",
+          "nombre": "Jackson MartÃ­nez",
           "minuto": 55
         },
         {
-          "nombre": "Jackson Martínez",
+          "nombre": "Jackson MartÃ­nez",
           "minuto": 82
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James RodrÃ­guez",
           "minuto": 90
         }
       ],
@@ -602,9 +602,9 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Greece",
-      "equipo2": "Côte d'Ivoire",
+      "equipo2": "CÃ´te d'Ivoire",
       "goles1": [
         {
           "nombre": "Andreas Samaris",
@@ -613,8 +613,8 @@
         {
           "nombre": "Georgios Samaras",
           "minuto": 90,
-          "penal": true,
-          "descuento": 3
+          "penalti": true,
+          "minutoStoppage": 3
         }
       ],
       "goles2": [
@@ -637,14 +637,14 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Uruguay",
       "equipo2": "Costa Rica",
       "goles1": [
         {
           "nombre": "Edinson Cavani",
           "minuto": 24,
-          "penal": true
+          "penalti": true
         }
       ],
       "goles2": [
@@ -657,7 +657,7 @@
           "minuto": 57
         },
         {
-          "nombre": "Marcos Ureña",
+          "nombre": "Marcos UreÃ±a",
           "minuto": 84
         }
       ],
@@ -675,7 +675,7 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Arena Amazônia, Manaus",
+      "estadio": "Arena AmazÃ´nia, Manaus",
       "equipo1": "England",
       "equipo2": "Italy",
       "goles1": [
@@ -708,16 +708,16 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "Uruguay",
       "equipo2": "England",
       "goles1": [
         {
-          "nombre": "Luis Suárez",
+          "nombre": "Luis SuÃ¡rez",
           "minuto": 39
         },
         {
-          "nombre": "Luis Suárez",
+          "nombre": "Luis SuÃ¡rez",
           "minuto": 85
         }
       ],
@@ -765,13 +765,13 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Estádio das Dunas, Natal",
+      "estadio": "EstÃ¡dio das Dunas, Natal",
       "equipo1": "Italy",
       "equipo2": "Uruguay",
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Diego Godín",
+          "nombre": "Diego GodÃ­n",
           "minuto": 81
         }
       ],
@@ -789,7 +789,7 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Costa Rica",
       "equipo2": "England",
       "goles1": [],
@@ -808,7 +808,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Switzerland",
       "equipo2": "Ecuador",
       "goles1": [
@@ -817,9 +817,9 @@
           "minuto": 48
         },
         {
-          "nombre": "Haris Seferovi─ç",
+          "nombre": "Haris Seferoviâ”€Ã§",
           "minuto": 90,
-          "descuento": 3
+          "minutoStoppage": 3
         }
       ],
       "goles2": [
@@ -842,7 +842,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Estádio Beira-Rio, Porto Alegre",
+      "estadio": "EstÃ¡dio Beira-Rio, Porto Alegre",
       "equipo1": "France",
       "equipo2": "Honduras",
       "goles1": [
@@ -854,7 +854,7 @@
         {
           "nombre": "Karim Benzema",
           "minuto": 45,
-          "penal": true
+          "penalti": true
         },
         {
           "nombre": "Karim Benzema",
@@ -881,7 +881,7 @@
       "equipo2": "France",
       "goles1": [
         {
-          "nombre": "Blerim D┼¥emaili",
+          "nombre": "Blerim Dâ”¼Â¥emaili",
           "minuto": 81
         },
         {
@@ -958,7 +958,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Arena Amazônia, Manaus",
+      "estadio": "Arena AmazÃ´nia, Manaus",
       "equipo1": "Honduras",
       "equipo2": "Switzerland",
       "goles1": [],
@@ -990,7 +990,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Ecuador",
       "equipo2": "France",
       "goles1": [],
@@ -1009,12 +1009,12 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Argentina",
       "equipo2": "Bosnia-Herzegovina",
       "goles1": [
         {
-          "nombre": "Sead Kola┼íinac",
+          "nombre": "Sead Kolaâ”¼Ã­inac",
           "minuto": 3,
           "autogol": true
         },
@@ -1025,7 +1025,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Vedad Ibi┼íevi─ç",
+          "nombre": "Vedad Ibiâ”¼Ã­eviâ”€Ã§",
           "minuto": 85
         }
       ],
@@ -1062,7 +1062,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Argentina",
       "equipo2": "Iran",
       "goles1": [
@@ -1086,7 +1086,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Arena Pantanal, Cuiabá",
+      "estadio": "Arena Pantanal, CuiabÃ¡",
       "equipo1": "Nigeria",
       "equipo2": "Bosnia-Herzegovina",
       "goles1": [
@@ -1110,7 +1110,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Estádio Beira-Rio, Porto Alegre",
+      "estadio": "EstÃ¡dio Beira-Rio, Porto Alegre",
       "equipo1": "Nigeria",
       "equipo2": "Argentina",
       "goles1": [
@@ -1131,7 +1131,7 @@
         {
           "nombre": "Lionel Messi",
           "minuto": 45,
-          "descuento": 1
+          "minutoStoppage": 1
         },
         {
           "nombre": "Marcos Rojo",
@@ -1157,15 +1157,15 @@
       "equipo2": "Iran",
       "goles1": [
         {
-          "nombre": "Edin D┼¥eko",
+          "nombre": "Edin Dâ”¼Â¥eko",
           "minuto": 23
         },
         {
-          "nombre": "Miralem Pjani─ç",
+          "nombre": "Miralem Pjaniâ”€Ã§",
           "minuto": 59
         },
         {
-          "nombre": "Avdija Vr┼íajevi─ç",
+          "nombre": "Avdija Vrâ”¼Ã­ajeviâ”€Ã§",
           "minuto": 83
         }
       ],
@@ -1194,17 +1194,17 @@
       "equipo2": "Portugal",
       "goles1": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas MÃ¼ller",
           "minuto": 12,
-          "penal": true
+          "penalti": true
         },
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas MÃ¼ller",
           "minuto": 45,
-          "descuento": 1
+          "minutoStoppage": 1
         },
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas MÃ¼ller",
           "minuto": 78
         },
         {
@@ -1227,12 +1227,12 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Estádio das Dunas, Natal",
+      "estadio": "EstÃ¡dio das Dunas, Natal",
       "equipo1": "Ghana",
       "equipo2": "USA",
       "goles1": [
         {
-          "nombre": "André Ayew",
+          "nombre": "AndrÃ© Ayew",
           "minuto": 82
         }
       ],
@@ -1260,12 +1260,12 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Germany",
       "equipo2": "Ghana",
       "goles1": [
         {
-          "nombre": "Mario Götze",
+          "nombre": "Mario GÃ¶tze",
           "minuto": 51
         },
         {
@@ -1275,7 +1275,7 @@
       ],
       "goles2": [
         {
-          "nombre": "André Ayew",
+          "nombre": "AndrÃ© Ayew",
           "minuto": 54
         },
         {
@@ -1297,7 +1297,7 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Arena Amazônia, Manaus",
+      "estadio": "Arena AmazÃ´nia, Manaus",
       "equipo1": "USA",
       "equipo2": "Portugal",
       "goles1": [
@@ -1318,7 +1318,7 @@
         {
           "nombre": "Varela",
           "minuto": 90,
-          "descuento": 5
+          "minutoStoppage": 5
         }
       ],
       "numeroPartido": 40
@@ -1341,7 +1341,7 @@
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas MÃ¼ller",
           "minuto": 55
         }
       ],
@@ -1359,7 +1359,7 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Portugal",
       "equipo2": "Ghana",
       "goles1": [
@@ -1393,7 +1393,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Belgium",
       "equipo2": "Algeria",
       "goles1": [
@@ -1410,7 +1410,7 @@
         {
           "nombre": "Sofiane Feghouli",
           "minuto": 25,
-          "penal": true
+          "penalti": true
         }
       ],
       "numeroPartido": 43
@@ -1427,7 +1427,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Arena Pantanal, Cuiabá",
+      "estadio": "Arena Pantanal, CuiabÃ¡",
       "equipo1": "Russia",
       "equipo2": "South Korea",
       "goles1": [
@@ -1456,7 +1456,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Belgium",
       "equipo2": "Russia",
       "goles1": [
@@ -1480,7 +1480,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Estádio Beira-Rio, Porto Alegre",
+      "estadio": "EstÃ¡dio Beira-Rio, Porto Alegre",
       "equipo1": "South Korea",
       "equipo2": "Algeria",
       "goles1": [
@@ -1525,7 +1525,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "South Korea",
       "equipo2": "Belgium",
       "goles1": [],
@@ -1590,7 +1590,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Brazil",
       "equipo2": "Chile",
       "goles1": [
@@ -1601,7 +1601,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Alexis Sánchez",
+          "nombre": "Alexis SÃ¡nchez",
           "minuto": 32
         }
       ],
@@ -1623,16 +1623,16 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Colombia",
       "equipo2": "Uruguay",
       "goles1": [
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James RodrÃ­guez",
           "minuto": 28
         },
         {
-          "nombre": "James Rodríguez",
+          "nombre": "James RodrÃ­guez",
           "minuto": 50
         }
       ],
@@ -1655,7 +1655,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Netherlands",
       "equipo2": "Mexico",
       "goles1": [
@@ -1666,7 +1666,7 @@
         {
           "nombre": "Klaas Jan Huntelaar",
           "minuto": 90,
-          "penal": true
+          "penalti": true
         }
       ],
       "goles2": [
@@ -1734,7 +1734,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "France",
       "equipo2": "Nigeria",
       "goles1": [
@@ -1746,7 +1746,7 @@
           "nombre": "Joseph Yobo",
           "minuto": 90,
           "autogol": true,
-          "descuento": 2
+          "minutoStoppage": 2
         }
       ],
       "goles2": [],
@@ -1772,16 +1772,16 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Beira-Rio, Porto Alegre",
+      "estadio": "EstÃ¡dio Beira-Rio, Porto Alegre",
       "equipo1": "Germany",
       "equipo2": "Algeria",
       "goles1": [
         {
-          "nombre": "André Schürrle",
+          "nombre": "AndrÃ© SchÃ¼rrle",
           "minuto": 92
         },
         {
-          "nombre": "Mesut Özil",
+          "nombre": "Mesut Ã–zil",
           "minuto": 120
         }
       ],
@@ -1813,12 +1813,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "Argentina",
       "equipo2": "Switzerland",
       "goles1": [
         {
-          "nombre": "Ángel di María",
+          "nombre": "Ãngel di MarÃ­a",
           "minuto": 118
         }
       ],
@@ -1882,7 +1882,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "France",
       "equipo2": "Germany",
       "goles1": [],
@@ -1910,7 +1910,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Castelão, Fortaleza",
+      "estadio": "EstÃ¡dio CastelÃ£o, Fortaleza",
       "equipo1": "Brazil",
       "equipo2": "Colombia",
       "goles1": [
@@ -1925,9 +1925,9 @@
       ],
       "goles2": [
         {
-          "nombre": "Rodríguez",
+          "nombre": "RodrÃ­guez",
           "minuto": 80,
-          "penal": true
+          "penalti": true
         }
       ],
       "numeroPartido": 58
@@ -1948,12 +1948,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Argentina",
       "equipo2": "Belgium",
       "goles1": [
         {
-          "nombre": "Gonzalo Higuaín",
+          "nombre": "Gonzalo HiguaÃ­n",
           "minuto": 8
         }
       ],
@@ -2007,7 +2007,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Mineirão, Belo Horizonte",
+      "estadio": "EstÃ¡dio MineirÃ£o, Belo Horizonte",
       "equipo1": "Brazil",
       "equipo2": "Germany",
       "goles1": [
@@ -2018,7 +2018,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Thomas Müller",
+          "nombre": "Thomas MÃ¼ller",
           "minuto": 11
         },
         {
@@ -2038,11 +2038,11 @@
           "minuto": 29
         },
         {
-          "nombre": "Andre Schürrle",
+          "nombre": "Andre SchÃ¼rrle",
           "minuto": 69
         },
         {
-          "nombre": "Andre Schürrle",
+          "nombre": "Andre SchÃ¼rrle",
           "minuto": 79
         }
       ],
@@ -2072,7 +2072,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Arena de São Paulo, São Paulo",
+      "estadio": "Arena de SÃ£o Paulo, SÃ£o Paulo",
       "equipo1": "Netherlands",
       "equipo2": "Argentina",
       "goles1": [],
@@ -2095,7 +2095,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
+      "estadio": "EstÃ¡dio Nacional ManÃ© Garrincha, BrasÃ­lia",
       "equipo1": "Brazil",
       "equipo2": "Netherlands",
       "goles1": [],
@@ -2103,7 +2103,7 @@
         {
           "nombre": "Robin Van Persie",
           "minuto": 3,
-          "penal": true
+          "penalti": true
         },
         {
           "nombre": "Daley Blind",
@@ -2112,7 +2112,7 @@
         {
           "nombre": "Georginio Wijnaldum",
           "minuto": 90,
-          "descuento": 1
+          "minutoStoppage": 1
         }
       ],
       "numeroPartido": 63
@@ -2137,12 +2137,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Estádio do Maracanã, Rio de Janeiro",
+      "estadio": "EstÃ¡dio do MaracanÃ£, Rio de Janeiro",
       "equipo1": "Germany",
       "equipo2": "Argentina",
       "goles1": [
         {
-          "nombre": "Mario Götze",
+          "nombre": "Mario GÃ¶tze",
           "minuto": 113
         }
       ],
@@ -2151,3 +2151,4 @@
     }
   ]
 }
+
