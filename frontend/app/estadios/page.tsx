@@ -147,8 +147,8 @@ function StadiumCard({
 }
 
 export default function EstadiosPage() {
-  const { data: estadios, isLoading: lEstadios } = useSWR<Estadio[]>("/api/estadios", fetcher);
-  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos", fetcher);
+  const { data: estadios, isLoading: lEstadios } = useSWR<Estadio[]>("/api/estadios?año=2026", fetcher);
+  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
   const [paisFilter, setPaisFilter] = useState("all");
   const [busqueda, setBusqueda] = useState("");
   const [expandedId, setExpandedId] = useState<string | null>(null);

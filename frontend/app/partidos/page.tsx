@@ -201,7 +201,7 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
 }
 
 export default function PartidosPage() {
-  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos", fetcher);
+  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
   const [rondaFilter, setRondaFilter] = useState("all");
   const [busqueda, setBusqueda] = useState("");
   const [expandedId, setExpandedId] = useState<string | null>(null);

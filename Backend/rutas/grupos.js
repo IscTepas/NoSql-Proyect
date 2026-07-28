@@ -3,11 +3,11 @@ const router = express.Router();
 
 const Grupo = require("../Modelos/Grupo");
 
-// GET - consultar todos los grupos
+// GET - consultar todos los grupos (filtro opcional ?año=YYYY)
 router.get("/", async (req, res) => {
     try {
-        // CAMBIO AQUÍ: .populate("equipos")
-        const grupos = await Grupo.find().populate("equipos");
+        const filtro = req.query.año ? { año: Number(req.query.año) } : {};
+        const grupos = await Grupo.find(filtro).populate("equipos");
         res.json({
             ok: true,
             data: grupos,

@@ -131,10 +131,10 @@ function MatchCardSmall({ partido }: { partido: Partido }) {
 }
 
 export default function Mundial2026Page() {
-  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos", fetcher);
-  const { data: equipos, isLoading: lEquipos } = useSWR<Equipo[]>("/api/equipos", fetcher);
-  const { data: estadios, isLoading: lEstadios } = useSWR<Estadio[]>("/api/estadios", fetcher);
-  const { data: grupos, isLoading: lGrupos } = useSWR<Grupo[]>("/api/grupos", fetcher);
+  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
+  const { data: equipos, isLoading: lEquipos } = useSWR<Equipo[]>("/api/equipos?año=2026", fetcher);
+  const { data: estadios, isLoading: lEstadios } = useSWR<Estadio[]>("/api/estadios?año=2026", fetcher);
+  const { data: grupos, isLoading: lGrupos } = useSWR<Grupo[]>("/api/grupos?año=2026", fetcher);
 
   const loading = lPartidos || lEquipos || lEstadios || lGrupos;
 

@@ -19,7 +19,7 @@ export default function MatchDetailPage() {
   const params = useParams();
   const matchId = params.matchId as string;
 
-  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos", fetcher);
+  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
 
   const partido = useMemo(() => {
     if (!partidos) return null;

@@ -90,7 +90,7 @@ function TeamTableRow({ equipo }: { equipo: Equipo }) {
 }
 
 export default function SeleccionesPage() {
-  const { data: equipos, isLoading } = useSWR<Equipo[]>("/api/equipos", fetcher);
+  const { data: equipos, isLoading } = useSWR<Equipo[]>("/api/equipos?año=2026", fetcher);
   const [busqueda, setBusqueda] = useState("");
   const [confFilter, setConfFilter] = useState("all");
   const [view, setView] = useState<"grid" | "table">("grid");

@@ -100,7 +100,7 @@ function MatchSlot({ partido, size = "normal" }: { partido: Partido | null; size
 }
 
 export default function BracketPage() {
-  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos", fetcher);
+  const { data: partidos, isLoading } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
 
   const match = useMemo(() => {
     if (!partidos) return (n: number) => null as Partido | null;

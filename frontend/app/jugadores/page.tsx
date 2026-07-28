@@ -46,8 +46,8 @@ const POS_LABELS: Record<string, string> = {
 };
 
 export default function JugadoresPage() {
-  const { data: jugadores, isLoading: lJugadores } = useSWR<Jugador[]>("/api/jugadores", fetcher);
-  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos", fetcher);
+  const { data: jugadores, isLoading: lJugadores } = useSWR<Jugador[]>("/api/jugadores?año=2026", fetcher);
+  const { data: partidos, isLoading: lPartidos } = useSWR<Partido[]>("/api/partidos?año=2026", fetcher);
 
   const [busqueda, setBusqueda] = useState("");
   const [posFilter, setPosFilter] = useState("all");

@@ -7,6 +7,7 @@ export interface Equipo {
   fifaCode: string;
   grupo: string;
   confederacion: string;
+  año: number;
 }
 
 export interface Estadio {
@@ -17,12 +18,14 @@ export interface Estadio {
   zonaHoraria: string;
   codigoPais: string;
   coordenadas: string;
+  año: number;
 }
 
 export interface Grupo {
   _id: string;
   nombre: string;
   torneo: string;
+  año: number;
   equiposNombres: string[];
   equipos: Equipo[];
 }
@@ -55,6 +58,7 @@ export interface Partido {
   goles2: Gol[];
   grupo: Grupo | null;
   estadio: Estadio | null;
+  año: number;
 }
 
 export interface JugadorClub {
@@ -71,6 +75,7 @@ export interface Jugador {
   club: JugadorClub;
   fifaCodeEquipo: string;
   equipo: Equipo;
+  año: number;
 }
 
 export interface ApiResponse<T> {

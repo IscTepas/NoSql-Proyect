@@ -3,10 +3,11 @@ const router = express.Router();
 
 const Partido = require("../Modelos/Partido");
 
-// GET - consultar todos los partidos
+// GET - consultar todos los partidos (filtro opcional ?año=YYYY)
 router.get("/", async (req, res) => {
     try {
-        const partidos = await Partido.find()
+        const filtro = req.query.año ? { año: Number(req.query.año) } : {};
+        const partidos = await Partido.find(filtro)
             .populate("equipo1")
             .populate("equipo2")
             .populate("equipoGanador")
