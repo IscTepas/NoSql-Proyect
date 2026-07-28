@@ -4,21 +4,41 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Trophy, Users, MapPin, Calendar, Swords, BarChart3, Home, Circle } from "lucide-react";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
-const links = [
-  { href: "/", label: "Inicio", icon: Home },
-  { href: "/selecciones", label: "Selecciones", icon: Users },
-  { href: "/grupos", label: "Grupos", icon: Trophy },
-  { href: "/estadios", label: "Estadios", icon: MapPin },
-  { href: "/partidos", label: "Partidos", icon: Calendar },
-  { href: "/bracket", label: "Bracket", icon: Swords },
-  { href: "/jugadores", label: "Jugadores", icon: BarChart3 },
-];
+function extractYear(pathname: string): number | null {
+  const match = pathname.match(/^\/mundiales\/(\d{4})/);
+  return match ? Number(match[1]) : null;
+}
 
 export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const year = useMemo(() => extractYear(pathname), [pathname]);
+
+  const links = useMemo(() => {
+    if (year) {
+      const base = `/mundiales/${year}`;
+      return [
+        { href: base, label: "Inicio", icon: Home },
+        { href: `${base}/selecciones`, label: "Selecciones", icon: Users },
+        { href: `${base}/grupos`, label: "Grupos", icon: Trophy },
+        { href: `${base}/estadios`, label: "Estadios", icon: MapPin },
+        { href: `${base}/partidos`, label: "Partidos", icon: Calendar },
+        { href: `${base}/bracket`, label: "Bracket", icon: Swords },
+        { href: `${base}/jugadores`, label: "Jugadores", icon: BarChart3 },
+      ];
+    }
+    return [
+      { href: "/", label: "Inicio", icon: Home },
+      { href: "/selecciones", label: "Selecciones", icon: Users },
+      { href: "/grupos", label: "Grupos", icon: Trophy },
+      { href: "/estadios", label: "Estadios", icon: MapPin },
+      { href: "/partidos", label: "Partidos", icon: Calendar },
+      { href: "/bracket", label: "Bracket", icon: Swords },
+      { href: "/jugadores", label: "Jugadores", icon: BarChart3 },
+    ];
+  }, [year]);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
@@ -34,7 +54,7 @@ export default function Navbar() {
 
         <nav className="hidden md:flex items-center gap-1">
           {links.map((link) => {
-            const active = pathname === link.href;
+            const active = pathname === link.href || (year && link.href !== `/mundiales/${year}` && pathname.startsWith(link.href) && link.href !== "/");
             return (
               <Link
                 key={link.href}
