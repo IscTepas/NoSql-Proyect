@@ -17,6 +17,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "FIFA World Cup 2026",
   description: "Portal interactivo del Mundial FIFA 2026 - Selecciones, Grupos, Estadios, Partidos y Estadísticas",
+  other: {
+    "color-scheme": "light",
+  },
 };
 
 export default function RootLayout({

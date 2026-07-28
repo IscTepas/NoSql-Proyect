@@ -12,6 +12,7 @@ export interface WorldCup {
   topScorer: string;
   color: string;
   route: string;
+  logo?: string;
 }
 
 export const WORLDCUPS: WorldCup[] = [
@@ -74,6 +75,7 @@ export const WORLDCUPS: WorldCup[] = [
     topScorer: "James Rodríguez",
     color: "var(--wc-2014)",
     route: "/mundiales/2014",
+    logo: "/mundiales/Brasil_2014_logo.png",
   },
 ];
 

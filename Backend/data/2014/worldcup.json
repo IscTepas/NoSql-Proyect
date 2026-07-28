@@ -17,7 +17,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "Brazil",
       "equipo2": "Croatia",
       "goles1": [
@@ -61,7 +61,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Est├ídio das Dunas, Natal",
+      "estadio": "Estádio das Dunas, Natal",
       "equipo1": "Mexico",
       "equipo2": "Cameroon",
       "goles1": [
@@ -85,7 +85,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Brazil",
       "equipo2": "Mexico",
       "goles1": [],
@@ -104,7 +104,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Arena Amaz├┤nia, Manaus",
+      "estadio": "Arena Amazônia, Manaus",
       "equipo1": "Cameroon",
       "equipo2": "Croatia",
       "goles1": [],
@@ -140,7 +140,7 @@
         ]
       },
       "grupo": "Group A",
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Cameroon",
       "equipo2": "Brazil",
       "goles1": [
@@ -192,7 +192,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Rafael M├írquez",
+          "nombre": "Rafael Márquez",
           "minuto": 72
         },
         {
@@ -200,7 +200,7 @@
           "minuto": 75
         },
         {
-          "nombre": "Javier Hern├índez",
+          "nombre": "Javier Hernández",
           "minuto": 82
         }
       ],
@@ -272,16 +272,16 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Arena Pantanal, Cuiab├í",
+      "estadio": "Arena Pantanal, Cuiabá",
       "equipo1": "Chile",
       "equipo2": "Australia",
       "goles1": [
         {
-          "nombre": "Alexis S├ínchez",
+          "nombre": "Alexis Sánchez",
           "minuto": 12
         },
         {
-          "nombre": "Jorge Vald├¡via",
+          "nombre": "Jorge Valdívia",
           "minuto": 14
         },
         {
@@ -310,7 +310,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "estadio": "Estádio Beira-Rio, Porto Alegre",
       "equipo1": "Australia",
       "equipo2": "Netherlands",
       "goles1": [
@@ -352,7 +352,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Spain",
       "equipo2": "Chile",
       "goles1": [],
@@ -362,7 +362,7 @@
           "minuto": 20
         },
         {
-          "nombre": "Charles Ar├ínguiz",
+          "nombre": "Charles Aránguiz",
           "minuto": 43
         }
       ],
@@ -412,7 +412,7 @@
         ]
       },
       "grupo": "Group B",
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "Netherlands",
       "equipo2": "Chile",
       "goles1": [
@@ -441,7 +441,7 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Colombia",
       "equipo2": "Greece",
       "goles1": [
@@ -450,11 +450,11 @@
           "minuto": 5
         },
         {
-          "nombre": "Teofilo Guti├®rrez",
+          "nombre": "Teofilo Gutiérrez",
           "minuto": 58
         },
         {
-          "nombre": "James Rodr├¡guez",
+          "nombre": "James Rodríguez",
           "minuto": 90,
           "descuento": 3
         }
@@ -475,7 +475,7 @@
       },
       "grupo": "Group C",
       "estadio": "Arena Pernambuco, Recife",
-      "equipo1": "C├┤te d'Ivoire",
+      "equipo1": "Côte d'Ivoire",
       "equipo2": "Japan",
       "goles1": [
         {
@@ -507,12 +507,12 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Colombia",
-      "equipo2": "C├┤te d'Ivoire",
+      "equipo2": "Côte d'Ivoire",
       "goles1": [
         {
-          "nombre": "James Rodr├¡guez",
+          "nombre": "James Rodríguez",
           "minuto": 64
         },
         {
@@ -540,7 +540,7 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Est├ídio das Dunas, Natal",
+      "estadio": "Estádio das Dunas, Natal",
       "equipo1": "Japan",
       "equipo2": "Greece",
       "goles1": [],
@@ -559,7 +559,7 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Arena Pantanal, Cuiab├í",
+      "estadio": "Arena Pantanal, Cuiabá",
       "equipo1": "Japan",
       "equipo2": "Colombia",
       "goles1": [
@@ -576,15 +576,15 @@
           "penal": true
         },
         {
-          "nombre": "Jackson Mart├¡nez",
+          "nombre": "Jackson Martínez",
           "minuto": 55
         },
         {
-          "nombre": "Jackson Mart├¡nez",
+          "nombre": "Jackson Martínez",
           "minuto": 82
         },
         {
-          "nombre": "James Rodr├¡guez",
+          "nombre": "James Rodríguez",
           "minuto": 90
         }
       ],
@@ -602,9 +602,9 @@
         ]
       },
       "grupo": "Group C",
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Greece",
-      "equipo2": "C├┤te d'Ivoire",
+      "equipo2": "Côte d'Ivoire",
       "goles1": [
         {
           "nombre": "Andreas Samaris",
@@ -637,7 +637,7 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Uruguay",
       "equipo2": "Costa Rica",
       "goles1": [
@@ -657,7 +657,7 @@
           "minuto": 57
         },
         {
-          "nombre": "Marcos Ure├▒a",
+          "nombre": "Marcos Ureña",
           "minuto": 84
         }
       ],
@@ -675,7 +675,7 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Arena Amaz├┤nia, Manaus",
+      "estadio": "Arena Amazônia, Manaus",
       "equipo1": "England",
       "equipo2": "Italy",
       "goles1": [
@@ -708,16 +708,16 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "Uruguay",
       "equipo2": "England",
       "goles1": [
         {
-          "nombre": "Luis Su├írez",
+          "nombre": "Luis Suárez",
           "minuto": 39
         },
         {
-          "nombre": "Luis Su├írez",
+          "nombre": "Luis Suárez",
           "minuto": 85
         }
       ],
@@ -765,13 +765,13 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Est├ídio das Dunas, Natal",
+      "estadio": "Estádio das Dunas, Natal",
       "equipo1": "Italy",
       "equipo2": "Uruguay",
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Diego God├¡n",
+          "nombre": "Diego Godín",
           "minuto": 81
         }
       ],
@@ -789,7 +789,7 @@
         ]
       },
       "grupo": "Group D",
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Costa Rica",
       "equipo2": "England",
       "goles1": [],
@@ -808,7 +808,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Switzerland",
       "equipo2": "Ecuador",
       "goles1": [
@@ -842,7 +842,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "estadio": "Estádio Beira-Rio, Porto Alegre",
       "equipo1": "France",
       "equipo2": "Honduras",
       "goles1": [
@@ -958,7 +958,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Arena Amaz├┤nia, Manaus",
+      "estadio": "Arena Amazônia, Manaus",
       "equipo1": "Honduras",
       "equipo2": "Switzerland",
       "goles1": [],
@@ -990,7 +990,7 @@
         ]
       },
       "grupo": "Group E",
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Ecuador",
       "equipo2": "France",
       "goles1": [],
@@ -1009,7 +1009,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Argentina",
       "equipo2": "Bosnia-Herzegovina",
       "goles1": [
@@ -1062,7 +1062,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Argentina",
       "equipo2": "Iran",
       "goles1": [
@@ -1086,7 +1086,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Arena Pantanal, Cuiab├í",
+      "estadio": "Arena Pantanal, Cuiabá",
       "equipo1": "Nigeria",
       "equipo2": "Bosnia-Herzegovina",
       "goles1": [
@@ -1110,7 +1110,7 @@
         ]
       },
       "grupo": "Group F",
-      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "estadio": "Estádio Beira-Rio, Porto Alegre",
       "equipo1": "Nigeria",
       "equipo2": "Argentina",
       "goles1": [
@@ -1194,17 +1194,17 @@
       "equipo2": "Portugal",
       "goles1": [
         {
-          "nombre": "Thomas M├╝ller",
+          "nombre": "Thomas Müller",
           "minuto": 12,
           "penal": true
         },
         {
-          "nombre": "Thomas M├╝ller",
+          "nombre": "Thomas Müller",
           "minuto": 45,
           "descuento": 1
         },
         {
-          "nombre": "Thomas M├╝ller",
+          "nombre": "Thomas Müller",
           "minuto": 78
         },
         {
@@ -1227,12 +1227,12 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Est├ídio das Dunas, Natal",
+      "estadio": "Estádio das Dunas, Natal",
       "equipo1": "Ghana",
       "equipo2": "USA",
       "goles1": [
         {
-          "nombre": "Andr├® Ayew",
+          "nombre": "André Ayew",
           "minuto": 82
         }
       ],
@@ -1260,12 +1260,12 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Germany",
       "equipo2": "Ghana",
       "goles1": [
         {
-          "nombre": "Mario G├Âtze",
+          "nombre": "Mario Götze",
           "minuto": 51
         },
         {
@@ -1275,7 +1275,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Andr├® Ayew",
+          "nombre": "André Ayew",
           "minuto": 54
         },
         {
@@ -1297,7 +1297,7 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Arena Amaz├┤nia, Manaus",
+      "estadio": "Arena Amazônia, Manaus",
       "equipo1": "USA",
       "equipo2": "Portugal",
       "goles1": [
@@ -1341,7 +1341,7 @@
       "goles1": [],
       "goles2": [
         {
-          "nombre": "Thomas M├╝ller",
+          "nombre": "Thomas Müller",
           "minuto": 55
         }
       ],
@@ -1359,7 +1359,7 @@
         ]
       },
       "grupo": "Group G",
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Portugal",
       "equipo2": "Ghana",
       "goles1": [
@@ -1393,7 +1393,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Belgium",
       "equipo2": "Algeria",
       "goles1": [
@@ -1427,7 +1427,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Arena Pantanal, Cuiab├í",
+      "estadio": "Arena Pantanal, Cuiabá",
       "equipo1": "Russia",
       "equipo2": "South Korea",
       "goles1": [
@@ -1456,7 +1456,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Belgium",
       "equipo2": "Russia",
       "goles1": [
@@ -1480,7 +1480,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "estadio": "Estádio Beira-Rio, Porto Alegre",
       "equipo1": "South Korea",
       "equipo2": "Algeria",
       "goles1": [
@@ -1525,7 +1525,7 @@
         ]
       },
       "grupo": "Group H",
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "South Korea",
       "equipo2": "Belgium",
       "goles1": [],
@@ -1590,7 +1590,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Brazil",
       "equipo2": "Chile",
       "goles1": [
@@ -1601,7 +1601,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Alexis S├ínchez",
+          "nombre": "Alexis Sánchez",
           "minuto": 32
         }
       ],
@@ -1623,16 +1623,16 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Colombia",
       "equipo2": "Uruguay",
       "goles1": [
         {
-          "nombre": "James Rodr├¡guez",
+          "nombre": "James Rodríguez",
           "minuto": 28
         },
         {
-          "nombre": "James Rodr├¡guez",
+          "nombre": "James Rodríguez",
           "minuto": 50
         }
       ],
@@ -1655,7 +1655,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Netherlands",
       "equipo2": "Mexico",
       "goles1": [
@@ -1734,7 +1734,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "France",
       "equipo2": "Nigeria",
       "goles1": [
@@ -1772,16 +1772,16 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Beira-Rio, Porto Alegre",
+      "estadio": "Estádio Beira-Rio, Porto Alegre",
       "equipo1": "Germany",
       "equipo2": "Algeria",
       "goles1": [
         {
-          "nombre": "Andr├® Sch├╝rrle",
+          "nombre": "André Schürrle",
           "minuto": 92
         },
         {
-          "nombre": "Mesut ├ûzil",
+          "nombre": "Mesut Özil",
           "minuto": 120
         }
       ],
@@ -1813,12 +1813,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "Argentina",
       "equipo2": "Switzerland",
       "goles1": [
         {
-          "nombre": "├üngel di Mar├¡a",
+          "nombre": "Ángel di María",
           "minuto": 118
         }
       ],
@@ -1882,7 +1882,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "France",
       "equipo2": "Germany",
       "goles1": [],
@@ -1910,7 +1910,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Castel├úo, Fortaleza",
+      "estadio": "Estádio Castelão, Fortaleza",
       "equipo1": "Brazil",
       "equipo2": "Colombia",
       "goles1": [
@@ -1925,7 +1925,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Rodr├¡guez",
+          "nombre": "Rodríguez",
           "minuto": 80,
           "penal": true
         }
@@ -1948,12 +1948,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Argentina",
       "equipo2": "Belgium",
       "goles1": [
         {
-          "nombre": "Gonzalo Higua├¡n",
+          "nombre": "Gonzalo Higuaín",
           "minuto": 8
         }
       ],
@@ -2007,7 +2007,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Mineir├úo, Belo Horizonte",
+      "estadio": "Estádio Mineirão, Belo Horizonte",
       "equipo1": "Brazil",
       "equipo2": "Germany",
       "goles1": [
@@ -2018,7 +2018,7 @@
       ],
       "goles2": [
         {
-          "nombre": "Thomas M├╝ller",
+          "nombre": "Thomas Müller",
           "minuto": 11
         },
         {
@@ -2038,11 +2038,11 @@
           "minuto": 29
         },
         {
-          "nombre": "Andre Sch├╝rrle",
+          "nombre": "Andre Schürrle",
           "minuto": 69
         },
         {
-          "nombre": "Andre Sch├╝rrle",
+          "nombre": "Andre Schürrle",
           "minuto": 79
         }
       ],
@@ -2072,7 +2072,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Arena de S├úo Paulo, S├úo Paulo",
+      "estadio": "Arena de São Paulo, São Paulo",
       "equipo1": "Netherlands",
       "equipo2": "Argentina",
       "goles1": [],
@@ -2095,7 +2095,7 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio Nacional Man├® Garrincha, Bras├¡lia",
+      "estadio": "Estádio Nacional Mané Garrincha, Brasília",
       "equipo1": "Brazil",
       "equipo2": "Netherlands",
       "goles1": [],
@@ -2137,12 +2137,12 @@
         ]
       },
       "grupo": null,
-      "estadio": "Est├ídio do Maracan├ú, Rio de Janeiro",
+      "estadio": "Estádio do Maracanã, Rio de Janeiro",
       "equipo1": "Germany",
       "equipo2": "Argentina",
       "goles1": [
         {
-          "nombre": "Mario G├Âtze",
+          "nombre": "Mario Götze",
           "minuto": 113
         }
       ],
