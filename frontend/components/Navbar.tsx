@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Trophy, Users, MapPin, Calendar, Swords, BarChart3, Home, Circle } from "lucide-react";
+import { Trophy, Users, MapPin, Calendar, Swords, BarChart3, Home, Circle, Sparkles } from "lucide-react";
 import { useState, useMemo } from "react";
 
 function extractYear(pathname: string): number | null {
@@ -73,6 +73,21 @@ export default function Navbar() {
           })}
         </nav>
 
+        <div className="hidden md:flex items-center">
+          <Link
+            href="/mi-experiencia"
+            className={cn(
+              "flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-200 mr-2",
+              pathname === "/mi-experiencia" || pathname.startsWith("/mi-experiencia/")
+                ? "bg-[var(--wc-gold)] text-white shadow-md shadow-[var(--wc-gold)]/20"
+                : "text-[var(--wc-gold-dark)] bg-[var(--wc-gold)]/10 hover:bg-[var(--wc-gold)]/20 hover:text-[var(--wc-gold-dark)] border border-[var(--wc-gold)]/20"
+            )}
+          >
+            <Sparkles className="h-4 w-4" />
+            Mi Experiencia
+          </Link>
+        </div>
+
         <button
           className="md:hidden flex items-center justify-center h-10 w-10 rounded-lg hover:bg-accent transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -109,6 +124,19 @@ export default function Navbar() {
               </Link>
             );
           })}
+          <Link
+            href="/mi-experiencia"
+            onClick={() => setMobileOpen(false)}
+            className={cn(
+              "flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200 mt-2 border-t border-gray-100 pt-3",
+              pathname === "/mi-experiencia" || pathname.startsWith("/mi-experiencia/")
+                ? "bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] shadow-sm"
+                : "text-[var(--wc-gold-dark)] hover:bg-[var(--wc-gold)]/10"
+            )}
+          >
+            <Sparkles className="h-4 w-4" />
+            Mi Experiencia
+          </Link>
         </nav>
       )}
     </header>
