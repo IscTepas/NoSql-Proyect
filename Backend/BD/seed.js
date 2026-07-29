@@ -148,7 +148,13 @@ const poblarBaseDeDatos = async () => {
 
     // 4. Crear Grupos
     console.log("Creando Grupos...");
-    const letrasGrupos = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"];
+    // El formato de 32 selecciones (2014-2022) usa 8 grupos.
+    // El nuevo formato de 48 selecciones de 2026 usa 12 grupos.
+    const cantidadGrupos = ANIO >= 2026 ? 12 : 8;
+    const letrasGrupos = Array.from(
+      { length: cantidadGrupos },
+      (_, index) => String.fromCharCode(65 + index)
+    );
     const gruposDB = [];
 
     for (const letra of letrasGrupos) {
@@ -190,8 +196,11 @@ const poblarBaseDeDatos = async () => {
         est.nombre.toLowerCase().includes((p.estadio || "").toLowerCase())
       );
 
-      // Buscar ObjectId para Grupo (Ej. "Group A" -> "A")
-      const letraGrupo = p.grupo ? p.grupo.replace(/[^A-L]/g, "") : null;
+      // Buscar ObjectId para Grupo (Ej. "Group A" o "Grupo A" -> "A").
+      // El enfoque anterior conservaba también la G de "Group" y producía
+      // valores como "GA", dejando la relación del partido en null.
+      const grupoMatch = String(p.grupo || "").match(/([A-L])\s*$/i);
+      const letraGrupo = grupoMatch ? grupoMatch[1].toUpperCase() : null;
       const grupoDB = letraGrupo ? gruposDB.find(g => g.nombre === letraGrupo) : null;
 
       // LÓGICA DE GANADOR: Revisa FT, ET y Penaltis
