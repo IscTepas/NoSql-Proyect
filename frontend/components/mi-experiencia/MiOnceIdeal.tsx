@@ -1,50 +1,22 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { Shirt, RefreshCw, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState, useMemo, useEffect } from "react";
+import useSWR from "swr";
+import { Shirt, RefreshCw, ChevronLeft, ChevronRight, Search, Loader2 } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import type { Jugador } from "@/lib/types";
+
+const fetcher = (url: string) =>
+  fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
 
 interface Player {
-  id: number;
+  _id: string;
   nombre: string;
   posicion: string;
   numero: number;
   fifaCode: string;
   equipo: string;
-  rating: number;
 }
-
-const SQUAD: Player[] = [
-  { id: 1, nombre: "Lionel Messi", posicion: "FW", numero: 10, fifaCode: "ARG", equipo: "Argentina", rating: 90 },
-  { id: 2, nombre: "Cristiano Ronaldo", posicion: "FW", numero: 7, fifaCode: "POR", equipo: "Portugal", rating: 88 },
-  { id: 3, nombre: "Kylian Mbappé", posicion: "FW", numero: 10, fifaCode: "FRA", equipo: "Francia", rating: 91 },
-  { id: 4, nombre: "Kevin De Bruyne", posicion: "MF", numero: 7, fifaCode: "BEL", equipo: "Bélgica", rating: 89 },
-  { id: 5, nombre: "Jude Bellingham", posicion: "MF", numero: 10, fifaCode: "ENG", equipo: "Inglaterra", rating: 88 },
-  { id: 6, nombre: "Rodri", posicion: "MF", numero: 16, fifaCode: "ESP", equipo: "España", rating: 89 },
-  { id: 7, nombre: "Virgil van Dijk", posicion: "DF", numero: 4, fifaCode: "NED", equipo: "Países Bajos", rating: 86 },
-  { id: 8, nombre: "Rúben Dias", posicion: "DF", numero: 4, fifaCode: "POR", equipo: "Portugal", rating: 85 },
-  { id: 9, nombre: "Josko Gvardiol", posicion: "DF", numero: 6, fifaCode: "CRO", equipo: "Croacia", rating: 84 },
-  { id: 10, nombre: "Theo Hernández", posicion: "DF", numero: 22, fifaCode: "FRA", equipo: "Francia", rating: 83 },
-  { id: 11, nombre: "Thibaut Courtois", posicion: "GK", numero: 1, fifaCode: "BEL", equipo: "Bélgica", rating: 90 },
-  { id: 12, nombre: "Emiliano Martínez", posicion: "GK", numero: 1, fifaCode: "ARG", equipo: "Argentina", rating: 87 },
-  { id: 13, nombre: "Harry Kane", posicion: "FW", numero: 9, fifaCode: "ENG", equipo: "Inglaterra", rating: 88 },
-  { id: 14, nombre: "Vinícius Jr", posicion: "FW", numero: 20, fifaCode: "BRA", equipo: "Brasil", rating: 89 },
-  { id: 15, nombre: "Lamine Yamal", posicion: "FW", numero: 19, fifaCode: "ESP", equipo: "España", rating: 86 },
-  { id: 16, nombre: "Jamal Musiala", posicion: "MF", numero: 10, fifaCode: "GER", equipo: "Alemania", rating: 85 },
-  { id: 17, nombre: "Federico Valverde", posicion: "MF", numero: 15, fifaCode: "URU", equipo: "Uruguay", rating: 86 },
-  { id: 18, nombre: "Declan Rice", posicion: "MF", numero: 4, fifaCode: "ENG", equipo: "Inglaterra", rating: 85 },
-  { id: 19, nombre: "Antoine Griezmann", posicion: "FW", numero: 7, fifaCode: "FRA", equipo: "Francia", rating: 85 },
-  { id: 20, nombre: "Pedri", posicion: "MF", numero: 8, fifaCode: "ESP", equipo: "España", rating: 84 },
-  { id: 21, nombre: "Florian Wirtz", posicion: "MF", numero: 10, fifaCode: "GER", equipo: "Alemania", rating: 84 },
-  { id: 22, nombre: "Bukayo Saka", posicion: "FW", numero: 7, fifaCode: "ENG", equipo: "Inglaterra", rating: 85 },
-  { id: 23, nombre: "Phil Foden", posicion: "MF", numero: 11, fifaCode: "ENG", equipo: "Inglaterra", rating: 86 },
-  { id: 24, nombre: "Rafael Leão", posicion: "FW", numero: 17, fifaCode: "POR", equipo: "Portugal", rating: 84 },
-  { id: 25, nombre: "Neymar Jr", posicion: "FW", numero: 10, fifaCode: "BRA", equipo: "Brasil", rating: 87 },
-  { id: 26, nombre: "Manuel Neuer", posicion: "GK", numero: 1, fifaCode: "GER", equipo: "Alemania", rating: 85 },
-  { id: 27, nombre: "Alisson Becker", posicion: "GK", numero: 1, fifaCode: "BRA", equipo: "Brasil", rating: 88 },
-  { id: 28, nombre: "Robert Lewandowski", posicion: "FW", numero: 9, fifaCode: "POL", equipo: "Polonia", rating: 87 },
-  { id: 29, nombre: "Luka Modrić", posicion: "MF", numero: 10, fifaCode: "CRO", equipo: "Croacia", rating: 85 },
-  { id: 30, nombre: "Erling Haaland", posicion: "FW", numero: 9, fifaCode: "NOR", equipo: "Noruega", rating: 91 },
-];
 
 type Formation = { name: string; label: string; lines: number[] };
 
@@ -68,22 +40,39 @@ function getInitials(name: string): string {
   return name.split(" ").map((n) => n[0]).join("").slice(0, 2).toUpperCase();
 }
 
-export default function MiOnceIdeal() {
+export default function MiOnceIdeal({ year }: { year: number }) {
+  const { data: jugadores, isLoading } = useSWR<Jugador[]>(`/api/jugadores?año=${year}`, fetcher);
+
+  const storageKey = `wc-once-ideal-${year}`;
+
+  const allPlayers: Player[] = useMemo(() => {
+    if (!jugadores) return [];
+    return jugadores.map((j) => ({
+      _id: j._id,
+      nombre: j.nombre,
+      posicion: j.posicion,
+      numero: j.numero,
+      fifaCode: j.fifaCodeEquipo,
+      equipo: j.equipo?.nombre ?? j.fifaCodeEquipo,
+    }));
+  }, [jugadores]);
+
   const [formationIndex, setFormationIndex] = useState(0);
-  const [eleven, setEleven] = useState<(Player | null)[]>([
-    SQUAD[10], // GK
-    SQUAD[6], // DF
-    SQUAD[7],
-    SQUAD[8],
-    SQUAD[9],
-    SQUAD[3], // MF
-    SQUAD[4],
-    SQUAD[5],
-    SQUAD[0], // FW
-    SQUAD[1],
-    SQUAD[2],
-  ]);
+  const [eleven, setEleven] = useState<(Player | null)[]>(() => {
+    if (typeof window === "undefined") return Array(11).fill(null);
+    try {
+      const raw = localStorage.getItem(storageKey);
+      return raw ? (JSON.parse(raw) as (Player | null)[]) : Array(11).fill(null);
+    } catch {
+      return Array(11).fill(null);
+    }
+  });
   const [selectedSlot, setSelectedSlot] = useState<number | null>(null);
+  const [busqueda, setBusqueda] = useState("");
+
+  useEffect(() => {
+    localStorage.setItem(storageKey, JSON.stringify(eleven));
+  }, [eleven, storageKey]);
 
   const formation = FORMATIONS[formationIndex];
 
@@ -105,9 +94,22 @@ export default function MiOnceIdeal() {
   };
 
   const availablePlayers = useMemo(() => {
-    const usedIds = new Set(eleven.filter(Boolean).map((p) => p!.id));
-    return SQUAD.filter((p) => !usedIds.has(p.id));
-  }, [eleven]);
+    const usedIds = new Set(eleven.filter(Boolean).map((p) => p!._id));
+    return allPlayers.filter((p) => !usedIds.has(p._id));
+  }, [allPlayers, eleven]);
+
+  const filteredPlayers = useMemo(() => {
+    const posFiltered = selectedSlot !== null
+      ? availablePlayers.filter((p) => p.posicion === getPositionForSlot(selectedSlot))
+      : availablePlayers;
+    if (!busqueda.trim()) return posFiltered;
+    const q = busqueda.toLowerCase();
+    return posFiltered.filter((p) =>
+      p.nombre.toLowerCase().includes(q) ||
+      p.fifaCode.toLowerCase().includes(q) ||
+      p.equipo.toLowerCase().includes(q)
+    );
+  }, [availablePlayers, selectedSlot, busqueda]);
 
   const selectPlayer = (player: Player) => {
     if (selectedSlot === null) return;
@@ -117,6 +119,7 @@ export default function MiOnceIdeal() {
       return next;
     });
     setSelectedSlot(null);
+    setBusqueda("");
   };
 
   const removePlayer = (slotIndex: number) => {
@@ -146,6 +149,14 @@ export default function MiOnceIdeal() {
     return pos;
   }, [formation]);
 
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center py-12">
+        <Loader2 className="h-6 w-6 animate-spin text-[var(--wc-gold)]" />
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between flex-wrap gap-4">
@@ -155,7 +166,7 @@ export default function MiOnceIdeal() {
             Mi Once Ideal
           </h2>
           <p className="text-sm text-muted-foreground">
-            Arma tu equipo soñado del Mundial
+            Arma tu equipo soñado del Mundial {year}
           </p>
         </div>
 
@@ -193,7 +204,6 @@ export default function MiOnceIdeal() {
         {/* Pitch */}
         <div className="md:col-span-2">
           <div className="relative rounded-2xl overflow-hidden border border-gray-200 bg-gradient-to-b from-green-600 via-green-500 to-green-600 shadow-lg aspect-[3/4] max-h-[600px]">
-            {/* Pitch markings */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
               <rect x="5" y="5" width="90" height="90" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="0.5" rx="2" />
               <line x1="50" y1="5" x2="50" y2="95" stroke="rgba(255,255,255,0.15)" strokeWidth="0.4" />
@@ -202,7 +212,6 @@ export default function MiOnceIdeal() {
               <rect x="30" y="82" width="40" height="18" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="0.4" rx="1" />
             </svg>
 
-            {/* Player positions */}
             {positions.map((pos) => {
               const player = eleven[pos.slotIndex];
               const isSelected = selectedSlot === pos.slotIndex;
@@ -236,7 +245,7 @@ export default function MiOnceIdeal() {
                       </div>
                       <div className="bg-[var(--wc-gold)] rounded-full px-1.5 py-0.5">
                         <span className="text-[8px] font-bold text-white">
-                          {player.rating}
+                          #{player.numero}
                         </span>
                       </div>
                     </div>
@@ -282,39 +291,49 @@ export default function MiOnceIdeal() {
                   {POSITION_LABELS[getPositionForSlot(selectedSlot)]}
                 </span>
               </p>
-              <div className="space-y-1.5 max-h-[500px] overflow-y-auto pr-1">
-                {availablePlayers
-                  .filter((p) => p.posicion === getPositionForSlot(selectedSlot) || getPositionForSlot(selectedSlot) === "FW")
-                  .map((player) => (
-                    <button
-                      key={player.id}
-                      onClick={() => selectPlayer(player)}
-                      className="w-full flex items-center gap-3 p-2.5 rounded-xl border border-gray-200 bg-white hover:border-[var(--wc-gold)]/30 hover:shadow-md transition-all group"
-                    >
-                      <div className="h-8 w-8 rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-[var(--wc-gold)]/10 group-hover:to-[var(--wc-gold)]/5 transition-colors">
-                        <span className="text-[11px] font-black text-gray-400 group-hover:text-[var(--wc-gold-dark)]">
-                          {getInitials(player.nombre)}
-                        </span>
-                      </div>
-                      <div className="flex-1 text-left min-w-0">
-                        <p className="text-sm font-bold truncate">{player.nombre}</p>
-                        <p className="text-[10px] text-muted-foreground">
-                          {player.fifaCode} • {player.equipo}
-                        </p>
-                      </div>
-                      <div className="flex flex-col items-center">
-                        <span className="text-[10px] font-mono text-muted-foreground">
-                          {player.posicion}
-                        </span>
-                        <span className="text-xs font-bold text-[var(--wc-gold-dark)]">
-                          {player.rating}
-                        </span>
-                      </div>
-                    </button>
-                  ))}
-                {availablePlayers.filter((p) => p.posicion === getPositionForSlot(selectedSlot)).length === 0 && (
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <Input
+                  placeholder="Buscar por nombre, equipo o código FIFA..."
+                  value={busqueda}
+                  onChange={(e) => setBusqueda(e.target.value)}
+                  className="pl-9 border-[var(--wc-gold)]/20 focus-visible:ring-[var(--wc-gold)]/30"
+                />
+              </div>
+              <p className="text-[11px] text-muted-foreground">
+                {filteredPlayers.length} jugador{filteredPlayers.length !== 1 ? "es" : ""} disponible{filteredPlayers.length !== 1 ? "s" : ""}
+              </p>
+              <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
+                {filteredPlayers.map((player) => (
+                  <button
+                    key={player._id}
+                    onClick={() => selectPlayer(player)}
+                    className="w-full flex items-center gap-3 p-2.5 rounded-xl border border-gray-200 bg-white hover:border-[var(--wc-gold)]/30 hover:shadow-md transition-all group"
+                  >
+                    <div className="h-8 w-8 rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-[var(--wc-gold)]/10 group-hover:to-[var(--wc-gold)]/5 transition-colors">
+                      <span className="text-[11px] font-black text-gray-400 group-hover:text-[var(--wc-gold-dark)]">
+                        {getInitials(player.nombre)}
+                      </span>
+                    </div>
+                    <div className="flex-1 text-left min-w-0">
+                      <p className="text-sm font-bold truncate">{player.nombre}</p>
+                      <p className="text-[10px] text-muted-foreground">
+                        {player.fifaCode} • {player.equipo}
+                      </p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <span className="text-[10px] font-mono text-muted-foreground">
+                        {player.posicion}
+                      </span>
+                      <span className="text-[10px] font-bold text-gray-400">
+                        #{player.numero}
+                      </span>
+                    </div>
+                  </button>
+                ))}
+                {filteredPlayers.length === 0 && (
                   <p className="text-sm text-muted-foreground text-center py-8">
-                    No hay jugadores disponibles para esta posición
+                    {busqueda ? "No hay jugadores que coincidan con tu búsqueda" : "No hay jugadores disponibles"}
                   </p>
                 )}
               </div>

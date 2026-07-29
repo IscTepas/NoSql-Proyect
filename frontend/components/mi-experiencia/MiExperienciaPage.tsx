@@ -59,9 +59,9 @@ export default function MiExperienciaPage({ year }: { year: number }) {
       {/* Content */}
       <div className="animate-in fade-in duration-300">
         {activeTab === "album" && <MiAlbumPersonal year={year} />}
-        {activeTab === "once" && <MiOnceIdeal />}
+        {activeTab === "once" && <MiOnceIdeal year={year} />}
         {activeTab === "experiencia" && <MiExperienciaFIFA year={year} />}
-        {activeTab === "logros" && <MisLogros />}
+        {activeTab === "logros" && <MisLogros year={year} />}
       </div>
     </div>
   );
