@@ -112,7 +112,7 @@ function MatchSlot({ partido }: { partido: Partido | null }) {
       </div>
       {(hasEt || hasPen) && (
         <div className="flex justify-center gap-1">
-          {hasEt && <span className="text-[8px] text-muted-foreground font-mono bg-gray-100 px-1.5 rounded">AET</span>}
+          {hasEt && <span className="text-[8px] text-muted-foreground font-mono bg-gray-100 px-1.5 rounded">AET {partido.marcador.et![0]}–{partido.marcador.et![1]}</span>}
           {hasPen && <span className="text-[8px] text-muted-foreground font-mono bg-gray-100 px-1.5 rounded">PEN {partido.marcador.p![0]}–{partido.marcador.p![1]}</span>}
         </div>
       )}
@@ -176,14 +176,13 @@ function BracketTree({
 function TrophyBlock({ year }: { year: number }) {
   const logo = WORLDCUPS.find((w) => w.year === year)?.logo;
   return (
-    <div className="flex flex-col items-center gap-1.5">
+    <div className="flex flex-col items-center">
       {logo ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={logo} alt="" className="h-32 w-auto object-contain drop-shadow-lg" />
+        <img src={logo} alt="" className="h-44 w-44 max-w-none object-contain drop-shadow-lg" />
       ) : (
-        <Trophy className="h-20 w-20 text-[var(--wc-gold)]" />
+        <Trophy className="h-28 w-28 text-[var(--wc-gold)]" />
       )}
-      <p className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground">Copa Mundial {year}</p>
     </div>
   );
 }
@@ -310,10 +309,13 @@ export default function BracketMundial({ year }: { year: number }) {
         </h1>
       </div>
 
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div
-          className="pointer-events-none absolute inset-0 -z-10 opacity-[0.06]"
-          style={{ background: `radial-gradient(circle at 15% 20%, var(--wc-accent), transparent 55%), radial-gradient(circle at 85% 80%, var(--wc-gold), transparent 55%)` }}
+          className="pointer-events-none absolute -inset-x-10 -inset-y-16 -z-10 blur-3xl"
+          style={{
+            background:
+              "radial-gradient(120% 120% at 50% 50%, oklch(0.42 0.16 255 / 0.02) 0%, oklch(0.42 0.16 255 / 0.05) 45%, oklch(0.42 0.16 255 / 0.14) 78%, oklch(0.42 0.16 255 / 0.24) 100%)",
+          }}
         />
         <div ref={outerRef} className="overflow-x-auto">
           <div className="relative mx-auto" style={{ width: totalWidth * scale, height: totalContentHeight * scale }}>
