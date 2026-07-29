@@ -7,11 +7,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Users, MapPin, Calendar, Trophy, TrendingUp, Target } from "lucide-react";
+import { Users, MapPin, Calendar, Trophy, TrendingUp, Target, Medal, Crown } from "lucide-react";
 import Flag from "@/components/Flag";
 import Link from "next/link";
 import { useMemo } from "react";
 import WCGeometry from "@/components/WCGeometry";
+import { isMatchInGroup } from "@/lib/groups";
 
 const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
   2014: { accent: "oklch(0.55 0.18 155)", accentDark: "oklch(0.42 0.18 155)" },
@@ -33,7 +34,7 @@ function MiniGroupTable({ grupo, partidos }: { grupo: Grupo; partidos: Partido[]
       stats[eq.fifaCode] = { pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0, pts: 0 };
     });
     partidos.forEach((p) => {
-      if (!p.grupo || p.grupo._id !== grupo._id) return;
+      if (!isMatchInGroup(p, grupo)) return;
       if (!p.marcador.ft || p.marcador.ft.length < 2) return;
       const [g1, g2] = p.marcador.ft;
       const c1 = p.equipo1.fifaCode;
@@ -96,11 +97,35 @@ export default function HomeMundial({ year }: { year: number }) {
     return new Set(equipos.map((e) => e.confederacion)).size;
   }, [equipos]);
 
-  const { latest, upcoming } = useMemo(() => {
-    if (!partidos) return { latest: [] as Partido[], upcoming: [] as Partido[] };
+  const latest = useMemo(() => {
+    if (!partidos) return [] as Partido[];
     const played = partidos.filter((p) => p.marcador.ft && p.marcador.ft.length === 2).sort((a, b) => b.numeroPartido - a.numeroPartido);
-    const notPlayed = partidos.filter((p) => !p.marcador.ft || p.marcador.ft.length !== 2).sort((a, b) => a.numeroPartido - b.numeroPartido);
-    return { latest: played.slice(0, 5), upcoming: notPlayed.slice(0, 5) };
+    return played.slice(0, 5);
+  }, [partidos]);
+
+  const podium = useMemo(() => {
+    if (!partidos) return null;
+    const final = partidos.find((p) => p.ronda === "Final");
+    const thirdPlace = partidos.find((p) => p.ronda === "Match for third place");
+    if (!final?.equipoGanador || !thirdPlace?.equipoGanador) return null;
+
+    const loserOf = (partido: Partido) =>
+      partido.equipoGanador?._id === partido.equipo1?._id ? partido.equipo2 : partido.equipo1;
+    const decidingScore =
+      final.marcador.p?.length === 2
+        ? { score: final.marcador.p, suffix: "pen." }
+        : final.marcador.et?.length === 2
+          ? { score: final.marcador.et, suffix: "t.e." }
+          : { score: final.marcador.ft, suffix: "" };
+
+    return {
+      champion: final.equipoGanador,
+      runnerUp: loserOf(final),
+      third: thirdPlace.equipoGanador,
+      fourth: loserOf(thirdPlace),
+      final,
+      decidingScore,
+    };
   }, [partidos]);
 
   const topScorers = useMemo(() => {
@@ -208,15 +233,56 @@ export default function HomeMundial({ year }: { year: number }) {
             </CardContent>
           </Card>
 
-          <Card className="border-[var(--wc-accent)]/10 shadow-sm hover:shadow-lg hover:shadow-[var(--wc-accent)]/5 transition-shadow duration-300 bg-white">
-            <CardHeader className="pb-3">
+          <Card className="relative overflow-hidden border-[var(--wc-gold)]/30 shadow-md hover:shadow-xl hover:shadow-[var(--wc-gold)]/10 transition-all duration-300 bg-gradient-to-br from-white via-[var(--wc-gold)]/[0.04] to-[var(--wc-accent)]/[0.06]">
+            <div className="pointer-events-none absolute -right-10 -top-12 h-40 w-40 rounded-full bg-[var(--wc-gold)]/10 blur-2xl" />
+            <CardHeader className="pb-3 relative">
               <CardTitle className="text-base flex items-center gap-2">
-                <div className="h-8 w-8 rounded-lg bg-[var(--wc-accent)]/10 flex items-center justify-center"><Calendar className="h-4 w-4 text-[var(--wc-accent-dark)]" /></div>
-                Próximos Partidos
+                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[var(--wc-gold)] to-[var(--wc-gold-dark)] flex items-center justify-center shadow-sm"><Crown className="h-4 w-4 text-white" /></div>
+                Podio del Mundial
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-2">
-              {upcoming.length === 0 && <p className="text-sm text-muted-foreground">No hay partidos pendientes</p>}
+            <CardContent className="relative">
+              {podium ? (
+                <div className="space-y-4">
+                  <Link href={`/mundiales/${year}/bracket`} className="group flex items-center gap-4 rounded-2xl border border-[var(--wc-gold)]/30 bg-gradient-to-r from-[var(--wc-gold)]/15 via-white to-white p-4 shadow-sm hover:shadow-md transition-all">
+                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[var(--wc-gold)]/15 ring-1 ring-[var(--wc-gold)]/30">
+                      <Trophy className="h-7 w-7 text-[var(--wc-gold-dark)]" />
+                    </div>
+                    <Flag code={podium.champion.fifaCode} size={42} />
+                    <div className="min-w-0 flex-1">
+                      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--wc-gold-dark)]">Campeón {year}</p>
+                      <p className="truncate text-xl font-black text-[var(--wc-black)] group-hover:text-[var(--wc-accent-dark)] transition-colors">{podium.champion.nombre}</p>
+                    </div>
+                  </Link>
+
+                  <div className="grid grid-cols-3 gap-2">
+                    {[
+                      { place: "2º", label: "Subcampeón", team: podium.runnerUp, tone: "bg-slate-100 text-slate-600" },
+                      { place: "3º", label: "Tercer lugar", team: podium.third, tone: "bg-amber-100 text-amber-700" },
+                      { place: "4º", label: "Cuarto lugar", team: podium.fourth, tone: "bg-gray-100 text-gray-600" },
+                    ].map((item) => (
+                      <div key={item.place} className="rounded-xl border border-[var(--wc-accent)]/10 bg-white/80 p-3 text-center">
+                        <div className={`mx-auto mb-2 flex h-7 w-7 items-center justify-center rounded-full text-[10px] font-black ${item.tone}`}>{item.place}</div>
+                        <Flag code={item.team?.fifaCode} size={26} className="mx-auto mb-1.5" />
+                        <p className="truncate text-xs font-bold text-[var(--wc-black)]">{item.team?.nombre}</p>
+                        <p className="mt-0.5 text-[9px] text-muted-foreground">{item.label}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="flex items-center justify-between rounded-xl bg-[var(--wc-black)] px-4 py-2.5 text-white">
+                    <div className="flex items-center gap-2 text-xs"><Medal className="h-4 w-4 text-[var(--wc-gold)]" /><span>Final</span></div>
+                    <div className="flex items-center gap-2 text-xs font-semibold">
+                      <Flag code={podium.final.equipo1?.fifaCode} size={18} />
+                      <span>{podium.decidingScore.score?.[0]} - {podium.decidingScore.score?.[1]}</span>
+                      <Flag code={podium.final.equipo2?.fifaCode} size={18} />
+                      {podium.decidingScore.suffix && <span className="text-[9px] uppercase text-white/60">{podium.decidingScore.suffix}</span>}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <p className="text-sm text-muted-foreground">El podio aún no está definido</p>
+              )}
             </CardContent>
           </Card>
 
