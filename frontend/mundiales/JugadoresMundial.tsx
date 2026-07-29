@@ -3,10 +3,9 @@
 import useSWR from "swr";
 import type { Jugador, Partido, Equipo } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Search, UserCircle, Shield, Target } from "lucide-react";
+import { Search, UserCircle, Shield, Target, Users, Building2, Cake, Flag as FlagIcon, Medal } from "lucide-react";
 import Flag from "@/components/Flag";
 import PlayerPhoto from "@/components/PlayerPhoto";
 import { useMemo, useState } from "react";
@@ -45,6 +44,22 @@ const POS_LABELS: Record<string, string> = {
   MF: "Mediocampista",
   FW: "Delantero",
 };
+
+const FLAG_GRADIENTS: Record<string, [string, string, string]> = {
+  ARG: ["#74acdf", "#ffffff", "#74acdf"], AUS: ["#012169", "#ffcd00", "#00843d"],
+  BRA: ["#009c3b", "#ffdf00", "#002776"], COL: ["#fcd116", "#003893", "#ce1126"],
+  ECU: ["#ffdd00", "#034ea2", "#ed1c24"], EGY: ["#ce1126", "#ffffff", "#000000"],
+  ENG: ["#f3f4f6", "#ce1124", "#ffffff"], ESP: ["#aa151b", "#f1bf00", "#aa151b"],
+  FRA: ["#002654", "#ffffff", "#ed2939"], GER: ["#111111", "#dd0000", "#ffcc00"],
+  MEX: ["#006847", "#ffffff", "#ce1126"], NED: ["#ae1c28", "#ffffff", "#21468b"],
+  NOR: ["#ba0c2f", "#ffffff", "#00205b"], POR: ["#046a38", "#da291c", "#ffcc00"],
+  RUS: ["#ffffff", "#0039a6", "#d52b1e"], SEN: ["#00853f", "#fdef42", "#e31b23"],
+  SUI: ["#d52b1e", "#ffffff", "#d52b1e"], URU: ["#5bc0eb", "#ffffff", "#f6b40e"],
+};
+
+function getFlagGradient(code: string): [string, string, string] {
+  return FLAG_GRADIENTS[code] || ["#2563eb", "#ffffff", "#c8a951"];
+}
 
 export default function JugadoresMundial({ year }: { year: number }) {
   const { data: jugadores, isLoading: lJugadores } = useSWR<Jugador[]>(`/api/jugadores?año=${year}`, fetcher);
@@ -115,6 +130,17 @@ export default function JugadoresMundial({ year }: { year: number }) {
       .sort((a, b) => b[1] - a[1])
       .map(([code, count]) => ({ code, count }));
   }, [jugadores]);
+
+  const generalStats = useMemo(() => {
+    if (!jugadores) return { teams: 0, clubs: 0, averageAge: 0 };
+    const teams = new Set(jugadores.map((j) => j.fifaCodeEquipo).filter(Boolean)).size;
+    const clubs = new Set(jugadores.map((j) => j.club?.nombre).filter(Boolean)).size;
+    const ages = jugadores
+      .map((j) => j.fechaNacimiento ? year - new Date(j.fechaNacimiento).getUTCFullYear() : null)
+      .filter((age): age is number => age !== null && age > 15 && age < 50);
+    const averageAge = ages.length ? ages.reduce((sum, age) => sum + age, 0) / ages.length : 0;
+    return { teams, clubs, averageAge };
+  }, [jugadores, year]);
 
   if (loading) {
     return (
@@ -214,71 +240,109 @@ export default function JugadoresMundial({ year }: { year: number }) {
 
       {/* Stats Panels */}
       {showStats && (
-        <div className="grid md:grid-cols-3 gap-4">
-          <Card className="border-gray-200 bg-white">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-sm flex items-center gap-2">
-                <Shield className="h-4 w-4 text-[var(--wc-gold-dark)]" />
-                Por Posición
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              {posDistribution.map((p) => (
-                <div key={p.key} className="flex items-center gap-2">
-                  <span className="text-[10px] text-muted-foreground w-20 truncate">{p.name}</span>
-                  <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
-                    <div
-                      className="h-full rounded-full transition-all duration-500"
-                      style={{
-                        width: `${(p.value / (jugadores?.length || 1)) * 100}%`,
-                        backgroundColor: POS_COLORS[p.key],
-                      }}
-                    />
+        <div className="space-y-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            {[
+              { label: "Jugadores", value: jugadores?.length || 0, icon: Users, color: "#2563eb", background: "from-blue-500/15 to-blue-500/[0.03]" },
+              { label: "Selecciones", value: generalStats.teams, icon: FlagIcon, color: "#16a34a", background: "from-emerald-500/15 to-emerald-500/[0.03]" },
+              { label: "Clubes", value: generalStats.clubs, icon: Building2, color: "#9333ea", background: "from-purple-500/15 to-purple-500/[0.03]" },
+              { label: "Edad promedio", value: generalStats.averageAge ? generalStats.averageAge.toFixed(1) : "—", icon: Cake, color: "#d97706", background: "from-amber-500/15 to-amber-500/[0.03]" },
+            ].map((stat) => (
+              <Card key={stat.label} className={`overflow-hidden border-0 bg-gradient-to-br ${stat.background} shadow-sm`}>
+                <CardContent className="flex items-center gap-3 p-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-sm" style={{ color: stat.color }}>
+                    <stat.icon className="h-5 w-5" />
                   </div>
-                  <span className="text-xs font-bold text-[var(--wc-black)] w-8 text-right">{p.value}</span>
-                </div>
-              ))}
-            </CardContent>
-          </Card>
+                  <div>
+                    <p className="text-xl font-black text-[var(--wc-black)]">{stat.value}</p>
+                    <p className="text-[10px] font-medium uppercase tracking-wide text-muted-foreground">{stat.label}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
 
-          <Card className="border-gray-200 bg-white md:col-span-2">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-sm flex items-center gap-2">
-                <Target className="h-4 w-4 text-[var(--wc-gold-dark)]" />
-                Top Goleadores
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              {topScorers.length > 0 ? (
-                <ResponsiveContainer width="100%" height={200}>
-                  <BarChart data={topScorers} layout="vertical" margin={{ left: 0, right: 10 }}>
-                    <XAxis type="number" hide />
-                    <YAxis
-                      type="category"
-                      dataKey="nombre"
-                      width={110}
-                      tick={{ fontSize: 10, fill: "#888" }}
-                    />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: "white",
-                        border: "1px solid #e5e7eb",
-                        borderRadius: "8px",
-                        fontSize: "11px",
-                      }}
-                    />
-                    <Bar dataKey="goles" radius={[0, 4, 4, 0]}>
-                      {topScorers.map((_, i) => (
-                        <Cell key={i} fill={i === 0 ? "#c8a951" : "#e5e7eb"} />
+          <div className="grid md:grid-cols-5 gap-4">
+            <Card className="relative overflow-hidden border-[var(--wc-gold)]/20 bg-gradient-to-br from-white to-[var(--wc-gold)]/[0.05] md:col-span-2 shadow-sm">
+              <div className="absolute -right-8 -top-8 h-28 w-28 rounded-full bg-[var(--wc-gold)]/10 blur-2xl" />
+              <CardHeader className="pb-3 relative">
+                <CardTitle className="text-sm flex items-center gap-2">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--wc-gold)]/15"><Shield className="h-4 w-4 text-[var(--wc-gold-dark)]" /></div>
+                  Plantel por posición
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4 relative">
+                {posDistribution.map((p) => {
+                  const percentage = (p.value / (jugadores?.length || 1)) * 100;
+                  return (
+                    <div key={p.key} className="space-y-1.5">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: POS_COLORS[p.key] }} />
+                          <span className="text-xs font-semibold text-[var(--wc-black)]">{p.name}</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-xs"><span className="font-black">{p.value}</span><span className="w-9 text-right text-[10px] text-muted-foreground">{percentage.toFixed(1)}%</span></div>
+                      </div>
+                      <div className="h-2.5 overflow-hidden rounded-full bg-gray-100 shadow-inner">
+                        <div className="h-full rounded-full transition-all duration-700" style={{ width: `${percentage}%`, background: `linear-gradient(90deg, ${POS_COLORS[p.key]}, ${POS_COLORS[p.key]}aa)` }} />
+                      </div>
+                    </div>
+                  );
+                })}
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden border-[var(--wc-gold)]/20 bg-gradient-to-br from-white via-white to-blue-500/[0.04] md:col-span-3 shadow-sm">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm flex items-center gap-2">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/10"><Target className="h-4 w-4 text-blue-600" /></div>
+                  Máximos goleadores
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                {topScorers.length > 0 ? (
+                  <div className="space-y-3">
+                    <div className="grid grid-cols-3 gap-2">
+                      {topScorers.slice(0, 3).map((scorer, index) => (
+                        <div key={scorer.nombre} className={`relative rounded-xl border p-2.5 text-center ${index === 0 ? "border-[var(--wc-gold)]/40 bg-[var(--wc-gold)]/10" : "border-gray-200 bg-gray-50/70"}`}>
+                          <Medal className={`mx-auto mb-1 h-4 w-4 ${index === 0 ? "text-[var(--wc-gold-dark)]" : index === 1 ? "text-slate-500" : "text-amber-700"}`} />
+                          <Flag code={scorer.fifaCode} size={22} className="mx-auto mb-1" />
+                          <p className="truncate text-[10px] font-bold">{scorer.nombre}</p>
+                          <p className="text-sm font-black" style={{ color: index === 0 ? "var(--wc-gold-dark)" : "var(--wc-black)" }}>{scorer.goles} goles</p>
+                        </div>
                       ))}
-                    </Bar>
-                  </BarChart>
-                </ResponsiveContainer>
-              ) : (
-                <p className="text-sm text-muted-foreground text-center py-8">No hay goleadores aún</p>
-              )}
-            </CardContent>
-          </Card>
+                    </div>
+                    <ResponsiveContainer width="100%" height={180}>
+                      <BarChart data={topScorers.slice(0, 8).map((scorer) => ({ ...scorer, chartLabel: `${scorer.nombre} · ${scorer.fifaCode}` }))} layout="vertical" margin={{ left: 0, right: 18 }}>
+                        <defs>
+                          {topScorers.slice(0, 8).map((scorer, index) => {
+                            const colors = getFlagGradient(scorer.fifaCode);
+                            return (
+                              <linearGradient key={scorer.nombre} id={`flag-gradient-${year}-${index}`} x1="0" y1="0" x2="1" y2="0">
+                                <stop offset="0%" stopColor={colors[0]} />
+                                <stop offset="50%" stopColor={colors[1]} />
+                                <stop offset="100%" stopColor={colors[2]} />
+                              </linearGradient>
+                            );
+                          })}
+                        </defs>
+                        <XAxis type="number" hide />
+                        <YAxis type="category" dataKey="chartLabel" width={125} tick={{ fontSize: 9, fill: "#505B73" }} />
+                        <Tooltip cursor={{ fill: "rgba(200,169,81,0.06)" }} contentStyle={{ backgroundColor: "white", border: "1px solid rgba(200,169,81,.25)", borderRadius: "10px", fontSize: "11px", boxShadow: "0 8px 20px rgba(0,0,0,.08)" }} />
+                        <Bar dataKey="goles" radius={[0, 6, 6, 0]} barSize={13}>
+                          {topScorers.slice(0, 8).map((_, i) => (
+                            <Cell key={i} fill={`url(#flag-gradient-${year}-${i})`} stroke="rgba(3,18,43,0.12)" strokeWidth={0.5} />
+                          ))}
+                        </Bar>
+                      </BarChart>
+                    </ResponsiveContainer>
+                  </div>
+                ) : (
+                  <p className="text-sm text-muted-foreground text-center py-8">No hay goleadores aún</p>
+                )}
+              </CardContent>
+            </Card>
+          </div>
         </div>
       )}
 

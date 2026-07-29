@@ -1,10 +1,11 @@
 "use client";
 
 import useSWR from "swr";
-import type { Grupo, Partido, Equipo } from "@/lib/types";
+import type { Grupo, Partido } from "@/lib/types";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Trophy, MapPin, X, Target, Shield } from "lucide-react";
+import { Trophy, X, Target, Shield } from "lucide-react";
 import Flag from "@/components/Flag";
+import { isMatchInGroup } from "@/lib/groups";
 import { useMemo, useState, useCallback } from "react";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -40,7 +41,7 @@ function computeStandings(grupo: Grupo, partidos: Partido[]): Standing[] {
   });
 
   partidos.forEach((p) => {
-    if (!p.grupo || p.grupo._id !== grupo._id) return;
+    if (!isMatchInGroup(p, grupo)) return;
     if (!p.marcador.ft || p.marcador.ft.length < 2) return;
 
     const [g1, g2] = p.marcador.ft;
@@ -293,7 +294,7 @@ export default function GruposPage() {
   const teamMatches = useMemo(() => {
     if (!selectedTeam || !selectedGrupo || !partidos) return [];
     return partidos
-      .filter((p) => p.grupo && p.grupo._id === selectedGrupo._id)
+      .filter((p) => isMatchInGroup(p, selectedGrupo))
       .filter((p) => p.equipo1?.fifaCode === selectedTeam.code || p.equipo2?.fifaCode === selectedTeam.code)
       .sort((a, b) => a.numeroPartido - b.numeroPartido);
   }, [selectedTeam, selectedGrupo, partidos]);

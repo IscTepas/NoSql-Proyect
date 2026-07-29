@@ -1,10 +1,11 @@
 "use client";
 
 import useSWR from "swr";
-import type { Grupo, Partido, Equipo } from "@/lib/types";
+import type { Grupo, Partido } from "@/lib/types";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Trophy, MapPin, X, Target, Shield } from "lucide-react";
+import { Trophy, X, Target, Shield } from "lucide-react";
 import Flag from "@/components/Flag";
+import { isMatchInGroup } from "@/lib/groups";
 import { useMemo, useState, useCallback } from "react";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -40,7 +41,7 @@ function computeStandings(grupo: Grupo, partidos: Partido[]): Standing[] {
   });
 
   partidos.forEach((p) => {
-    if (!p.grupo || p.grupo._id !== grupo._id) return;
+    if (!isMatchInGroup(p, grupo)) return;
     if (!p.marcador.ft || p.marcador.ft.length < 2) return;
 
     const [g1, g2] = p.marcador.ft;
@@ -279,11 +280,18 @@ export default function GruposMundial({ year }: { year: number }) {
   const [selectedGroupName, setSelectedGroupName] = useState<string | null>(null);
 
   const loading = lGrupos || lPartidos;
+  const groupCount = year >= 2026 ? 12 : 8;
+  const validGroupNames = useMemo(
+    () => new Set(Array.from({ length: groupCount }, (_, index) => String.fromCharCode(65 + index))),
+    [groupCount]
+  );
 
   const sortedGrupos = useMemo(() => {
     if (!grupos) return [];
-    return [...grupos].sort((a, b) => a.nombre.localeCompare(b.nombre));
-  }, [grupos]);
+    return grupos
+      .filter((grupo) => validGroupNames.has(grupo.nombre.toUpperCase()))
+      .sort((a, b) => a.nombre.localeCompare(b.nombre));
+  }, [grupos, validGroupNames]);
 
   const selectedGrupo = useMemo(() => {
     if (!selectedGroupName || !grupos) return null;
@@ -293,7 +301,7 @@ export default function GruposMundial({ year }: { year: number }) {
   const teamMatches = useMemo(() => {
     if (!selectedTeam || !selectedGrupo || !partidos) return [];
     return partidos
-      .filter((p) => p.grupo && p.grupo._id === selectedGrupo._id)
+      .filter((p) => isMatchInGroup(p, selectedGrupo))
       .filter((p) => p.equipo1?.fifaCode === selectedTeam.code || p.equipo2?.fifaCode === selectedTeam.code)
       .sort((a, b) => a.numeroPartido - b.numeroPartido);
   }, [selectedTeam, selectedGrupo, partidos]);
@@ -308,7 +316,7 @@ export default function GruposMundial({ year }: { year: number }) {
       <div className="container mx-auto px-4 py-8 space-y-6">
         <Skeleton className="h-8 w-48" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-          {Array.from({ length: 12 }).map((_, i) => (
+          {Array.from({ length: groupCount }).map((_, i) => (
             <Skeleton key={i} className="h-64" />
           ))}
         </div>
@@ -326,7 +334,7 @@ export default function GruposMundial({ year }: { year: number }) {
           Grupos
         </h1>
         <p className="text-sm text-muted-foreground mt-1">
-          12 grupos &middot; 4 selecciones cada uno
+          {groupCount} grupos &middot; 4 selecciones cada uno
         </p>
       </div>
 

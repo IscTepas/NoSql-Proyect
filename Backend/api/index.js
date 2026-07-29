@@ -5,12 +5,18 @@ app.use(express.json());
 
 require("../conexion");
 
-// Importar rutas
+const equiposRoutes = require("../rutas/equipos");
+const estadiosRoutes = require("../rutas/estadios");
+const gruposRoutes = require("../rutas/grupos");
 const partidosRoutes = require("../rutas/partidos");
 const jugadoresRoutes = require("../rutas/jugadores");
+const opinionesRoutes = require("../rutas/opiniones");
 
-// Montar endpoints
+app.use("/api/equipos", equiposRoutes);
+app.use("/api/estadios", estadiosRoutes);
+app.use("/api/grupos", gruposRoutes);
 app.use("/api/partidos", partidosRoutes);
 app.use("/api/jugadores", jugadoresRoutes);
+app.use("/api/opiniones", opinionesRoutes);
 
 module.exports = app;

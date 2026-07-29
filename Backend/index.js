@@ -11,6 +11,7 @@ app.use(express.json());
 
 // Archivos estáticos
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/mundiales-assets", express.static(path.join(__dirname, "..", "frontend", "public", "mundiales")));
 
 // Importar los archivos de rutas
 const equiposRoutes = require("./rutas/equipos");

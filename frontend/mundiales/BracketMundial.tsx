@@ -228,16 +228,18 @@ export default function BracketMundial({ year }: { year: number }) {
     if (is48) {
       return {
         halves: [
-          { label: "Grupos A–D", rounds: [
-            { label: "R32", matchNums: [73, 75, 74, 77, 76, 78, 79, 80] },
-            { label: "R16", matchNums: [90, 89, 91, 92] },
-            { label: "QF", matchNums: [97, 99] },
+          { label: "Lado izquierdo", rounds: [
+            // Cada par de R32 alimenta el R16 situado en la misma posición.
+            // Los dos primeros R16 llegan al QF 97 y los dos siguientes al QF 98.
+            { label: "R32", matchNums: [74, 77, 73, 75, 83, 84, 81, 82] },
+            { label: "R16", matchNums: [89, 90, 93, 94] },
+            { label: "QF", matchNums: [97, 98] },
             { label: "SF", matchNums: [101] },
           ]},
-          { label: "Grupos E–L", rounds: [
-            { label: "R32", matchNums: [81, 82, 83, 84, 85, 87, 86, 88] },
-            { label: "R16", matchNums: [94, 93, 96, 95] },
-            { label: "QF", matchNums: [98, 100] },
+          { label: "Lado derecho", rounds: [
+            { label: "R32", matchNums: [76, 78, 79, 80, 86, 88, 85, 87] },
+            { label: "R16", matchNums: [91, 92, 95, 96] },
+            { label: "QF", matchNums: [99, 100] },
             { label: "SF", matchNums: [102] },
           ]},
         ],
@@ -245,23 +247,35 @@ export default function BracketMundial({ year }: { year: number }) {
         third: 103,
       };
     }
+
+    // En los Mundiales de 32 selecciones la numeración cronológica de los
+    // cuartos no coincide con el orden de las ramas del bracket. La posición
+    // correcta depende del cruce real de cada edición.
+    const quarterFinalsByYear: Record<number, [[number, number], [number, number]]> = {
+      2014: [[58, 57], [60, 59]],
+      2018: [[57, 58], [60, 59]],
+      2022: [[58, 57], [60, 59]],
+    };
+    const [leftQuarterFinals, rightQuarterFinals] =
+      quarterFinalsByYear[year] || quarterFinalsByYear[2022];
+
     return {
       halves: [
-        { label: "Grupos A–D", rounds: [
-          { label: "R16", matchNums: [49, 50, 51, 52] },
-          { label: "QF", matchNums: [57, 58] },
+        { label: "Lado izquierdo", rounds: [
+          { label: "R16", matchNums: [49, 50, 53, 54] },
+          { label: "QF", matchNums: leftQuarterFinals },
           { label: "SF", matchNums: [61] },
         ]},
-        { label: "Grupos E–H", rounds: [
-          { label: "R16", matchNums: [53, 54, 55, 56] },
-          { label: "QF", matchNums: [59, 60] },
+        { label: "Lado derecho", rounds: [
+          { label: "R16", matchNums: [51, 52, 55, 56] },
+          { label: "QF", matchNums: rightQuarterFinals },
           { label: "SF", matchNums: [62] },
         ]},
       ],
       final: 64,
       third: 63,
     };
-  }, [partidos]);
+  }, [partidos, year]);
 
   const roundCount = bracketDef?.halves[0].rounds.length ?? 0;
   const halfWidth = roundCount * MATCH_W + (roundCount - 1) * COL_GAP;

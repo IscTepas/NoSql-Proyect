@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
 import { MapPin, Search, Building2, Globe, Clock, ChevronDown, ChevronUp } from "lucide-react";
 import Flag from "@/components/Flag";
+import StadiumPhoto from "@/components/StadiumPhoto";
 import { useMemo, useState } from "react";
 
 const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
@@ -36,7 +37,7 @@ const PAIS_LABELS: Record<string, string> = { us: "EE.UU.", mx: "Mexico", ca: "C
 function formatCapacidad(n: number): string { return n.toLocaleString("es-ES"); }
 function getCountryCode(stadium: Estadio): string { return (stadium.codigoPais || "us").toLowerCase().trim(); }
 
-function StadiumCard({ stadium, partidos, expanded, onToggle }: { stadium: Estadio; partidos: Partido[]; expanded: boolean; onToggle: () => void }) {
+function StadiumCard({ stadium, partidos, expanded, onToggle, year }: { stadium: Estadio; partidos: Partido[]; expanded: boolean; onToggle: () => void; year: number }) {
   const countryCode = getCountryCode(stadium);
   const matchCount = partidos.length;
   return (
@@ -44,13 +45,15 @@ function StadiumCard({ stadium, partidos, expanded, onToggle }: { stadium: Estad
       <CardContent className="p-0">
         <div className="relative h-32 bg-gradient-to-br from-[var(--wc-accent)]/[0.04] via-transparent to-[var(--wc-black)]/[0.02] overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-center"><Building2 className="h-16 w-16 text-[var(--wc-accent)]/15" /></div>
+          <StadiumPhoto year={year} stadiumName={stadium.nombre} city={stadium.ciudad} />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-black/10 pointer-events-none" />
           <div className="absolute top-2 right-2">
             <Badge className={`${PAIS_COLORS[countryCode] || "bg-gray-500"} text-white text-[10px] border-0 shadow-sm`}>
               <Flag code={countryCode} size={14} className="mr-1" />{countryCode.toUpperCase()}
             </Badge>
           </div>
           <div className="absolute bottom-2 left-2">
-            <Badge variant="secondary" className="text-[10px] font-mono bg-white/90 backdrop-blur-sm">{formatCapacidad(stadium.capacidad)} asientos</Badge>
+            <Badge variant="secondary" className="text-[10px] font-mono bg-white/90 backdrop-blur-sm shadow-sm">{formatCapacidad(stadium.capacidad)} asientos</Badge>
           </div>
         </div>
         <div className="p-4 space-y-3">
@@ -103,6 +106,7 @@ export default function EstadiosMundial({ year }: { year: number }) {
 
   const { accent, accentDark } = wcColors(year);
   const loading = lEstadios || lPartidos;
+  const showHostCountryFilters = year === 2026;
 
   const filtered = useMemo(() => {
     if (!estadios) return [];
@@ -129,7 +133,7 @@ export default function EstadiosMundial({ year }: { year: number }) {
 
   if (loading) {
     return (<div className="container mx-auto px-4 py-8 space-y-6"
-      style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}><Skeleton className="h-8 w-48" /><Skeleton className="h-10 w-full max-w-md" /><div className="flex gap-2">{[1,2,3,4].map((i) => <Skeleton key={i} className="h-8 w-24" />)}</div><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">{Array.from({length:8}).map((_,i) => <Skeleton key={i} className="h-64" />)}</div></div>);
+      style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}><Skeleton className="h-8 w-48" /><Skeleton className="h-10 w-full max-w-md" />{showHostCountryFilters && <div className="flex gap-2">{[1,2,3,4].map((i) => <Skeleton key={i} className="h-8 w-24" />)}</div>}<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">{Array.from({length:8}).map((_,i) => <Skeleton key={i} className="h-64" />)}</div></div>);
   }
 
   return (
@@ -146,16 +150,18 @@ export default function EstadiosMundial({ year }: { year: number }) {
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
         <Input placeholder="Buscar por nombre o ciudad..." value={busqueda} onChange={(e) => setBusqueda(e.target.value)} className="pl-9 border-[var(--wc-accent)]/20 focus-visible:ring-[var(--wc-accent)]/30" />
       </div>
-      <div className="flex flex-wrap gap-2">
-        {PAISES.map((p) => (
-          <button key={p.value} onClick={() => setPaisFilter(p.value)} className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${paisFilter === p.value ? "bg-[var(--wc-accent)] text-white shadow-md shadow-[var(--wc-accent)]/20" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
-            {p.value !== "all" && <Flag code={p.value} size={14} className="mr-1" />}{p.label}
-            {p.value !== "all" && paisCount[p.value] && <span className="ml-1 opacity-70">({paisCount[p.value]})</span>}
-          </button>
-        ))}
-      </div>
+      {showHostCountryFilters && (
+        <div className="flex flex-wrap gap-2">
+          {PAISES.map((p) => (
+            <button key={p.value} onClick={() => setPaisFilter(p.value)} className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${paisFilter === p.value ? "bg-[var(--wc-accent)] text-white shadow-md shadow-[var(--wc-accent)]/20" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
+              {p.value !== "all" && <Flag code={p.value} size={14} className="mr-1" />}{p.label}
+              {p.value !== "all" && paisCount[p.value] && <span className="ml-1 opacity-70">({paisCount[p.value]})</span>}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {filtered.map((est) => (<StadiumCard key={est._id} stadium={est} partidos={partidosByEstadio[est._id] || []} expanded={expandedId === est._id} onToggle={() => setExpandedId(expandedId === est._id ? null : est._id)} />))}
+        {filtered.map((est) => (<StadiumCard key={est._id} year={year} stadium={est} partidos={partidosByEstadio[est._id] || []} expanded={expandedId === est._id} onToggle={() => setExpandedId(expandedId === est._id ? null : est._id)} />))}
       </div>
       {filtered.length === 0 && <div className="text-center py-16"><Search className="h-12 w-12 text-muted-foreground/30 mx-auto mb-3" /><p className="text-muted-foreground">No se encontraron estadios con esos filtros</p></div>}
     </div>
