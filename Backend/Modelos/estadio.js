@@ -24,6 +24,10 @@ const EstadioSchema = new mongoose.Schema(
       lowercase: true,
       trim: true
     },
+    pais: {
+      type: String,
+      trim: true
+    },
     coordenadas: {
       type: String,
       trim: true

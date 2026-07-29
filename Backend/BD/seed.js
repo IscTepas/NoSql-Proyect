@@ -52,21 +52,32 @@ const poblarBaseDeDatos = async () => {
 
     // 1. Insertar Estadios
     console.log("Insertando Estadios desde JSON...");
-    const estadiosRaw = Array.isArray(stadiumsData) 
-      ? stadiumsData 
+    const estadiosRaw = Array.isArray(stadiumsData)
+      ? stadiumsData
       : (stadiumsData.stadiums || stadiumsData.estadios || []);
 
-    const estadiosFormateados = estadiosRaw.map(stadium => ({
-      nombre: stadium.name || stadium.nombre || "Estadio Sede",
-      ciudad: stadium.city || stadium.ciudad || "Sede",
-      pais: (stadium.cc === "mx" || stadium.pais === "México") ? "México" : (stadium.cc === "ca" || stadium.pais === "Canadá") ? "Canadá" : "Estados Unidos",
-      capacidad: stadium.capacity || stadium.capacidad || 50000,
-      año: ANIO,
-      codigoPais: (stadium.codigoPais || stadium.cc || "us").toLowerCase().trim(),
-      capacidad: stadium.capacidad || stadium.capacity || 50000,
-      zonaHoraria: stadium.zonaHoraria || "",
-      coordenadas: stadium.coordenadas || ""
-    }));
+    const PAIS_NOMBRES = {
+      mx: "México",
+      us: "Estados Unidos",
+      ca: "Canadá",
+      br: "Brasil",
+      ru: "Rusia",
+      qa: "Catar",
+    };
+
+    const estadiosFormateados = estadiosRaw.map(stadium => {
+      const codigoPais = (stadium.codigoPais || stadium.cc || "us").toLowerCase().trim();
+      return {
+        nombre: stadium.name || stadium.nombre || "Estadio Sede",
+        ciudad: stadium.city || stadium.ciudad || "Sede",
+        pais: stadium.pais || PAIS_NOMBRES[codigoPais] || "Desconocido",
+        capacidad: stadium.capacidad || stadium.capacity || 50000,
+        año: ANIO,
+        codigoPais,
+        zonaHoraria: stadium.zonaHoraria || "",
+        coordenadas: stadium.coordenadas || ""
+      };
+    });
 
     const estadiosDB = await Estadio.insertMany(estadiosFormateados);
     console.log(`✅ ${estadiosDB.length} estadios creados.`);

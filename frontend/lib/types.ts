@@ -17,6 +17,7 @@ export interface Estadio {
   capacidad: number;
   zonaHoraria: string;
   codigoPais: string;
+  pais?: string;
   coordenadas: string;
   año: number;
 }
