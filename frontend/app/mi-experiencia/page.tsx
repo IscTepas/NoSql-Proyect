@@ -1,5 +1,5 @@
-import MiExperienciaPage from "@/components/mi-experiencia/MiExperienciaPage";
+import { redirect } from "next/navigation";
 
 export default function Page() {
-  return <MiExperienciaPage year={2026} />;
+  redirect("/mi-experiencia/2026");
 }

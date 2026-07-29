@@ -14,6 +14,7 @@ const Equipo = require("../Modelos/Equipo");
 const Jugador = require("../Modelos/Jugador");
 const Grupo = require("../Modelos/Grupo");
 const Partido = require("../Modelos/Partido");
+const Opinion = require("../Modelos/Opinion");
 
 // 2. Archivos JSON (desde carpeta del año)
 const teamsData = require(`../data/${ANIO}/worldcup_equipos.json`);
@@ -38,7 +39,8 @@ const poblarBaseDeDatos = async () => {
       Equipo.syncIndexes(),
       Jugador.syncIndexes(),
       Grupo.syncIndexes(),
-      Partido.syncIndexes()
+      Partido.syncIndexes(),
+      Opinion.syncIndexes()
     ]);
     console.log("Índices sincronizados.");
 
@@ -47,7 +49,8 @@ const poblarBaseDeDatos = async () => {
       Equipo.deleteMany({ año: ANIO }),
       Jugador.deleteMany({ año: ANIO }),
       Grupo.deleteMany({ año: ANIO }),
-      Partido.deleteMany({ año: ANIO })
+      Partido.deleteMany({ año: ANIO }),
+      Opinion.deleteMany({ año: ANIO })
     ]);
 
     // 1. Insertar Estadios
@@ -238,6 +241,22 @@ const poblarBaseDeDatos = async () => {
 
     const partidosDB = await Partido.insertMany(partidosFormateados);
     console.log(`✅ ${partidosDB.length} partidos guardados con éxito.`);
+
+    // 6. Insertar Opiniones de ejemplo
+    console.log("Insertando Opiniones de ejemplo...");
+
+    const opinionsData = require(`../data/${ANIO}/worldcup_opiniones.json`);
+    const opinionesDelAnio = Array.isArray(opinionsData) ? opinionsData : [];
+    if (opinionesDelAnio.length > 0) {
+      const opinionesFormateadas = opinionesDelAnio.map(op => ({
+        ...op,
+        año: ANIO
+      }));
+      const opinionesDB = await Opinion.insertMany(opinionesFormateadas);
+      console.log(`✅ ${opinionesDB.length} opiniones de ejemplo creadas.`);
+    } else {
+      console.log(`⚠️  No hay opiniones de ejemplo configuradas para el año ${ANIO}.`);
+    }
 
     console.log("\n🚀 ¡BASE DE DATOS POBLADA AL 100% CON LA INFORMACIÓN COMPLETA!");
     process.exit(0);

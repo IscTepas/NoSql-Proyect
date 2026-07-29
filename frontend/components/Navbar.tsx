@@ -40,7 +40,7 @@ export default function Navbar() {
     ];
   }, [year]);
 
-  const miExperienciaHref = year ? `/mundiales/${year}/mi-experiencia` : "/mi-experiencia";
+  const miExperienciaHref = year ? `/mi-experiencia/${year}` : "/mi-experiencia";
   const miExperienciaActive = pathname === miExperienciaHref || pathname.startsWith(`${miExperienciaHref}/`);
 
   return (
