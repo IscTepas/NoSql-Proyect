@@ -1,4 +1,4 @@
-require("dotenv").config({ quiet: true });
+require("dotenv").config({ path: __dirname + "/.env", quiet: true });
 const dns = require("node:dns");
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
