@@ -23,34 +23,78 @@ const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
 const fetcher = (url: string): Promise<any> =>
   fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
 
-const RONDAS = [
-  { value: "all", label: "Todas" },
-  { value: "Matchday 1", label: "Matchday 1" },
-  { value: "Matchday 2", label: "Matchday 2" },
-  { value: "Matchday 3", label: "Matchday 3" },
-  { value: "Round of 32", label: "Round of 32" },
-  { value: "Round of 16", label: "Round of 16" },
-  { value: "Quarter-final", label: "Quarter-final" },
-  { value: "Semi-final", label: "Semi-final" },
-  { value: "Match for third place", label: "3rd Place" },
-  { value: "Final", label: "Final" },
+const FILTROS_RONDA = [
+  { value: "all", label: "Todos" },
+  { value: "jornada-1", label: "Jornada 1" },
+  { value: "jornada-2", label: "Jornada 2" },
+  { value: "jornada-3", label: "Jornada 3" },
+  { value: "round-of-32", label: "Dieciseisavos" },
+  { value: "round-of-16", label: "Octavos" },
+  { value: "quarter-final", label: "Cuartos" },
+  { value: "semi-final", label: "Semifinales" },
+  { value: "third-place", label: "Tercer lugar" },
+  { value: "final", label: "Final" },
 ];
 
-function getRondaColor(ronda: string): { bg: string; text: string; dot: string } {
-  if (ronda.startsWith("Matchday")) return { bg: "bg-blue-500/10", text: "text-blue-600", dot: "bg-blue-500" };
-  if (ronda === "Round of 32") return { bg: "bg-orange-500/10", text: "text-orange-600", dot: "bg-orange-500" };
-  if (ronda === "Round of 16") return { bg: "bg-purple-500/10", text: "text-purple-600", dot: "bg-purple-500" };
-  if (ronda === "Quarter-final") return { bg: "bg-amber-500/10", text: "text-amber-600", dot: "bg-amber-500" };
-  if (ronda === "Semi-final") return { bg: "bg-rose-500/10", text: "text-rose-600", dot: "bg-rose-500" };
-  if (ronda === "Match for third place") return { bg: "bg-red-500/10", text: "text-red-600", dot: "bg-red-500" };
-  if (ronda === "Final") return { bg: "bg-[var(--wc-accent)]/10", text: "text-[var(--wc-accent-dark)]", dot: "bg-[var(--wc-accent)]" };
+function isGroupStage(partido: Partido): boolean {
+  return /^Matchday\b/i.test(partido.ronda);
+}
+
+function getRoundKey(partido: Partido, jornada?: number): string {
+  if (isGroupStage(partido)) return `jornada-${jornada || 1}`;
+  if (partido.ronda === "Round of 32") return "round-of-32";
+  if (partido.ronda === "Round of 16") return "round-of-16";
+  if (/^Quarter-final/i.test(partido.ronda)) return "quarter-final";
+  if (/^Semi-final/i.test(partido.ronda)) return "semi-final";
+  if (partido.ronda === "Match for third place") return "third-place";
+  if (partido.ronda === "Final") return "final";
+  return partido.ronda;
+}
+
+function getRoundLabel(partido: Partido, jornada?: number): string {
+  const key = getRoundKey(partido, jornada);
+  return FILTROS_RONDA.find((filter) => filter.value === key)?.label || partido.ronda;
+}
+
+function computeJornadas(partidos: Partido[]): Map<string, number> {
+  const jornadas = new Map<string, number>();
+  const partidosJugadosPorEquipo = new Map<string, number>();
+  const groupMatches = partidos
+    .filter(isGroupStage)
+    .sort((a, b) => a.numeroPartido - b.numeroPartido);
+
+  groupMatches.forEach((partido) => {
+    const equipo1 = partido.equipo1?._id || partido.equipo1?.fifaCode;
+    const equipo2 = partido.equipo2?._id || partido.equipo2?.fifaCode;
+    const prev1 = equipo1 ? partidosJugadosPorEquipo.get(equipo1) || 0 : 0;
+    const prev2 = equipo2 ? partidosJugadosPorEquipo.get(equipo2) || 0 : 0;
+    const jornada = Math.min(3, Math.max(prev1, prev2) + 1);
+
+    jornadas.set(partido._id, jornada);
+    if (equipo1) partidosJugadosPorEquipo.set(equipo1, jornada);
+    if (equipo2) partidosJugadosPorEquipo.set(equipo2, jornada);
+  });
+
+  return jornadas;
+}
+
+function getRondaColor(roundKey: string): { bg: string; text: string; dot: string } {
+  if (roundKey.startsWith("jornada-")) return { bg: "bg-blue-500/10", text: "text-blue-600", dot: "bg-blue-500" };
+  if (roundKey === "round-of-32") return { bg: "bg-orange-500/10", text: "text-orange-600", dot: "bg-orange-500" };
+  if (roundKey === "round-of-16") return { bg: "bg-purple-500/10", text: "text-purple-600", dot: "bg-purple-500" };
+  if (roundKey === "quarter-final") return { bg: "bg-amber-500/10", text: "text-amber-600", dot: "bg-amber-500" };
+  if (roundKey === "semi-final") return { bg: "bg-rose-500/10", text: "text-rose-600", dot: "bg-rose-500" };
+  if (roundKey === "third-place") return { bg: "bg-red-500/10", text: "text-red-600", dot: "bg-red-500" };
+  if (roundKey === "final") return { bg: "bg-[var(--wc-accent)]/10", text: "text-[var(--wc-accent-dark)]", dot: "bg-[var(--wc-accent)]" };
   return { bg: "bg-gray-500/10", text: "text-gray-600", dot: "bg-gray-500" };
 }
 
-function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded: boolean; onToggle: () => void }) {
+function MatchCard({ partido, jornada, expanded, onToggle }: { partido: Partido; jornada?: number; expanded: boolean; onToggle: () => void }) {
   const played = partido.marcador.ft && partido.marcador.ft.length === 2;
-  const colors = getRondaColor(partido.ronda);
-  const grupoNombre = partido.grupo?.nombre || "";
+  const roundKey = getRoundKey(partido, jornada);
+  const colors = getRondaColor(roundKey);
+  const inferredGroup = partido.equipo1?.grupo === partido.equipo2?.grupo ? partido.equipo1?.grupo : "";
+  const grupoNombre = partido.grupo?.nombre || (isGroupStage(partido) ? inferredGroup : "") || "";
   return (
     <div className="relative flex gap-4">
       <div className="flex flex-col items-center shrink-0">
@@ -61,7 +105,7 @@ function MatchCard({ partido, expanded, onToggle }: { partido: Partido; expanded
         <CardContent className="p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
-              <Badge className={`${colors.bg} ${colors.text} text-[10px] border-0`}>{partido.ronda}</Badge>
+              <Badge className={`${colors.bg} ${colors.text} text-[10px] border-0`}>{getRoundLabel(partido, jornada)}</Badge>
               {grupoNombre && <Badge variant="outline" className="text-[10px] border-[var(--wc-accent)]/20">Grupo {grupoNombre}</Badge>}
               <span className="text-[10px] text-muted-foreground font-mono">#{partido.numeroPartido}</span>
             </div>
@@ -122,24 +166,35 @@ export default function PartidosMundial({ year }: { year: number }) {
   const [busqueda, setBusqueda] = useState("");
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
+  const jornadas = useMemo(() => computeJornadas(partidos || []), [partidos]);
+
   const rondaCount = useMemo(() => {
     if (!partidos) return {};
     const counts: Record<string, number> = {};
-    partidos.forEach((p) => { counts[p.ronda] = (counts[p.ronda] || 0) + 1; });
+    partidos.forEach((p) => {
+      const key = getRoundKey(p, jornadas.get(p._id));
+      counts[key] = (counts[key] || 0) + 1;
+    });
     return counts;
-  }, [partidos]);
+  }, [jornadas, partidos]);
+
+  const availableFilters = useMemo(
+    () => FILTROS_RONDA.filter((filter) => filter.value === "all" || Boolean(rondaCount[filter.value])),
+    [rondaCount]
+  );
 
   const filtered = useMemo(() => {
     if (!partidos) return [];
     const searchLower = busqueda.toLowerCase().trim();
     return partidos.filter((p) => {
-      const matchRonda = rondaFilter === "all" || p.ronda === rondaFilter;
+      const jornada = jornadas.get(p._id);
+      const matchRonda = rondaFilter === "all" || getRoundKey(p, jornada) === rondaFilter;
       if (!matchRonda) return false;
       if (!searchLower) return true;
       const grupoNombre = p.grupo?.nombre || "";
-      return (`group ${grupoNombre}`.includes(searchLower) || grupoNombre.toLowerCase().includes(searchLower) || p.equipo1?.nombre?.toLowerCase().includes(searchLower) || p.equipo1?.fifaCode?.toLowerCase().includes(searchLower) || p.equipo2?.nombre?.toLowerCase().includes(searchLower) || p.equipo2?.fifaCode?.toLowerCase().includes(searchLower) || p.estadio?.nombre?.toLowerCase().includes(searchLower) || p.estadio?.ciudad?.toLowerCase().includes(searchLower) || p.fecha?.toLowerCase().includes(searchLower) || p.ronda?.toLowerCase().includes(searchLower));
+      return (`grupo ${grupoNombre}`.includes(searchLower) || grupoNombre.toLowerCase().includes(searchLower) || p.equipo1?.nombre?.toLowerCase().includes(searchLower) || p.equipo1?.fifaCode?.toLowerCase().includes(searchLower) || p.equipo2?.nombre?.toLowerCase().includes(searchLower) || p.equipo2?.fifaCode?.toLowerCase().includes(searchLower) || p.estadio?.nombre?.toLowerCase().includes(searchLower) || p.estadio?.ciudad?.toLowerCase().includes(searchLower) || p.fecha?.toLowerCase().includes(searchLower) || p.ronda?.toLowerCase().includes(searchLower) || getRoundLabel(p, jornada).toLowerCase().includes(searchLower));
     }).sort((a, b) => a.numeroPartido - b.numeroPartido);
-  }, [partidos, rondaFilter, busqueda]);
+  }, [busqueda, jornadas, partidos, rondaFilter]);
 
   const groupedByDate = useMemo(() => {
     const groups: Record<string, Partido[]> = {};
@@ -167,15 +222,23 @@ export default function PartidosMundial({ year }: { year: number }) {
         <Input placeholder="Buscar por equipo, grupo, estadio o fecha..." value={busqueda} onChange={(e) => setBusqueda(e.target.value)} className="pl-9 border-[var(--wc-accent)]/20 focus-visible:ring-[var(--wc-accent)]/30" />
       </div>
       <div className="flex flex-wrap gap-2">
-        {RONDAS.map((r) => (
+        {availableFilters.map((r) => (
           <button key={r.value} onClick={() => setRondaFilter(r.value)} className={`px-3.5 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${rondaFilter === r.value ? "bg-[var(--wc-accent)] text-white shadow-md shadow-[var(--wc-accent)]/20" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}>
             {r.label}
-            {r.value !== "all" && rondaCount[r.value] ? <span className="ml-1 opacity-70">({rondaCount[r.value]})</span> : r.value === "Matchday 1" || r.value === "Matchday 2" || r.value === "Matchday 3" ? <span className="ml-1 opacity-70">({(rondaCount["Matchday 1"] || 0) + (rondaCount["Matchday 2"] || 0) + (rondaCount["Matchday 3"] || 0)})</span> : null}
+            {r.value !== "all" && <span className="ml-1 opacity-70">({rondaCount[r.value] || 0})</span>}
           </button>
         ))}
       </div>
       <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
-        {[{label:"Grupos",color:"bg-blue-500"},{label:"Round of 32",color:"bg-orange-500"},{label:"Round of 16",color:"bg-purple-500"},{label:"Quarter-final",color:"bg-amber-500"},{label:"Semi-final",color:"bg-rose-500"},{label:"3rd Place",color:"bg-red-500"},{label:"Final",color:"bg-[var(--wc-accent)]"}].map((item) => (<div key={item.label} className="flex items-center gap-1.5"><div className={`w-2.5 h-2.5 rounded-full ${item.color}`} /><span>{item.label}</span></div>))}
+        {[
+          { key: "jornada-1", label: "Fase de grupos", color: "bg-blue-500" },
+          { key: "round-of-32", label: "Dieciseisavos", color: "bg-orange-500" },
+          { key: "round-of-16", label: "Octavos", color: "bg-purple-500" },
+          { key: "quarter-final", label: "Cuartos", color: "bg-amber-500" },
+          { key: "semi-final", label: "Semifinales", color: "bg-rose-500" },
+          { key: "third-place", label: "Tercer lugar", color: "bg-red-500" },
+          { key: "final", label: "Final", color: "bg-[var(--wc-accent)]" },
+        ].filter((item) => item.key === "jornada-1" ? rondaCount["jornada-1"] : rondaCount[item.key]).map((item) => (<div key={item.key} className="flex items-center gap-1.5"><div className={`w-2.5 h-2.5 rounded-full ${item.color}`} /><span>{item.label}</span></div>))}
       </div>
       <div className="space-y-2">
         {Object.entries(groupedByDate).map(([fecha, partidosFecha]) => (
@@ -185,7 +248,7 @@ export default function PartidosMundial({ year }: { year: number }) {
               <Badge variant="secondary" className="text-xs font-semibold px-3 py-1 bg-[var(--wc-accent)] text-white border-0"><Calendar className="h-3.5 w-3.5 mr-1.5" />{fecha}<span className="ml-2 opacity-60">({partidosFecha.length})</span></Badge>
               <div className="h-px flex-1 bg-[var(--wc-accent)]/10" />
             </div>
-            {partidosFecha.map((p) => (<MatchCard key={p._id} partido={p} expanded={expandedId === p._id} onToggle={() => setExpandedId(expandedId === p._id ? null : p._id)} />))}
+            {partidosFecha.map((p) => (<MatchCard key={p._id} partido={p} jornada={jornadas.get(p._id)} expanded={expandedId === p._id} onToggle={() => setExpandedId(expandedId === p._id ? null : p._id)} />))}
           </div>
         ))}
       </div>
