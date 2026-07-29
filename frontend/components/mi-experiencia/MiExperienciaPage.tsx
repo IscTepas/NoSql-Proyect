@@ -14,7 +14,7 @@ const TABS = [
   { id: "logros", label: "Mis Logros", icon: Award },
 ];
 
-export default function MiExperienciaPage() {
+export default function MiExperienciaPage({ year }: { year: number }) {
   const [activeTab, setActiveTab] = useState("album");
 
   return (
@@ -26,10 +26,10 @@ export default function MiExperienciaPage() {
             <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[var(--wc-gold)] to-[var(--wc-gold-dark)] flex items-center justify-center">
               <Sparkles className="h-4 w-4 text-white" />
             </div>
-            Mi Experiencia
+            Mi Experiencia {year}
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            Tu rincón personal para vivir el Mundial a tu manera
+            Tu rincón personal para vivir el Mundial {year} a tu manera
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function MiExperienciaPage() {
 
       {/* Content */}
       <div className="animate-in fade-in duration-300">
-        {activeTab === "album" && <MiAlbumPersonal />}
+        {activeTab === "album" && <MiAlbumPersonal year={year} />}
         {activeTab === "once" && <MiOnceIdeal />}
         {activeTab === "experiencia" && <MiExperienciaFIFA />}
         {activeTab === "logros" && <MisLogros />}

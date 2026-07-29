@@ -40,6 +40,9 @@ export default function Navbar() {
     ];
   }, [year]);
 
+  const miExperienciaHref = year ? `/mundiales/${year}/mi-experiencia` : "/mi-experiencia";
+  const miExperienciaActive = pathname === miExperienciaHref || pathname.startsWith(`${miExperienciaHref}/`);
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -75,10 +78,10 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center">
           <Link
-            href="/mi-experiencia"
+            href={miExperienciaHref}
             className={cn(
               "flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-200 mr-2",
-              pathname === "/mi-experiencia" || pathname.startsWith("/mi-experiencia/")
+              miExperienciaActive
                 ? "bg-[var(--wc-gold)] text-white shadow-md shadow-[var(--wc-gold)]/20"
                 : "text-[var(--wc-gold-dark)] bg-[var(--wc-gold)]/10 hover:bg-[var(--wc-gold)]/20 hover:text-[var(--wc-gold-dark)] border border-[var(--wc-gold)]/20"
             )}
@@ -125,11 +128,11 @@ export default function Navbar() {
             );
           })}
           <Link
-            href="/mi-experiencia"
+            href={miExperienciaHref}
             onClick={() => setMobileOpen(false)}
             className={cn(
               "flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-200 mt-2 border-t border-gray-100 pt-3",
-              pathname === "/mi-experiencia" || pathname.startsWith("/mi-experiencia/")
+              miExperienciaActive
                 ? "bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] shadow-sm"
                 : "text-[var(--wc-gold-dark)] hover:bg-[var(--wc-gold)]/10"
             )}

@@ -137,6 +137,7 @@ const poblarBaseDeDatos = async () => {
           pais: p.club ? (p.club.pais || p.club.country || "") : ""
         },
         fifaCodeEquipo: code || (equipoCorrespondiente ? equipoCorrespondiente.fifaCode : "XXX"),
+        foto: p.foto || p.imagen || "",
         equipo: equipoCorrespondiente ? equipoCorrespondiente._id : null,
         año: ANIO
       });

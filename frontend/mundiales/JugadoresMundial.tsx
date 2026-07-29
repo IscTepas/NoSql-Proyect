@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Search, UserCircle, Shield, Target } from "lucide-react";
 import Flag from "@/components/Flag";
+import PlayerPhoto from "@/components/PlayerPhoto";
 import { useMemo, useState } from "react";
 import {
   BarChart,
@@ -289,6 +290,7 @@ export default function JugadoresMundial({ year }: { year: number }) {
             className="group rounded-xl border border-gray-200 bg-white hover:shadow-lg hover:shadow-[var(--wc-gold)]/10 hover:border-[var(--wc-gold)]/30 transition-all duration-200 overflow-hidden"
           >
             <div className="p-3 space-y-2">
+              <PlayerPhoto jugador={j} />
               <div className="flex items-center gap-2">
                 <span
                   className="flex h-7 w-7 items-center justify-center rounded-md text-[10px] font-bold text-white"

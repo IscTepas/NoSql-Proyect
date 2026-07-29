@@ -75,6 +75,7 @@ export interface Jugador {
   fechaNacimiento: string;
   club: JugadorClub;
   fifaCodeEquipo: string;
+  foto?: string;
   equipo: Equipo;
   año: number;
 }
