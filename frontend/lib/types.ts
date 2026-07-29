@@ -17,6 +17,7 @@ export interface Estadio {
   capacidad: number;
   zonaHoraria: string;
   codigoPais: string;
+  pais?: string;
   coordenadas: string;
   año: number;
 }
@@ -74,6 +75,7 @@ export interface Jugador {
   fechaNacimiento: string;
   club: JugadorClub;
   fifaCodeEquipo: string;
+  foto?: string;
   equipo: Equipo;
   año: number;
 }

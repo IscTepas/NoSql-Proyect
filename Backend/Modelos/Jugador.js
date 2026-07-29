@@ -44,6 +44,11 @@ const JugadorSchema = new mongoose.Schema(
       trim: true,
       index: true
     },
+    foto: {
+      type: String,
+      trim: true,
+      default: ""
+    },
     equipo: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Equipo"
