@@ -1,9 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { WORLDCUPS, PROJECT_INFO, type WorldCup } from "@/lib/worldcups";
+import { WORLDCUPS, type WorldCup } from "@/lib/worldcups";
 import MundialCard from "@/components/MundialCard";
-import { Trophy, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 type Slide = { type: "wc"; data: WorldCup } | { type: "info" };
 
@@ -20,16 +20,14 @@ const SLIDES: Slide[] = [
 const CENTER_INDEX = 2;
 const TOTAL = SLIDES.length;
 
-const SIZE_ACTIVE = "w-[250px] h-[380px] sm:w-[340px] sm:h-[500px] lg:w-[400px] lg:h-[560px]";
-const SIZE_INACTIVE = "w-[190px] h-[300px] sm:w-[250px] sm:h-[390px] lg:w-[300px] lg:h-[440px]";
+const SIZE = "w-[280px] h-[420px] sm:w-[400px] sm:h-[580px] lg:w-[480px] lg:h-[660px]";
 
-function InfoPanel({ isActive, sizeClassName }: { isActive: boolean; sizeClassName: string }) {
+function InfoPanel({ isActive }: { isActive: boolean }) {
   return (
     <div
       className={`
-        relative block overflow-hidden rounded-[1.75rem] text-white select-none
-        transition-[width,height,transform] duration-500 ease-out
-        ${sizeClassName}
+        relative flex h-full w-full items-center justify-center overflow-hidden rounded-[1.75rem] text-white select-none
+        transition-shadow duration-500 ease-out
         ${isActive ? "ring-2 ring-white/50" : "ring-1 ring-white/10"}
       `}
       style={{
@@ -43,41 +41,30 @@ function InfoPanel({ isActive, sizeClassName }: { isActive: boolean; sizeClassNa
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0%,rgba(255,255,255,0.2),transparent_55%)]" />
       <div className="pointer-events-none absolute -bottom-6 -right-6 h-40 w-40 rounded-full bg-white/[0.06] blur-2xl" />
 
-      <div className="relative z-10 flex h-full flex-col justify-center gap-3 p-5 text-center sm:gap-4 sm:p-8">
-        <span className="mx-auto flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-white/90 ring-1 ring-white/25 backdrop-blur-sm sm:text-xs">
-          <Trophy className="h-3 w-3 text-[var(--wc-gold)]" />
-          Portal Oficial
-        </span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/mundiales/referencias/Copa del mundo.png"
+        alt=""
+        className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[92%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-contain opacity-70"
+      />
+      {/* Cheap gradient overlay instead of mask-image: fades the photo's edges without the
+          GPU-compositing cost of a CSS mask on an element animated with a 3D transform. */}
+      <div
+        className="pointer-events-none absolute inset-0 z-[1]"
+        style={{
+          background:
+            "radial-gradient(ellipse at 50% 45%, transparent 40%, color-mix(in oklab, var(--primary) 60%, black 25%) 88%)",
+        }}
+      />
 
-        <h2 className="text-2xl leading-[1.05] font-black tracking-tight sm:text-4xl">
-          FIFA World Cup
-          <br />
-          Portal
-        </h2>
-
-        <p className="mx-auto max-w-[26ch] text-xs leading-relaxed text-white/70 sm:text-sm">
-          {PROJECT_INFO.description}
-        </p>
-
-        <div className="mx-auto mt-1 grid w-full max-w-[280px] grid-cols-2 gap-x-4 gap-y-3 border-t border-white/20 pt-4 sm:mt-2 sm:pt-5">
-          <div>
-            <p className="text-xl font-bold sm:text-2xl">{PROJECT_INFO.totalWorldCups}</p>
-            <p className="text-[10px] uppercase tracking-wide text-white/60 sm:text-xs">Mundiales</p>
-          </div>
-          <div>
-            <p className="text-xl font-bold sm:text-2xl">{PROJECT_INFO.totalTeams}</p>
-            <p className="text-[10px] uppercase tracking-wide text-white/60 sm:text-xs">Selecciones</p>
-          </div>
-          <div>
-            <p className="text-xl font-bold sm:text-2xl">{PROJECT_INFO.totalMatches}</p>
-            <p className="text-[10px] uppercase tracking-wide text-white/60 sm:text-xs">Partidos</p>
-          </div>
-          <div>
-            <p className="text-xl font-bold sm:text-2xl">{PROJECT_INFO.totalGoals}</p>
-            <p className="text-[10px] uppercase tracking-wide text-white/60 sm:text-xs">Goles</p>
-          </div>
-        </div>
-      </div>
+      <h2
+        className="relative z-10 px-6 text-center text-4xl uppercase leading-[1.05] tracking-wide break-words [text-shadow:0_4px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
+        style={{ fontFamily: "var(--font-display)" }}
+      >
+        Experiencia
+        <br />
+        mundialista
+      </h2>
     </div>
   );
 }
@@ -85,17 +72,18 @@ function InfoPanel({ isActive, sizeClassName }: { isActive: boolean; sizeClassNa
 export default function WorldCupCarousel() {
   const [active, setActive] = useState(CENTER_INDEX);
   const [hovered, setHovered] = useState<number | null>(null);
-  const [step, setStep] = useState(220);
+  const [step, setStep] = useState(264);
   const [dragOffset, setDragOffset] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
-  const dragState = useRef<{ startX: number; dragging: boolean }>({ startX: 0, dragging: false });
+  const dragState = useRef<{ startX: number; dragging: boolean; moved: boolean }>({ startX: 0, dragging: false, moved: false });
   const wheelAccum = useRef(0);
   const lastStepTime = useRef(0);
+  const lastWheelTime = useRef(0);
 
   useEffect(() => {
     const updateStep = () => {
       const w = window.innerWidth;
-      setStep(w < 640 ? 125 : w < 1024 ? 170 : 220);
+      setStep(w < 640 ? 140 : w < 1024 ? 200 : 264);
     };
     updateStep();
     window.addEventListener("resize", updateStep);
@@ -112,11 +100,24 @@ export default function WorldCupCarousel() {
     const el = containerRef.current;
     if (!el) return;
     const STEP_THRESHOLD = 45;
-    const COOLDOWN = 380;
+    const LOCK_MS = 260;
+    const GESTURE_GAP_MS = 150;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       const now = performance.now();
-      if (now - lastStepTime.current < COOLDOWN) return;
+
+      // A pause between wheel events longer than this means a fresh scroll
+      // gesture is starting — don't let trailing momentum from a previous
+      // trackpad swipe carry over and fire an unwanted extra step later.
+      if (now - lastWheelTime.current > GESTURE_GAP_MS) {
+        wheelAccum.current = 0;
+      }
+      lastWheelTime.current = now;
+
+      // Right after a step fires, ignore input entirely for a short window
+      // instead of accumulating it — otherwise one continuous swipe cascades
+      // through several panels once the lock lifts.
+      if (now - lastStepTime.current < LOCK_MS) return;
 
       const delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
       wheelAccum.current += delta;
@@ -145,25 +146,42 @@ export default function WorldCupCarousel() {
     }
   };
 
-  const endDrag = useCallback(() => {
-    if (!dragState.current.dragging) return;
-    dragState.current.dragging = false;
-    const threshold = 50;
-    setDragOffset((offset) => {
-      if (offset < -threshold) next();
-      else if (offset > threshold) prev();
-      return 0;
-    });
-  }, [next, prev]);
+  const CLICK_MOVE_THRESHOLD = 6;
+
+  const endDrag = useCallback(
+    (e: React.PointerEvent) => {
+      if (!dragState.current.dragging) return;
+      const wasClick = !dragState.current.moved;
+      dragState.current.dragging = false;
+      const threshold = 50;
+      setDragOffset((offset) => {
+        if (offset < -threshold) next();
+        else if (offset > threshold) prev();
+        return 0;
+      });
+
+      // A tap/click (negligible movement) selects the slide directly instead of relying
+      // on the browser's native click synthesis, which can silently miss after a pointer
+      // capture + tiny hand-jitter movement, making panel switching feel flaky.
+      if (wasClick) {
+        const slideEl = (e.target as HTMLElement).closest("[data-slide-index]");
+        const index = slideEl ? Number(slideEl.getAttribute("data-slide-index")) : NaN;
+        if (!Number.isNaN(index) && index !== active) goTo(index);
+      }
+    },
+    [next, prev, goTo, active]
+  );
 
   const onPointerDown = (e: React.PointerEvent) => {
     if ((e.target as HTMLElement).closest("button")) return;
-    dragState.current = { startX: e.clientX, dragging: true };
+    dragState.current = { startX: e.clientX, dragging: true, moved: false };
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   };
   const onPointerMove = (e: React.PointerEvent) => {
     if (!dragState.current.dragging) return;
-    setDragOffset(e.clientX - dragState.current.startX);
+    const offset = e.clientX - dragState.current.startX;
+    if (Math.abs(offset) > CLICK_MOVE_THRESHOLD) dragState.current.moved = true;
+    setDragOffset(offset);
   };
 
   const activeSlide = SLIDES[active];
@@ -233,9 +251,10 @@ export default function WorldCupCarousel() {
             return (
               <div
                 key={i}
-                className="absolute left-1/2 top-1/2 will-change-transform"
+                data-slide-index={i}
+                className={`absolute left-1/2 top-1/2 will-change-transform ${SIZE}`}
                 style={{
-                  transform: `translate(-50%, -50%) translateX(${translate}px) translateY(${lift}px) scale(${scale}) rotateY(${rotate}deg)`,
+                  transform: `translate3d(-50%, -50%, 0) translateX(${translate}px) translateY(${lift}px) scale(${scale}) rotateY(${rotate}deg)`,
                   opacity,
                   zIndex: 30 - dist,
                   transition: dragState.current.dragging
@@ -246,16 +265,11 @@ export default function WorldCupCarousel() {
                 }}
                 onMouseEnter={() => setHovered(i)}
                 onMouseLeave={() => setHovered(null)}
-                onClick={() => !isActive && goTo(i)}
               >
                 {slide.type === "wc" ? (
-                  <MundialCard
-                    mundial={slide.data}
-                    isActive={isActive}
-                    sizeClassName={isActive ? SIZE_ACTIVE : SIZE_INACTIVE}
-                  />
+                  <MundialCard mundial={slide.data} isActive={isActive} />
                 ) : (
-                  <InfoPanel isActive={isActive} sizeClassName={isActive ? SIZE_ACTIVE : SIZE_INACTIVE} />
+                  <InfoPanel isActive={isActive} />
                 )}
               </div>
             );
@@ -279,7 +293,6 @@ export default function WorldCupCarousel() {
         </div>
         <p className="flex items-center gap-1.5 text-xs text-white/50">
           <ChevronLeft className="h-3 w-3" />
-          Desliza, usa la rueda del mouse o las flechas
           <ChevronRight className="h-3 w-3" />
         </p>
       </div>

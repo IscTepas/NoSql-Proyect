@@ -8,10 +8,9 @@ import { Trophy, Users, Calendar, MapPin, ArrowRight } from "lucide-react";
 interface MundialCardProps {
   mundial: WorldCup;
   isActive?: boolean;
-  sizeClassName: string;
 }
 
-export default function MundialCard({ mundial, isActive, sizeClassName }: MundialCardProps) {
+export default function MundialCard({ mundial, isActive }: MundialCardProps) {
   const router = useRouter();
   const c = mundial.color;
 
@@ -20,9 +19,8 @@ export default function MundialCard({ mundial, isActive, sizeClassName }: Mundia
       type="button"
       onClick={() => isActive && router.push(mundial.route)}
       className={`
-        group relative block overflow-hidden rounded-[1.75rem] text-left text-white
-        transition-[width,height,transform] duration-500 ease-out
-        ${sizeClassName}
+        group relative block h-full w-full overflow-hidden rounded-[1.75rem] text-left text-white
+        transition-shadow duration-500 ease-out
         ${isActive ? "ring-2 ring-white/50" : "ring-1 ring-white/10"}
       `}
       style={{
