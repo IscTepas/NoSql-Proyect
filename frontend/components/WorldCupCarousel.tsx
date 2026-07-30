@@ -279,7 +279,6 @@ export default function WorldCupCarousel() {
         </div>
         <p className="flex items-center gap-1.5 text-xs text-white/50">
           <ChevronLeft className="h-3 w-3" />
-          Desliza, usa la rueda del mouse o las flechas
           <ChevronRight className="h-3 w-3" />
         </p>
       </div>
