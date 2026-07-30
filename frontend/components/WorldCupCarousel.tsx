@@ -41,10 +41,29 @@ function InfoPanel({ isActive }: { isActive: boolean }) {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0%,rgba(255,255,255,0.2),transparent_55%)]" />
       <div className="pointer-events-none absolute -bottom-6 -right-6 h-40 w-40 rounded-full bg-white/[0.06] blur-2xl" />
 
-      <h2 className="relative z-10 px-6 text-center text-4xl leading-[1.05] font-black tracking-tight sm:text-6xl lg:text-7xl">
-        FIFA World Cup
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/mundiales/referencias/Copa del mundo.png"
+        alt=""
+        className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[92%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-contain opacity-70"
+      />
+      {/* Cheap gradient overlay instead of mask-image: fades the photo's edges without the
+          GPU-compositing cost of a CSS mask on an element animated with a 3D transform. */}
+      <div
+        className="pointer-events-none absolute inset-0 z-[1]"
+        style={{
+          background:
+            "radial-gradient(ellipse at 50% 45%, transparent 40%, color-mix(in oklab, var(--primary) 60%, black 25%) 88%)",
+        }}
+      />
+
+      <h2
+        className="relative z-10 px-6 text-center text-4xl uppercase leading-[1.05] tracking-wide break-words [text-shadow:0_4px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
+        style={{ fontFamily: "var(--font-display)" }}
+      >
+        Experiencia
         <br />
-        Portal
+        mundialista
       </h2>
     </div>
   );
@@ -56,9 +75,10 @@ export default function WorldCupCarousel() {
   const [step, setStep] = useState(264);
   const [dragOffset, setDragOffset] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
-  const dragState = useRef<{ startX: number; dragging: boolean }>({ startX: 0, dragging: false });
+  const dragState = useRef<{ startX: number; dragging: boolean; moved: boolean }>({ startX: 0, dragging: false, moved: false });
   const wheelAccum = useRef(0);
   const lastStepTime = useRef(0);
+  const lastWheelTime = useRef(0);
 
   useEffect(() => {
     const updateStep = () => {
@@ -80,11 +100,24 @@ export default function WorldCupCarousel() {
     const el = containerRef.current;
     if (!el) return;
     const STEP_THRESHOLD = 45;
-    const COOLDOWN = 380;
+    const LOCK_MS = 260;
+    const GESTURE_GAP_MS = 150;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       const now = performance.now();
-      if (now - lastStepTime.current < COOLDOWN) return;
+
+      // A pause between wheel events longer than this means a fresh scroll
+      // gesture is starting — don't let trailing momentum from a previous
+      // trackpad swipe carry over and fire an unwanted extra step later.
+      if (now - lastWheelTime.current > GESTURE_GAP_MS) {
+        wheelAccum.current = 0;
+      }
+      lastWheelTime.current = now;
+
+      // Right after a step fires, ignore input entirely for a short window
+      // instead of accumulating it — otherwise one continuous swipe cascades
+      // through several panels once the lock lifts.
+      if (now - lastStepTime.current < LOCK_MS) return;
 
       const delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
       wheelAccum.current += delta;
@@ -113,25 +146,42 @@ export default function WorldCupCarousel() {
     }
   };
 
-  const endDrag = useCallback(() => {
-    if (!dragState.current.dragging) return;
-    dragState.current.dragging = false;
-    const threshold = 50;
-    setDragOffset((offset) => {
-      if (offset < -threshold) next();
-      else if (offset > threshold) prev();
-      return 0;
-    });
-  }, [next, prev]);
+  const CLICK_MOVE_THRESHOLD = 6;
+
+  const endDrag = useCallback(
+    (e: React.PointerEvent) => {
+      if (!dragState.current.dragging) return;
+      const wasClick = !dragState.current.moved;
+      dragState.current.dragging = false;
+      const threshold = 50;
+      setDragOffset((offset) => {
+        if (offset < -threshold) next();
+        else if (offset > threshold) prev();
+        return 0;
+      });
+
+      // A tap/click (negligible movement) selects the slide directly instead of relying
+      // on the browser's native click synthesis, which can silently miss after a pointer
+      // capture + tiny hand-jitter movement, making panel switching feel flaky.
+      if (wasClick) {
+        const slideEl = (e.target as HTMLElement).closest("[data-slide-index]");
+        const index = slideEl ? Number(slideEl.getAttribute("data-slide-index")) : NaN;
+        if (!Number.isNaN(index) && index !== active) goTo(index);
+      }
+    },
+    [next, prev, goTo, active]
+  );
 
   const onPointerDown = (e: React.PointerEvent) => {
     if ((e.target as HTMLElement).closest("button")) return;
-    dragState.current = { startX: e.clientX, dragging: true };
+    dragState.current = { startX: e.clientX, dragging: true, moved: false };
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   };
   const onPointerMove = (e: React.PointerEvent) => {
     if (!dragState.current.dragging) return;
-    setDragOffset(e.clientX - dragState.current.startX);
+    const offset = e.clientX - dragState.current.startX;
+    if (Math.abs(offset) > CLICK_MOVE_THRESHOLD) dragState.current.moved = true;
+    setDragOffset(offset);
   };
 
   const activeSlide = SLIDES[active];
@@ -201,6 +251,7 @@ export default function WorldCupCarousel() {
             return (
               <div
                 key={i}
+                data-slide-index={i}
                 className={`absolute left-1/2 top-1/2 will-change-transform ${SIZE}`}
                 style={{
                   transform: `translate3d(-50%, -50%, 0) translateX(${translate}px) translateY(${lift}px) scale(${scale}) rotateY(${rotate}deg)`,
@@ -214,10 +265,9 @@ export default function WorldCupCarousel() {
                 }}
                 onMouseEnter={() => setHovered(i)}
                 onMouseLeave={() => setHovered(null)}
-                onClick={() => !isActive && goTo(i)}
               >
                 {slide.type === "wc" ? (
-                  <MundialCard mundial={slide.data} isActive={isActive} dist={dist} />
+                  <MundialCard mundial={slide.data} isActive={isActive} />
                 ) : (
                   <InfoPanel isActive={isActive} />
                 )}

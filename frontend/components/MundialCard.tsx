@@ -8,13 +8,11 @@ import { Trophy, Users, Calendar, MapPin, ArrowRight } from "lucide-react";
 interface MundialCardProps {
   mundial: WorldCup;
   isActive?: boolean;
-  dist?: number;
 }
 
-export default function MundialCard({ mundial, isActive, dist = 0 }: MundialCardProps) {
+export default function MundialCard({ mundial, isActive }: MundialCardProps) {
   const router = useRouter();
   const c = mundial.color;
-  const showBlurredBg = dist <= 1;
 
   return (
     <button
@@ -32,7 +30,7 @@ export default function MundialCard({ mundial, isActive, dist = 0 }: MundialCard
           : "0 14px 34px -14px rgba(0,0,0,0.4)",
       }}
     >
-      {mundial.logo && showBlurredBg && (
+      {mundial.logo && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={mundial.logo}
