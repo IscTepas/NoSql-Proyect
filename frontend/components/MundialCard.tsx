@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import type { WorldCup } from "@/lib/worldcups";
 import Flag from "@/components/Flag";
 import { Trophy, Users, Calendar, MapPin, ArrowRight } from "lucide-react";
@@ -31,13 +32,18 @@ export default function MundialCard({ mundial, isActive }: MundialCardProps) {
       }}
     >
       {mundial.logo && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={mundial.logo}
-          alt=""
+        <div
           aria-hidden
-          className="pointer-events-none absolute -inset-8 h-[calc(100%+4rem)] w-[calc(100%+4rem)] scale-125 object-cover opacity-70 blur-2xl mix-blend-soft-light"
-        />
+          className="pointer-events-none absolute -inset-8 h-[calc(100%+4rem)] w-[calc(100%+4rem)] opacity-70 blur-2xl mix-blend-soft-light"
+        >
+          <Image
+            src={mundial.logo}
+            alt=""
+            fill
+            sizes="400px"
+            className="scale-125 object-cover"
+          />
+        </div>
       )}
 
       <div
@@ -72,11 +78,13 @@ export default function MundialCard({ mundial, isActive }: MundialCardProps) {
       <div className="relative z-10 flex h-full flex-col p-4 sm:p-6">
         {mundial.logo && (
           <div className="flex flex-1 min-h-0 items-center justify-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={mundial.logo}
               alt={mundial.name}
-              className="max-h-[160px] max-w-[78%] object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.5)] sm:max-h-[210px] lg:max-h-[250px]"
+              width={800}
+              height={450}
+              priority
+              className="max-h-[160px] w-auto max-w-[78%] object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.5)] sm:max-h-[210px] lg:max-h-[250px]"
             />
           </div>
         )}

@@ -7,7 +7,10 @@ const Grupo = require("../Modelos/Grupo");
 router.get("/", async (req, res) => {
     try {
         const filtro = req.query.año ? { año: Number(req.query.año) } : {};
-        const grupos = await Grupo.find(filtro).populate("equipos");
+        let query = Grupo.find(filtro).populate("equipos").lean();
+        if (req.query.skip) query = query.skip(Number(req.query.skip));
+        if (req.query.limit) query = query.limit(Number(req.query.limit));
+        const grupos = await query;
         res.json({
             ok: true,
             data: grupos,
@@ -26,7 +29,7 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
     try {
         // CAMBIO AQUÍ: .populate("equipos")
-        const grupo = await Grupo.findById(req.params.id).populate("equipos");
+        const grupo = await Grupo.findById(req.params.id).populate("equipos").lean();
         if (!grupo) {
             return res.status(404).json({
                 ok: false,

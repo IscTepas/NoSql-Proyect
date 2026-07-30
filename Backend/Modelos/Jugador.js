@@ -51,7 +51,8 @@ const JugadorSchema = new mongoose.Schema(
     },
     equipo: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Equipo"
+      ref: "Equipo",
+      index: true
     },
     año: {
       type: Number,
