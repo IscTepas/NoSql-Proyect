@@ -8,21 +8,21 @@ import { Trophy, Users, Calendar, MapPin, ArrowRight } from "lucide-react";
 interface MundialCardProps {
   mundial: WorldCup;
   isActive?: boolean;
-  sizeClassName: string;
+  dist?: number;
 }
 
-export default function MundialCard({ mundial, isActive, sizeClassName }: MundialCardProps) {
+export default function MundialCard({ mundial, isActive, dist = 0 }: MundialCardProps) {
   const router = useRouter();
   const c = mundial.color;
+  const showBlurredBg = dist <= 1;
 
   return (
     <button
       type="button"
       onClick={() => isActive && router.push(mundial.route)}
       className={`
-        group relative block overflow-hidden rounded-[1.75rem] text-left text-white
-        transition-[width,height,transform] duration-500 ease-out
-        ${sizeClassName}
+        group relative block h-full w-full overflow-hidden rounded-[1.75rem] text-left text-white
+        transition-shadow duration-500 ease-out
         ${isActive ? "ring-2 ring-white/50" : "ring-1 ring-white/10"}
       `}
       style={{
@@ -32,7 +32,7 @@ export default function MundialCard({ mundial, isActive, sizeClassName }: Mundia
           : "0 14px 34px -14px rgba(0,0,0,0.4)",
       }}
     >
-      {mundial.logo && (
+      {mundial.logo && showBlurredBg && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={mundial.logo}
