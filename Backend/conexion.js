@@ -9,12 +9,22 @@ try {
 const mongoose = require("mongoose");
 const URI = process.env.MONGO_URI;
 
-if (URI) {
-  mongoose.connect(URI)
-    .then(() => console.log("Conectado correctamente a la base de datos"))
-    .catch((error) => console.error("Error al conectarse a la base de datos", error));
-} else {
-  console.warn("MONGO_URI no definida. La API funcionará sin conexión a BD.");
+// En serverless (Vercel) cada invocación fría re-ejecuta este módulo; cachear
+// la promesa de conexión en `global` evita reconectar (DNS+TLS) en cada
+// invocación caliente, que es lo que hacía sentir la API "trabada" al cargar.
+if (!global._mongooseConnPromise) {
+  global._mongooseConnPromise = URI
+    ? mongoose.connect(URI)
+        .then((conn) => {
+          console.log("Conectado correctamente a la base de datos");
+          return conn;
+        })
+        .catch((error) => {
+          console.error("Error al conectarse a la base de datos", error);
+          global._mongooseConnPromise = null;
+          throw error;
+        })
+    : (console.warn("MONGO_URI no definida. La API funcionará sin conexión a BD."), null);
 }
 
 module.exports = mongoose;

@@ -7,7 +7,10 @@ const Equipo = require("../Modelos/Equipo");
 router.get("/", async (req, res) => {
     try {
         const filtro = req.query.año ? { año: Number(req.query.año) } : {};
-        const equipos = await Equipo.find(filtro);
+        let query = Equipo.find(filtro).lean();
+        if (req.query.skip) query = query.skip(Number(req.query.skip));
+        if (req.query.limit) query = query.limit(Number(req.query.limit));
+        const equipos = await query;
         res.json({
             ok: true,
             data: equipos,
@@ -25,7 +28,7 @@ router.get("/", async (req, res) => {
 // GET - consultar un equipo por ID
 router.get("/:id", async (req, res) => {
     try {
-        const equipo = await Equipo.findById(req.params.id);
+        const equipo = await Equipo.findById(req.params.id).lean();
         if (!equipo) {
             return res.status(404).json({
                 ok: false,

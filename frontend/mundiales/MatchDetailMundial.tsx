@@ -8,7 +8,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft, MapPin, Clock, Calendar, Trophy, Footprints } from "lucide-react";
 import Flag from "@/components/Flag";
 import Link from "next/link";
-import { useMemo } from "react";
 
 const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
   2014: { accent: "oklch(0.55 0.18 155)", accentDark: "oklch(0.42 0.18 155)" },
@@ -19,18 +18,14 @@ const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
 
 const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetcher = (url: string): Promise<any> =>
-  fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
+const matchFetcher = (url: string): Promise<Partido | null> =>
+  fetch(url)
+    .then((r) => r.json().then((j) => (r.ok ? (j.data ?? null) : null)))
+    .catch(() => null);
 
 export default function MatchDetailMundial({ year, matchId }: { year: number; matchId: string }) {
   const { accent, accentDark } = wcColors(year);
-  const { data: partidos, isLoading } = useSWR<Partido[]>(`/api/partidos?año=${year}`, fetcher);
-
-  const partido = useMemo(() => {
-    if (!partidos) return null;
-    return partidos.find((p) => p._id === matchId || String(p.numeroPartido) === matchId) || null;
-  }, [partidos, matchId]);
+  const { data: partido, isLoading } = useSWR<Partido | null>(`/api/partidos/${matchId}`, matchFetcher);
 
   if (isLoading) {
     return (

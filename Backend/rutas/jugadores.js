@@ -10,7 +10,10 @@ router.get("/", async (req, res) => {
         if (req.query.año) filtro.año = Number(req.query.año);
         if (req.query.equipo) filtro.equipo = req.query.equipo;
 
-        const jugadores = await Jugador.find(filtro).populate("equipo");
+        let query = Jugador.find(filtro).populate("equipo").lean();
+        if (req.query.skip) query = query.skip(Number(req.query.skip));
+        if (req.query.limit) query = query.limit(Number(req.query.limit));
+        const jugadores = await query;
 
         res.json({
             ok: true,
@@ -29,7 +32,7 @@ router.get("/", async (req, res) => {
 // GET - consultar un jugador por ID
 router.get("/:id", async (req, res) => {
     try {
-        const jugador = await Jugador.findById(req.params.id).populate("equipo");
+        const jugador = await Jugador.findById(req.params.id).populate("equipo").lean();
 
         if (!jugador) {
             return res.status(404).json({

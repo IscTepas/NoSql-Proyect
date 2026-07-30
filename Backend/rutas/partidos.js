@@ -7,12 +7,16 @@ const Partido = require("../Modelos/Partido");
 router.get("/", async (req, res) => {
     try {
         const filtro = req.query.año ? { año: Number(req.query.año) } : {};
-        const partidos = await Partido.find(filtro)
+        let query = Partido.find(filtro)
             .populate("equipo1")
             .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
-            .populate("estadio");
+            .populate("estadio")
+            .lean();
+        if (req.query.skip) query = query.skip(Number(req.query.skip));
+        if (req.query.limit) query = query.limit(Number(req.query.limit));
+        const partidos = await query;
 
         res.json({
             ok: true,
@@ -36,7 +40,8 @@ router.get("/:id", async (req, res) => {
             .populate("equipo2")
             .populate("equipoGanador")
             .populate("grupo")
-            .populate("estadio");
+            .populate("estadio")
+            .lean();
 
         if (!partido) {
             return res.status(404).json({

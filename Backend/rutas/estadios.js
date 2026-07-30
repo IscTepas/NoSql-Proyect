@@ -7,7 +7,10 @@ const Estadio = require("../Modelos/Estadio");
 router.get("/", async (req, res) => {
     try {
         const filtro = req.query.año ? { año: Number(req.query.año) } : {};
-        const estadios = await Estadio.find(filtro);
+        let query = Estadio.find(filtro).lean();
+        if (req.query.skip) query = query.skip(Number(req.query.skip));
+        if (req.query.limit) query = query.limit(Number(req.query.limit));
+        const estadios = await query;
         res.status(200).json({
             ok: true,
             data: estadios,
@@ -25,7 +28,7 @@ router.get("/", async (req, res) => {
 // GET - consultar un estadio por ID
 router.get("/:id", async (req, res) => {
     try {
-        const estadio = await Estadio.findById(req.params.id);
+        const estadio = await Estadio.findById(req.params.id).lean();
         if (!estadio) {
             return res.status(404).json({
                 ok: false,

@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import SiteChrome from "@/components/SiteChrome";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import SWRProvider from "@/components/SWRProvider";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -39,9 +40,11 @@ export default function RootLayout({
       className={`${inter.variable} ${jetbrainsMono.variable} ${bebasNeue.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
-        <TooltipProvider>
-          <SiteChrome>{children}</SiteChrome>
-        </TooltipProvider>
+        <SWRProvider>
+          <TooltipProvider>
+            <SiteChrome>{children}</SiteChrome>
+          </TooltipProvider>
+        </SWRProvider>
       </body>
     </html>
   );
