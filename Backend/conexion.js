@@ -1,6 +1,10 @@
 require("dotenv").config({ path: __dirname + "/.env", quiet: true });
 const dns = require("node:dns");
-dns.setServers(["8.8.8.8", "1.1.1.1"]);
+try {
+  dns.setServers(["8.8.8.8", "1.1.1.1"]);
+} catch {
+  console.warn("No se pudieron establecer servidores DNS personalizados");
+}
 
 const mongoose = require("mongoose");
 const URI = process.env.MONGO_URI;

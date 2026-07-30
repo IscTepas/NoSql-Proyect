@@ -194,7 +194,7 @@ export default function JugadoresPage() {
           >
             Todos
           </button>
-          {teamCounts.slice(0, 16).map((t) => (
+          {Array.isArray(teamCounts) && teamCounts.slice(0, 16).map((t) => (
             <button
               key={t.code}
               onClick={() => setEquipoFilter(equipoFilter === t.code ? "all" : t.code)}

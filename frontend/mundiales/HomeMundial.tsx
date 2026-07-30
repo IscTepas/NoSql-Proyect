@@ -24,8 +24,12 @@ const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
 const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetcher = (url: string): Promise<any> =>
-  fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
+const fetcher = async (url: string): Promise<any> => {
+  const res = await fetch(url);
+  const j = await res.json();
+  if (j.ok === false) throw new Error(j.mensaje || "API error");
+  return j.data ?? j;
+};
 
 function MiniGroupTable({ grupo, partidos }: { grupo: Grupo; partidos: Partido[] }) {
   const standings = useMemo(() => {
@@ -316,7 +320,7 @@ export default function HomeMundial({ year }: { year: number }) {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              {grupos && partidos && (
+              {Array.isArray(grupos) && Array.isArray(partidos) && (
                 <div className="grid grid-cols-2 gap-4">
                   {grupos.slice(0, 4).map((g) => (<MiniGroupTable key={g._id} grupo={g} partidos={partidos} />))}
                 </div>

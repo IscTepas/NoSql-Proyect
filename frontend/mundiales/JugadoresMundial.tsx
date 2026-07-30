@@ -19,8 +19,12 @@ const TopScorersChart = dynamic(() => import("@/mundiales/TopScorersChart"), {
 });
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetcher = (url: string): Promise<any> =>
-  fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
+const fetcher = async (url: string): Promise<any> => {
+  const res = await fetch(url);
+  const j = await res.json();
+  if (j.ok === false) throw new Error(j.mensaje || "API error");
+  return j.data ?? j;
+};
 
 const POSITIONS = [
   { value: "all", label: "Todos" },
@@ -204,7 +208,7 @@ export default function JugadoresMundial({ year }: { year: number }) {
           >
             Todos
           </button>
-          {teamCounts.slice(0, 16).map((t) => (
+          {Array.isArray(teamCounts) && teamCounts.slice(0, 16).map((t) => (
             <button
               key={t.code}
               onClick={() => setEquipoFilter(equipoFilter === t.code ? "all" : t.code)}

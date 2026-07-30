@@ -21,8 +21,12 @@ const YEAR_COLORS: Record<number, { accent: string; accentDark: string }> = {
 const wcColors = (year: number) => YEAR_COLORS[year] || YEAR_COLORS[2026];
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetcher = (url: string): Promise<any> =>
-  fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
+const fetcher = async (url: string): Promise<any> => {
+  const res = await fetch(url);
+  const j = await res.json();
+  if (j.ok === false) throw new Error(j.mensaje || "API error");
+  return j.data ?? j;
+};
 
 const PAISES = [
   { value: "all", label: "Todos" },
