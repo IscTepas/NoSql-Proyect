@@ -2,10 +2,34 @@
 
 import { useState } from "react";
 import useSWR, { mutate } from "swr";
-import { MessageSquare, Star, Plus, ThumbsUp, Loader2, Pencil, Trash2, X, Check } from "lucide-react";
+import { MessageSquare, Star, Plus, ThumbsUp, Loader2, Pencil, Trash2, X, Check, AlertCircle } from "lucide-react";
 
 const fetcher = (url: string) =>
   fetch(url).then((r) => r.json()).then((j) => j.data ?? j);
+
+const TITULO_MIN = 3;
+const TITULO_MAX = 80;
+const TEXTO_MIN = 10;
+const TEXTO_MAX = 500;
+
+function validarOpinion(titulo: string, texto: string): string | null {
+  if (!titulo.trim() || !texto.trim()) {
+    return "El título y la opinión son obligatorios.";
+  }
+  if (titulo.trim().length < TITULO_MIN) {
+    return `El título debe tener al menos ${TITULO_MIN} caracteres.`;
+  }
+  if (titulo.trim().length > TITULO_MAX) {
+    return `El título no puede superar los ${TITULO_MAX} caracteres.`;
+  }
+  if (texto.trim().length < TEXTO_MIN) {
+    return `La opinión debe tener al menos ${TEXTO_MIN} caracteres.`;
+  }
+  if (texto.trim().length > TEXTO_MAX) {
+    return `La opinión no puede superar los ${TEXTO_MAX} caracteres.`;
+  }
+  return null;
+}
 
 interface Opinion {
   _id: string;
@@ -23,37 +47,48 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
   const [newTexto, setNewTexto] = useState("");
   const [newRating, setNewRating] = useState(5);
   const [submitting, setSubmitting] = useState(false);
+  const [formError, setFormError] = useState<string | null>(null);
 
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editTitulo, setEditTitulo] = useState("");
   const [editTexto, setEditTexto] = useState("");
   const [editRating, setEditRating] = useState(5);
   const [saving, setSaving] = useState(false);
+  const [editError, setEditError] = useState<string | null>(null);
 
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
 
   const addOpinion = async () => {
-    if (!newTitulo.trim() || !newTexto.trim()) return;
+    const error = validarOpinion(newTitulo, newTexto);
+    if (error) {
+      setFormError(error);
+      return;
+    }
+    setFormError(null);
     setSubmitting(true);
     try {
       const res = await fetch("/api/opiniones", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          titulo: newTitulo,
-          texto: newTexto,
+          titulo: newTitulo.trim(),
+          texto: newTexto.trim(),
           rating: newRating,
           año: year,
         }),
       });
-      if (!res.ok) throw new Error("Error al guardar");
+      const json = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(json?.mensaje || "Error al guardar la opinión.");
+      }
       setNewTitulo("");
       setNewTexto("");
       setNewRating(5);
       setShowOpinionForm(false);
       mutate(`/api/opiniones?año=${year}`);
-    } catch {
-      alert("Error al guardar la opinión. Intenta de nuevo.");
+    } catch (err) {
+      setFormError(err instanceof Error ? err.message : "Error al guardar la opinión. Intenta de nuevo.");
     } finally {
       setSubmitting(false);
     }
@@ -64,30 +99,41 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
     setEditTitulo(opinion.titulo);
     setEditTexto(opinion.texto);
     setEditRating(opinion.rating);
+    setEditError(null);
   };
 
   const cancelEdit = () => {
     setEditingId(null);
+    setEditError(null);
   };
 
   const saveEdit = async () => {
-    if (!editTitulo.trim() || !editTexto.trim() || !editingId) return;
+    if (!editingId) return;
+    const error = validarOpinion(editTitulo, editTexto);
+    if (error) {
+      setEditError(error);
+      return;
+    }
+    setEditError(null);
     setSaving(true);
     try {
       const res = await fetch(`/api/opiniones/${editingId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          titulo: editTitulo,
-          texto: editTexto,
+          titulo: editTitulo.trim(),
+          texto: editTexto.trim(),
           rating: editRating,
         }),
       });
-      if (!res.ok) throw new Error("Error al actualizar");
+      const json = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(json?.mensaje || "Error al actualizar la opinión.");
+      }
       setEditingId(null);
       mutate(`/api/opiniones?año=${year}`);
-    } catch {
-      alert("Error al actualizar la opinión. Intenta de nuevo.");
+    } catch (err) {
+      setEditError(err instanceof Error ? err.message : "Error al actualizar la opinión. Intenta de nuevo.");
     } finally {
       setSaving(false);
     }
@@ -95,10 +141,12 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
 
   const confirmDelete = (id: string) => {
     setDeletingId(id);
+    setDeleteError(null);
   };
 
   const cancelDelete = () => {
     setDeletingId(null);
+    setDeleteError(null);
   };
 
   const deleteOpinion = async () => {
@@ -107,11 +155,15 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
       const res = await fetch(`/api/opiniones/${deletingId}`, {
         method: "DELETE",
       });
-      if (!res.ok) throw new Error("Error al eliminar");
+      const json = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(json?.mensaje || "Error al eliminar la opinión.");
+      }
       setDeletingId(null);
+      setDeleteError(null);
       mutate(`/api/opiniones?año=${year}`);
-    } catch {
-      alert("Error al eliminar la opinión. Intenta de nuevo.");
+    } catch (err) {
+      setDeleteError(err instanceof Error ? err.message : "Error al eliminar la opinión. Intenta de nuevo.");
     }
   };
 
@@ -158,7 +210,10 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
             Mis Opiniones
           </h3>
           <button
-            onClick={() => setShowOpinionForm(!showOpinionForm)}
+            onClick={() => {
+              setShowOpinionForm(!showOpinionForm);
+              setFormError(null);
+            }}
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium bg-[var(--wc-gold)]/10 text-[var(--wc-gold-dark)] border border-[var(--wc-gold)]/20 hover:bg-[var(--wc-gold)]/20 transition-colors"
           >
             <Plus className="h-3 w-3" />
@@ -173,6 +228,7 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
               placeholder="Título de tu opinión..."
               value={newTitulo}
               onChange={(e) => setNewTitulo(e.target.value)}
+              maxLength={TITULO_MAX}
               className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--wc-gold)]/30 focus:border-[var(--wc-gold)]/50"
             />
             <textarea
@@ -180,6 +236,7 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
               value={newTexto}
               onChange={(e) => setNewTexto(e.target.value)}
               rows={3}
+              maxLength={TEXTO_MAX}
               className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--wc-gold)]/30 focus:border-[var(--wc-gold)]/50 resize-none"
             />
             <div className="flex items-center gap-2">
@@ -202,16 +259,25 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
                 ))}
               </div>
             </div>
+            {formError && (
+              <div className="flex items-center gap-1.5 text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                <AlertCircle className="h-3.5 w-3.5 flex-shrink-0" />
+                {formError}
+              </div>
+            )}
             <div className="flex gap-2 justify-end">
               <button
-                onClick={() => setShowOpinionForm(false)}
+                onClick={() => {
+                  setShowOpinionForm(false);
+                  setFormError(null);
+                }}
                 className="px-3 py-1.5 rounded-lg text-xs font-medium text-muted-foreground hover:bg-gray-100 transition-colors"
               >
                 Cancelar
               </button>
               <button
                 onClick={addOpinion}
-                disabled={!newTitulo.trim() || !newTexto.trim() || submitting}
+                disabled={submitting}
                 className="px-4 py-1.5 rounded-lg text-xs font-medium bg-[var(--wc-gold)] text-white hover:bg-[var(--wc-gold-dark)] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {submitting ? "Guardando..." : "Publicar"}
@@ -241,12 +307,14 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
                       type="text"
                       value={editTitulo}
                       onChange={(e) => setEditTitulo(e.target.value)}
+                      maxLength={TITULO_MAX}
                       className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--wc-gold)]/30 focus:border-[var(--wc-gold)]/50"
                     />
                     <textarea
                       value={editTexto}
                       onChange={(e) => setEditTexto(e.target.value)}
                       rows={3}
+                      maxLength={TEXTO_MAX}
                       className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--wc-gold)]/30 focus:border-[var(--wc-gold)]/50 resize-none"
                     />
                     <div className="flex items-center gap-2">
@@ -255,6 +323,12 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
                         {renderStars(editRating, true, (r) => setEditRating(r))}
                       </div>
                     </div>
+                    {editError && (
+                      <div className="flex items-center gap-1.5 text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                        <AlertCircle className="h-3.5 w-3.5 flex-shrink-0" />
+                        {editError}
+                      </div>
+                    )}
                     <div className="flex gap-2 justify-end">
                       <button
                         onClick={cancelEdit}
@@ -265,7 +339,7 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
                       </button>
                       <button
                         onClick={saveEdit}
-                        disabled={!editTitulo.trim() || !editTexto.trim() || saving}
+                        disabled={saving}
                         className="flex items-center gap-1 px-4 py-1.5 rounded-lg text-xs font-medium bg-[var(--wc-gold)] text-white hover:bg-[var(--wc-gold-dark)] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                       >
                         <Check className="h-3 w-3" />
@@ -287,6 +361,12 @@ export default function MiExperienciaFIFA({ year }: { year: number }) {
                       ¿Eliminar esta opinión?
                     </p>
                     <p className="text-xs text-red-600 line-clamp-2">{opinion.titulo}</p>
+                    {deleteError && (
+                      <div className="flex items-center gap-1.5 text-xs text-red-700 bg-red-100 border border-red-300 rounded-lg px-3 py-2">
+                        <AlertCircle className="h-3.5 w-3.5 flex-shrink-0" />
+                        {deleteError}
+                      </div>
+                    )}
                     <div className="flex gap-2 justify-end">
                       <button
                         onClick={cancelDelete}
