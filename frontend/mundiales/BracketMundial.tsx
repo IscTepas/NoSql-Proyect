@@ -363,7 +363,7 @@ export default function BracketMundial({ year }: { year: number }) {
                 <MatchSlot partido={champion} />
               </div>
 
-              <div className="absolute flex flex-col items-center gap-7" style={{ left: "50%", top: `calc(50% + ${FINAL_HALF + GAP_SMALL}px)`, transform: "translateX(-50%)" }}>
+              <div className="absolute flex w-max flex-col items-center gap-7" style={{ left: "50%", top: `calc(50% + ${FINAL_HALF + GAP_SMALL}px)`, transform: "translateX(-50%)" }}>
                 <div className="flex flex-col items-center">
                   <div className="text-center mb-1.5">
                     <Badge className="text-[8px] bg-gray-100 text-muted-foreground border border-gray-200 px-2 py-0.5"><Medal className="h-2.5 w-2.5 inline mr-0.5" />3er Puesto</Badge>

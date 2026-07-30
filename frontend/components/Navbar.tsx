@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Trophy, Users, MapPin, Calendar, Swords, BarChart3, Home, Circle, Sparkles } from "lucide-react";
+import { Trophy, Users, MapPin, Calendar, Swords, BarChart3, Home, Sparkles } from "lucide-react";
 import { useState, useMemo } from "react";
 
 function extractYear(pathname: string): number | null {
@@ -47,9 +47,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2.5 font-bold text-lg tracking-tight">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm shadow-primary/15">
-            <Circle className="h-5 w-5" fill="currentColor" />
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/mundiales/referencias/Copa del mundo.png" alt="" className="h-9 w-9 max-w-none object-contain shrink-0" />
           <span className="hidden sm:inline">
             <span className="text-primary">FIFA</span> World Cups
           </span>

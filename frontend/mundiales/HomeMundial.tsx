@@ -172,12 +172,12 @@ export default function HomeMundial({ year }: { year: number }) {
   return (
     <div className="min-h-screen"
       style={{ "--wc-accent": accent, "--wc-accent-dark": accentDark } as React.CSSProperties}>
-      <section className="relative bg-gradient-to-br from-[var(--wc-accent)]/5 via-white to-[var(--wc-accent)]/10 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[var(--wc-accent)]/20 via-white to-[var(--wc-accent)]/35 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <WCGeometry className="absolute top-0 left-0 w-64 h-64 -translate-x-1/4 -translate-y-1/4" />
           <WCGeometry className="absolute bottom-0 right-0 w-80 h-80 translate-x-1/4 translate-y-1/4" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--wc-accent)]/[0.03] to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--wc-accent)]/10 to-transparent" />
         <div className="container mx-auto px-4 py-16 sm:py-24 relative z-10">
           <div className="text-center space-y-6">
             <div className="space-y-2">
